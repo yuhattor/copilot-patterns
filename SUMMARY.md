@@ -5,8 +5,8 @@
 
 ## Introduction
 
-* [AIネイティブ開発](./contents/ja/introduction/ai-native-development.md)
-* [ドキュメントのAI可読性](./contents/ja/introduction/ai-native-documentation.md)
+* [AIネイティブ開発](./contents/ja/introduction/AI-Native-development.md)
+* [ドキュメントのAI可読性](./contents/ja/introduction/AI-Native-documentation.md)
 * [AIコーディングツールの種類](./contents/ja/introduction/ai-tools-types.md)
 
 ## Basic
@@ -18,7 +18,7 @@
 
 ## Patterns
 
-* [AIネイティブドキュメンテーション](./contents/ja/patterns/ai-native-documentation.md)
+* [AIネイティブドキュメンテーション](./contents/ja/patterns/AI-Native-documentation.md)
 * [AI可読性のある命名規則](./contents/ja/patterns/ai-readable-naming-rule.md)
 * [AIを使ったテスト開発](./contents/ja/patterns/ai-test-development.md)
 * [コンテキストディレクトリー](./contents/ja/patterns/context-directory.md)
