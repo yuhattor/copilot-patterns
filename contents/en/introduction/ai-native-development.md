@@ -1,7 +1,7 @@
 # AI-Native Development
 
 The adoption of AI technologies like GitHub Copilot can potentially impact the architecture of projects as the work of engineers within development teams changes.
-This document discusses the possible implications that AI-native development methods may have.
+This document discusses the possible implications that AI-Native development methods may have.
 
 ## Context is Everything
 
