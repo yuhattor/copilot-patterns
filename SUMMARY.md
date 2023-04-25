@@ -1,7 +1,7 @@
 # Table of Contents
 
-* [README](./README.md)
-* [Contribute to this book](./CONTRIBUTING.md)
+* [はじめに](./README.md)
+* [プロジェクトに貢献する](./CONTRIBUTING.md)
 
 ## Introduction
 
