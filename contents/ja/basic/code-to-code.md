@@ -32,6 +32,7 @@ function calculateSum(a, b) {
 GitHub Copilot は直近開いたいくつかの同じ言語のファイルを参照し、類似性を計算してプロンプトに含めるファイルを決定します。
 現在ロジックは非公開になっていますが、[リバースエンジニアリングの手記](https://thakkarparth007.github.io/copilot-explorer/posts/copilot-internals.html#how-is-the-prompt-prepared-a-code-walkthrough)などがありますので、ご覧ください。
 
-**注意点**
+## Note 
+
 GitHub Copilotは、AIによって生成されたコードを提供するため、自動生成されたコードが完全に正確であるとは限りません。開発者は、生成されたコードを確認し、必要に応じて手動で修正する必要があります。
 このように、Copilotのコード補完機能を使用することで、開発者は手動でコードを入力することが少なくなります。

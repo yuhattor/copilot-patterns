@@ -1,52 +1,52 @@
-# AIネイティブ開発ガイドライン
+# AI-Native Development Guidelines
 
 {% hint style="info" %}
-この『AIネイティブ開発ガイドライン』のドキュメントはまだ完成版ではなく、リンク切れや誤字脱字、その他のエラーがあるかもしれません。改善にご協力いただけると幸いです。このドキュメントに貢献する方法をご覧ください。
+This "AI-Native Development Guidelines" document is not yet in its final version, and there may be broken links, typos, and other errors. Your help in improving it is much appreciated. Please see how you can contribute to this document.
 {% endhint %}
 
 <img src="top.png" width="320px" />
 
-AIネイティブ開発ガイドラインへようこそ。
-このドキュメントでは、GitHub Copilot などをつかった AI ネイティブ開発におけるベストプラクティスを特定の形式でまとめて、簡単に理解、評価、そしてあなたの状況に適用できるようにしています。
-いくつかのものはパターンとして、名前をつけてまとめています。
+Welcome to the AI-Native Development Guidelines.
+In this document, we have compiled best practices for AI-Native development using tools like GitHub Copilot in a specific format, so you can easily understand, evaluate, and apply them to your situation.
+Some are grouped together and named as patterns.
 
-このパターンのいくつかは個人の環境で試され、効果を確認しているものの、実際のチームの環境での有効性が試されていないアイデアベースのものもあります。
-ぜひ GitHub Issues にコメントをお寄せください。さまざまな議論が行われ、AIネイティブ開発の知識が共有されることを楽しみにしています。
+Some of these patterns have been tried and proven effective in individual environments, but others are idea-based and have not yet been tested for effectiveness in actual team environments.
+Please feel free to leave comments on GitHub Issues. We look forward to various discussions and the sharing of knowledge about AI-Native development.
 
-この序文では、AIネイティブ開発とは何か、パターンとは何かについて説明します。
-すでにあなたの会社でAIネイティブ開発を実践しており、このドキュメントに経験を寄稿したい場合は、ぜひあなたの貢献を歓迎します！
+In this introduction, we will explain what AI-Native development is and what patterns are.
+If you are already practicing AI-Native development in your company and would like to contribute your experience to this document, we welcome your contribution!
 
-## AIネイティブ開発とは
+## What is AI-Native Development
 
-AIネイティブ開発とは、エンジニアおよびその組織がAIを活用してソフトウェア開発を加速するアプローチのことです。
-AIネイティブ開発においては、GitHub Copilot や ChatGPT のような AI技術を活用することで、従来のソフトウェア開発プロセスを大幅に効率化し、革新的なソリューションを生み出すことを目指しています。
+AI-Native development is an approach where engineers and their organizations leverage AI to accelerate software development.
+In AI-Native development, AI technologies such as GitHub Copilot and ChatGPT are used to significantly streamline traditional software development processes and create innovative solutions.
 
-* 高速なコード補完や提案: AIツールは、開発者が入力したコードに基づいて、関連性の高いコードスニペットや関数を自動的に生成し、提案します。これにより、開発者はコードを迅速に記述し、一般的なコーディングエラーやバグを回避できます。
-* 自然言語での相談: AIツールは、自然言語での質問や指示に応じてコード生成や解決策の提案ができます。これにより、開発者はプログラムの意図や機能を簡単に伝えることができます。
+* Fast code completion and suggestions: AI tools automatically generate and suggest relevant code snippets and functions based on the code entered by developers. This allows developers to write code quickly and avoid common coding errors and bugs.
+* Consulting in natural language: AI tools can generate code and suggest solutions in response to questions and instructions in natural language. This allows developers to easily communicate their program's intent and functionality.
 
-一方でAIネイティブ開発の導入により、開発スタイルが従来の方法から大きく変化することにも言及する必要があります。
-AI技術の活用によって多くの利点が得られますが、開発者やチームがこれらの変化に適応するためには、以下の点に注意する必要があります。
+On the other hand, it is necessary to mention that the development style changes significantly from traditional methods with the introduction of AI-Native development.
+While many benefits can be gained from using AI technologies, developers and teams need to be aware of the following points in order to adapt to these changes.
 
-* 学習と適応: AIツールや技術を効果的に活用するためには、開発者はこれらのツールの使い方や特性を学習し、適応する必要があります。これには、ツールの基本操作やベストプラクティスを習得するだけでなく、開発プロセスに組み込む方法や、チーム間での連携方法も理解することが含まれます。
-* コミュニケーションスタイルの変化: AIネイティブ開発では、開発者は従来のコード中心のコミュニケーションから、自然言語を用いたコミュニケーションにシフトすることが求められます。これにより、開発者はプロジェクトの意図や要件を明確に伝えるための新たなスキルを習得する必要があります。ドキュメントはAI が読みやすい形で提供される必要があり、従来型の PowerPoint や Excel から Markdown などのファイルタイプにシフトします。
-* チームの役割と責任: AIネイティブ開発の導入により、開発者やチーム内の役割や責任が再定義されることがあります。これにより、開発者は自分の専門分野や役割において柔軟性を持ち、チーム内でのコラボレーションを強化する必要があります。開発者は、AIツールの活用によって自動化されるタスクに対して、より高度な問題解決や戦略的な意思決定に集中することが求められるでしょう。
+* Learning and adaptation: To effectively use AI tools and technologies, developers need to learn and adapt to their usage and characteristics. This includes not only mastering the basic operations and best practices of the tools but also understanding how to incorporate them into the development process and how to collaborate with the team.
+* Changes in communication style: In AI-Native development, developers are required to shift from traditional code-centric communication to communication using natural language. This requires developers to acquire new skills to clearly communicate the intent and requirements of a project. Documentation needs to be provided in a format that is easy for AI to read, shifting from traditional PowerPoint and Excel formats to file types like Markdown.
+* Roles and responsibilities within the team: With the introduction of AI-Native development, the roles and responsibilities of developers and teams may be redefined. This requires developers to be flexible in their areas of expertise and roles, and to strengthen collaboration within the team. Developers will be expected to focus more on advanced problem-solving and strategic decision-making, as tasks become automated through the use of AI tools.
 
-AI を開発の中に適切に取り入れることで、開発者とチームはプロダクト/プロジェクトの品質と効率を向上させることができるでしょう。
-このガイドがあなたが AIネイティブ開発の入り口に立つきっかけになれば幸いです。
+By incorporating AI appropriately into development, developers and teams can improve the quality and efficiency of their products/projects.
+We hope this guide will serve as a starting point for you to enter the world of AI-Native development.
 
-## パターンとは
+## What are Patterns
 
-パターンとは、特定のコンテキスト内で問題に対する繰り返し可能な解決策を記述する方法です。
-AIネイティブ開発におけるパターンには、開発者およびチームが、高速なプロダクト開発のために、どのように AI を活用したら良いのかのアイデアが掲載されています。
-パターンは、タイトル、問題の説明、コンテキスト、影響要素、解決策といった主要なセクションに分かれています。
-パターンの形式は、実証済みの解決策を記述するのに役立ちますが、まだ確立されていないパターンについて新たな解決策をブレインストーミングする場合にも使用できます。
-これは、パターンの構造が問題に対して構造化された方法で考えるための枠組みを提供するためです。
+Patterns are a way of describing repeatable solutions to problems within a specific context.
+In AI-Native development, patterns provide ideas for how developers and teams can use AI to achieve rapid product development.
+Patterns are divided into main sections such as title, problem description, context, influencing factors, and solutions.
+The pattern format is useful for describing proven solutions but can also be used when brainstorming new solutions for patterns that have not yet been established.
+This is because the structure of the patterns provides a framework for thinking about problems in a structured way.
 
-現段階でパターンの多くはまだ未成熟です。ぜひパターンを試していただき、フィードバックをお待ちしています。
-また、あなたが新しいパターンを見つけたのであれば、ぜひ GitHub Issues でお知らせください。貢献をお待ちしています！
+Many patterns are still in their infancy at this stage. We encourage you to try them out and provide feedback.
+Also, if you discover a new pattern, please let us know via GitHub Issues. We look forward to your contributions!
 
-## ライセンス
+## LICENSE
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-AI Native Development Guideline is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
+AI-Native Development Guideline is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
