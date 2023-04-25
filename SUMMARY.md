@@ -6,7 +6,7 @@
 ## Introduction
 
 * [AIネイティブ開発](./contents/ja/introduction/ai-native-development.md)
-* [AIネイティブドキュメンテーションの時代](./contents/ja/introduction/ai-native-documentation.md)
+* [ドキュメントのAI可読性](./contents/ja/introduction/ai-native-documentation.md)
 * [AIコーディングツールの種類](./contents/ja/introduction/ai-tools-types.md)
 
 ## Basic
