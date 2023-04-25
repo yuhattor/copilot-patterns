@@ -1,9 +1,5 @@
 # AI-Native Development Guidelines
 
-{% hint style="info" %}
-This "AI-Native Development Guidelines" document is not yet in its final version, and there may be broken links, typos, and other errors. Your help in improving it is much appreciated. Please see how you can contribute to this document.
-{% endhint %}
-
 <img src="top.png" width="320px" />
 
 Welcome to the AI-Native Development Guidelines.
@@ -15,6 +11,8 @@ Please feel free to leave comments on GitHub Issues. We look forward to various 
 
 In this introduction, we will explain what AI-Native development is and what patterns are.
 If you are already practicing AI-Native development in your company and would like to contribute your experience to this document, we welcome your contribution!
+
+This "AI-Native Development Guidelines" document is not yet in its final version, and there may be broken links, typos, and other errors. Your help in improving it is much appreciated. Please see how you can contribute to this document.
 
 ## What is AI-Native Development
 
