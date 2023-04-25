@@ -18,9 +18,9 @@
 
 ## Patterns
 
-* [AIネイティブドキュメンテーション](./contents/ja/basic/ai-native-documentation.md)
-* [AI可読性のある命名規則](./contents/ja/basic/ai-readable-naming-rule.md)
-* [AIを使ったテスト開発](./contents/ja/basic/ai-test-development.md)
-* [コンテキストディレクトリー](./contents/ja/basic/context-directory.md)
-* [プロンプト ナレッジシェア](./contents/ja/basic/prompt-knowledgesharing.md)
-* [車輪の再発明](./contents/ja/basic/reinventing-wheel.md)
+* [AIネイティブドキュメンテーション](./contents/ja/patterns/ai-native-documentation.md)
+* [AI可読性のある命名規則](./contents/ja/patterns/ai-readable-naming-rule.md)
+* [AIを使ったテスト開発](./contents/ja/patterns/ai-test-development.md)
+* [コンテキストディレクトリー](./contents/ja/patterns/context-directory.md)
+* [プロンプト ナレッジシェア](./contents/ja/patterns/prompt-knowledgesharing.md)
+* [車輪の再発明](./contents/ja/patterns/reinventing-wheel.md)
