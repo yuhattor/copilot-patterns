@@ -5,8 +5,8 @@
 
 ## Introduction
 
-* [AIネイティブ開発](./introduction/AI-Native-development.md)
-* [ドキュメントのAI可読性](./introduction/AI-Native-documentation.md)
+* [AIネイティブ開発](./introduction/ai-native-development.md)
+* [ドキュメントのAI可読性](./introduction/ai-native-documentation.md)
 * [AIコーディングツールの種類](./introduction/ai-tools-types.md)
 
 ## Basic
