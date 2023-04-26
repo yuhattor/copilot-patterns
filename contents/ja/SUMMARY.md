@@ -18,7 +18,7 @@
 
 ## Patterns
 
-* [AIネイティブドキュメンテーション](./patterns/AI-Native-documentation.md)
+* [AIネイティブドキュメンテーション](./patterns/ai-native-documentation.md)
 * [AI可読性のある命名規則](./patterns/ai-readable-naming-rule.md)
 * [AIを使ったテスト開発](./patterns/ai-test-development.md)
 * [コンテキストディレクトリー](./patterns/context-directory.md)
