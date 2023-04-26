@@ -54,21 +54,19 @@ This allows you to take advantage of the strengths of both tools for optimal res
 
 Here are the differences between each tool:
 
-| Item | GitHub Copilot (excluding GitHub Copilot X features) | Chat AI (ChatGPT / Bing) |
+| Feature   | GitHub Copilot (excluding GitHub Copilot X) | Chat AI (ChatGPT / Bing)  |
 | ------------------- | ---------------------------------------- | ------------------------------------------------------- |
-| Usage scenario | Focus on code writing, small to medium-sized code completion | Code generation, template creation, generating relatively large code by providing a lot of context through natural language interaction |
-| Interface | Editor | Browser |
-| Response speed | Fast | Somewhat slower |
-| Natural language understanding | High | Higher |
-| Code snippet generation | Strong.
-However, it tends to work better for short code than for long code generation.
-| Supports both long and short code |
-| Programming language| support range | Wide range | Wide range |
-| Autocomplete and real-time suggestions | Real-time | Limited |
-| Text generation | Possible at a high level, but inferior to GPT-3 | Strong |
-| Code review | Partially supported | Suggestions and feedback through natural language interaction |
-| Debugging support | Limited, may require workarounds | Can suggest debugging steps and approaches |
-| Code style and conventions application | High | Requires more context to be provided beforehand |
+| Use Case  | Mainly for writing code, small to medium-sized code completion  | Code generation, template creation, relatively large-scale code generation is possible by providing a wide range of contexts for natural language interaction |
+| Interface  | Editor   | Browser   |
+| Response Speed   | Fast   | Slightly slower |
+| Natural Language Understanding | High   | Higher |
+| Code Snippet Generation   | Powerful. However, tends to work better for shorter code rather than longer code generation. | Supports both long and short code |
+| Programming Language Support Range   | Wide range  | Wide range  |
+| Auto-Completion and Real-Time Suggestion | Real-time  | Limited  |
+| Text Generation   | Possible at a high level, but inferior to GPT-3 | Powerful   |
+| Code Review   | Partially supported  | Pointing out and suggesting through natural language interaction |
+| Debugging Support  | Possible with some limitations, but requires ingenuity | Can suggest debugging steps and approaches   |
+| Application of Code Style and Practices   | High   | Requires passing more context beforehand   |
 
 ## Checklist
 

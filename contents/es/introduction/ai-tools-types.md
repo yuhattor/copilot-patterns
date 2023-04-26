@@ -54,21 +54,19 @@ Esto le permite aprovechar las fortalezas de ambas herramientas para obtener res
 
 Estas son las diferencias entre cada herramienta:
 
-| Artículo | GitHub Copilot (excluyendo las características de GitHub Copilot X) | Chat AI (ChatGPT / Bing) |
+| Item   | GitHub Copilot (excluding GitHub Copilot X) | Chat AI (ChatGPT / Bing)  |
 | ------------------- | ---------------------------------------- | ------------------------------------------------------- |
-| Escenario de uso | Enfoque en la escritura de código, finalización de código pequeño a mediano | Generación de código, creación de plantillas, generación de código relativamente grande proporcionando mucho contexto a través de la interacción en lenguaje natural |
-| Interfaz | Editor | Navegador |
-| Velocidad de respuesta | Rápido | Algo más lento |
-| Comprensión del lenguaje natural | Alta | Más alta |
-| Generación de fragmentos de código | Fuerte.
-Sin embargo, tiende a funcionar mejor para la generación de código corto que para la generación de código largo.
-| Admite código largo y corto |
-| Soporte de lenguaje de programación | Amplio rango | Amplio rango |
-| Autocompletado y sugerencias en tiempo real | En tiempo real | Limitado |
-| Generación de texto | Posible a un alto nivel, pero inferior a GPT-3 | Fuerte |
-| Revisión de código | Parcialmente soportado | Sugerencias y comentarios a través de la interacción en lenguaje natural |
-| Soporte de depuración | Limitado, puede requerir soluciones alternativas | Puede sugerir pasos y enfoques de depuración |
-| Aplicación de estilo y convenciones de código | Alto | Requiere que se proporcione más contexto de antemano |
+|  Usage Scenarios  | Focuses on code writing, mainly for small to medium-sized code completion | Generates code, creates templates, and provides a lot of context for natural language interaction, making it possible to generate relatively large amounts of code |
+|  Interface  | Editor | Browser  |
+|  Response Speed   | Fast | Somewhat slower  |
+|  Natural Language Understanding | High | Higher |
+|  Code Snippet Generation   | Powerful. However, it tends to work better for shorter code than longer code generation. | Supports both long and short code  |
+|  Supported Programming Language Range   | Wide range  | Wide range  |
+|  Auto-completion and Real-time Suggestion | Real-time  | Limited  |
+|  Text Generation   | Possible at a high level, but inferior to GPT3 | Powerful  |
+|  Code Review   | Partially supported  | Feedback and suggestions through natural language interaction |
+|  Debugging Support  | Possible with some limitations, but requires some ingenuity | Can suggest debugging procedures and approaches   |
+|  Application of Code Style and Conventions   | High | Requires providing more context beforehand |
 
 ## Lista de Verificación
 
