@@ -5,7 +5,7 @@
 "Reinventing the wheel" is often seen as inefficient and it's important to use open-source resources or increase shared resources across an organization. 
 However, depending on code hosted by someone unknown can cause maintenance issues. In cases where reliance on a large dependency like a library or framework is necessary, reinventing the wheel may be preferred.
 
-This pattern is inspired by a blog post by Matt Rickard on [having a GitHub Copilot](https://matt-rickard.com/having-a-GitHub Copilot).
+This pattern is inspired by a blog post by Matt Rickard on [having a GitHub Copilot](https://matt-rickard.com/having-a-copilot).
 
 > Prefer a little copying over a little dependency
 > Instead of vendoring in left-pad as a dependency, use GitHub Copilot to generate the function. There are benefits to using battle-tested generic libraries but also benefits to bringing simple code in-tree.
