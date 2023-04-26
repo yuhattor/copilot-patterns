@@ -3,7 +3,7 @@
 Refactoring refers to improving the quality of existing code and enhancing its maintainability by making changes. Code refactoring does not change the functionality of the code but aims to improve its quality.
 
 GitHub Copilot makes it easier to refactor code.
-Copilot can understand the structure of the code and provide candidates for recommended refactoring. For example, consider the following code:
+GitHub Copilot can understand the structure of the code and provide candidates for recommended refactoring. For example, consider the following code:
 
 ```py
 def calculate_sum(numbers):
@@ -24,7 +24,7 @@ def calculate_sum(numbers):
 ```
 
 You can instruct GitHub Copilot to perform these functions explicitly by commenting as shown above, or you can interactively refactor using tools like ChatGPT.
-In this way, Copilot can provide candidates for refactoring to improve code quality. Developers can consider these candidates and manually modify the code as needed. Such refactoring enhances code maintainability and allows developers to develop code more efficiently.
+In this way, GitHub Copilot can provide candidates for refactoring to improve code quality. Developers can consider these candidates and manually modify the code as needed. Such refactoring enhances code maintainability and allows developers to develop code more efficiently.
 
 It is crucial to have tests written when refactoring.
 With tests, you can verify whether the refactored code behaves the same as before.

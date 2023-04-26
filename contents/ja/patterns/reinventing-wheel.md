@@ -5,10 +5,10 @@
 「車輪の再発明」は、多くの場合には非効率的であり、オープンソースのものを使ったり、組織全体で共有リソースを増やすことが重要だとされています。
 しかし、知らない誰かによってホストされているコードに依存することは、メンテンナンスにおいて問題があることがあります。依存関係の大きなライブラリやフレームワークに依存することが必要な場合は、車輪の再発明が好まれる場合があります。
 
-このパターンは[Matt Rickard氏のブログ](https://matt-rickard.com/having-a-copilot)にインスパイアされています。
+このパターンは[Matt Rickard氏のブログ](https://matt-rickard.com/having-a-GitHub Copilot)にインスパイアされています。
 
 > Prefer a little copying over a little dependency
-> Instead of vendoring in left-pad as a dependency, use Copilot to generate the function. There are benefits to using battle-tested generic libraries but also benefits to bringing simple code in-tree.
+> Instead of vendoring in left-pad as a dependency, use GitHub Copilot to generate the function. There are benefits to using battle-tested generic libraries but also benefits to bringing simple code in-tree.
 
 ## Problem
 

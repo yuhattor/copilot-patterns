@@ -1,4 +1,4 @@
-# Contributing to AI Native Development Guidelines
+# Contributing to AI Native Development Guide
 
 The goal of the AI Native Development Patterns Working Group is to collect, document, and publish best practices for AI Native development. To make them easy to understand, evaluate, and apply, we encode them in a specific structure.
 

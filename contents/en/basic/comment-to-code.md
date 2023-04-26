@@ -10,7 +10,7 @@ You can specify the following conditions to generate a new function:
 // Function return type: number
 ```
 
-By specifying these conditions, Copilot generates the following code:
+By specifying these conditions, GitHub Copilot generates the following code:
 
 ```ts
 function calculateAverage(numbers: number[]): number {

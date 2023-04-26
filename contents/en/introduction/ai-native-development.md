@@ -36,7 +36,7 @@ Understanding the overall architecture and having some knowledge of the actual l
 The same applies to testing: AI is good at writing tests along given scenarios, but it's difficult to come up with comprehensive test scenarios.
 AI can easily write API tests for a REST API with simple CRUD features, but writing perfect tests for an application with complex authorization conditions might be challenging for AI.
 
-## AI Architecture
+## AI-Native Architecture
 
 How much context exists in the architecture of the features/applications you manage?
 If there is a lot of context in the architecture, the development speed utilizing AI might decrease.

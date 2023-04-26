@@ -10,7 +10,7 @@ GitHub Copilotは、開発者が指定した条件に基づいて、新しいコ
 // 関数の戻り値の型: number
 ```
 
-この条件を指定すると、Copilotは以下のようなコードを生成します。
+この条件を指定すると、GitHub Copilotは以下のようなコードを生成します。
 
 ```ts
 function calculateAverage(numbers: number[]): number {
