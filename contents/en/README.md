@@ -8,7 +8,8 @@ Please see how you can contribute to this document.
 
 <img src="../../top.png" width="480px" />
 
-Welcome to the AI-Native Development Guide.
+Welcome to the AI-Native Development Guide!
+This is a community document run by the AI-Native Development Community.
 In this document, we have compiled best practices for AI-Native development using tools like GitHub Copilot in a specific format, so you can easily understand, evaluate, and apply them to your situation.
 Some are grouped together and named as patterns.
 

@@ -8,7 +8,8 @@ Por favor, vea cómo puede contribuir a este documento.
 
 <img src="../../top.png" width="480px" />
 
-Bienvenido a la Guía de Desarrollo Nativo de IA.
+Bienvenido a la Guía de Desarrollo Nativo de IA!
+Se trata de un documento comunitario gestionado por la Comunidad de Desarrollo AI-Native.
 En este documento, hemos compilado las mejores prácticas para el desarrollo nativo de IA utilizando herramientas como GitHub Copilot en un formato específico, para que pueda entenderlas, evaluarlas y aplicarlas fácilmente a su situación.
 Algunas de estas prácticas se agrupan y se nombran como patrones.
 
