@@ -1,52 +1,64 @@
-# AI-Native Development Guide
+# Guía de desarrollo nativo de IA
 
 {% hint style="info" %}
-This "AI-Native Development Guide" document is not yet in its final version, and there may be broken links, typos, and other errors. Your help in improving it is much appreciated. Please see how you can contribute to this document.
+Este documento "Guía de Desarrollo Nativo de IA" aún no está en su versión final, y puede haber enlaces rotos, errores tipográficos y otros errores.
+Agradecemos mucho su ayuda para mejorarlo.
+Por favor, vea cómo puede contribuir a este documento.
 {% endhint %}
 
 <img src="../../top.png" width="480px" />
 
-Welcome to the AI-Native Development Guide.
-In this document, we have compiled best practices for AI-Native development using tools like GitHub Copilot in a specific format, so you can easily understand, evaluate, and apply them to your situation.
-Some are grouped together and named as patterns.
+Bienvenido a la Guía de Desarrollo Nativo de IA.
+En este documento, hemos compilado las mejores prácticas para el desarrollo nativo de IA utilizando herramientas como GitHub Copilot en un formato específico, para que pueda entenderlas, evaluarlas y aplicarlas fácilmente a su situación.
+Algunas de estas prácticas se agrupan y se nombran como patrones.
 
-Some of these patterns have been tried and proven effective in individual environments, but others are idea-based and have not yet been tested for effectiveness in actual team environments.
-Please feel free to leave comments on GitHub Issues. We look forward to various discussions and the sharing of knowledge about AI-Native development.
+Algunos de estos patrones han sido probados y comprobados como efectivos en entornos individuales, pero otros están basados en ideas y aún no han sido probados para su efectividad en entornos de equipo reales.
+Por favor, siéntase libre de dejar comentarios en los problemas de GitHub.
+Esperamos con interés las diversas discusiones y el intercambio de conocimientos sobre el desarrollo nativo de IA.
 
-In this introduction, we will explain what AI-Native development is and what patterns are.
-If you are already practicing AI-Native development in your company and would like to contribute your experience to this document, we welcome your contribution!
+En esta introducción, explicaremos qué es el desarrollo nativo de IA y qué son los patrones.
+Si ya está practicando el desarrollo nativo de IA en su empresa y desea contribuir con su experiencia a este documento, ¡le damos la bienvenida!
 
-## What is AI-Native Development
+## ¿Qué es el desarrollo AI-Native?
 
-AI-Native development is an approach where engineers and their organizations leverage AI to accelerate software development.
-In AI-Native development, AI technologies such as GitHub Copilot and ChatGPT are used to significantly streamline traditional software development processes and create innovative solutions.
+El desarrollo AI-Native es un enfoque en el que los ingenieros y sus organizaciones aprovechan la inteligencia artificial para acelerar el desarrollo de software.
+En el desarrollo AI-Native, se utilizan tecnologías de inteligencia artificial como GitHub Copilot y ChatGPT para simplificar significativamente los procesos tradicionales de desarrollo de software y crear soluciones innovadoras.
 
-* Fast code completion and suggestions: AI tools automatically generate and suggest relevant code snippets and functions based on the code entered by developers. This allows developers to write code quickly and avoid common coding errors and bugs.
-* Consulting in natural language: AI tools can generate code and suggest solutions in response to questions and instructions in natural language. This allows developers to easily communicate their program's intent and functionality.
+* Completado rápido de código y sugerencias: las herramientas de inteligencia artificial generan y sugieren automáticamente fragmentos y funciones de código relevantes en función del código introducido por los desarrolladores.
+Esto permite a los desarrolladores escribir código rápidamente y evitar errores y bugs de codificación comunes.
+* Consulta en lenguaje natural: las herramientas de inteligencia artificial pueden generar código y sugerir soluciones en respuesta a preguntas e instrucciones en lenguaje natural.
+Esto permite a los desarrolladores comunicar fácilmente la intención y funcionalidad de su programa.
 
-On the other hand, it is necessary to mention that the development style changes significantly from traditional methods with the introduction of AI-Native development.
-While many benefits can be gained from using AI technologies, developers and teams need to be aware of the following points in order to adapt to these changes.
+Por otro lado, es necesario mencionar que el estilo de desarrollo cambia significativamente de los métodos tradicionales con la introducción del desarrollo AI-Native.
+Si bien se pueden obtener muchos beneficios al utilizar tecnologías de inteligencia artificial, los desarrolladores y equipos deben ser conscientes de los siguientes puntos para adaptarse a estos cambios.
 
-* Learning and adaptation: To effectively use AI tools and technologies, developers need to learn and adapt to their usage and characteristics. This includes not only mastering the basic operations and best practices of the tools but also understanding how to incorporate them into the development process and how to collaborate with the team.
-* Changes in communication style: In AI-Native development, developers are required to shift from traditional code-centric communication to communication using natural language. This requires developers to acquire new skills to clearly communicate the intent and requirements of a project. Documentation needs to be provided in a format that is easy for AI to read, shifting from traditional PowerPoint and Excel formats to file types like Markdown.
-* Roles and responsibilities within the team: With the introduction of AI-Native development, the roles and responsibilities of developers and teams may be redefined. This requires developers to be flexible in their areas of expertise and roles, and to strengthen collaboration within the team. Developers will be expected to focus more on advanced problem-solving and strategic decision-making, as tasks become automated through the use of AI tools.
+* Aprendizaje y adaptación: para utilizar eficazmente las herramientas y tecnologías de inteligencia artificial, los desarrolladores deben aprender y adaptarse a su uso y características.
+Esto incluye no solo dominar las operaciones básicas y las mejores prácticas de las herramientas, sino también comprender cómo incorporarlas al proceso de desarrollo y cómo colaborar con el equipo.
+* Cambios en el estilo de comunicación: en el desarrollo AI-Native, los desarrolladores deben cambiar de la comunicación centrada en el código tradicional a la comunicación utilizando lenguaje natural.
+Esto requiere que los desarrolladores adquieran nuevas habilidades para comunicar claramente la intención y los requisitos de un proyecto.
+La documentación debe proporcionarse en un formato que sea fácil de leer para la inteligencia artificial, cambiando de los formatos tradicionales de PowerPoint y Excel a tipos de archivo como Markdown.
+* Roles y responsabilidades dentro del equipo: con la introducción del desarrollo AI-Native, los roles y responsabilidades de los desarrolladores y equipos pueden ser redefinidos.
+Esto requiere que los desarrolladores sean flexibles en sus áreas de experiencia y roles, y que fortalezcan la colaboración dentro del equipo.
+Se espera que los desarrolladores se centren más en la resolución avanzada de problemas y la toma de decisiones estratégicas, ya que las tareas se automatizan mediante el uso de herramientas de inteligencia artificial.
 
-By incorporating AI appropriately into development, developers and teams can improve the quality and efficiency of their products/projects.
-We hope this guide will serve as a starting point for you to enter the world of AI-Native development.
+Al incorporar adecuadamente la inteligencia artificial en el desarrollo, los desarrolladores y equipos pueden mejorar la calidad y eficiencia de sus productos/proyectos.
+Esperamos que esta guía sirva como punto de partida para que pueda ingresar al mundo del desarrollo AI-Native.
 
-## What are Patterns
+## ¿Qué son los Patrones?
 
-Patterns are a way of describing repeatable solutions to problems within a specific context.
-In AI-Native development, patterns provide ideas for how developers and teams can use AI to achieve rapid product development.
-Patterns are divided into main sections such as title, problem description, context, influencing factors, and solutions.
-The pattern format is useful for describing proven solutions but can also be used when brainstorming new solutions for patterns that have not yet been established.
-This is because the structure of the patterns provides a framework for thinking about problems in a structured way.
+Los patrones son una forma de describir soluciones repetibles a problemas dentro de un contexto específico.
+En el desarrollo nativo de la IA, los patrones proporcionan ideas sobre cómo los desarrolladores y los equipos pueden utilizar la IA para lograr un rápido desarrollo de productos.
+Los patrones se dividen en secciones principales como título, descripción del problema, contexto, factores que influyen y soluciones.
+El formato de patrones es útil para describir soluciones probadas, pero también se puede utilizar cuando se idean nuevas soluciones para patrones que aún no se han establecido.
+Esto se debe a que la estructura de los patrones proporciona un marco para pensar en problemas de manera estructurada.
 
-Many patterns are still in their infancy at this stage. We encourage you to try them out and provide feedback.
-Also, if you discover a new pattern, please let us know via GitHub Issues. We look forward to your contributions!
+Muchos patrones todavía están en su infancia en esta etapa.
+Los alentamos a probarlos y brindar comentarios.
+Además, si descubre un nuevo patrón, háganoslo saber a través de Problemas de GitHub.
+¡Esperamos sus contribuciones!
 
-## LICENSE
+## LICENCIA
 
-![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+![Licencia Creative Commons](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-AI-Native Development Guideline is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
+La Guía de Desarrollo Nativo de IA está licenciada bajo una Licencia Internacional Creative Commons Atribución-CompartirIgual 4.0.

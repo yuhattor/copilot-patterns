@@ -1,43 +1,61 @@
-# AI Native Documentation
+# Documentación Nativa de IA
 
-## Description
+## Descripción
 
-Creating documentation in a format that can be understood by AI, not just engineers who write code, can improve team productivity overall. For example, instead of writing database table definitions in PowerPoint, they can be written in Markdown and managed in Git as documentation.
+Crear documentación en un formato que pueda ser entendido por la IA, no solo por los ingenieros que escriben código, puede mejorar la productividad general del equipo.
+Por ejemplo, en lugar de escribir definiciones de tablas de bases de datos en PowerPoint, se pueden escribir en Markdown y administrar en Git como documentación.
 
-## Problem
+## Problema
 
-Various documents are necessary for product development, such as requirement definitions, design documents, architecture overview diagrams, infrastructure configuration specifications, and test case documents. Generally, formats such as PowerPoint and Excel are preferred, but AI cannot read those documents. Additionally, managing binary files in a Git repository is not a best practice.
+Se necesitan varios documentos para el desarrollo de productos, como definiciones de requisitos, documentos de diseño, diagramas de resumen de arquitectura, especificaciones de configuración de infraestructura y documentos de casos de prueba.
+Generalmente, se prefieren formatos como PowerPoint y Excel, pero la IA no puede leer esos documentos.
+Además, administrar archivos binarios en un repositorio Git no es una buena práctica.
 
-## Story
+## Historia
 
-Your team has introduced GitHub Copilot for Business. Engineers are happy that their working time is being reduced. The team feels like they have doubled in size with the help of AI. However, the problem is that AI can only do what the engineer instructs it to do. Furthermore, since AI does not understand the context that the engineer possesses, the engineer must input a large amount of natural language to convey the context to the AI. As a result, there has been an increase in tasks such as copying and pasting text provided by the PM or converting PowerPoint slides and complexly formatted Excel files created by superiors into Markdown or CSV format that AI can read.
+Su equipo ha introducido GitHub Copilot para Empresas.
+Los ingenieros están contentos de que se esté reduciendo su tiempo de trabajo.
+El equipo siente que ha duplicado su tamaño con la ayuda de la IA.
+Sin embargo, el problema es que la IA solo puede hacer lo que el ingeniero le indica que haga.
+Además, como la IA no entiende el contexto que posee el ingeniero, este debe ingresar una gran cantidad de lenguaje natural para transmitir el contexto a la IA.
+Como resultado, ha habido un aumento en tareas como copiar y pegar texto proporcionado por el PM o convertir diapositivas de PowerPoint y archivos de Excel complejos en formato Markdown o CSV que la IA pueda leer.
 
-"It would be great if they were written in CSV or Markdown from the beginning!"
+"¡Sería genial si estuvieran escritos en CSV o Markdown desde el principio!"
 
-## Context
+## Contexto
 
-In many projects, documentation is managed in formats such as PowerPoint and Excel. People other than engineers communicate in places other than GitHub, and the final decision is not saved in the repository. The documents are summarized in a form that is easy for AI to read, but they are not centrally managed.
+En muchos proyectos, la documentación se administra en formatos como PowerPoint y Excel.
+Las personas que no son ingenieros se comunican en lugares que no son GitHub y la decisión final no se guarda en el repositorio.
+Los documentos se resumen en una forma que es fácil para que la IA los lea, pero no se administran de manera centralizada.
 
-## Solution
+## Solución
 
-The team strives to create text-based documents such as Markdown and CSV. The documents that should ultimately be given to engineers and AI containing the context are saved in a Git repository. Engineers provide context to AI by calling that repository in the current workspace using mechanisms such as git submodule and opening the file with a tab.
+El equipo se esfuerza por crear documentos basados en texto como Markdown y CSV.
+Los documentos que finalmente deben entregarse a los ingenieros y la IA que contienen el contexto se guardan en un repositorio de Git.
+Los ingenieros proporcionan contexto a la IA llamando a ese repositorio en el espacio de trabajo actual utilizando mecanismos como git submodule y abriendo el archivo con una pestaña.
 
-## Known Instance
+## Ejemplo Conocido
 
-* Prepare table definition files in CSV or Markdown format and associate them with migration files or interface creation.
-* Convert infrastructure definitions summarized in natural language to configuration files for Infrastructure as Code such as Terraform.
-* Convert test case documents to test files. This is more effective for those that have certain patterns such as API tests. This makes test-driven development easier.
+* Prepare archivos de definición de tabla en formato CSV o Markdown y asícielos a los archivos de migración o creación de interfaz.
+* Convierta las definiciones de infraestructura resumidas en lenguaje natural a archivos de configuración para la infraestructura como código, como Terraform.
+* Convierta documentos de casos de prueba en archivos de prueba.
+Esto es más efectivo para aquellos que tienen ciertos patrones como pruebas de API.
+Esto hace que el desarrollo impulsado por pruebas sea más fácil.
 
-## Resulting Context
+## Contexto Resultante
 
-* Engineers can create more code with less effort, resulting in reduced man-hours.
-* Project owners and product managers can receive deliverables from engineers faster.
-* Even members who do not usually write code can become accustomed to determining the context required by engineers and AI by collaborating using GitHub, enabling appropriate development using AI.
-* Since change histories are recorded in documents, tracking for everything other than code, such as who made what changes at what time and when decisions were made, becomes possible overall.
-* The gap between documents and implementation is eliminated.
+* Los ingenieros pueden crear más código con menos esfuerzo, lo que se traduce en una reducción de horas-hombre.
+* Los propietarios del proyecto y los gerentes de producto pueden recibir entregables de los ingenieros más rápido.
+* Incluso los miembros que normalmente no escriben código pueden acostumbrarse a determinar el contexto requerido por los ingenieros y la IA colaborando mediante GitHub, lo que permite un desarrollo adecuado con IA.
+* Como se registran los historiales de cambios en los documentos, se vuelve posible realizar un seguimiento de todo lo que no sea código, como quién hizo qué cambios en qué momento y cuándo se tomaron decisiones.
+* Se elimina la brecha entre documentos y su implementación.
 
-## Note
+## Nota
 
-* Currently, the files that GitHub Copilot can read are limited. It is desirable that if you are writing Python, it is Python code. Therefore, copying a Markdown file and making it a commented-out Python document and using it as a hit is a good idea.
-* This pattern is not effective for all documents. If you make a mistake in deciding the structure of the repository or which documents to store, a large number of unnecessary documents may be generated in the repository, and search performance may deteriorate.
-* The number of tokens that can be passed to AI is limited. Try to keep each section of each sentence concise so that it does not have too many dependencies on the surrounding sentences.
+* Actualmente, los archivos que GitHub Copilot puede leer son limitados.
+Es recomendable que si estás escribiendo en Python, sea código Python.
+Por lo tanto, es una buena idea copiar un archivo Markdown y convertirlo en un documento de Python con comentarios y usarlo como referencia.
+* Este patrón no es efectivo para todos los documentos.
+Si se comete un error al decidir la estructura del repositorio o qué documentos almacenar, puede generarse un gran número de documentos innecesarios en el repositorio, y el rendimiento de búsqueda puede empeorar.
+* El número de tokens que se pueden pasar a la IA es limitado.
+Trata de mantener cada sección de cada oración concisa para que no tenga demasiadas dependencias con las oraciones circundantes.

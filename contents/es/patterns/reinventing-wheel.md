@@ -1,31 +1,36 @@
-# Reinventing the Wheel
+# Reinventar la Rueda
 
-## Description
+## Descripción
 
-"Reinventing the wheel" is often seen as inefficient and it's important to use open-source resources or increase shared resources across an organization. 
-However, depending on code hosted by someone unknown can cause maintenance issues. In cases where reliance on a large dependency like a library or framework is necessary, reinventing the wheel may be preferred.
+"Reinventar la rueda" se considera a menudo ineficiente y es importante utilizar recursos de código abierto o aumentar los recursos compartidos en una organización.
+Sin embargo, depender del código alojado por alguien desconocido puede causar problemas de mantenimiento.
+En casos en los que es necesario depender de una gran dependencia como una biblioteca o un marco, puede ser preferible reinventar la rueda.
 
-This pattern is inspired by a blog post by Matt Rickard on [having a GitHub Copilot](https://matt-rickard.com/having-a-copilot).
+Este patrón está inspirado en una publicación de blog de Matt Rickard sobre [tener un GitHub Copilot](https://matt-rickard.com/having-a-copilot).
 
-> Prefer a little copying over a little dependency
-> Instead of vendoring in left-pad as a dependency, use GitHub Copilot to generate the function. There are benefits to using battle-tested generic libraries but also benefits to bringing simple code in-tree.
+> Prefiere copiar un poco a depender de un poco
+> En lugar de vender en left-pad como una dependencia, usa GitHub Copilot para generar la función.
+Hay beneficios al usar bibliotecas genéricas probadas en la batalla, pero también beneficios al traer un código simple en el árbol.
 
-## Problem
+## Problema
 
-Have you heard of the left-pad problem? In 2016, a library called left-pad was unpublished from npm causing famous libraries that depend on it to break. 
-Left-pad is a simple JavaScript library that pads the left side of a string with a specified number of characters, or spaces if no characters are specified. 
-It is a simple implementation with only around 10 lines of code excluding blank lines.
+¿Has oído hablar del problema de left-pad?
+En 2016, una biblioteca llamada left-pad fue eliminada de npm, lo que hizo que las famosas bibliotecas que dependen de ella se rompieran.
+Left-pad es una biblioteca JavaScript simple que rellena el lado izquierdo de una cadena con un número especificado de caracteres o espacios si no se especifican caracteres.
+Es una implementación simple con solo alrededor de 10 líneas de código excluyendo las líneas en blanco.
 
-There are many approaches to avoid reinventing the wheel, such as inner sourcing and code sharing ownership in XP. However, it's also important to consider external code that has a significant impact.
-When the scope of provided code is very limited, it may be better to keep it internal rather than relying on external dependencies.
+Existen muchos enfoques para evitar reinventar la rueda, como la fuente interna y el intercambio de propiedad de código en XP.
+Sin embargo, también es importante considerar el código externo que tiene un impacto significativo.
+Cuando el alcance del código proporcionado es muy limitado, puede ser mejor mantenerlo interno en lugar de depender de dependencias externas.
 
-## Context
+## Contexto
 
-GitHub Copilot is skilled at generating simple code. While some argue that it's better to avoid dependencies altogether, that applies to dependencies that have interdependent relationships in business logic and implementation. 
-For stateless functions or ones that are only depended on from one side, using GitHub Copilot to create them is possible.
+GitHub Copilot es experto en generar código simple.
+Si bien algunos argumentan que es mejor evitar las dependencias por completo, eso se aplica a las dependencias que tienen relaciones interdependientes en la lógica empresarial y la implementación.
+Para las funciones sin estado o aquellas que solo dependen de un lado, es posible crearlas utilizando GitHub Copilot.
 
-## Solution
+## Solución
 
-The size of dependencies can determine whether reinventing the wheel is necessary.
-If a dependency is small and has a narrow impact, reinventing the wheel may be beneficial.
-The left-pad problem is an example of this.
+El tamaño de las dependencias puede determinar si es necesario reinventar la rueda.
+Si una dependencia es pequeña y tiene un impacto limitado, puede ser beneficioso reinventar la rueda.
+El problema de left-pad es un ejemplo de esto.

@@ -1,7 +1,7 @@
-# Comment Generation
+# Generación de Comentarios
 
-GitHub Copilot is an engine for generating code, but it can also generate comments from code. 
-For example, suppose you have the following code for the Sieve of Eratosthenes without comments:
+GitHub Copilot es un motor para generar código, pero también puede generar comentarios a partir del código.
+Por ejemplo, suponga que tiene el siguiente código para la Criba de Eratóstenes sin comentarios:
 
 ```py
 def eratosthenes_sieve(n):
@@ -15,14 +15,14 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-GitHub Copilot can write explanatory comments for the method, like this:
+GitHub Copilot puede escribir comentarios explicativos para el método, como este:
 
 ```py
-# Write the description of the method here <- [Actual Prompt]
-# Input: n - the number of primes to return
-# Output: a list of the first n primes
-# Example: eratosthenes_sieve(5) -> [2, 3, 5, 7, 11]
-# Note: this is a very inefficient way to find primes, but it is easy to understand
+# Escriba aquí la descripción del método <- [Prompt Actual]
+# Entrada: n - el número de primos que se desea retornar
+# Salida: una lista de los primeros n primos
+# Ejemplo: eratosthenes_sieve(5) -> [2, 3, 5, 7, 11]
+# Nota: esta es una forma muy ineficiente de encontrar primos, pero es fácil de entender
 def eratosthenes_sieve(n):
     primes = []
     sieve = [True] * (n + 1)
@@ -34,19 +34,19 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-Additionally, it can write code explanations from the code itself, helping engineers quickly understand other people's code:
+Además, puede escribir explicaciones de código a partir del código mismo, ayudando a los ingenieros a comprender rápidamente el código de otras personas:
 
 ```py
 def eratosthenes_sieve(n):
     primes = []
     sieve = [True] * (n + 1)
-    # Description of the algorithm <- [Actual Prompt]
-    # 1. Create a list of consecutive integers from 2 to n: (2, 3, 4, ..., n).
-    # 2. Initially, let p equal 2, the first prime number.
-    # 3. Starting from p, enumerate its multiples by counting to n in increments of p, and mark them in the list
-    #    (these will be 2p, 3p, 4p, ...; the p itself should not be marked).
-    # 4. Find the first number greater than p in the list that is not marked. If there was no such number, stop.
-    #    Otherwise, let p now equal this new number (which is the next prime), and repeat from step 3.
+    # Descripción del algoritmo <- [Prompt Actual]
+    # 1. Crear una lista de enteros consecutivos desde 2 hasta n: (2, 3, 4, ..., n).
+    # 2. Inicialmente, sea p igual a 2, el primer número primo.
+    # 3. Comenzando desde p, enumerar sus múltiplos contando hasta n en incrementos de p, y marcarlos en la lista
+    #    (estos serán 2p, 3p, 4p, ...; el propio p no debe ser marcado).
+    # 4. Encuentre el primer número mayor que p en la lista que no esté marcado. Si no hubo tal número, deténgase.
+    #    De lo contrario, deje que p ahora sea igual a este nuevo número (que es el siguiente primo), y repita desde el paso 3.
     for p in range(2, n + 1):
         if sieve[p]:
             primes.append(p)
@@ -55,22 +55,20 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-## Displaying Steps
+## Mostrar Pasos
 
-Using the LIST STEPS feature in [Code Brushes](https://githubnext.com/projects/code-brushes/)  on GitHub Next, you can achieve similar results.
+Utilizando la característica LIST STEPS en [Code Brushes](https://githubnext.com/projects/code-brushes/) en GitHub Next, puede lograr resultados similares.
 
 ```py
 def calculate_sum(numbers):
-    # initialize a variable to track the total
+    # inicializar una variable para rastrear el total
     total = 0
-    # iterate over each number in the list
+    # iterar sobre cada número en la lista
     for number in numbers:
-        # add the number to the total
+        # agregar el número al total
         total += number
-    # return the total
+    # devolver el total
     return total
 ```
 
-## Code to Document
-
-For large-scale code, one approach is to use tools like ChatGPT or Bing to obtain explanatory output. When you want an overview of the entire code, using chat-style AI tools can be helpful.
+## Código a Documentar

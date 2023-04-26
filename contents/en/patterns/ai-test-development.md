@@ -7,7 +7,7 @@ To write effective test cases, tools such as GitHub Copilot and ChatGPT should b
 
 ## Context
 
-GitHub Copilot is an AI-powered code generation tool aimed at reducing manual coding by programmers. 
+GitHub Copilot is an AI-powered code generation tool aimed at reducing manual coding by programmers.
 With GitHub Copilot, AI can generate great code for you using syntax and approaches you may not be familiar with.
 However, code that is less readable for you can decrease maintainability.
 Therefore, it is important to prepare solid test code even while using GitHub Copilot.
@@ -42,11 +42,13 @@ class TestMultiply(unittest.TestCase):
 unittest.main()
 ```
 
-Now we know that GitHub Copilot can be used for TDD. However, were the test cases introduced here really good code?
+Now we know that GitHub Copilot can be used for TDD.
+However, were the test cases introduced here really good code?
 "No way!!" The test code provided by GitHub Copilot is far from being excellent test cases.
 
 Here are some issues to point out.
-Firstly, there is duplication in the tests. Some test cases expect the same results.
+Firstly, there is duplication in the tests.
+Some test cases expect the same results.
 This means duplication in the tests and executing unnecessary tests.
 
 The second problem is that errors are not being detected.
@@ -82,7 +84,8 @@ So how can we make better use of GitHub Copilot to write more comprehensive test
 
 ## Solution
 
-When using GitHub Copilot to write test code, it is necessary to provide detailed context. Using natural language processing models such as ChatGPT, it is possible to create more comprehensive test cases.
+When using GitHub Copilot to write test code, it is necessary to provide detailed context.
+Using natural language processing models such as ChatGPT, it is possible to create more comprehensive test cases.
 
 Let's pass a prompt like the following to ChatGPT:
 
@@ -104,7 +107,8 @@ Then ChatGPT returns results that look like wonderfully comprehensive test cases
 > * When one input is a string, confirm that an error occurs.
 > * When a non-integer input is given, confirm that an error occurs.
 
-Based on the above results, the following test code was written with GitHub Copilot. It looks much better now:
+Based on the above results, the following test code was written with GitHub Copilot.
+It looks much better now:
 
 ```py
 # Write the test code for multiply() according to the following conditions.
@@ -127,8 +131,8 @@ class TestMultiply(unittest.TestCase):
         self.assertRaises(TypeError, multiply, 3, "a")
 ```
 
-However, this is not perfect either. 
-Whether it is necessary to confirm that an error occurs when one input is a decimal number depends on the implementation, and the last two test cases test the same error. 
+However, this is not perfect either.
+Whether it is necessary to confirm that an error occurs when one input is a decimal number depends on the implementation, and the last two test cases test the same error.
 There is still room for improvement, but it is great that we can reach this level in an instant at the beginning of writing test code.
 
 ## Resulting Context

@@ -5,11 +5,11 @@ There seems to be a misconception that this tool is only for engineers.
 While this is partially true, it's also partially incorrect.
 Indeed, GitHub Copilot has an incredible ability to transform the way engineers work.
 However, as engineers' work methods change, organizations must also adapt.
-If you are in a PM or PO position, this is an important issue for you as well. 
+If you are in a PM or PO position, this is an important issue for you as well.
 Since your team's engineers are expected to perform at their best, implementing your defined requirements as quickly as possible.
 Going forward, even if you are not an engineer, you will need to create **AI-readable** documentation to enable your team's engineers to collaborate with AI.
 
-## Documentation Culture and AI Development
+## Documentation Culture and AI-Native Development
 
 In recent years, AI technology has advanced rapidly, with models like LLM (Large Language Model) gaining attention.
 GitHub, an open-source development platform, has also ventured into the field of AI development.

@@ -1,30 +1,30 @@
-# Test Development with AI
+# Desarrollo de pruebas con IA
 
-## Description
+## Descripción
 
-It is difficult to expect test case coverage without providing context to AI when using GitHub Copilot for code generation.
-To write effective test cases, tools such as GitHub Copilot and ChatGPT should be used.
+Es difícil esperar una cobertura de casos de prueba sin proporcionar contexto a la IA al usar GitHub Copilot para la generación de código.
+Para escribir casos de prueba efectivos, se deben utilizar herramientas como GitHub Copilot y ChatGPT.
 
-## Context
+## Contexto
 
-GitHub Copilot is an AI-powered code generation tool aimed at reducing manual coding by programmers. 
-With GitHub Copilot, AI can generate great code for you using syntax and approaches you may not be familiar with.
-However, code that is less readable for you can decrease maintainability.
-Therefore, it is important to prepare solid test code even while using GitHub Copilot.
-Test code plays an important role in ensuring the quality of the program, and the coverage of test cases for automatically generated code is essential.
+GitHub Copilot es una herramienta de generación de código impulsada por IA diseñada para reducir la codificación manual de los programadores.
+Con GitHub Copilot, la IA puede generar un gran código para ti utilizando la sintaxis y los enfoques que quizás no conozcas.
+Sin embargo, el código que es menos legible para ti puede disminuir la mantenibilidad.
+Por lo tanto, es importante preparar un código de prueba sólido incluso al utilizar GitHub Copilot.
+El código de prueba desempeña un papel importante en garantizar la calidad del programa y la cobertura de casos de prueba para el código generado automáticamente es esencial.
 
-## Problem
+## Problema
 
-When writing test code using GitHub Copilot, it is difficult to generate test code with sufficient coverage without providing detailed context.
+Al escribir código de prueba utilizando GitHub Copilot, es difícil generar código de prueba con suficiente cobertura sin proporcionar un contexto detallado.
 
-For example, let's use GitHub Copilot to write the following test code that performs multiplication of two numbers.
+Por ejemplo, usemos GitHub Copilot para escribir el siguiente código de prueba que realiza la multiplicación de dos números.
 
 ```py
 def multiply(a, b):
     return a * b
 ```
 
-Using GitHub Copilot, you can easily generate test code for this code.
+Usando GitHub Copilot, puedes generar fácilmente código de prueba para este código.
 
 ```py
 import unittest
@@ -42,98 +42,102 @@ class TestMultiply(unittest.TestCase):
 unittest.main()
 ```
 
-Now we know that GitHub Copilot can be used for TDD. However, were the test cases introduced here really good code?
-"No way!!" The test code provided by GitHub Copilot is far from being excellent test cases.
+Ahora sabemos que GitHub Copilot puede usarse para TDD.
+¿Pero los casos de prueba introducidos aquí son realmente buenos?
+"¡De ninguna manera!" El código de prueba proporcionado por GitHub Copilot está lejos de ser casos de prueba excelentes.
 
-Here are some issues to point out.
-Firstly, there is duplication in the tests. Some test cases expect the same results.
-This means duplication in the tests and executing unnecessary tests.
+Aquí hay algunos problemas a señalar.
+En primer lugar, hay duplicación en las pruebas.
+Algunos casos de prueba esperan los mismos resultados.
+Esto significa duplicación en las pruebas y la ejecución de pruebas innecesarias.
 
-The second problem is that errors are not being detected.
-In this test case, we are confirming that the multiply() function is working as expected, but it cannot detect errors if they occur.
-For example, there is no process to return an error if a string type is passed.
+El segundo problema es que no se están detectando errores.
+En este caso de prueba, estamos confirmando que la función multiply() está funcionando según lo esperado, pero no puede detectar errores si ocurren.
+Por ejemplo, no hay proceso para devolver un error si se pasa un tipo de cadena.
 
-If we pass the following process using the multiply() function that passed the test this time, we can see that it does not work as expected:
+Si pasamos el siguiente proceso utilizando la función multiply() que pasó la prueba en este momento, podemos ver que no funciona según lo esperado:
 
 ```py
-print(multiply(2, "Hello World!"))
-# Hello World!Hello World!
+print(multiply(2, "¡Hola, mundo!"))
+# ¡Hola, mundo!¡Hola, mundo!
 ```
 
-There was duplication in the examples shown and errors were not being detected.
-If you were to write the code, it might be better to write it like this:
+Hubo duplicación en los ejemplos mostrados y no se estaban detectando errores.
+Si fueras a escribir el código, podría ser mejor escribirlo así:
 
-In the following case, we communicate with GitHub Copilot while specifying the conditions one by one.
+En el siguiente caso, se comunica con GitHub Copilot mientras se especifican las condiciones una por una:
 
 ```py
-# Write the test code for multiply() according to the following conditions.
-# Condition: Include successful cases
+# Escriba el código de prueba para multiply() de acuerdo con las siguientes condiciones.
+# Condición: Incluya casos exitosos
 class TestMultiply(unittest.TestCase):
     def test_multiply(self):
         self.assertEqual(multiply(2, 3), 6)
-        # Condition: Include failure cases
+        # Condición: Incluya casos fallidos
         self.assertIsNot(multiply(2, 3), 7)
-        # Condition: Confirm that the return type is numeric
+        # Condición: Confirme que el tipo de retorno es numérico
         self.assertIsInstance(multiply(2, 3), int)
 ```
 
-It has improved a lot compared to before, but it still lacks comprehensiveness.
-So how can we make better use of GitHub Copilot to write more comprehensive test cases?
+Ha mejorado mucho en comparación con antes, pero todavía falta exhaustividad.
+¿Cómo podemos hacer mejor uso de GitHub Copilot para escribir casos de prueba más exhaustivos?
 
-## Solution
+## Solución
 
-When using GitHub Copilot to write test code, it is necessary to provide detailed context. Using natural language processing models such as ChatGPT, it is possible to create more comprehensive test cases.
+Cuando se utiliza GitHub Copilot para escribir código de prueba, es necesario proporcionar un contexto detallado.
+Utilizando modelos de procesamiento de lenguaje natural como ChatGPT, es posible crear casos de prueba más completos.
 
-Let's pass a prompt like the following to ChatGPT:
+Por ejemplo, al pasar una consulta como la siguiente a ChatGPT:
 
-> When writing test code for the following code without any omissions, what are the test cases/conditions? Please list them.
+> ¿Cuáles son los casos de prueba/condiciones que deben incluirse en el código de prueba para la siguiente función sin omitir nada?
 > ```py
 > def multiply(a, b):
 >     return a * b
 > ```
 
-Then ChatGPT returns results that look like wonderfully comprehensive test cases.
+Entonces, ChatGPT devuelve resultados que parecen ser casos de prueba maravillosamente completos.
 
-> The following are examples of test cases that should be included in the test code for the multiply() function:
+> Los siguientes son ejemplos de casos de prueba que deben incluirse en el código de prueba para la función `multiply()`:
 >
-> * When two positive integers are input, confirm that the correct result is returned.
-> * When two negative integers are input, confirm that the correct result is returned.
-> * When one positive integer and one negative integer are input, confirm that the correct result is returned.
-> * When one input is 0, confirm that the result is 0.
-> * When one input is a decimal number, confirm that an error occurs.
-> * When one input is a string, confirm that an error occurs.
-> * When a non-integer input is given, confirm that an error occurs.
+> * Cuando se ingresan dos enteros positivos, confirme que se devuelve el resultado correcto.
+> * Cuando se ingresan dos enteros negativos, confirme que se devuelve el resultado correcto.
+> * Cuando se ingresa un entero positivo y un entero negativo, confirme que se devuelve el resultado correcto.
+> * Cuando uno de los argumentos es 0, confirme que se devuelve 0 como resultado.
+> * Cuando uno de los argumentos es un número decimal, confirme que se produce un error.
+> * Cuando uno de los argumentos es una cadena de caracteres, confirme que se produce un error.
+> * Cuando se ingresa un valor no entero, confirme que se produce un error.
 
-Based on the above results, the following test code was written with GitHub Copilot. It looks much better now:
+Basándose en los resultados anteriores, se escribió el siguiente código de prueba con la ayuda de GitHub Copilot.
+Ahora se ve mucho mejor:
 
 ```py
-# Write the test code for multiply() according to the following conditions.
-# Condition: Include successful cases
+# Escribir el código de prueba para multiply() de acuerdo a las siguientes condiciones.
+# Condición: Incluya casos exitosos
 class TestMultiply(unittest.TestCase):
     def test_multiply(self):
-        # When two positive integers are input, confirm that the correct result is returned.
+        # Cuando se ingresan dos enteros positivos, confirme que se devuelve el resultado correcto.
         self.assertEqual(multiply(3, 4), 12)
-        # When two negative integers are input, confirm that the correct result is returned.
+        # Cuando se ingresan dos enteros negativos, confirme que se devuelve el resultado correcto.
         self.assertEqual(multiply(-3, -4), 12)
-        # When one positive integer and one negative integer are input, confirm that the correct result is returned.
+        # Cuando se ingresa un entero positivo y un entero negativo, confirme que se devuelve el resultado correcto.
         self.assertEqual(multiply(3, -4), -12)
-        # When one input is 0, confirm that the result is 0.
+        # Cuando uno de los argumentos es 0, confirme que se devuelve 0 como resultado.
         self.assertEqual(multiply(3, 0), 0)
-        # When one input is a decimal number, confirm that an error occurs.
+        # Cuando uno de los argumentos es un número decimal, confirme que se produce un error.
         self.assertRaises(ValueError, multiply, 3, 0.1)
-        # When one input is a string, confirm that an error occurs.
+        # Cuando uno de los argumentos es una cadena de caracteres, confirme que se produce un error.
         self.assertRaises(ValueError, multiply, 3, "a")
-        # When a non-integer input is given, confirm that an error occurs.
+        # Cuando se ingresa un valor no entero, confirme que se produce un error.
         self.assertRaises(TypeError, multiply, 3, "a")
 ```
 
-However, this is not perfect either. 
-Whether it is necessary to confirm that an error occurs when one input is a decimal number depends on the implementation, and the last two test cases test the same error. 
-There is still room for improvement, but it is great that we can reach this level in an instant at the beginning of writing test code.
+Sin embargo, esto tampoco es perfecto.
+La necesidad de confirmar si se produce un error cuando uno de los argumentos es un número decimal depende de la implementación, y los dos últimos casos de prueba prueban el mismo error.
+Aún hay margen de mejora, pero es genial que podamos llegar a este nivel en un instante al principio de escribir el código de prueba.
 
-## Resulting Context
+## Contexto Resultante
 
-When using GitHub Copilot to generate code automatically, attention must be paid to the comprehensiveness of the test code.
-By providing detailed context and using natural language processing models such as ChatGPT, it is possible to create more comprehensive test cases.
-However, it should be noted that it is not possible to automatically generate perfect test code, and manual correction is necessary.
-Test code is very important for ensuring program quality, and having comprehensive test cases is essential.
+Al utilizar GitHub Copilot para generar código automáticamente, es necesario prestar atención a la exhaustividad del código de prueba.
+Proporcionando un contexto detallado y utilizando modelos de procesamiento de lenguaje natural como ChatGPT, es posible crear casos de prueba más exhaustivos.
+Sin embargo, es importante tener en cuenta que no es posible generar automáticamente un código de prueba perfecto, y se necesita corrección manual.
+El código de prueba es muy importante para garantizar la calidad del programa, y tener casos de prueba exhaustivos es esencial.

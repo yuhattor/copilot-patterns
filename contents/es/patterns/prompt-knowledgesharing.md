@@ -1,41 +1,41 @@
-# Prompt Knowledge Sharing
+# Compartir conocimientos de prompts
 
-## Description
+## Descripción
 
-Sharing prompts and utilizing them as resources for team members to learn is important.
+Compartir prompts y utilizarlos como recursos para que los miembros del equipo aprendan es importante.
 
-## Problem
+## Problema
 
-While working with AI like GitHub Copilot can help in writing high-quality code, for senior engineers, whether great or highly-performant code is good code for code reading is a different story.
-Overly condensed code or programs expressed in highly specific language expressions can make it difficult for engineers to collaborate on specific areas.
+Aunque trabajar con IA como GitHub Copilot puede ayudar a escribir código de alta calidad, para los ingenieros senior, si un código excelente o de alto rendimiento es un buen código para la lectura de código es una historia diferente.
+El código demasiado condensado o los programas expresados en expresiones de lenguaje altamente específicas pueden dificultar la colaboración de los ingenieros en áreas específicas.
 
-## Story
+## Historia
 
-As you explore what kind of prompts you should write to master GitHub Copilot, you, as a senior engineer, work on implementing a certain feature and eventually come up with great code by working with GitHub Copilot through trial and error.
-Another engineer on the same team who was watching you from the next seat said, "So that's how you always come up with great code! I think I understand now how you do it."
+Mientras exploraba qué tipo de prompts debería escribir para dominar GitHub Copilot, usted, como ingeniero senior, trabaja en la implementación de una cierta función y finalmente llega a un gran código trabajando con GitHub Copilot a través de prueba y error.
+Otro ingeniero en el mismo equipo que estaba observándolo desde el asiento de al lado dijo: "Así es como siempre logra crear un gran código. Creo que ahora entiendo cómo lo hace".
 
-You realize that the prompts you created when you arrived at the best output through trial and error, as well as the trial and error process itself, are important resources for team members to learn.
-At the same time, you discover the problem that the output file does not contain the prompt and start thinking about how to share it.
+Se da cuenta de que los prompts que creó cuando llegó a la mejor salida a través de prueba y error, así como el proceso de prueba y error en sí mismo, son recursos importantes para que los miembros del equipo aprendan.
+Al mismo tiempo, descubre el problema de que el archivo de salida no contiene el prompt y comienza a pensar en cómo compartirlo.
 
-## Context
+## Contexto
 
-GitHub Copilot has been introduced, but its usage has not been shared among individual engineers.
-Additionally, the prompts written by each engineer in GitHub Copilot are not shared.
+Se ha introducido GitHub Copilot, pero su uso no se ha compartido entre los ingenieros individuales.
+Además, los prompts escritos por cada ingeniero en GitHub Copilot no se comparten.
 
-## Solution
+## Solución
 
-The team should consider how to share prompts and write comments, and establish rules. It is desirable to make the comment function as a document as well so that the prompt does not become noise.
+El equipo debe considerar cómo compartir los prompts y escribir comentarios, y establecer reglas. Es deseable que la función de comentarios también sea un documento para que el prompt no se convierta en ruido.
 
-The following patterns can be considered for prompt sharing:
+Se pueden considerar los siguientes patrones para compartir prompts:
 
-* Directly Writing to the File
-  By leaving prompts in a file for the team to learn, they can learn from other members' prompts. It is important to leave prompts in a proper balance so that they do not become noise. Additionally, some prompts can be converted into documentation or explanatory comments rather than in prompt form. Also, by reviewing the prompts along with the code review, engineers can be further developed.
-* Passive Documentation
-  Include some prompts as comments in pull requests or issues. The readability of files containing code is improved, but reference to the prompts cannot be made within the editor.
-* Mob Programming
-  While not leaving prompts in files or PR/Issues, hold mob programming sessions for senior engineers to experience the development environment. It is important to share what is learned here as documentation.
+* Escritura directa en el archivo
+  Al dejar prompts en un archivo para que el equipo aprenda, pueden aprender de los prompts de otros miembros. Es importante dejar los prompts en un equilibrio adecuado para que no se conviertan en ruido. Además, algunos prompts se pueden convertir en documentación o comentarios explicativos en lugar de en forma de prompt. Además, al revisar los prompts junto con la revisión de código, se pueden desarrollar aún más los ingenieros.
+* Documentación pasiva
+  Incluya algunos prompts como comentarios en solicitudes de extracción o problemas. La legibilidad de los archivos que contienen código mejora, pero no se puede hacer referencia a los prompts dentro del editor.
+* Programación en grupo
+  Aunque no se dejan prompts en archivos o PR/Issues, realice sesiones de programación en grupo para que los ingenieros senior experimenten el entorno de desarrollo. Es importante compartir lo que se aprende aquí como documentación.
 
-## Resulting Context
+## Contexto Resultante
 
-The team's overall skills are improved, and effective learning is promoted through prompt sharing.
-By functioning as both a prompt and document, the readability of the code is improved, making it easier to understand.
+Las habilidades generales del equipo mejoran y se promueve un aprendizaje efectivo a través del intercambio de prompts.
+Al funcionar tanto como prompt como documento, se mejora la legibilidad del código, lo que hace que sea más fácil de entender.

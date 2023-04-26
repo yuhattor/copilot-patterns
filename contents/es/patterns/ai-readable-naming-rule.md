@@ -1,33 +1,33 @@
-# AI Readable Naming Convention
+# Convención de Nombres Legibles por IA
 
 {% hint style="info" %}
-This document is still under review. Verification result:
+Este documento aún está en revisión. Resultado de verificación:
 {% endhint %}
 
-## Description
+## Descripción
 
-This document explains patterns of naming conventions that can be useful when writing code. By using these patterns, you can write code that is more readable, understandable, and maintainable.
+Este documento explica los patrones de convención de nombres que pueden ser útiles al escribir código. Al utilizar estos patrones, se puede escribir código más legible, comprensible y mantenible.
 
-## Problem
+## Problema
 
-When writing code, you may struggle with how to name variables and functions. Also, if you try to provide context only through comments, the code may become difficult for the reader to understand. This difficulty in readability can also affect the accuracy of suggestions made by GitHub Copilot. Eventually, you may not receive accurate suggestions from GitHub Copilot.
+Al escribir código, puede tener dificultades para nombrar variables y funciones. Además, si intenta proporcionar contexto solo a través de comentarios, el código puede resultar difícil de entender para el lector. Esta dificultad en la legibilidad también puede afectar la precisión de las sugerencias realizadas por GitHub Copilot. Eventualmente, es posible que no reciba sugerencias precisas de GitHub Copilot.
 
-## Context
+## Contexto
 
-GitHub Copilot uses an engine called Codex, which utilizes a GPT-3 based model. The GPT-3 based model can understand natural language, so by using variable expressions similar to natural language, you can write code that is more readable and understandable.
+GitHub Copilot utiliza un motor llamado Codex, que utiliza un modelo basado en GPT-3. El modelo basado en GPT-3 puede comprender el lenguaje natural, por lo que al utilizar expresiones de variables similares al lenguaje natural, se puede escribir código más legible y comprensible.
 
-## Solution
+## Solución
 
-If you are struggling with naming variables and functions when writing code, you can create a common naming convention with your team in advance, based on GitHub Copilot. By using variable expressions similar to natural language, rather than providing context only through comments, GitHub Copilot can make more accurate suggestions.
+Si tiene dificultades para nombrar variables y funciones al escribir código, puede crear una convención de nombres común con su equipo de antemano, basada en GitHub Copilot. Al utilizar expresiones de variables similares al lenguaje natural, en lugar de proporcionar contexto solo a través de comentarios, GitHub Copilot puede hacer sugerencias más precisas.
 
-Here are some examples of naming convention patterns:
+Aquí hay algunos ejemplos de patrones de convención de nombres:
 
-* Use lowercase
-* Use camel case
-* Use variable expressions similar to natural language
-* Use short names
-* Use descriptive names
+* Utilice minúsculas
+* Utilice camel case
+* Utilice expresiones de variables similares al lenguaje natural
+* Utilice nombres cortos
+* Utilice nombres descriptivos
 
-## Resulting Context
+## Contexto Resultante
 
-By using these naming convention patterns, you can write code that is more readable and understandable. Additionally, GitHub Copilot can make more accurate suggestions.
+Al utilizar estos patrones de convención de nombres, se puede escribir código más legible y comprensible. Además, GitHub Copilot puede hacer sugerencias más precisas.

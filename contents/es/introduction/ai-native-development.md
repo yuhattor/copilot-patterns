@@ -1,93 +1,93 @@
-# AI-Native Development
+# Desarrollo con AI
 
-The adoption of AI technologies like GitHub Copilot can potentially impact the architecture of projects as the work of engineers within development teams changes.
-This document discusses the possible implications that AI-Native development methods may have.
+La adopción de tecnologías de AI como GitHub Copilot puede potencialmente impactar la arquitectura de proyectos a medida que cambia el trabajo de los ingenieros dentro de los equipos de desarrollo.
+Este documento discute las posibles implicaciones que los métodos de desarrollo AI-nativos pueden tener.
 
-## Context is Everything
+## El Contexto es Tdo
 
-AI technologies, represented by GitHub Copilot, can enter development environments and processes in various ways.
-Development teams need to be more aware of the context in order to achieve greater development speed.
-One thing to keep in mind is the technical and business context included in your program.
-While this is not a new topic and has been discussed before, it is worth considering these two contexts again in light of the boost that developers are now receiving through AI cooperation.
-These contexts will affect architecture and the careers of engineers.
+Las tecnologías de AI, representadas por GitHub Copilot, pueden entrar en entornos y procesos de desarrollo de diversas maneras.
+Los equipos de desarrollo necesitan estar más conscientes del contexto para lograr una mayor velocidad de desarrollo.
+Una cosa a tener en cuenta es el contexto técnico y empresarial incluido en su programa.
+Si bien este no es un tema nuevo y se ha discutido antes, vale la pena considerar estos dos contextos nuevamente a la luz del impulso que los desarrolladores están recibiendo ahora a través de la cooperación de AI.
+Estos contextos afectarán la arquitectura y las carreras de los ingenieros.
 
-Also, there are high-context and low-context areas for each context. 
-For example, in coding, simply pressing the tab key to accept GitHub Copilot's suggestions may be sufficient for repetitive tasks or writing processes that would ultimately lead to the same result regardless of who wrote them. 
-On the other hand, nothing will come from just pressing the tab key in areas where high context is required. 
-These areas require experience and knowledge of specific technical domains, which cannot be easily acquired.
+También hay áreas de alto y bajo contexto para cada contexto.
+Por ejemplo, en la codificación, simplemente presionar la tecla de tabulación para aceptar las sugerencias de GitHub Copilot puede ser suficiente para tareas repetitivas o procesos de escritura que finalmente llevarían al mismo resultado sin importar quién los escribiera.
+Por otro lado, no se obtendrá nada simplemente presionando la tecla de tabulación en áreas donde se requiere un alto contexto.
+Estas áreas requieren experiencia y conocimiento de dominios técnicos específicos, lo que no se puede adquirir fácilmente.
 
-### Technical Context
+### Contexto Técnico
 
-To consider technical context, let's think about some programming languages.
-Some languages, like Python, have a certain degree of commonality in how they express things, while others, like Ruby, allow for diverse expressions for the same task.
-The scope width is also an issue.
-There are languages like BASIC where global scope is the default, and many languages with narrower scopes.
-Rust's reference and borrowing mechanism, for example, is a typical case that involves high technical context.
-At the framework level, the context can be stacked in multiple layers.
+Para considerar el contexto técnico, pensemos en algunos lenguajes de programación.
+Algunos lenguajes, como Python, tienen cierto grado de comunidad en cómo expresan las cosas, mientras que otros, como Ruby, permiten diversas expresiones para la misma tarea.
+La amplitud del alcance también es un problema.
+Existen lenguajes como BASIC donde el alcance global es el predeterminado, y muchos otros con alcances más estrechos.
+El mecanismo de referencia y préstamo de Rust, por ejemplo, es un caso típico que implica un alto contexto técnico.
+A nivel de marco, el contexto se puede apilar en múltiples capas.
 
-### Business Context
+### Contexto Empresarial
 
-The same is true for the business domain.
-Consider SQL, a database language.
-AI excels at simple tasks and is well-suited for implementing SQL's standard expressions.
-If you're defining database access for a simple application implementation, you can get by with less context.
-However, when dealing with a complex, intertwined, large database, it's difficult to be confident that the AI-generated code won't affect other processes.
-Understanding the overall architecture and having some knowledge of the actual logic may be required.
-The same applies to testing: AI is good at writing tests along given scenarios, but it's difficult to come up with comprehensive test scenarios.
-AI can easily write API tests for a REST API with simple CRUD features, but writing perfect tests for an application with complex authorization conditions might be challenging for AI.
+Lo mismo ocurre en el ámbito empresarial.
+Consideremos SQL, un lenguaje de base de datos.
+La IA es excelente en tareas simples y es adecuada para implementar expresiones estándar de SQL.
+Si está definiendo el acceso a la base de datos para una implementación de aplicación simple, puede hacerlo con menos contexto.
+Sin embargo, cuando se trata de una base de datos grande, compleja y entrelazada, es difícil estar seguro de que el código generado por IA no afectará a otros procesos.
+Es posible que sea necesario comprender la arquitectura general y tener cierto conocimiento de la lógica real.
+Lo mismo se aplica a las pruebas: la IA es buena escribiendo pruebas junto con escenarios dados, pero puede ser difícil crear escenarios de prueba exhaustivos.
+La IA puede escribir fácilmente pruebas de API para una API REST con características CRUD simples, pero escribir pruebas perfectas para una aplicación con condiciones de autorización complejas podría ser un desafío para la IA.
 
-## AI-Native Architecture
+## Arquitectura AI-Native
 
-How much context exists in the architecture of the features/applications you manage?
-If there is a lot of context in the architecture, the development speed utilizing AI might decrease.
-This is because LLMs can understand only a limited amount of context, and it is not possible to provide a large amount of context to AI at the same time.
-This is partly due to the upper limit of tokens that can be given, but it is also because humans generally cannot provide all the information in a form that is AI-readable.
-In a sense, AI can work indefinitely as long as prompts are continuously provided.
-On the other hand, humans have limited time to provide prompts to AI.
-In that case, the bottleneck in development becomes human.
-Therefore, it is worth considering reducing the context of the features or applications so that AI can write the correct program even without humans providing as much context as possible.
+¿Cuánto contexto existe en la arquitectura de las funciones/aplicaciones que gestionas?
+Si hay mucho contexto en la arquitectura, la velocidad de desarrollo utilizando la IA podría disminuir.
+Esto se debe a que los LLM solo pueden entender una cantidad limitada de contexto, y no es posible proporcionar una gran cantidad de contexto a la IA al mismo tiempo.
+Esto se debe en parte al límite superior de tokens que se pueden proporcionar, pero también porque los humanos generalmente no pueden proporcionar toda la información en una forma que sea legible para la IA.
+En cierto sentido, la IA puede trabajar indefinidamente siempre que se proporcionen continuamente promt.
+Por otro lado, los humanos tienen tiempo limitado para proporcionar promt a la IA.
+En ese caso, el cuello de botella en el desarrollo se convierte en humano.
+Por lo tanto, vale la pena considerar la reducción del contexto de las funciones o aplicaciones para que la IA pueda escribir el programa correcto incluso sin que los humanos proporcionen tanto contexto como sea posible.
 
-Dividing services into smaller levels and making them loosely related is a good idea.
-However, what I am referring to is not necessarily using microservices in the context of Kubernetes.
-Any design you can think of, including SOA and library-level separation, is fine.
-What's important is to divide the components into simple and testable units.
-The more context an application has, the harder it is to get AI support.
+Dividir los servicios en niveles más pequeños y hacerlos poco relacionados es una buena idea.
+Sin embargo, lo que me refiero no necesariamente a usar microservicios en el contexto de Kubernetes.
+Cualquier diseño que se te ocurra, incluida la separación del nivel de la biblioteca y SOA, está bien.
+Lo importante es dividir los componentes en unidades simples y probables.
+Cuanto más contexto tenga una aplicación, más difícil será obtener el soporte de la IA.
 
-There are sometimes religious wars about the appropriate size of programs to handle, and AI-assisted development is just beginning, so there is no exact answer.
-However, considering maximizing engineer productivity and growing products in the shortest time possible, it might be a good idea for your team to consider development methods and architecture based on GitHub Copilot.
+A veces hay guerras religiosas sobre el tamaño adecuado de los programas para manejar, y el desarrollo asistido por IA está recién comenzando, por lo que no hay una respuesta exacta.
+Sin embargo, considerando maximizar la productividad de los ingenieros y hacer crecer los productos en el menor tiempo posible, podría ser una buena idea que su equipo considere los métodos de desarrollo y la arquitectura basados en GitHub Copilot.
 
-However, on the other hand, it should not be mistaken that IT architecture should be considered with the purpose of "maximizing engineer production." 
-Engineering exists as a means to ultimately achieve something.
+Sin embargo, por otro lado, no se debe confundir la arquitectura de TI con el propósito de "maximizar la producción de ingenieros".
+La ingeniería existe como un medio para lograr algo.
 
-I look forward to everyone actively participating in the discussions in this field.
+Espero que todos participen activamente en las discusiones en este campo.
 
-## Career Prospects as an Engineer
+## Perspectivas de carrera como ingeniero
 
-So far, I have touched on the potential for AI to bring about changes in architecture and development culture.
-It is also important to look at the career of engineering.
-This is a point to consider not only for engineers themselves but also for managers and those in positions to build organizations.
+Hasta ahora, se ha hablado del potencial de la IA para provocar cambios en la arquitectura y la cultura de desarrollo.
+También es importante considerar la carrera de los ingenieros.
+Este es un punto a considerar no solo para los propios ingenieros, sino también para los gerentes y aquellos en posiciones para construir organizaciones.
 
-In the end, engineers need to consider whether to aim for engineers with a wide range of business and product insights or highly technical engineers.
-However, the problem is that there are low-context and high-context areas in both.
+En última instancia, los ingenieros deben considerar si deben apuntar a ingenieros con una amplia gama de conocimientos del negocio y del producto o ingenieros altamente técnicos.
+Sin embargo, el problema es que hay áreas de bajo y alto contexto en ambos.
 
-For example, in coding, simply pressing the Tab key for what GitHub Copilot suggests may be enough for simple repetitive tasks or writing processes that ultimately reach the same processing, no matter who writes them.
-On the other hand, the areas specified in the technical context and business context sections require a high context.
-This area is a field where experience and knowledge of specific technology areas are required, so it is not something that can be easily acquired.
-If it is knowledge available on the Internet, there is still a way to catch up, but on the other hand, if it is a closed knowledge area in a specific organization, and it is not documented or the cost of obtaining information is extremely high, it is difficult to catch up.
+Por ejemplo, en la codificación, simplemente presionar la tecla Tab para aceptar las sugerencias de GitHub Copilot puede ser suficiente para tareas repetitivas simples o para escribir procesos que finalmente llegarán al mismo resultado, independientemente de quién los escriba.
+Por otro lado, las áreas especificadas en las secciones de contexto técnico y de negocio requieren un alto contexto.
+Esta área es un campo donde se requiere experiencia y conocimiento de áreas tecnológicas específicas, por lo que no es algo que se pueda adquirir fácilmente.
+Si es conocimiento disponible en Internet, aún hay una forma de ponerse al día, pero por otro lado, si es un área de conocimiento cerrado en una organización específica, y no está documentado o el costo de obtener información es extremadamente alto, es difícil ponerse al día.
 
-This is not limited to coding, but AI tends to strengthen humans with rich knowledge and experience.
-This means that senior members will lose the jobs of newcomers.
-If left unchecked, newcomers will not be able to do important work in the organization and will not be able to expect skill growth.
-Senior skills will further increase, making it difficult for the organization to maintain them, and it will also be difficult to keep newcomers who are only doing boring work that seniors cannot do due to time constraints.
+Esto no se limita a la codificación, pero la IA tiende a fortalecer a los humanos con conocimientos y experiencia ricos.
+Esto significa que los miembros senior perderán los trabajos de los recién llegados.
+Si no se controla, los recién llegados no podrán hacer un trabajo importante en la organización y no podrán esperar un crecimiento de habilidades.
+Las habilidades senior aumentarán aún más, lo que hará que sea difícil para la organización mantenerlas, y también será difícil mantener a los recién llegados que solo están haciendo un trabajo aburrido que los seniors no pueden hacer debido a limitaciones de tiempo.
 
-So, what should be done? One answer is to compile technical and business information in products and organizations into documents containing context and nurture them internally.
-As more people participate in creating these documentations and co-creation occurs, a knowledge database for the company is formed.
-Now is the time to create an atmosphere of internal collaboration similar to open-source.
+Entonces, ¿qué se debe hacer? Una respuesta es compilar información técnica y empresarial en productos y organizaciones en documentos que contengan contexto y fomentarlos internamente.
+A medida que más personas participan en la creación de estas documentaciones y se produce la co-creación, se forma una base de conocimiento para la empresa.
+Ahora es el momento de crear una atmósfera de colaboración interna similar al código abierto.
 
-## Checklist
+## Lista de verificación
 
-- [ ] What context does your project or product have? Try organizing the context.
-- [ ] Is the context exclusive to a few individuals? Is it shared within the team?
-- [ ] In your project or product, is there a lot of code that AI can understand even with low context? If there is a lot of high-context code, how do you plan to convert it into AI-friendly code?
-- [ ] Are you promoting internal collaboration? If not, consider actions to improve communication and knowledge sharing within and between teams.
-- [ ] Have you discussed the career paths of your team's engineers in the AI era? Let's talk about whether they want to strengthen their technical and business areas.
+- [ ] ¿Qué contexto tiene tu proyecto o producto? Trata de organizar el contexto.
+- [ ] ¿El contexto es exclusivo de algunas personas o se comparte dentro del equipo?
+- [ ] ¿En tu proyecto o producto hay mucho código que la IA pueda entender incluso con poco contexto? Si hay mucho código de alto contexto, ¿cómo planeas convertirlo en código fácilmente interpretable por la IA?
+- [ ] ¿Estás promoviendo la colaboración interna? Si no, considera acciones para mejorar la comunicación y el intercambio de conocimientos dentro y entre equipos.
+- [ ] ¿Has discutido las trayectorias profesionales de los ingenieros de tu equipo en la era de la IA? Habla sobre si quieren fortalecer sus áreas técnicas y de negocios.
