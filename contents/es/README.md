@@ -21,7 +21,7 @@ Si ya está practicando el desarrollo nativo de IA en su empresa y desea contrib
 
 ## ¿Qué es el desarrollo AI-Native?
 
-El desarrollo AI-Native es un enfoque en el que los ingenieros y sus organizaciones aprovechan la inteligencia artificial para acelerar el desarrollo de software.
+AI-Native Development es un enfoque para acelerar el desarrollo de software incorporando un proceso y una cultura de desarrollo basados en la colaboración con la inteligencia artificial.
 En el desarrollo AI-Native, se utilizan tecnologías de inteligencia artificial como GitHub Copilot y ChatGPT para simplificar significativamente los procesos tradicionales de desarrollo de software y crear soluciones innovadoras.
 
 * Completado rápido de código y sugerencias: las herramientas de inteligencia artificial generan y sugieren automáticamente fragmentos y funciones de código relevantes en función del código introducido por los desarrolladores.
