@@ -30,7 +30,7 @@ function calculateSum(a, b) {
 ## GitHub Copilot の参照優先度
 
 GitHub Copilot は直近開いたいくつかの同じ言語のファイルを参照し、類似性を計算してプロンプトに含めるファイルを決定します。
-現在ロジックは非公開になっていますが、[リバースエンジニアリングの手記](https://thakkarparth007.github.io/GitHub Copilot-explorer/posts/GitHub Copilot-internals.html#how-is-the-prompt-prepared-a-code-walkthrough)などがありますので、ご覧ください。
+現在ロジックは非公開になっていますが、<a href="https://thakkarparth007.github.io/GitHub Copilot-explorer/posts/GitHub Copilot-internals.html#how-is-the-prompt-prepared-a-code-walkthrough">リバースエンジニアリングの手記</a>などがありますので、ご覧ください。
 
 ## Note 
 
