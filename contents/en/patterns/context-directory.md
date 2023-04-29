@@ -27,7 +27,7 @@ Therefore, she decided to introduce the context directory pattern. By keeping re
 
 ## Context
 
-GitHub Copilot, a representative product of AI coding support tools, currently makes suggestions based on information from the currently open file or files with the same extension open in tabs. The number of tokens that can be passed to the Codex model used by GitHub Copilot is limited. Therefore, GitHub Copilot extensions such as VS Code do not send all information from the open files as reference information to the GitHub Copilot server, but prioritize sending data from files with high similarity to the currently open files. Including snippets is called "snippet inclusion". Therefore, it is necessary to open only an appropriate number of related files in adjacent tabs. 
+GitHub Copilot, a representative product of AI coding support tools, currently makes suggestions based on information from the currently open file or files with the same extension open in tabs. The number of tokens that can be passed to the Codex model used by GitHub Copilot is limited. Therefore, GitHub Copilot extensions such as VS Code do not send all information from the open files as reference information to the GitHub Copilot server, but prioritize sending data from files with high similarity to the currently open files. Including snippets is called "snippet inclusion". Therefore, it is necessary to open only an appropriate number of related files in adjacent tabs.
 
 ## Solution
 
