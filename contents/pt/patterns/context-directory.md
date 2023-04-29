@@ -1,44 +1,51 @@
-# Context Directory
+# Diretório de Contexto
 
-Also known as: Snippet Inclusion
+Também conhecido como diretório de trechos para inclusão de trechos.
 
-## Description
+## Descrição
 
-Collecting the entire codebase context in the context folder within the repository to enable GitHub Copilot to provide accurate suggestions.
+Ao coletar o contexto de todo o código base no diretório de contexto dentro do repositório, torna-se mais fácil para o GitHub Copilot passar informações precisas de contexto durante o desenvolvimento.
 
-## Problem
+## Problemas
 
-* Inaccurate suggestions:
-  GitHub Copilot makes suggestions based on the information in the open file and other related files. GitHub Copilot may not obtain the context of the entire codebase, resulting in inaccurate suggestions. This may lead to lower code quality and increased time for developers to make corrections and adjustments.
-* Decreased efficiency:
-  If developers do not keep related files open in adjacent tabs, GitHub Copilot cannot obtain information from those files. As a result, suggestions may become inaccurate, and developers may need to manually search for and reference related files while coding. This may decrease developer productivity.
-* Loss of code consistency:
-  If GitHub Copilot cannot obtain the context of the entire codebase, the code it suggests may be inconsistent with existing code. This may negatively affect code readability and maintainability and slow down the development speed of the entire team.
+* Sugestões imprecisas
+  O GitHub Copilot pode fazer sugestões imprecisas se não conseguir obter o contexto do código base inteiro. Isso pode resultar na diminuição da qualidade do código ou no aumento do tempo que os desenvolvedores gastam ajustando e corrigindo o código.
+* Diminuição da eficiência
+  Se o desenvolvedor não mantiver os arquivos relevantes abertos em abas adjacentes, o GitHub Copilot não será capaz de obter informações desses arquivos. Como resultado, as sugestões podem ser imprecisas e o desenvolvedor pode ter que escrever código manualmente, consultando e pesquisando arquivos relevantes. Isso pode diminuir a produtividade dos desenvolvedores.
+* Perda de coerência do código
+  Se o GitHub Copilot não puder obter o contexto de todo o código base, as sugestões de código que ele faz podem não ter coerência com o código existente. Isso pode afetar a legibilidade e a manutenibilidade do código, e diminuir a velocidade de desenvolvimento da equipe como um todo.
 
-## Story
+## História
 
-One day, a mid-level engineer on the project team decided to develop a new feature using GitHub Copilot. She was fascinated by GitHub Copilot and believed that it would help her write code quickly.
+Um dia, um engenheiro da equipe de projeto decidiu usar o GitHub Copilot para desenvolver uma nova funcionalidade. Ela estava animada para usar o GitHub Copilot e escrever código rapidamente com a ajuda dele.
 
-However, as development progressed, she noticed that the code suggested by GitHub Copilot was sometimes inaccurate. Nevertheless, she manually corrected it and continued development, but gradually became tired of the task. In addition, other team members pointed out that the code suggested by GitHub Copilot lacked consistency.
+No entanto, à medida que o desenvolvimento progredia, ela percebeu que as sugestões de código feitas pelo GitHub Copilot às vezes eram imprecisas. Mesmo assim, ela continuou a ajustar manualmente o código e a trabalhar nele, mas gradualmente ficou cansada desse processo. Além disso, outros membros da equipe também apontaram que as sugestões de código feitas pelo GitHub Copilot não eram coerentes.
 
-She wondered why GitHub Copilot did not make accurate suggestions and began investigating, discovering that one reason for inaccurate suggestions was that related files were not properly opened. However, keeping all files open is not practical, and GitHub Copilot only sends data from adjacent tabs, so there is no point in keeping many files open. Moreover, she realized that there is a limit to the number of tokens that can be passed as part of the Codex model used by GitHub Copilot.
+Ela se perguntou por que o GitHub Copilot não estava fazendo sugestões precisas e começou a investigar. Descobriu que uma das razões era que ela não havia mantido os arquivos relevantes abertos adequadamente. Por outro lado, manter todos os arquivos abertos o tempo todo não era uma opção realista, e ela também percebeu que o modelo Codex usado pelo GitHub Copilot para sugerir código tem um limite de tokens que pode passar.
 
-Therefore, she decided to introduce the context directory pattern. By keeping related files open, she hopes that GitHub Copilot will be able to make more accurate suggestions.
+Por isso, ela decidiu adotar o padrão de diretório de contexto. Ela espera que manter os arquivos relevantes abertos ajude o GitHub Copilot a fazer sugestões mais precisas.
 
-## Solution
+## Contexto
 
-1. Create a Context directory:
-Create a directory where you or your team can collect files that you want to use to assist in providing context and rules for GitHub Copilot.
-1. Keep related file tabs open in VSCode:
-Currently, GitHub Copilot does not have a feature to obtain the context of the entire codebase, but it can read the current file and all files open in the IDE. Keeping related file tabs open enables GitHub Copilot to make more accurate suggestions.
+O GitHub Copilot, um dos principais produtos de suporte à codificação de inteligência artificial, faz sugestões com base nas informações dos arquivos atualmente abertos ou das abas com o mesmo tipo de arquivo aberto.
+Os tokens que o modelo Codex usado pelo GitHub Copilot pode passar são limitados. Portanto, as extensões do GitHub Copilot, como VS Code, não enviam todas as informações dos arquivos abertos como informações de referência para os servidores do GitHub Copilot. Em vez disso, eles priorizam o envio de dados dos arquivos com alta similaridade. Isso inclui a inclusão de trechos, chamada de "inclusão de trechos".
 
-You can write these directories in .gitignore if you do not want to push their contents.
-You can also use Git Submodules to separate the context directory from others.
+Portanto, é importante manter abertas apenas as abas com o número adequado de arquivos relacionados. Tanto poucos como muitos podem ser problemáticos.
 
-## Resulting Context
+## Solução
 
-Using the context folder pattern enables GitHub Copilot to provide more accurate suggestions. By keeping related file tabs open, you can get effective code completion.
+1. Crie um diretório de contexto
+Crie um diretório que contenha os arquivos que você deseja usar como contexto ou regras para o GitHub Copilot aprender. Esse diretório pode ser criado por um indivíduo ou por toda a equipe.
+2. Feche arquivos que não estão relacionados ao desenvolvimento atual
+3. Mantenha abertas as abas dos arquivos relacionados ao desenvolvimento atual no VSCode
+Atualmente, o GitHub Copilot não possui uma funcionalidade que permita que ele colete o contexto de todo o código base. No entanto, ele pode ler os arquivos atuais e os arquivos abertos no editor. Manter abertas as abas dos arquivos relacionados ajudará o GitHub Copilot a fazer sugestões mais precisas.
 
-## Note
+## Resultados
 
-* Currently, GitHub Copilot has limited file reading targets. When writing Python, it is desirable for snippet files and reference target files to also be Python code.
+Usando o diretório de contexto, o GitHub Copilot pode fazer sugestões mais precisas. Manter as abas dos arquivos relevantes abertas ajuda a obter a codificação assistida de forma mais efetiva.
+
+## Observações
+
+* Atualmente, o GitHub Copilot só lê arquivos limitados. Se você está escrevendo em Python, é recomendável que os arquivos de trechos e os arquivos de referência sejam em Python.
+* Se necessário, você pode adicionar esses diretórios ao .gitignore para não enviá-los quando você fizer o push.
+* Além disso, você pode usar o Git Submodule para separar o diretório de contexto como um diretório separado.

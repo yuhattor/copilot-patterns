@@ -1,44 +1,46 @@
 # Context Directory
 
-Also known as: Snippet Inclusion
+Also known as a snippet directory for snippet inclusion.
 
 ## Description
 
-Collecting the entire codebase context in the context folder within the repository to enable GitHub Copilot to provide accurate suggestions.
+By collecting the context of the entire codebase in the context directory within the repository, it is easier to provide GitHub Copilot with accurate context during development.
 
 ## Problem
 
 * Inaccurate suggestions:
-  GitHub Copilot makes suggestions based on the information in the open file and other related files. GitHub Copilot may not obtain the context of the entire codebase, resulting in inaccurate suggestions. This may lead to lower code quality and increased time for developers to make corrections and adjustments.
-* Decreased efficiency:
-  If developers do not keep related files open in adjacent tabs, GitHub Copilot cannot obtain information from those files. As a result, suggestions may become inaccurate, and developers may need to manually search for and reference related files while coding. This may decrease developer productivity.
+  GitHub Copilot may make inaccurate suggestions if it cannot obtain the context of the entire codebase, which can lead to lower code quality and increased time spent by developers on fixing or adjusting code.
+* Reduced efficiency:
+  If developers do not have related files open in adjacent tabs, GitHub Copilot cannot obtain information from those files. This can result in inaccurate suggestions and force developers to manually search and reference related files while writing code, potentially decreasing their productivity.
 * Loss of code consistency:
-  If GitHub Copilot cannot obtain the context of the entire codebase, the code it suggests may be inconsistent with existing code. This may negatively affect code readability and maintainability and slow down the development speed of the entire team.
+  If GitHub Copilot cannot obtain the context of the entire codebase, the code it suggests may lack consistency with existing code. This can negatively impact code readability and maintainability, and slow down the development speed of the entire team.
 
 ## Story
 
-One day, a mid-level engineer on the project team decided to develop a new feature using GitHub Copilot. She was fascinated by GitHub Copilot and believed that it would help her write code quickly.
+One day, an engineer on a project team decided to use GitHub Copilot to develop a new feature. She was excited about GitHub Copilot and believed it would help her write code quickly.
 
-However, as development progressed, she noticed that the code suggested by GitHub Copilot was sometimes inaccurate. Nevertheless, she manually corrected it and continued development, but gradually became tired of the task. In addition, other team members pointed out that the code suggested by GitHub Copilot lacked consistency.
+However, as development progressed, she realized that GitHub Copilot occasionally made inaccurate code suggestions. Even though she manually corrected them and continued development, she became increasingly tired of the task. Furthermore, other team members also pointed out that GitHub Copilot's suggested code lacked consistency.
 
-She wondered why GitHub Copilot did not make accurate suggestions and began investigating, discovering that one reason for inaccurate suggestions was that related files were not properly opened. However, keeping all files open is not practical, and GitHub Copilot only sends data from adjacent tabs, so there is no point in keeping many files open. Moreover, she realized that there is a limit to the number of tokens that can be passed as part of the Codex model used by GitHub Copilot.
+She wondered why GitHub Copilot was not making accurate suggestions, and upon investigation, found that one reason for inaccurate suggestions was not having related files opened correctly. On the other hand, leaving all files open was not realistic, and since GitHub Copilot only sends adjacent tab data as tokens, it did not make sense to open too many files. She also realized that the Codex model used by GitHub Copilot had limits on the number of tokens that could be passed.
 
-Therefore, she decided to introduce the context directory pattern. By keeping related files open, she hopes that GitHub Copilot will be able to make more accurate suggestions.
+Therefore, she decided to introduce the context directory pattern. By keeping related files open, she expects GitHub Copilot to make more accurate suggestions.
+
+## Context
+
+GitHub Copilot, a representative product of AI coding support tools, currently makes suggestions based on information from the currently open file or files with the same extension open in tabs. The number of tokens that can be passed to the Codex model used by GitHub Copilot is limited. Therefore, GitHub Copilot extensions such as VS Code do not send all information from the open files as reference information to the GitHub Copilot server, but prioritize sending data from files with high similarity to the currently open files. Including snippets is called "snippet inclusion". Therefore, it is necessary to open only an appropriate number of related files in adjacent tabs. 
 
 ## Solution
 
-1. Create a Context directory:
-Create a directory where you or your team can collect files that you want to use to assist in providing context and rules for GitHub Copilot.
-1. Keep related file tabs open in VSCode:
-Currently, GitHub Copilot does not have a feature to obtain the context of the entire codebase, but it can read the current file and all files open in the IDE. Keeping related file tabs open enables GitHub Copilot to make more accurate suggestions.
-
-You can write these directories in .gitignore if you do not want to push their contents.
-You can also use Git Submodules to separate the context directory from others.
+1. Create a context directory: Create a directory where personal or team files that you want to collect as context or rules that you want to memorize with GitHub Copilot can be collected.
+2. Close files unrelated to the current development.
+3. Open files related to the current development in VSCode and keep them open in tabs. While GitHub Copilot does not have a feature to obtain the context of the entire codebase, it can read the current file and files opened in the editor. By keeping related files open, GitHub Copilot can provide more accurate suggestions.
 
 ## Resulting Context
 
-Using the context folder pattern enables GitHub Copilot to provide more accurate suggestions. By keeping related file tabs open, you can get effective code completion.
+Using the context directory allows GitHub Copilot to provide more accurate suggestions. By keeping related files open, effective code completion can be obtained.
 
 ## Note
 
-* Currently, GitHub Copilot has limited file reading targets. When writing Python, it is desirable for snippet files and reference target files to also be Python code.
+* The files that GitHub Copilot currently reads are limited. If you are writing Python code, it is desirable that the snippet files and reference files are also Python code.
+* If necessary, you can write these directories in .gitignore to avoid pushing the contents.
+* You can also use Git Submodule to separate the context directory from other directories.

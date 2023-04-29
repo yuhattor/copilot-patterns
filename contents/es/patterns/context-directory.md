@@ -1,44 +1,50 @@
-# Directorio de Contexto
+# Directorio de contexto
 
-También conocido como: Inclusión de fragmentos de código
+Alias: Directorio de fragmentos de inclusión de fragmentos de código
 
 ## Descripción
 
-Se crea una carpeta de contexto en el repositorio, donde se guarda todo el contexto del código, para permitir que GitHub Copilot ofrezca sugerencias precisas.
+El directorio de contexto en el repositorio recopila el contexto de todo el código base para facilitar a GitHub Copilot el paso de un contexto preciso durante el desarrollo.
 
 ## Problema
 
-* Sugerencias inexactas:
-GitHub Copilot realiza sugerencias basadas en la información del archivo abierto y otros archivos relacionados. Si GitHub Copilot no puede obtener el contexto de todo el código, las sugerencias pueden ser inexactas. Esto puede llevar a una menor calidad de código y aumentar el tiempo que los desarrolladores necesitan para hacer correcciones y ajustes.
-* Disminución de la eficiencia:
-Si los desarrolladores no mantienen los archivos relacionados abiertos en pestañas adyacentes, GitHub Copilot no puede obtener información de esos archivos. Como resultado, las sugerencias pueden ser inexactas y los desarrolladores pueden tener que buscar y hacer referencia manualmente a los archivos relacionados mientras codifican. Esto puede disminuir la productividad de los desarrolladores.
-* Pérdida de la consistencia del código:
-Si GitHub Copilot no puede obtener el contexto de todo el código, el código sugerido puede ser inconsistente con el código existente. Esto puede afectar negativamente la legibilidad y mantenibilidad del código y ralentizar la velocidad de desarrollo de todo el equipo.
+* Sugerencias inexactas
+  GitHub Copilot puede realizar sugerencias inexactas al no poder obtener el contexto completo del código base. Esto puede disminuir la calidad del código o aumentar el tiempo que los desarrolladores dedican a realizar ajustes y correcciones.
+* Disminución de la eficiencia
+  Si los desarrolladores no mantienen abiertos los archivos relacionados en pestañas adyacentes, GitHub Copilot no puede obtener información de estos archivos. Como resultado, las sugerencias pueden ser inexactas y los desarrolladores tienen que buscar y consultar manualmente los archivos relacionados mientras escriben código. Esto puede disminuir la productividad de los desarrolladores.
+* Pérdida de coherencia en el código
+  Si no se puede obtener el contexto completo del código base, las sugerencias de código que GitHub Copilot propone pueden no ser coherentes con el código existente. Esto puede afectar la legibilidad y mantenibilidad del código, lo que puede disminuir la velocidad de desarrollo del equipo.
 
 ## Historia
 
-Un día, una ingeniera de nivel intermedio en el equipo del proyecto decidió desarrollar una nueva funcionalidad usando GitHub Copilot. Estaba fascinada con GitHub Copilot y creía que le ayudaría a escribir código rápidamente.
+Un día, un ingeniero del equipo de un proyecto decidió utilizar GitHub Copilot para desarrollar una nueva función. Tenía un gran interés en GitHub Copilot y pensaba que le ayudaría a escribir código rápidamente.
 
-Sin embargo, a medida que avanzaba el desarrollo, notó que el código sugerido por GitHub Copilot a veces era inexacto. Aun así, lo corrigió manualmente y continuó el desarrollo, pero gradualmente se cansó de la tarea. Además, otros miembros del equipo señalaron que el código sugerido por GitHub Copilot carecía de consistencia.
+Sin embargo, a medida que avanzaba el desarrollo, notó que las sugerencias de código que GitHub Copilot ofrecía a veces eran inexactas. A pesar de esto, continuó corrigiéndolas manualmente y avanzando en el desarrollo, pero con el tiempo se cansó de ese trabajo. Además, otros miembros del equipo también señalaron que las sugerencias de código propuestas por GitHub Copilot carecían de coherencia.
 
-Se preguntó por qué GitHub Copilot no hacía sugerencias precisas y comenzó a investigar, descubriendo que una de las razones de las sugerencias inexactas era que los archivos relacionados no estaban abiertos adecuadamente. Sin embargo, mantener todos los archivos abiertos no es práctico y GitHub Copilot solo envía datos de las pestañas adyacentes, por lo que no tiene sentido mantener muchos archivos abiertos. Además, se dio cuenta de que existe un límite en el número de tokens que se pueden pasar como parte del modelo Codex utilizado por GitHub Copilot.
+Ella se preguntó por qué GitHub Copilot no hacía sugerencias precisas y comenzó a investigar. Descubrió que la razón por la que era parte de las sugerencias inexactas era que no había mantenido abiertos los archivos relacionados correctamente. Por otro lado, mantener todos los archivos abiertos no es práctico y, además, GitHub Copilot solo envía datos de pestañas adyacentes como tokens debido al modelo Codex que se utiliza en GitHub Copilot, que tiene un límite en la cantidad de tokens que se pueden pasar.
 
-Por lo tanto, decidió introducir el patrón de directorio de contexto. Al mantener abiertos los archivos relacionados, espera que GitHub Copilot pueda hacer sugerencias más precisas.
+Entonces decidió implementar el patrón de directorio de contexto. Esperaba que mantener abiertos los archivos relacionados permitiera que GitHub Copilot hiciera sugerencias más precisas.
+
+## Contexto
+
+GitHub Copilot, un producto representativo de las herramientas de asistencia de codificación de IA, actualmente ofrece sugerencias en función de la información del archivo que está actualmente abierto o de los archivos con la misma extensión que están abiertos en pestañas.
+
+La cantidad de tokens que se pueden pasar al modelo Codex utilizado en GitHub Copilot es limitada. Por lo tanto, las extensiones de GitHub Copilot, como VS Code, no envían toda la información de los archivos abiertos como información de referencia al servidor de GitHub Copilot, sino que priorizan el envío de archivos con alta similitud en información. La inclusión de fragmentos de código se llama "inclusión de fragmentos de código". Por lo tanto, es necesario mantener abiertas en pestañas adyacentes solo un número adecuado de archivos relacionados.
 
 ## Solución
 
-1. Crear un directorio de contexto:
-Cree un directorio donde usted o su equipo puedan recopilar archivos que deseen utilizar para ayudar a proporcionar contexto y reglas para GitHub Copilot.
-2. Mantener abiertas las pestañas de archivos relacionados en VSCode:
-Actualmente, GitHub Copilot no tiene una función para obtener el contexto de toda la base de código, pero puede leer el archivo actual y todos los archivos abiertos en el IDE. Mantener abiertas las pestañas de archivos relacionados permite a GitHub Copilot hacer sugerencias más precisas.
+1. Cree un directorio de contexto.
+Cree un directorio donde pueda almacenar los archivos que desea que GitHub Copilot recuerde como contexto o reglas auxiliares.
+2. Cierre los archivos que no están relacionados con lo que está desarrollando actualmente.
+3. Mantenga abiertos los archivos relacionados con lo que está desarrollando actualmente en pestañas de VSCode.
+Actualmente, GitHub Copilot no puede obtener todo el contexto del código base, pero puede leer el archivo actual y los archivos abiertos en el editor. Mantener abiertas las pestañas de archivos relacionados permitirá que GitHub Copilot haga sugerencias más precisas.
 
-Puede escribir estos directorios en .gitignore si no desea enviar su contenido.
-También puede utilizar los Submódulos de Git para separar el directorio de contexto de los demás.
+## Contexto resultante
 
-## Contexto Resultante
-
-El uso del patrón de directorio de contexto permite que GitHub Copilot proporcione sugerencias más precisas. Al mantener abiertas las pestañas de archivos relacionados, puede obtener una finalización de código efectiva.
+El uso del directorio de contexto permitirá que GitHub Copilot ofrezca sugerencias más precisas. Mantener abiertas las pestañas de los archivos relacionados permitirá obtener una mejor ayuda en la escritura de código.
 
 ## Nota
 
-* Actualmente, GitHub Copilot tiene objetivos de lectura de archivo limitados. Al escribir en Python, es recomendable que los archivos de fragmentos y los archivos de referencia de destino también sean código Python.
+* Actualmente, los archivos que GitHub Copilot lee son limitados. Si está escribiendo en Python, es deseable que los archivos de fragmentos y los archivos de referencia sean también código de Python.
+* Si es necesario, puede agregar estos directorios a .gitignore para que no se envíe su contenido.
+* Además, puede utilizar Git Submodule para separar el directorio de contexto como un directorio diferente.

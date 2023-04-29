@@ -1,44 +1,50 @@
-# Context Directory
+# 上下文目录
 
-Also known as: Snippet Inclusion
+别名：片段包含的片段目录
 
-## Description
+## 描述
 
-Collecting the entire codebase context in the context folder within the repository to enable GitHub Copilot to provide accurate suggestions.
+通过在代码库中的上下文目录中收集整个代码库的上下文，可以更容易地向 GitHub Copilot 传递准确的上下文，从而在开发过程中提高开发效率。
 
-## Problem
+## 问题
 
-* Inaccurate suggestions:
-  GitHub Copilot makes suggestions based on the information in the open file and other related files. GitHub Copilot may not obtain the context of the entire codebase, resulting in inaccurate suggestions. This may lead to lower code quality and increased time for developers to make corrections and adjustments.
-* Decreased efficiency:
-  If developers do not keep related files open in adjacent tabs, GitHub Copilot cannot obtain information from those files. As a result, suggestions may become inaccurate, and developers may need to manually search for and reference related files while coding. This may decrease developer productivity.
-* Loss of code consistency:
-  If GitHub Copilot cannot obtain the context of the entire codebase, the code it suggests may be inconsistent with existing code. This may negatively affect code readability and maintainability and slow down the development speed of the entire team.
+* 不准确的建议
+  GitHub Copilot 无法获取整个代码库的上下文，可能会提出不准确的建议。这可能会降低代码质量，增加开发者进行修复或调整的时间。
+* 效率降低
+  如果开发者不将相关文件保持在相邻的标签中，GitHub Copilot 将无法从这些文件中获取信息。结果，提议变得不准确，开发人员需要手动搜索和参考相关文件来编写代码。这可能会降低开发人员的生产力。
+* 代码一致性的丧失
+  如果无法获取整个代码库的上下文，则 GitHub Copilot 建议的代码可能与现有代码不一致。这会影响代码的可读性和可维护性，可能会减慢整个团队的开发速度。
 
-## Story
+## 故事
 
-One day, a mid-level engineer on the project team decided to develop a new feature using GitHub Copilot. She was fascinated by GitHub Copilot and believed that it would help her write code quickly.
+有一天，项目团队的工程师决定使用 GitHub Copilot 开发新功能。她对 GitHub Copilot 充满了兴趣，认为借助其可以快速编写代码。
 
-However, as development progressed, she noticed that the code suggested by GitHub Copilot was sometimes inaccurate. Nevertheless, she manually corrected it and continued development, but gradually became tired of the task. In addition, other team members pointed out that the code suggested by GitHub Copilot lacked consistency.
+然而，随着开发的进行，她发现 GitHub Copilot 提出的建议有时不准确。尽管如此，她还是手动进行了修正，继续开发。渐渐地，她开始感到疲劳。此外，其他团队成员也指出，GitHub Copilot 提出的代码缺乏一致性。
 
-She wondered why GitHub Copilot did not make accurate suggestions and began investigating, discovering that one reason for inaccurate suggestions was that related files were not properly opened. However, keeping all files open is not practical, and GitHub Copilot only sends data from adjacent tabs, so there is no point in keeping many files open. Moreover, she realized that there is a limit to the number of tokens that can be passed as part of the Codex model used by GitHub Copilot.
+她开始怀疑为什么 GitHub Copilot 无法提供准确的建议，并开始进行调查，结果发现这是由于没有正确打开相关文件造成的。另一方面，保持所有文件打开可能并不现实，而且 GitHub Copilot 仅发送相邻标签的数据，因此打开太多文件也没有意义。此外，她还意识到，考虑到 GitHub Copilot 使用的模型 Codex，仅能将一定数量的令牌传递给它。
 
-Therefore, she decided to introduce the context directory pattern. By keeping related files open, she hopes that GitHub Copilot will be able to make more accurate suggestions.
+因此，她决定引入上下文目录模式。通过保持相关文件打开，希望 GitHub Copilot 能够提供更准确的建议。
 
-## Solution
+## 上下文
 
-1. Create a Context directory:
-Create a directory where you or your team can collect files that you want to use to assist in providing context and rules for GitHub Copilot.
-1. Keep related file tabs open in VSCode:
-Currently, GitHub Copilot does not have a feature to obtain the context of the entire codebase, but it can read the current file and all files open in the IDE. Keeping related file tabs open enables GitHub Copilot to make more accurate suggestions.
+作为 AI 编码辅助工具的代表性产品，GitHub Copilot 目前基于打开的文件或在标签中打开的具有相同扩展名的文件的信息提供建议。由于 GitHub Copilot 使用的 Codex 模型所能接收的令牌数量有限，因此 GitHub Copilot 扩展不会将所有打开的文件的信息作为参考信息发送到 GitHub Copilot 服务器是不现实的，而是优先发送具有相似性的文件的信息。包含代码片段的目录称为 "snippet inclusion"。
 
-You can write these directories in .gitignore if you do not want to push their contents.
-You can also use Git Submodules to separate the context directory from others.
+因此，必须保持相邻标签中适量的相关文件。
 
-## Resulting Context
+## 解决方案
 
-Using the context folder pattern enables GitHub Copilot to provide more accurate suggestions. By keeping related file tabs open, you can get effective code completion.
+1. 创建上下文目录。
+在个人或团队中创建一个目录，其中包含想要向 GitHub Copilot 学习的上下文或规则，以及其他想要作为辅助参考的文件。
+2. 关闭与当前开发内容无关的文件。
+3. 在 VSCode 中保持与当前正在开发的内容相关的文件的标签处于打开状态。
+尽管目前 GitHub Copilot 无法获取整个代码库的上下文，但它可以读取当前文件以及编辑器中打开的文件。通过保持相关文件的标签处于打开状态，GitHub Copilot 将能够提供更准确的建议。
 
-## Note
+## 结果上下文
 
-* Currently, GitHub Copilot has limited file reading targets. When writing Python, it is desirable for snippet files and reference target files to also be Python code.
+通过使用上下文目录，GitHub Copilot 将能够提供更准确的建议。通过保持相关文件的标签处于打开状态，可以获得有效的代码补全。
+
+## 注意事项
+
+* 目前 GitHub Copilot 所读取的文件是有限的。如果编写 Python，则建议包括片段文件或参考文件也应为 Python 代码。
+* 根据需要，可以通过将这些目录添加到 .gitignore 中来避免将它们推送到存储库中。
+* 另外，可以使用 Git Submodule 将上下文目录作为单独的目录切分出来。
