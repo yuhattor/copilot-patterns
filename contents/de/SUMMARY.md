@@ -18,8 +18,8 @@
 
 ## Patterns
 
-* [AI-Native Documentation](./patterns/ai-native-documentation.md)
-* [AI-Readable Naming Rules](./patterns/ai-readable-naming-rule.md)
+* [AI-Native Documentation](./patterns/ai-friendly-documentation.md)
+* [AI-Readable Naming Rules](./patterns/ai-friendly-naming-convention.md)
 * [Test Development with AI](./patterns/ai-test-development.md)
 * [Context Directory](./patterns/context-directory.md)
 * [Prompt Knowledge Sharing](./patterns/prompt-knowledgesharing.md)

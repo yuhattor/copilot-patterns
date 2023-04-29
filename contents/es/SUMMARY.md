@@ -18,8 +18,8 @@
 
 ## Patrones
 
-* [Documentación nativa de IA](./patterns/ai-native-documentation.md)
-* [Reglas de nombramiento legibles para IA](./patterns/ai-readable-naming-rule.md)
+* [Documentación nativa de IA](./patterns/ai-friendly-documentation.md)
+* [Reglas de nombramiento legibles para IA](./patterns/ai-friendly-naming-convention.md)
 * [Desarrollo de pruebas con IA](./patterns/ai-test-development.md)
 * [Directorio de contexto](./patterns/context-directory.md)
 * [Compartir conocimientos de forma rápida](./patterns/prompt-knowledgesharing.md)

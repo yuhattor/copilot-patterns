@@ -18,8 +18,8 @@
 
 ## Patterns
 
-* [AIネイティブドキュメンテーション](./patterns/ai-native-documentation.md)
-* [AI可読性のある命名規則](./patterns/ai-readable-naming-rule.md)
+* [AIネイティブドキュメンテーション](./patterns/ai-friendly-documentation.md)
+* [AI可読性のある命名規則](./patterns/ai-friendly-naming-convention.md)
 * [AIを使ったテスト開発](./patterns/ai-test-development.md)
 * [コンテキストディレクトリー](./patterns/context-directory.md)
 * [プロンプト ナレッジシェア](./patterns/prompt-knowledgesharing.md)
