@@ -4,7 +4,7 @@ GitHub Copilotは、開発者が指定した条件に基づいて、新しいコ
 
 例えば、以下の条件を指定して、新しい関数を生成することができます。
 
-```txt
+```ts
 // 関数の名前: calculateAverage
 // 関数の引数: numbers (配列)
 // 関数の戻り値の型: number
