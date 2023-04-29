@@ -1,17 +1,11 @@
 # AI-Native Development Guide
 
-{% hint style="info" %}
-Dieses Dokument "AI-Native Development Guide" ist noch nicht in seiner endgültigen Version und es können defekte Links, Tippfehler und andere Fehler enthalten sein.
-Ihre Hilfe bei der Verbesserung wird sehr geschätzt.
-Bitte sehen Sie, wie Sie zu diesem Dokument beitragen können.
-{% endhint %}
-
-<img src="../../top.png" width="480px" />
-
 Willkommen beim AI-Native Development Guide!
 Dies ist ein Community-Dokument, das von der AI-Native Development Community betrieben wird.
 In diesem Dokument haben wir bewährte Verfahren für die AI-Native-Entwicklung unter Verwendung von Tools wie GitHub Copilot in einem spezifischen Format zusammengestellt, damit Sie sie leicht verstehen, bewerten und auf Ihre Situation anwenden können.
 Einige sind gruppiert und als Muster bezeichnet.
+
+<img src="../../top.png" width="480px" />
 
 Einige dieser Muster haben sich in individuellen Umgebungen als wirksam erwiesen, während andere ideenbasiert sind und noch nicht auf ihre Wirksamkeit in tatsächlichen Teamumgebungen getestet wurden.
 Bitte hinterlassen Sie Kommentare auf GitHub Issues.
@@ -19,6 +13,12 @@ Wir freuen uns auf verschiedene Diskussionen und den Austausch von Wissen über 
 
 In dieser Einführung werden wir erklären, was AI-Native-Entwicklung ist und was Muster sind.
 Wenn Sie bereits AI-Native-Entwicklung in Ihrem Unternehmen praktizieren und Ihre Erfahrung zu diesem Dokument beitragen möchten, begrüßen wir Ihren Beitrag!
+
+{% hint style="info" %}
+Dieses Dokument "AI-Native Development Guide" ist noch nicht in seiner endgültigen Version und es können defekte Links, Tippfehler und andere Fehler enthalten sein.
+Ihre Hilfe bei der Verbesserung wird sehr geschätzt.
+Bitte sehen Sie, wie Sie zu diesem Dokument beitragen können.
+{% endhint %}
 
 ## Was ist AI-Native-Entwicklung
 

@@ -1,17 +1,11 @@
 # Guia de Desenvolvimento AI-Native
 
-{% hint style="info" %}
-Este documento "Guia de Desenvolvimento AI-Native" ainda não está em sua versão final e pode conter links quebrados, erros de digitação e outros erros.
-Sua ajuda para melhorá-lo é muito apreciada.
-Por favor, veja como você pode contribuir para este documento.
-{% endhint %}
-
-<img src="../../top.png" width="480px" />
-
 Bem-vindo ao Guia de Desenvolvimento AI-Native!
 Este é um documento da comunidade gerenciado pela Comunidade de Desenvolvimento AI-Native.
 Neste documento, compilamos as melhores práticas para o desenvolvimento AI-Native usando ferramentas como o GitHub Copilot em um formato específico, para que você possa entendê-las, avaliá-las e aplicá-las facilmente à sua situação.
 Algumas são agrupadas e nomeadas como padrões.
+
+<img src="../../top.png" width="480px" />
 
 Alguns desses padrões foram testados e comprovados como eficazes em ambientes individuais, mas outros são baseados em ideias e ainda não foram testados quanto à eficácia em ambientes reais de equipe.
 Sinta-se à vontade para deixar comentários no GitHub Issues.
@@ -19,6 +13,12 @@ Aguardamos ansiosos por diversas discussões e compartilhamento de conhecimento 
 
 Nesta introdução, explicaremos o que é o desenvolvimento AI-Native e o que são padrões.
 Se você já pratica o desenvolvimento AI-Native em sua empresa e gostaria de contribuir com sua experiência para este documento, sua contribuição é bem-vinda!
+
+{% hint style="info" %}
+Este documento "Guia de Desenvolvimento AI-Native" ainda não está em sua versão final e pode conter links quebrados, erros de digitação e outros erros.
+Sua ajuda para melhorá-lo é muito apreciada.
+Por favor, veja como você pode contribuir para este documento.
+{% endhint %}
 
 ## O que é Desenvolvimento AI-Native
 

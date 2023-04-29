@@ -1,17 +1,11 @@
 # Guida allo sviluppo AI-Native
 
-{% hint style="info" %}
-Questo documento "Guida allo sviluppo AI-Native" non è ancora nella sua versione finale e potrebbe contenere link non funzionanti, errori di battitura e altri errori.
-Il tuo aiuto nel migliorarlo è molto apprezzato.
-Per favore, vedi come puoi contribuire a questo documento.
-{% endhint %}
-
-<img src="../../top.png" width="480px" />
-
 Benvenuto nella Guida allo sviluppo AI-Native!
 Questo documento è gestito dalla comunità di sviluppo AI-Native.
 In questo documento, abbiamo raccolto le migliori pratiche per lo sviluppo AI-Native utilizzando strumenti come GitHub Copilot in un formato specifico, in modo da poterle facilmente comprendere, valutare e applicare alla tua situazione.
 Alcune sono raggruppate insieme e chiamate pattern.
+
+<img src="../../top.png" width="480px" />
 
 Alcuni di questi pattern sono stati provati ed efficaci in ambienti individuali, ma altri sono basati su idee e non sono ancora stati testati per l'efficacia in ambienti di squadra.
 Sentiti libero di lasciare commenti su GitHub Issues.
@@ -19,6 +13,12 @@ Aspettiamo con ansia varie discussioni e la condivisione di conoscenze sullo svi
 
 In questa introduzione, spiegheremo cosa è lo sviluppo AI-Native e cosa sono i pattern.
 Se stai già praticando lo sviluppo AI-Native nella tua azienda e desideri contribuire alla stesura di questo documento, accogliamo con favore il tuo contributo!
+
+{% hint style="info" %}
+Questo documento "Guida allo sviluppo AI-Native" non è ancora nella sua versione finale e potrebbe contenere link non funzionanti, errori di battitura e altri errori.
+Il tuo aiuto nel migliorarlo è molto apprezzato.
+Per favore, vedi come puoi contribuire a questo documento.
+{% endhint %}
 
 ## Cosa è lo sviluppo AI-Native
 
