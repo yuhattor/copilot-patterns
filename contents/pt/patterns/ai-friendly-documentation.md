@@ -1,43 +1,43 @@
-# AI Friendly Documentation
+# Documentação Amigável para IA
 
-## Description
+## Descrição
 
-Creating documentation in a format that can be understood by AI, not just engineers who write code, can improve team productivity as a whole. For example, database table definitions can be written in Markdown and managed as documentation in Git, rather than in PowerPoint or Excel.
+Ao criar documentação em formato compreensível para IA em equipe, é possível aumentar a produtividade geral da equipe, não apenas para os engenheiros que escrevem o código. Por exemplo, a definição de tabelas de banco de dados pode ser escrita em Markdown e gerenciada no Git como documentação, em vez de usar PowerPoint ou Excel.
 
-## Problem
+## Problema
 
-Various documents are necessary for product development, including requirement definitions, design documents, architecture overviews, infrastructure configuration specifications, and test case documents. While formats like PowerPoint and Excel are commonly preferred, AI cannot read those documents. Additionally, managing binary files in Git repositories is not a best practice.
+No desenvolvimento de produtos, é necessário vários tipos de documentos, como especificações de requisitos, documentos de design, diagramas de arquitetura, especificações de configuração de infraestrutura e documentos de casos de teste. Geralmente, formatos como PowerPoint ou Excel são preferidos, mas a IA não pode ler esses documentos. Além disso, gerenciar arquivos binários em um repositório Git não é uma boa prática.
 
-## Story
+## História
 
-Your team has introduced GitHub Copilot for Business, and the engineers are pleased with the shortened work time. The team feels like it has doubled in size with the help of AI. However, the problem is that AI can only do what the engineers instruct it to do, and it does not understand the context that the engineers have. Therefore, the engineers need to input a lot of natural language to convey context to the AI. As a result, there has been an increase in copying and pasting text from articles provided by the PM or converting PowerPoint slides and complex Excel files created by bosses to Markdown or CSV format that AI can read.
+O GitHub Copilot for Business foi introduzido na sua equipe. Os engenheiros estão felizes por terem seu tempo de trabalho reduzido. A equipe parece ter duplicado de tamanho com a ajuda da IA. Por outro lado, o problema é que a IA só pode fazer o que os engenheiros instruíram. Além disso, como a IA não entende o contexto que os engenheiros têm, eles precisam digitar grandes quantidades de linguagem natural para transmitir mais contexto à IA. Como resultado, aumentou a necessidade de converter os documentos fornecidos pelo PM em Markdown ou CSV, para que a IA possa lê-los, em vez de simplesmente copiar e colar o texto.
 
-"If it were written in CSV or Markdown from the beginning, it would be much better!"
+"Seria ótimo se tudo já estivesse escrito em CSV ou Markdown desde o início!"
 
-## Context
+## Contexto
 
-Many projects are managed with documentation in formats like PowerPoint or Excel. People other than engineers are communicating outside of GitHub, and final decisions are not being saved in the repository. While the documents are summarized in a way that is easy for AI to read, they are not being managed centrally.
+Muitos projetos são gerenciados com documentação em formatos como PowerPoint ou Excel. As pessoas que não são engenheiras estão se comunicando em locais que não são o GitHub e as decisões finais não estão sendo salvas no repositório. Embora os documentos sejam resumidos em um formato que a IA possa ler, eles não são gerenciados em um único local.
 
-## Solution
+## Solução
 
-The team should strive to create text-based documents, such as Markdown or CSV. Documents containing context that should ultimately be passed on to the engineer and AI should be stored in Git repositories. The repository should be easy to call from outside the workspace, using Git Submodule and other methods. If necessary, copy the text of the file to the comments section and pass it on to AI as a prompt.
+A equipe deve se esforçar para criar documentação em formatos de texto, como Markdown ou CSV. Os documentos que contêm contexto que deve ser entregue aos engenheiros e à IA devem ser salvos no Git como documentação. O repositório deve ser facilmente acessível a partir de fora do espaço de trabalho usando Git Submodule, entre outros. Se necessário, copie o texto do arquivo para o campo de comentários e passe-o para a IA como um prompt.
 
-## Known Instance
+## Exemplo Conhecido
 
-* Prepare a table definition file in CSV or Markdown format and associate it with the creation of migration files and interfaces.
-* Convert infrastructure definitions summarized in natural language into configuration files for Infrastructure as Code, such as Terraform.
-* Convert test case documents to test files. This works more effectively for certain patterns, such as API tests. This makes test-driven development easier.
+* Preparar a definição de tabela em formato CSV ou Markdown e associá-la à criação de arquivos de migração e à criação de interfaces.
+* Converter definições de infraestrutura descritas em linguagem natural em arquivos de configuração de infraestrutura como código, como o Terraform.
+* Converter documentos de casos de teste em arquivos de teste. Isso é especialmente eficaz para testes de API com padrões definidos. Isso torna o desenvolvimento orientado a testes mais fácil.
 
-## Resulting Context
+## Contexto Resultante
 
-* Engineers can create more code with less effort, leading to reduced workload.
-* Project owners and product managers can obtain results from engineers more quickly.
-* Members who do not normally write code can use GitHub to collaborate and become accustomed to judging the context that engineers need and the context that should be provided to AI, allowing for appropriate development using AI.
-* Since changes to documents are tracked, it is possible to track everything, including when decisions were made, beyond just the code.
-* There will be no discrepancy between documents and implementation.
+* Os engenheiros podem criar mais código com menos esforço, o que leva à redução de custos.
+* Os proprietários de projetos e os gerentes de produtos também podem obter resultados mais rapidamente dos engenheiros.
+* Os membros que normalmente não escrevem código também podem colaborar usando o GitHub, tornando-se mais acostumados a julgar o contexto que os engenheiros precisam e o contexto que deve ser fornecido à IA, permitindo que eles usem a IA de forma eficaz para o desenvolvimento adequado.
+* Como as alterações na documentação são registradas, é possível rastrear o que foi alterado, quando e por quem, além do código, aumentando o controle geral.
+* Não haverá mais discrepâncias entre documentação e implementação.
 
-## Note
+## Observação
 
-* Currently, GitHub Copilot has limited capabilities for reading files. If you are writing in Python, only the Python code in the open tab will be read and passed on to the prompt. Therefore, copy the necessary text from AI-friendly documents and paste it into the comments section of the ```.py``` file.
-* This pattern is not effective for all documents. Misjudging which documents should be stored can result in a large amount of unnecessary documents in the repository, reducing search performance. Try to prioritize writing implementation-related text in Markdown.
-* There is a limit to the number of tokens that can be passed to AI. Try to make each section of the text concise and with as few dependencies as possible between previous and subsequent sentences.
+* Atualmente, o GitHub Copilot só pode ler determinados tipos de arquivos. No caso de estar escrevendo Python, o código em Python no tab aberto é lido e passado como um prompt. Portanto, copie e cole a parte necessária da documentação amigável para IA em um campo de comentário em um arquivo .py.
+* Nem todos os documentos são adequados para serem armazenados em um repositório. Salvar muitos documentos desnecessários no repositório pode levar a uma queda no desempenho de pesquisa. Tente escrever principalmente em Markdown para texto que está próximo à implementação.
+* O número de tokens que podem ser passados para a IA é limitado. Tente resumir cada seção da documentação de forma concisa e evite muitas dependências entre as seções.
