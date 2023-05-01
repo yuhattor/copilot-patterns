@@ -1,23 +1,23 @@
-# Generating Code from Comments
+# 从评论中生成代码
 
-GitHub Copilot can also generate new code based on conditions specified by developers. For example, you can generate code by specifying the following conditions:
+GitHub Copilot可以根据开发人员指定的条件生成新代码。例如，您可以指定以下条件以生成代码：
 
-You can specify the following conditions to generate a new function:
+例如，您可以指定以下条件以生成新函数：
 
-```txt
-// Function name: calculateAverage
-// Function argument: numbers (array)
-// Function return type: number
+```ts
+// 函数名称：calculateAverage
+// 函数参数：numbers（数组）
+// 函数返回值类型：number
 ```
 
-By specifying these conditions, GitHub Copilot generates the following code:
+指定这些条件后，GitHub Copilot将生成以下代码：
 
 ```ts
 function calculateAverage(numbers: number[]): number {
-    // Calculate the average of the array
+    // 计算数组的平均值
     const sum = numbers.reduce((a, b) => a + b);
     return sum / numbers.length;
 }
 ```
 
-You can provide more complex definitions as well.
+您可以更复杂地定义条件。

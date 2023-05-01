@@ -1,23 +1,23 @@
-# Generating Code from Comments
+# Generare codice dal commento
 
-GitHub Copilot can also generate new code based on conditions specified by developers. For example, you can generate code by specifying the following conditions:
+GitHub Copilot può generare nuovo codice in base alle condizioni specificate dallo sviluppatore. Ad esempio, è possibile generare codice specificando le seguenti condizioni:
 
-You can specify the following conditions to generate a new function:
+Ad esempio, specificando le seguenti condizioni, è possibile generare una nuova funzione:
 
-```txt
-// Function name: calculateAverage
-// Function argument: numbers (array)
-// Function return type: number
+```ts
+// Nome della funzione: calculateAverage
+// Argomenti della funzione: numeri (array)
+// Tipo di ritorno della funzione: numero
 ```
 
-By specifying these conditions, GitHub Copilot generates the following code:
+Specificando queste condizioni, GitHub Copilot genererà il seguente codice:
 
 ```ts
 function calculateAverage(numbers: number[]): number {
-    // Calculate the average of the array
+    // Calcola la media dell'array
     const sum = numbers.reduce((a, b) => a + b);
     return sum / numbers.length;
 }
 ```
 
-You can provide more complex definitions as well.
+È possibile definire condizioni più complesse.
