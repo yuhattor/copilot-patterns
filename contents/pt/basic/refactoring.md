@@ -1,9 +1,8 @@
-# Code Refactoring
+# Refatoração de Código
 
-Refactoring refers to improving the quality of existing code and enhancing its maintainability by making changes. Code refactoring does not change the functionality of the code but aims to improve its quality.
+Refatoração refere-se à modificação do código existente para melhorar a qualidade e a manutenibilidade do código, sem alterar a funcionalidade do código. A refatoração do código tem como objetivo melhorar apenas a qualidade do código.
 
-GitHub Copilot makes it easier to refactor code.
-GitHub Copilot can understand the structure of the code and provide candidates for recommended refactoring. For example, consider the following code:
+Com o GitHub Copilot, é possível realizar a refatoração de código facilmente. O GitHub Copilot é capaz de entender a estrutura do código e fornecer sugestões de refatoração recomendadas. Por exemplo, suponha que você tenha o seguinte código:
 
 ```py
 def calculate_sum(numbers):
@@ -13,25 +12,16 @@ def calculate_sum(numbers):
     return total
 ```
 
-You can refactor this code using GitHub Copilot. Here's an example of a refactoring candidate provided by GitHub Copilot. 
-This code has been rewritten to calculate the sum of a list using the sum() function. Also, the argument and return types have been made explicit.
+Usando o GitHub Copilot, você pode refatorar este código. Abaixo está um exemplo de sugestão de refatoração fornecido pelo GitHub Copilot. O código foi reescrito para calcular a soma da lista usando a função `sum()`. Além disso, os tipos de argumentos e retorno foram explicitamente especificados.
 
 ```py
-# Write the refactored calculate_sum() below
-
+# Escreva aqui a função calculate_sum() refatorada
 def calculate_sum(numbers):
     return sum(numbers)
 ```
 
-You can instruct GitHub Copilot to perform these functions explicitly by commenting as shown above, or you can interactively refactor using tools like ChatGPT.
-In this way, GitHub Copilot can provide candidates for refactoring to improve code quality. Developers can consider these candidates and manually modify the code as needed. Such refactoring enhances code maintainability and allows developers to develop code more efficiently.
+Essas funcionalidades podem ser instruídas explicitamente ao GitHub Copilot, conforme comentado acima, e é possível refatorar de maneira mais interativa usando ferramentas como ChatGPT. O GitHub Copilot pode fornecer sugestões de refatoração para melhorar a qualidade do código. Os desenvolvedores podem revisar essas sugestões e fazer alterações manuais no código, se necessário. Por meio dessas refatorações, a manutenibilidade do código é aprimorada e os desenvolvedores podem escrever código com mais eficiência.
 
-It is crucial to have tests written when refactoring.
-With tests, you can verify whether the refactored code behaves the same as before.
-Especially when relying on AI tools for refactoring, GitHub Copilot may suggest code styles that you do not usually use.
-Even if the code is excellent from a general programming perspective, it may not be suitable for you or your organization.
-Consider the granularity of adoption when relying on AI for refactoring.
+É muito importante que o código tenha testes ao fazer refatorações. Quando há testes, é possível verificar se o código refatorado se comporta da mesma forma que o código anterior. Especialmente ao usar ferramentas de IA para refatoração, o GitHub Copilot pode propor maneiras de escrever código que não são usuais para você. Embora seja um código excelente do ponto de vista geral de programação, pode não ser adequado para você ou sua organização. Ao confiar na IA para refatoração, é importante considerar em que nível adotar as sugestões.
 
-On the other hand, GitHub Copilot can be useful for supporting test-driven development (TDD).
-TDD is a method of writing tests before writing code and then writing code to pass those tests.
-Using this method, developers can write code that passes tests, improving the quality of the code.
+Por outro lado, o GitHub Copilot ajuda a suportar o Desenvolvimento Orientado a Testes (TDD). O TDD é uma técnica de escrever testes antes de escrever o código, e então escrever o código para passar nos testes. Usando essa técnica, os desenvolvedores podem escrever código que passe nos testes e, consequentemente, melhorar a qualidade do código.

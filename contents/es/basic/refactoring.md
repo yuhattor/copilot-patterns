@@ -1,9 +1,8 @@
-# Refactorización de Código
+# Refactorisation de code
 
-La refactorización se refiere a mejorar la calidad del código existente y mejorar su mantenibilidad mediante cambios. La refactorización de código no cambia la funcionalidad del código, pero tiene como objetivo mejorar su calidad.
+La refactorisation consiste à modifier le code existant afin d'améliorer la qualité et la maintenabilité du code, sans modifier la fonctionnalité du code. 
 
-GitHub Copilot facilita la refactorización de código.
-GitHub Copilot puede entender la estructura del código y proporcionar candidatos para la refactorización recomendada. Por ejemplo, considere el siguiente código:
+Grâce à GitHub Copilot, il est facile de réaliser une refactorisation de code. GitHub Copilot peut comprendre la structure du code et proposer des suggestions de refactorisation recommandées. Par exemple, si nous avons le code suivant :
 
 ```py
 def calculate_sum(numbers):
@@ -13,25 +12,18 @@ def calculate_sum(numbers):
     return total
 ```
 
-Puede refactorizar este código utilizando GitHub Copilot. Aquí hay un ejemplo de un candidato a refactorización proporcionado por GitHub Copilot.
-Este código se ha reescrito para calcular la suma de una lista utilizando la función sum(). Además, se han hecho explícitos los tipos de argumentos y retorno.
+Nous pouvons utiliser GitHub Copilot pour refactoriser ce code. Voici un exemple de suggestion de refactorisation proposée par GitHub Copilot :
+Le code a été réécrit pour utiliser la fonction `sum()` pour calculer la somme des éléments d'une liste. En outre, les types d'arguments et de retour sont désormais explicites.
 
 ```py
-# Escriba el calculate_sum() refactorizado a continuación
-
+# Écrivez ci-dessous la fonction calculate_sum() refactorisée
 def calculate_sum(numbers):
     return sum(numbers)
 ```
 
-Puede indicarle a GitHub Copilot que realice estas funciones de manera explícita mediante comentarios como se muestra arriba, o puede refactorizar de manera interactiva utilizando herramientas como ChatGPT.
-De esta manera, GitHub Copilot puede proporcionar candidatos para la refactorización para mejorar la calidad del código. Los desarrolladores pueden considerar estos candidatos y modificar manualmente el código según sea necesario. Esta refactorización mejora la mantenibilidad del código y permite a los desarrolladores desarrollar código de manera más eficiente.
+Il est possible de commenter explicitement ces fonctionnalités pour les commander à GitHub Copilot ou pour effectuer la refactorisation de manière plus interactive avec des outils tels que ChatGPT.
+Ainsi, GitHub Copilot peut proposer des suggestions de refactorisation pour améliorer la qualité du code. Les développeurs peuvent examiner ces suggestions et modifier manuellement le code si nécessaire. Cette refactorisation peut améliorer la maintenabilité du code et permettre aux développeurs de coder plus efficacement.
 
-Es crucial tener pruebas escritas al refactorizar.
-Con las pruebas, puede verificar si el código refactorizado se comporta de la misma manera que antes.
-Especialmente al depender de herramientas de IA para la refactorización, GitHub Copilot puede sugerir estilos de código que normalmente no utiliza.
-Incluso si el código es excelente desde una perspectiva general de programación, puede no ser adecuado para usted o su organización.
-Considere la granularidad de la adopción al depender de la IA para la refactorización.
+Il est essentiel d'écrire des tests avant de refactoriser le code. Si des tests sont écrits, il est possible de vérifier si le code refactorisé fonctionne de la même manière que le code original. En particulier, si vous comptez sur des outils d'IA pour refactoriser, GitHub Copilot peut proposer des façons de coder que vous ne connaissez pas habituellement. Bien que ces propositions puissent être excellentes d'un point de vue général, elles peuvent ne pas convenir à vous ou à votre organisation.
 
-Por otro lado, GitHub Copilot puede ser útil para apoyar el desarrollo guiado por pruebas (TDD).
-TDD es un método de escribir pruebas antes de escribir código y luego escribir código para pasar esas pruebas.
-Utilizando este método, los desarrolladores pueden escribir código que pase las pruebas, mejorando la calidad del código.
+D'autre part, GitHub Copilot peut aider à soutenir la pratique de développement piloté par les tests (TDD). Le TDD consiste à écrire les tests avant de coder, puis à écrire du code pour que les tests réussissent. Cette méthode permet aux développeurs d'écrire du code de qualité qui passe les tests.

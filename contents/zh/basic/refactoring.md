@@ -1,9 +1,8 @@
-# Code Refactoring
+# 代码重构
 
-Refactoring refers to improving the quality of existing code and enhancing its maintainability by making changes. Code refactoring does not change the functionality of the code but aims to improve its quality.
+重构是指通过修改现有代码来改进代码质量和提高可维护性的过程。重构并不是改变代码的功能，而是旨在仅改善代码的质量。
 
-GitHub Copilot makes it easier to refactor code.
-GitHub Copilot can understand the structure of the code and provide candidates for recommended refactoring. For example, consider the following code:
+使用 GitHub Copilot 可以轻松进行代码重构。GitHub Copilot 可以理解代码结构并提供推荐的重构选项。例如，如果有以下代码：
 
 ```py
 def calculate_sum(numbers):
@@ -13,25 +12,24 @@ def calculate_sum(numbers):
     return total
 ```
 
-You can refactor this code using GitHub Copilot. Here's an example of a refactoring candidate provided by GitHub Copilot. 
-This code has been rewritten to calculate the sum of a list using the sum() function. Also, the argument and return types have been made explicit.
+可以使用 GitHub Copilot 对此代码进行重构。以下是 GitHub Copilot 提供的重构示例。
+这段代码被重写为使用 sum() 函数来计算列表的总和。参数和返回值的类型也已明确。
 
 ```py
-# Write the refactored calculate_sum() below
-
+# 请在下面写出已重构的 calculate_sum() 函数
 def calculate_sum(numbers):
     return sum(numbers)
 ```
 
-You can instruct GitHub Copilot to perform these functions explicitly by commenting as shown above, or you can interactively refactor using tools like ChatGPT.
-In this way, GitHub Copilot can provide candidates for refactoring to improve code quality. Developers can consider these candidates and manually modify the code as needed. Such refactoring enhances code maintainability and allows developers to develop code more efficiently.
+通过显式地编写这些指令，可以使 GitHub Copilot 和其他工具更加互动地进行重构。
+这样，GitHub Copilot 可以为改善代码质量提供重构选项。开发人员可以考虑这些选项，并在必要时手动修改代码。通过这种重构，代码的可维护性得到了提高，开发人员可以更有效地开发代码。
 
-It is crucial to have tests written when refactoring.
-With tests, you can verify whether the refactored code behaves the same as before.
-Especially when relying on AI tools for refactoring, GitHub Copilot may suggest code styles that you do not usually use.
-Even if the code is excellent from a general programming perspective, it may not be suitable for you or your organization.
-Consider the granularity of adoption when relying on AI for refactoring.
+在进行重构时编写测试非常重要。
+如果编写了测试，可以确认重构后的代码是否与之前的代码执行相同的操作。
+特别是在依靠 AI 工具进行重构时，GitHub Copilot 可能会建议您使用平时不使用的代码编写方式。
+从一般的编程角度来看，这可能是很好的代码，但对您或您的组织可能不适用。
+在进行 AI 重构时，也要考虑采用多大粒度的建议。
 
-On the other hand, GitHub Copilot can be useful for supporting test-driven development (TDD).
-TDD is a method of writing tests before writing code and then writing code to pass those tests.
-Using this method, developers can write code that passes tests, improving the quality of the code.
+另一方面，GitHub Copilot 有助于支持测试驱动开发（TDD）。
+TDD 是一种编写代码之前编写测试并编写代码以使测试通过的方法。
+使用此方法，开发人员可以编写通过测试的代码，并提高代码质量。

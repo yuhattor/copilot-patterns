@@ -1,9 +1,8 @@
-# Code Refactoring
+# Refactorisation de code
 
-Refactoring refers to improving the quality of existing code and enhancing its maintainability by making changes. Code refactoring does not change the functionality of the code but aims to improve its quality.
+La refactorisation consiste à modifier le code existant afin d'améliorer la qualité et la maintenabilité du code, sans modifier la fonctionnalité du code. 
 
-GitHub Copilot makes it easier to refactor code.
-GitHub Copilot can understand the structure of the code and provide candidates for recommended refactoring. For example, consider the following code:
+Grâce à GitHub Copilot, il est facile de réaliser une refactorisation de code. GitHub Copilot peut comprendre la structure du code et proposer des suggestions de refactorisation recommandées. Par exemple, si nous avons le code suivant :
 
 ```py
 def calculate_sum(numbers):
@@ -13,25 +12,18 @@ def calculate_sum(numbers):
     return total
 ```
 
-You can refactor this code using GitHub Copilot. Here's an example of a refactoring candidate provided by GitHub Copilot. 
-This code has been rewritten to calculate the sum of a list using the sum() function. Also, the argument and return types have been made explicit.
+Nous pouvons utiliser GitHub Copilot pour refactoriser ce code. Voici un exemple de suggestion de refactorisation proposée par GitHub Copilot :
+Le code a été réécrit pour utiliser la fonction `sum()` pour calculer la somme des éléments d'une liste. En outre, les types d'arguments et de retour sont désormais explicites.
 
 ```py
-# Write the refactored calculate_sum() below
-
+# Écrivez ci-dessous la fonction calculate_sum() refactorisée
 def calculate_sum(numbers):
     return sum(numbers)
 ```
 
-You can instruct GitHub Copilot to perform these functions explicitly by commenting as shown above, or you can interactively refactor using tools like ChatGPT.
-In this way, GitHub Copilot can provide candidates for refactoring to improve code quality. Developers can consider these candidates and manually modify the code as needed. Such refactoring enhances code maintainability and allows developers to develop code more efficiently.
+Il est possible de commenter explicitement ces fonctionnalités pour les commander à GitHub Copilot ou pour effectuer la refactorisation de manière plus interactive avec des outils tels que ChatGPT.
+Ainsi, GitHub Copilot peut proposer des suggestions de refactorisation pour améliorer la qualité du code. Les développeurs peuvent examiner ces suggestions et modifier manuellement le code si nécessaire. Cette refactorisation peut améliorer la maintenabilité du code et permettre aux développeurs de coder plus efficacement.
 
-It is crucial to have tests written when refactoring.
-With tests, you can verify whether the refactored code behaves the same as before.
-Especially when relying on AI tools for refactoring, GitHub Copilot may suggest code styles that you do not usually use.
-Even if the code is excellent from a general programming perspective, it may not be suitable for you or your organization.
-Consider the granularity of adoption when relying on AI for refactoring.
+Il est essentiel d'écrire des tests avant de refactoriser le code. Si des tests sont écrits, il est possible de vérifier si le code refactorisé fonctionne de la même manière que le code original. En particulier, si vous comptez sur des outils d'IA pour refactoriser, GitHub Copilot peut proposer des façons de coder que vous ne connaissez pas habituellement. Bien que ces propositions puissent être excellentes d'un point de vue général, elles peuvent ne pas convenir à vous ou à votre organisation.
 
-On the other hand, GitHub Copilot can be useful for supporting test-driven development (TDD).
-TDD is a method of writing tests before writing code and then writing code to pass those tests.
-Using this method, developers can write code that passes tests, improving the quality of the code.
+D'autre part, GitHub Copilot peut aider à soutenir la pratique de développement piloté par les tests (TDD). Le TDD consiste à écrire les tests avant de coder, puis à écrire du code pour que les tests réussissent. Cette méthode permet aux développeurs d'écrire du code de qualité qui passe les tests.
