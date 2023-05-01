@@ -1,58 +1,58 @@
-# Types of AI Coding Tools
+# AI编码工具的类型
 
-GitHub Copilot and ChatGPT are great AI tools, and some may wonder which one to adopt. However, it is important to understand that they are different types of AI. Here, we will focus on the practical differences between them, rather than their governance and policy differences.
+GitHub Copilot和ChatGPT是两个非常出色的AI工具，有些人可能会感到犹豫不决该选择哪一个。然而，理解它们是不同类型的AI工具是很重要的。在这里，我们将重点关注它们实际使用中的区别，而不是它们的治理或政策差异。
 
-GitHub Copilot provides a sense of coding together with an excellent engineer sitting next to you. On the other hand, the chat-style interface is more like consulting with an expert one-on-one. The output is slower, and you have to move away from the editor, but with GitHub Copilot X's Technical Preview feature, GitHub Copilot for Chat, you can use it within the editor. However, you will need to move to the chat-style window.
+GitHub Copilot就像是一位优秀的工程师坐在你旁边一起编码，提供了这样的感觉。另一方面，聊天式的界面则类似于与专家进行一对一的咨询。虽然输出会慢一些，需要离开编辑器，但是通过GitHub Copilot X的Technical Preview功能中的GitHub Copilot for Chat，它可以在编辑器内使用，但需要切换到聊天式窗口。
 
-## Coding Together Style: GitHub Copilot
+## 共同编码风格: GitHub Copilot
 
-GitHub Copilot serves as a pair programming partner. It suggests appropriate actions while coding. Basically, it quickly responds to fast responses. GitHub Copilot uses OpenAI's Codex model, which is a large-scale language model based on GPT-3. It is lighter than GPT-3 and provides fast responses.
+GitHub Copilot充当了一位配对编程的合作伙伴，提供了在编码过程中建议适当操作的存在。基本上，它会快速响应，并尽快做出反应。GitHub Copilot使用了OpenAI的Codex模型，这是基于GPT-3的大规模语言模型。它比GPT-3更轻量化，响应速度更快。
 
-**Usage scenarios for GitHub Copilot:**
+**GitHub Copilot的使用场景：**
 
-- When quick code completion or suggestions are needed for an existing codebase.
-- When there is already a clear idea of what to add in terms of new features or components.
-- When you want to achieve results quickly with simple coding tasks.
-- When there is already similar code, and you want to generate new code based on it.
+- 需要对现有代码库进行快速的代码补全或建议的情况。
+- 在添加新功能或组件时，已经有明确的想法。
+- 在简单的编码任务中，希望在短时间内获得效果。
+- 已经存在类似的代码，想要参考并生成新代码的情况。
 
-## Chat Style: ChatGPT / Bing / GitHub Copilot for Chat
+## 聊天式: ChatGPT / Bing / GitHub Copilot for Chat
 
-Next, let's talk about chat-style tools like GitHub Copilot X, Bing, and ChatGPT. These can be used when you want to create code or templates. At the initial stage, you may not have a clear idea of what you want to create. In such cases, you can consult with AI like ChatGPT in natural language and complete the program by asking what kind of program you should write.
+接下来，我们将介绍GitHub Copilot X、Bing、ChatGPT等聊天式AI。它们可以用于创建代码或模板。在初步阶段，您可能没有明确的想法。这时，您可以询问ChatGPT等AI应该编写什么程序，同时使用自然语言进行咨询，从而完成程序。
 
-Both have their pros and cons, but it is important to consider in what situations to use which when programming. Here are some examples of usage scenarios for each tool.
+它们各有优劣，但重要的是要考虑在编程时在哪些情况下使用它们。以下是每个工具使用场景的示例。
 
-**Usage scenarios for Chat Style (ChatGPT / Bing / GitHub Copilot for Chat):**
+**聊天式(ChatGPT/Bing/GitHub Copilot for Chat)使用场景:**
 
-- When consultation is needed for specific code implementation.
-- When determining ideas and direction at the initial stage of a project.
-- When more advanced explanations or questions are needed.
-- When step-by-step guidance is needed to solve complex problems.
+- 需要咨询关于代码的具体实现方法的情况。
+- 在项目的初期阶段需要考虑创意或方向性的情况。
+- 需要更高级的解释或问题的情况。
+- 为了解决复杂问题，需要逐步指导的情况。
 
-## Tool Selection
+## 工具的选择
 
-Ultimately, which tool you choose depends on your project's needs and progress. GitHub Copilot helps speed up coding work, while chat-style AI is more suitable when deeper discussion and guidance are needed.
+最终，选择哪个工具取决于您的项目需求和进展情况。GitHub Copilot有助于加快编码工作，而聊天式AI则更适合需要更深入讨论或指导的情况。
 
-Also, these tools are not mutually exclusive, and both can be used in different stages or situations of a project. For example, at the beginning of a project, you can use chat-style AI to explore ideas and determine direction, then use GitHub Copilot to efficiently progress the actual coding. This allows you to take advantage of the strengths of both tools for optimal results.
+此外，这些工具并不相互排斥，因此可以在项目的不同阶段或情况下同时利用两种工具。例如，在项目的初期阶段，可以使用聊天式AI进行创意和方向性的讨论，然后使用GitHub Copilot来高效地进行实际编码。这样可以利用两种工具的优势，以获得最佳结果。
 
-## Detailed Differences
+## 详细区别
 
-Here are the differences between each tool:
+以下是它们之间的详细区别。
 
-| Item | GitHub Copilot (excluding GitHub Copilot X features) | Chat AI (ChatGPT / Bing) |
+| 项目 | GitHub Copilot (不包括GitHub Copilot X的功能) | 聊天式AI (ChatGPT / Bing) |
 | ------------------- | ---------------------------------------- | ------------------------------------------------------- |
-| Usage scenario | Focus on code writing, small to medium-sized code completion | Code generation, template creation, generating relatively large code by providing a lot of context through natural language interaction |
-| Interface | Editor | Browser |
-| Response speed | Fast | Somewhat slower |
-| Natural language understanding | High | Higher |
-| Code snippet generation | Strong. However, it tends to work better for short code than for long code generation. | Supports both long and short code |
-| Programming language| support range | Wide range | Wide range |
-| Autocomplete and real-time suggestions | Real-time | Limited |
-| Text generation | Possible at a high level, but inferior to GPT-3 | Strong |
-| Code review | Partially supported | Suggestions and feedback through natural language interaction |
-| Debugging support | Limited, may require workarounds | Can suggest debugging steps and approaches |
-| Code style and conventions application | High | Requires more context to be provided beforehand |
+| 使用场景 | 主要为编写代码和小到中型的代码补全 | 可以生成大规模的代码，以自然语言提供上下文 |
+| 用户界面 | 编辑器 | 浏览器 |
+| 响应速度 | 快速 | 稍慢 |
+| 自然语言理解 | 高 | 更高 |
+| 代码片段生成 | 功能强大。但是，更适合生成较短的代码而不是较长的代码。 | 支持长代码和短代码 |
+| 编程语言支持范围 | 广泛 | 广泛 |
+| 自动补全和实时建议 | 实时 | 有限 |
+| 文本生成 | 可以在高维度上实现，但不及GPT3 | 功能强大 |
+| 代码审查 | 部分支持 | 通过自然语言进行指示和建议 |
+| 调试支持 | 可能性有限，需要更多的技巧 | 可以建议调试步骤和方法 |
+| 代码样式和惯例应用 | 高 | 需要提供更多的上下文 |
 
-## Checklist
+## 检查清单
 
-- [ ] Have you understood the differences between GitHub Copilot and ChatGPT? Are these differences big or small? Discuss with engineers and non-engineers on your team.
-- [ ] Do your team members understand the differences between GitHub Copilot and ChatGPT? Make sure to onboard them properly so they can use the tools effectively.
+- [ ] 您是否理解了GitHub Copilot和ChatGPT之间的差异？这个差异是大还是小？尝试与工程师或其他团队成员进行讨论。
+- [ ] 您的团队成员是否了解GitHub Copilot和ChatGPT之间的差异？进行适当的入门操作。

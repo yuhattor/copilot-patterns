@@ -1,58 +1,58 @@
-# Types of AI Coding Tools
+# Arten von AI-Codierungswerkzeugen
 
-GitHub Copilot and ChatGPT are great AI tools, and some may wonder which one to adopt. However, it is important to understand that they are different types of AI. Here, we will focus on the practical differences between them, rather than their governance and policy differences.
+GitHub Copilot und ChatGPT sind großartige AI-Tools und es kann schwierig sein zu entscheiden, welches Tool man einsetzen soll. Es ist jedoch wichtig zu verstehen, dass es sich um unterschiedliche Arten von AI handelt. Hier konzentrieren wir uns nicht auf Unterschiede in Governance oder Richtlinien, sondern auf praktische Unterschiede in der Anwendung.
 
-GitHub Copilot provides a sense of coding together with an excellent engineer sitting next to you. On the other hand, the chat-style interface is more like consulting with an expert one-on-one. The output is slower, and you have to move away from the editor, but with GitHub Copilot X's Technical Preview feature, GitHub Copilot for Chat, you can use it within the editor. However, you will need to move to the chat-style window.
+GitHub Copilot bietet ein Gefühl, als würde ein erfahrener Entwickler neben Ihnen sitzen und gemeinsam codieren. Auf der anderen Seite stellt das Chat-Interface eine Beratung mit einem Experten dar. Obwohl die Ausgabe langsam ist und Sie sich vom Editor entfernen müssen, können Sie GitHub Copilot for Chat verwenden, eine Technical Preview-Funktion von GitHub Copilot X, um es im Editor zu nutzen. Beachten Sie jedoch, dass Sie in das Chat-Interface wechseln müssen.
 
-## Coding Together Style: GitHub Copilot
+## Gemeinsame Codierungsstile: GitHub Copilot
 
-GitHub Copilot serves as a pair programming partner. It suggests appropriate actions while coding. Basically, it quickly responds to fast responses. GitHub Copilot uses OpenAI's Codex model, which is a large-scale language model based on GPT-3. It is lighter than GPT-3 and provides fast responses.
+GitHub Copilot fungiert als Partner für Pair Programming und schlägt während des Codierens passende Aktionen vor. Im Wesentlichen reagiert es schnell auf schnelle Antworten. GitHub Copilot verwendet das Codex-Modell von OpenAI, das auf dem GPT3-basierten großen Sprachmodell basiert. Es ist leichter als GPT-3 und bietet schnelle Antworten.
 
-**Usage scenarios for GitHub Copilot:**
+**Anwendungsbereiche von GitHub Copilot:**
 
-- When quick code completion or suggestions are needed for an existing codebase.
-- When there is already a clear idea of what to add in terms of new features or components.
-- When you want to achieve results quickly with simple coding tasks.
-- When there is already similar code, and you want to generate new code based on it.
+- Wenn schnelle Code-Vervollständigungen oder Vorschläge für einen bestehenden Code benötigt werden.
+- Wenn bereits eine klare Idee für neue Funktionen oder Komponenten besteht.
+- Bei einfachen Codierungsaufgaben, bei denen man in kurzer Zeit Ergebnisse erzielen möchte.
+- Wenn ähnlicher Code bereits vorhanden ist und daraus neuer Code generiert werden soll.
 
-## Chat Style: ChatGPT / Bing / GitHub Copilot for Chat
+## Chat-Style: ChatGPT / Bing / GitHub Copilot for Chat
 
-Next, let's talk about chat-style tools like GitHub Copilot X, Bing, and ChatGPT. These can be used when you want to create code or templates. At the initial stage, you may not have a clear idea of what you want to create. In such cases, you can consult with AI like ChatGPT in natural language and complete the program by asking what kind of program you should write.
+Als Nächstes werden Chat-Style-Tools wie GitHub Copilot X, Bing und ChatGPT erklärt, die verwendet werden können, um Code oder Vorlagen zu erstellen. Zu Beginn ist möglicherweise nicht klar, was erstellt werden soll. In diesem Fall kann man mit AI wie ChatGPT sprechen und fragen, welche Programme geschrieben werden sollten, um das Programm auf natürliche Weise abzuschließen.
 
-Both have their pros and cons, but it is important to consider in what situations to use which when programming. Here are some examples of usage scenarios for each tool.
+Jedes Tool hat Vor- und Nachteile, und es ist wichtig zu überlegen, welches Tool in welcher Situation beim Programmieren verwendet werden sollte. Im Folgenden finden Sie Beispiele für die Anwendungsbereiche jedes Tools.
 
-**Usage scenarios for Chat Style (ChatGPT / Bing / GitHub Copilot for Chat):**
+**Anwendungsbereiche von Chat-Style-Tools (ChatGPT / Bing / GitHub Copilot for Chat):**
 
-- When consultation is needed for specific code implementation.
-- When determining ideas and direction at the initial stage of a project.
-- When more advanced explanations or questions are needed.
-- When step-by-step guidance is needed to solve complex problems.
+- Wenn Beratung zu spezifischen Implementierungsmethoden des Codes erforderlich ist.
+- In den frühen Phasen eines Projekts, um Ideen zu diskutieren und Richtungen festzulegen.
+- Wenn komplexe Probleme gelöst werden müssen, wird Schritt-für-Schritt-Anleitung benötigt.
+- Wenn umfangreichere Kontexte benötigt werden, um eine bessere Erstellung zu ermöglichen.
 
-## Tool Selection
+## Toolauswahl
 
-Ultimately, which tool you choose depends on your project's needs and progress. GitHub Copilot helps speed up coding work, while chat-style AI is more suitable when deeper discussion and guidance are needed.
+Letztendlich hängt die Auswahl des richtigen Tools von den Bedürfnissen und Fortschritten Ihres Projekts ab. GitHub Copilot beschleunigt die Codierungsarbeiten, während AI im Chat-Style besser geeignet ist, wenn tiefere Diskussionen oder Anweisungen erforderlich sind.
 
-Also, these tools are not mutually exclusive, and both can be used in different stages or situations of a project. For example, at the beginning of a project, you can use chat-style AI to explore ideas and determine direction, then use GitHub Copilot to efficiently progress the actual coding. This allows you to take advantage of the strengths of both tools for optimal results.
+Diese Tools schließen sich nicht gegenseitig aus, sodass Sie beide Tools in verschiedenen Phasen oder Situationen Ihres Projekts nutzen können. Zum Beispiel können Sie in den frühen Phasen eines Projekts Chat-Style-AI verwenden, um Ideen zu diskutieren und Richtungen festzulegen, und später GitHub Copilot verwenden, um die effiziente Codierung durchzuführen. Auf diese Weise können Sie die Stärken beider Tools nutzen, um optimale Ergebnisse zu erzielen.
 
-## Detailed Differences
+## Detaillierte Unterschiede
 
-Here are the differences between each tool:
+Im Folgenden finden Sie die Unterschiede zwischen den beiden Tools:
 
-| Item | GitHub Copilot (excluding GitHub Copilot X features) | Chat AI (ChatGPT / Bing) |
+| Kategorie | GitHub Copilot (ohne GitHub Copilot X-Funktionen) | Chat AI (ChatGPT / Bing) |
 | ------------------- | ---------------------------------------- | ------------------------------------------------------- |
-| Usage scenario | Focus on code writing, small to medium-sized code completion | Code generation, template creation, generating relatively large code by providing a lot of context through natural language interaction |
-| Interface | Editor | Browser |
-| Response speed | Fast | Somewhat slower |
-| Natural language understanding | High | Higher |
-| Code snippet generation | Strong. However, it tends to work better for short code than for long code generation. | Supports both long and short code |
-| Programming language| support range | Wide range | Wide range |
-| Autocomplete and real-time suggestions | Real-time | Limited |
-| Text generation | Possible at a high level, but inferior to GPT-3 | Strong |
-| Code review | Partially supported | Suggestions and feedback through natural language interaction |
-| Debugging support | Limited, may require workarounds | Can suggest debugging steps and approaches |
-| Code style and conventions application | High | Requires more context to be provided beforehand |
+| Anwendungsbereich | Fokus auf Codierung und kleinen bis mittelgroßen Code-Ergänzungen | Generierung von Code, Erstellung von Vorlagen und kontextbezogene Erstellung größerer Code-Ergänzungen |
+| Schnittstelle | Editor | Browser |
+| Antwortgeschwindigkeit | Schnell | Etwas langsamer |
+| Natürliche Sprachverarbeitung | Hoch | Höher |
+| Generierung von Code-Snippets | Leistungsstark, neigt jedoch dazu, besser bei der Erstellung von kurzen anstatt langen Codes zu funktionieren | Unterstützung von langem und kurzem Code |
+| Unterstützung von Programmiersprachen | Weitreichend | Weitreichend |
+| Automatische Vervollständigung und Echtzeitvorschläge | Echtzeit | Begrenzt |
+| Generierung von Texten | Auf hohem Niveau möglich, aber weniger leistungsfähig als GPT3 | Leistungsstark |
+| Code-Review | Teilweise unterstützt | Feedback und Vorschläge durch natürliche Sprache |
+| Debugging-Unterstützung | Möglich, erfordert jedoch zusätzliche Anpassungen | Vorschlag von Debugging-Schritten oder -Ansätzen durch natürliche Sprache |
+| Anwendung von Code-Stilen und -Konventionen | Hoch | Erfordert eine stärkere Kontextübermittlung im Voraus |
 
-## Checklist
+## Checkliste
 
-- [ ] Have you understood the differences between GitHub Copilot and ChatGPT? Are these differences big or small? Discuss with engineers and non-engineers on your team.
-- [ ] Do your team members understand the differences between GitHub Copilot and ChatGPT? Make sure to onboard them properly so they can use the tools effectively.
+- [ ] Haben Sie den Unterschied zwischen GitHub Copilot und ChatGPT verstanden? Ist dieser Unterschied groß oder klein? Diskutieren Sie es mit Entwicklern und anderen Teammitgliedern.
+- [ ] Verstehen Ihre Teammitglieder die Unterschiede zwischen GitHub Copilot und ChatGPT? Stellen Sie sicher, dass sie richtig geschult werden, damit sie die Tools angemessen nutzen können.
