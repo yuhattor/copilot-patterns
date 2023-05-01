@@ -1,7 +1,6 @@
-# Comment Generation
+# Geração de comentários
 
-GitHub Copilot is an engine for generating code, but it can also generate comments from code. 
-For example, suppose you have the following code for the Sieve of Eratosthenes without comments:
+O GitHub Copilot é um motor de geração de código que também é capaz de gerar comentários a partir do código. Por exemplo, suponha que você tenha o código do crivo de Eratóstenes abaixo sem comentários:
 
 ```py
 def eratosthenes_sieve(n):
@@ -15,14 +14,14 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-GitHub Copilot can write explanatory comments for the method, like this:
+O GitHub Copilot pode gerar o comentário explicando o método abaixo:
 
 ```py
-# Write the description of the method here <- [Actual Prompt]
-# Input: n - the number of primes to return
-# Output: a list of the first n primes
-# Example: eratosthenes_sieve(5) -> [2, 3, 5, 7, 11]
-# Note: this is a very inefficient way to find primes, but it is easy to understand
+# Escreva a descrição do método aqui <- [Prompt real]
+# Entrada: n - o número de primos a serem retornados
+# Saída: uma lista dos primeiros n primos
+# Exemplo: eratosthenes_sieve(5) -> [2, 3, 5, 7, 11]
+# Nota: esta é uma maneira muito ineficiente de encontrar primos, mas é fácil de entender
 def eratosthenes_sieve(n):
     primes = []
     sieve = [True] * (n + 1)
@@ -34,19 +33,19 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-Additionally, it can write code explanations from the code itself, helping engineers quickly understand other people's code:
+Além disso, o GitHub Copilot pode gerar explicações para o próprio código, permitindo que outros engenheiros entendam rapidamente o código de outra pessoa. Um exemplo é dado abaixo:
 
 ```py
 def eratosthenes_sieve(n):
     primes = []
     sieve = [True] * (n + 1)
-    # Description of the algorithm <- [Actual Prompt]
-    # 1. Create a list of consecutive integers from 2 to n: (2, 3, 4, ..., n).
-    # 2. Initially, let p equal 2, the first prime number.
-    # 3. Starting from p, enumerate its multiples by counting to n in increments of p, and mark them in the list
-    #    (these will be 2p, 3p, 4p, ...; the p itself should not be marked).
-    # 4. Find the first number greater than p in the list that is not marked. If there was no such number, stop.
-    #    Otherwise, let p now equal this new number (which is the next prime), and repeat from step 3.
+    # Descrição do algoritmo <- [Prompt real]
+    # 1. Criar uma lista de inteiros consecutivos de 2 a n: (2, 3, 4, ..., n).
+    # 2. Inicialmente, deixe p igual a 2, o primeiro número primo.
+    # 3. Começando a partir de p, enumere seus múltiplos contando até n em incrementos de p e marque-os na lista
+    #    (esses serão 2p, 3p, 4p, ...; o próprio p não deve ser marcado).
+    # 4. Encontre o primeiro número maior que p na lista que não está marcado. Se não houver tal número, pare.
+    #    Caso contrário, deixe p agora igual a este novo número (que é o próximo primo) e repita a partir do passo 3.
     for p in range(2, n + 1):
         if sieve[p]:
             primes.append(p)
@@ -55,9 +54,9 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-## Displaying Steps
+## Exibição de etapas
 
-Using the LIST STEPS feature in [Code Brushes](https://githubnext.com/projects/code-brushes/)  on GitHub Next, you can achieve similar results.
+Você também pode usar a função LIST STEPS na ferramenta Code Brushes do GitHub Next para obter um resultado semelhante, mostrando as etapas do seu código, como abaixo:
 
 ```py
 def calculate_sum(numbers):
@@ -71,6 +70,6 @@ def calculate_sum(numbers):
     return total
 ```
 
-## Code to Document
+## Código para documentação
 
-For large-scale code, one approach is to use tools like ChatGPT or Bing to obtain explanatory output. When you want an overview of the entire code, using chat-style AI tools can be helpful.
+Se o seu código for extenso, uma maneira de obter comentários explicativos é usar ferramentas de AI em formato de chat, como o ChatGPT ou Bing. Isso pode ser útil quando você precisa entender a visão geral de todo o código.

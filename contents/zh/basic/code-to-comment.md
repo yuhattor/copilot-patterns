@@ -1,7 +1,7 @@
-# Comment Generation
+# 注释生成
 
-GitHub Copilot is an engine for generating code, but it can also generate comments from code. 
-For example, suppose you have the following code for the Sieve of Eratosthenes without comments:
+GitHub Copilot 是一个生成代码的引擎，但也可以从代码中生成注释。
+例如，如果有以下没有注释的埃拉托色尼筛代码。
 
 ```py
 def eratosthenes_sieve(n):
@@ -15,14 +15,14 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-GitHub Copilot can write explanatory comments for the method, like this:
+GitHub Copilot 可以编写以下方法的解释性注释。
 
 ```py
-# Write the description of the method here <- [Actual Prompt]
-# Input: n - the number of primes to return
-# Output: a list of the first n primes
-# Example: eratosthenes_sieve(5) -> [2, 3, 5, 7, 11]
-# Note: this is a very inefficient way to find primes, but it is easy to understand
+# 在此处编写方法的描述 <- [实际提示]
+# 输入：n-要返回的质数数量
+# 输出：前n个质数的列表
+# 示例：eratosthenes_sieve(5) -> [2, 3, 5, 7, 11]
+# 注意：这是一种非常低效的查找质数的方法，但易于理解
 def eratosthenes_sieve(n):
     primes = []
     sieve = [True] * (n + 1)
@@ -34,19 +34,17 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-Additionally, it can write code explanations from the code itself, helping engineers quickly understand other people's code:
+此外，可以从代码中编写代码解释，使工程师能够更快地理解其他人的代码。
 
 ```py
 def eratosthenes_sieve(n):
     primes = []
     sieve = [True] * (n + 1)
-    # Description of the algorithm <- [Actual Prompt]
-    # 1. Create a list of consecutive integers from 2 to n: (2, 3, 4, ..., n).
-    # 2. Initially, let p equal 2, the first prime number.
-    # 3. Starting from p, enumerate its multiples by counting to n in increments of p, and mark them in the list
-    #    (these will be 2p, 3p, 4p, ...; the p itself should not be marked).
-    # 4. Find the first number greater than p in the list that is not marked. If there was no such number, stop.
-    #    Otherwise, let p now equal this new number (which is the next prime), and repeat from step 3.
+    # 算法描述 <- [实际提示]
+    # 1.从2到n创建一串连续的整数列表：(2，3，4，...，n)。
+    # 2.最初，令p等于2，即第一个质数。
+    # 3.从p开始，通过计数到n的p倍来枚举它的倍数，并在列表中标记它们（这些将是2p，3p，4p，...；不应标记p本身）。
+    # 4.在列表中找到大于p的第一个未标记的数字。 如果没有这样的数字，请停止。否则，现在让p等于这个新数字（即下一个质数），并从步骤3重复。
     for p in range(2, n + 1):
         if sieve[p]:
             primes.append(p)
@@ -55,22 +53,22 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-## Displaying Steps
+## 显示步骤
 
-Using the LIST STEPS feature in [Code Brushes](https://githubnext.com/projects/code-brushes/)  on GitHub Next, you can achieve similar results.
+通过使用 GitHub Next 的 [Code Brushes](https://githubnext.com/projects/code-brushes/) 中的 LIST STEPS 功能，也可以实现类似的功能。
 
 ```py
 def calculate_sum(numbers):
-    # initialize a variable to track the total
+    # 初始化变量以跟踪总和
     total = 0
-    # iterate over each number in the list
+    # 遍历列表中的每个数字
     for number in numbers:
-        # add the number to the total
+        # 将数字添加到总和
         total += number
-    # return the total
+    # 返回总和
     return total
 ```
 
-## Code to Document
+## 代码到文档
 
-For large-scale code, one approach is to use tools like ChatGPT or Bing to obtain explanatory output. When you want an overview of the entire code, using chat-style AI tools can be helpful.
+对于大规模当代码规模很大时，另一种方法是使用 ChatGPT 或 Bing 等工具获得解释输出，以了解整个代码的概要。

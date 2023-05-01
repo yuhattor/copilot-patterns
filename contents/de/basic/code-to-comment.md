@@ -1,7 +1,7 @@
-# Comment Generation
+# Kommentar-Generierung
 
-GitHub Copilot is an engine for generating code, but it can also generate comments from code. 
-For example, suppose you have the following code for the Sieve of Eratosthenes without comments:
+GitHub Copilot ist ein Code-Generator, der auch in der Lage ist, Kommentare aus dem Code zu generieren.
+Angenommen, wir haben den folgenden Code des Sieb des Eratosthenes ohne Kommentare:
 
 ```py
 def eratosthenes_sieve(n):
@@ -15,14 +15,14 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-GitHub Copilot can write explanatory comments for the method, like this:
+GitHub Copilot kann den folgenden Kommentar zur Beschreibung der Methode generieren:
 
 ```py
-# Write the description of the method here <- [Actual Prompt]
-# Input: n - the number of primes to return
-# Output: a list of the first n primes
-# Example: eratosthenes_sieve(5) -> [2, 3, 5, 7, 11]
-# Note: this is a very inefficient way to find primes, but it is easy to understand
+# Beschreibe hier die Methode <- [Actual Prompt]
+# Eingabe: n - Anzahl der zurückzugebenden Primzahlen
+# Ausgabe: eine Liste der ersten n Primzahlen
+# Beispiel: eratosthenes_sieve(5) -> [2, 3, 5, 7, 11]
+# Hinweis: Dies ist eine sehr ineffiziente Methode zur Bestimmung von Primzahlen, aber einfach zu verstehen.
 def eratosthenes_sieve(n):
     primes = []
     sieve = [True] * (n + 1)
@@ -34,19 +34,19 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-Additionally, it can write code explanations from the code itself, helping engineers quickly understand other people's code:
+Darüber hinaus kann man auch den Code kommentieren, um anderen Entwicklern das Verständnis zu erleichtern:
 
 ```py
 def eratosthenes_sieve(n):
     primes = []
     sieve = [True] * (n + 1)
-    # Description of the algorithm <- [Actual Prompt]
-    # 1. Create a list of consecutive integers from 2 to n: (2, 3, 4, ..., n).
-    # 2. Initially, let p equal 2, the first prime number.
-    # 3. Starting from p, enumerate its multiples by counting to n in increments of p, and mark them in the list
-    #    (these will be 2p, 3p, 4p, ...; the p itself should not be marked).
-    # 4. Find the first number greater than p in the list that is not marked. If there was no such number, stop.
-    #    Otherwise, let p now equal this new number (which is the next prime), and repeat from step 3.
+    # Beschreibung des Algorithmus <- [Actual Prompt]
+    # 1. Erstelle eine Liste aufeinanderfolgender ganzer Zahlen von 2 bis n: (2, 3, 4, ..., n).
+    # 2. Setze p anfänglich auf 2, die erste Primzahl.
+    # 3. Beginnend mit p, zähle dessen Vielfache bis n in Schritten von p auf und markiere sie in der Liste
+    #    (diese werden 2p, 3p, 4p, ... sein; p selbst sollte nicht markiert werden).
+    # 4. Finde die erste Zahl in der Liste, die größer als p und nicht markiert ist. Wenn es keine solche Zahl gibt, stoppe.
+    #    Andernfalls setze p nun auf diese neue Zahl (die nächste Primzahl) und beginne von Schritt 3 erneut.
     for p in range(2, n + 1):
         if sieve[p]:
             primes.append(p)
@@ -55,22 +55,22 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-## Displaying Steps
+## Schritte anzeigen
 
-Using the LIST STEPS feature in [Code Brushes](https://githubnext.com/projects/code-brushes/)  on GitHub Next, you can achieve similar results.
+Mit der LIST STEPS-Funktion auf GitHub Next's [Code Brushes](https://githubnext.com/projects/code-brushes/) ist es möglich, ähnliche Schritte anzuzeigen.
 
 ```py
 def calculate_sum(numbers):
-    # initialize a variable to track the total
+    # Initialisierung einer Variablen zur Verfolgung des Gesamtbetrags
     total = 0
-    # iterate over each number in the list
+    # Iteration über jeden Zahl in der Liste
     for number in numbers:
-        # add the number to the total
+        # Fügen Sie die Zahl zum Gesamtbetrag hinzu
         total += number
-    # return the total
+    # Rückgabe des Gesamtbetrags
     return total
 ```
 
-## Code to Document
+## Code zu Dokumentieren
 
-For large-scale code, one approach is to use tools like ChatGPT or Bing to obtain explanatory output. When you want an overview of the entire code, using chat-style AI tools can be helpful.
+Wenn der Code umfangreich ist, kann es eine Möglichkeit sein, mithilfe von ChatGPT oder Bing eine Erklärung zu erhalten. Wenn Sie eine Zusammenfassung des gesamten Codes benötigen, ist es ratsam, eine Chat-basierte AI-Tool zu verwenden.
