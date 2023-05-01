@@ -1,93 +1,81 @@
-# AI-Native Development
+# AI原生文档
 
-The adoption of AI technologies like GitHub Copilot can potentially impact the architecture of projects as the work of engineers within development teams changes.
-This document discusses the possible implications that AI-Native development methods may have.
+通过像 GitHub Copilot 这样的 AI 技术，开发团队内工程师的工作可能会发生变化，最终可能会影响架构。
+本文档将介绍 AI 原生开发方法可能带来的影响。
 
-## Context is Everything
+## 一切皆为上下文
 
-AI technologies, represented by GitHub Copilot, can enter development environments and processes in various ways.
-Development teams need to be more aware of the context in order to achieve greater development speed.
-One thing to keep in mind is the technical and business context included in your program.
-While this is not a new topic and has been discussed before, it is worth considering these two contexts again in light of the boost that developers are now receiving through AI cooperation.
-These contexts will affect architecture and the careers of engineers.
+像 GitHub Copilot 这样的 AI 技术进入开发环境或开发流程时，涉及的领域是多种多样的。
+为了进一步提高开发速度，开发团队需要更加意识到上下文的重要性。
+需要注意的是，你的程序包含哪些技术上下文和商业上下文。
+这并不是一个新话题，自古以来一直是如此。然而，随着 AI 的出现，现在是时候重新考虑这两个上下文的价值了。
+这些上下文将影响架构和工程师的职业生涯。
 
-Also, there are high-context and low-context areas for each context. 
-For example, in coding, simply pressing the tab key to accept GitHub Copilot's suggestions may be sufficient for repetitive tasks or writing processes that would ultimately lead to the same result regardless of who wrote them. 
-On the other hand, nothing will come from just pressing the tab key in areas where high context is required. 
-These areas require experience and knowledge of specific technical domains, which cannot be easily acquired.
+此外，每个上下文都有高上下文和低上下文的领域。
+例如，在编码中编写重复性任务或编写任何人最终都会执行的任务，可能只需按 Tab 键即可接受 GitHub Copilot 的建议。
+另一方面，在需要高度上下文的领域中，按 Tab 键并不能产生任何结果。
+这些领域需要经验和特定技术领域的知识，因此不是轻松掌握的东西。
 
-### Technical Context
+### 技术上下文
 
-To consider technical context, let's think about some programming languages.
-Some languages, like Python, have a certain degree of commonality in how they express things, while others, like Ruby, allow for diverse expressions for the same task.
-The scope width is also an issue.
-There are languages like BASIC where global scope is the default, and many languages with narrower scopes.
-Rust's reference and borrowing mechanism, for example, is a typical case that involves high technical context.
-At the framework level, the context can be stacked in multiple layers.
+考虑几种编程语言来思考技术上下文。
+有些语言（如 Python）有共通的表达方式来表示一件事，而另一些语言（如 Ruby）则有多种表达方式。
+此外，作用域的范围也是一个问题。
+有一些语言（如 BASIC）将全局作用域作为基础，而其他语言则具有较小的作用域。
+例如，Rust 中的引用和借用机制是包含技术上下文的典型例子。
+在框架层面上，这些上下文可能会重叠多层。
 
-### Business Context
+### 商业上下文
 
-The same is true for the business domain.
-Consider SQL, a database language.
-AI excels at simple tasks and is well-suited for implementing SQL's standard expressions.
-If you're defining database access for a simple application implementation, you can get by with less context.
-However, when dealing with a complex, intertwined, large database, it's difficult to be confident that the AI-generated code won't affect other processes.
-Understanding the overall architecture and having some knowledge of the actual logic may be required.
-The same applies to testing: AI is good at writing tests along given scenarios, but it's difficult to come up with comprehensive test scenarios.
-AI can easily write API tests for a REST API with simple CRUD features, but writing perfect tests for an application with complex authorization conditions might be challenging for AI.
+商业领域也是如此。
+考虑 SQL 这种数据库语言。
+AI 擅长于处理简单的任务，对于复制 SQL 的定型表达式，AI 很适合。
+如果只是定义对数据库的访问，那么上下文较少，AI 的支持也相对容易。
+然而，在处理复杂交织的大型数据库时，AI 生成的代码是否对其他处理产生影响，难以保证。
+需要理解整体架构，并且需要一定的实际逻辑知识。
+同样，测试方面也是如此，AI 擅长于根据给定场景编写测试，但很难考虑到全面的测试场景。
+对于具有简单 CRUD 功能的 REST API，可以轻松编写 API 测试，但是对于具有复杂授权条件的应用程序的测试，AI 很难完美地编写测试。
 
-## AI-Native Architecture
+## AI原生架构
 
-How much context exists in the architecture of the features/applications you manage?
-If there is a lot of context in the architecture, the development speed utilizing AI might decrease.
-This is because LLMs can understand only a limited amount of context, and it is not possible to provide a large amount of context to AI at the same time.
-This is partly due to the upper limit of tokens that can be given, but it is also because humans generally cannot provide all the information in a form that is AI-readable.
-In a sense, AI can work indefinitely as long as prompts are continuously provided.
-On the other hand, humans have limited time to provide prompts to AI.
-In that case, the bottleneck in development becomes human.
-Therefore, it is worth considering reducing the context of the features or applications so that AI can write the correct program even without humans providing as much context as possible.
+那么，你管理的功能/应用程序的架构中有多少上下文存在呢？
+如果架构包含许多上下文，则利用 AI 提高开发速度的可能性可能会降低。
+这是因为 LLM 可以理解的上下文是有限的，AI 同时提供大量上下文是不可能的。
+这是因为有一些限制，例如提供的令牌数目有限，而且通常人类无法以 AI 可读的形式提供所有信息。
+在某种程度上，AI 可以在提供提示的情况下无限制地工作。
+但是，人类可以向 AI 提供提示的时间是有限的。
+在这种情况下，瓶颈在于人类。
+因此，应该考虑尽可能减少组件的上下文，以便 AI 能够编写正确的程序。
 
-Dividing services into smaller levels and making them loosely related is a good idea.
-However, what I am referring to is not necessarily using microservices in the context of Kubernetes.
-Any design you can think of, including SOA and library-level separation, is fine.
-What's important is to divide the components into simple and testable units.
-The more context an application has, the harder it is to get AI support.
+将服务分解为小型单元，建立稀疏关系是一个好主意。
+但是，我提到的并不是要将 Kubernetes 中的微服务变成上下文。
+这可以包括 SOA 和库级别的分离，无论你考虑哪种设计都没有关系。
+重要的是将组件分解为简单且易于测试的单元。
+应用程序具有更多上下文，AI 的支持就越困难。
 
-There are sometimes religious wars about the appropriate size of programs to handle, and AI-assisted development is just beginning, so there is no exact answer.
-However, considering maximizing engineer productivity and growing products in the shortest time possible, it might be a good idea for your team to consider development methods and architecture based on GitHub Copilot.
+关于程序处理的适当大小，有时会发生宗教战争，而利用 AI 进行开发仍处于刚刚开始阶段，因此没有确切的答案。
+但是，考虑到最大化工程师的生产力并使产品以最短的时间成长，您的团队应该考虑至少一次以 GitHub Copilot 为前提的开发方法或架构。
 
-However, on the other hand, it should not be mistaken that IT architecture should be considered with the purpose of "maximizing engineer production." 
-Engineering exists as a means to ultimately achieve something.
+但是，请注意，IT 架构不应该被认为是为最大化工程师的生产力而设计的目的，而应该被视为实现最终目标的手段。
 
-I look forward to everyone actively participating in the discussions in this field.
+我希望大家能积极参与这个领域的讨论。
 
-## Career Prospects as an Engineer
+## 作为工程师的职业前景展望
 
-So far, I have touched on the potential for AI to bring about changes in architecture and development culture.
-It is also important to look at the career of engineering.
-This is a point to consider not only for engineers themselves but also for managers and those in positions to build organizations.
+迄今为止，我们已经提到了AI可能会给体系结构和开发文化带来变化的可能性。在这里，我们也需要关注工程职业生涯。这不仅关乎工程师自身，还涉及到那些担任管理职位和构建组织的人们。
 
-In the end, engineers need to consider whether to aim for engineers with a wide range of business and product insights or highly technical engineers.
-However, the problem is that there are low-context and high-context areas in both.
+最终，工程师需要考虑是成为具备广泛商业产品知识的工程师，还是追求技术精湛的工程师。然而，问题是这两个领域中都存在低上下文和高上下文的领域。
 
-For example, in coding, simply pressing the Tab key for what GitHub Copilot suggests may be enough for simple repetitive tasks or writing processes that ultimately reach the same processing, no matter who writes them.
-On the other hand, the areas specified in the technical context and business context sections require a high context.
-This area is a field where experience and knowledge of specific technology areas are required, so it is not something that can be easily acquired.
-If it is knowledge available on the Internet, there is still a way to catch up, but on the other hand, if it is a closed knowledge area in a specific organization, and it is not documented or the cost of obtaining information is extremely high, it is difficult to catch up.
+例如，在编码方面，编写简单的重复性工作或编写处理过程，不论由谁编写，最终都会到达该处理过程的情况，可能只需要按下Tab键来响应GitHub Copilot的建议即可。另一方面，在技术上下文和商业上下文部分指定的领域，需要高上下文的领域。由于这些领域需要经验和特定技术领域的知识，因此并不是易于掌握的东西。如果这些是可以在互联网上获得的知识，那么还有追赶的余地，但是，如果这些是特定组织封闭的知识领域，而且没有记录或者获得信息需要非常高的成本，则很难跟上。
 
-This is not limited to coding, but AI tends to strengthen humans with rich knowledge and experience.
-This means that senior members will lose the jobs of newcomers.
-If left unchecked, newcomers will not be able to do important work in the organization and will not be able to expect skill growth.
-Senior skills will further increase, making it difficult for the organization to maintain them, and it will also be difficult to keep newcomers who are only doing boring work that seniors cannot do due to time constraints.
+这不仅限于编码问题，但是，AI有一种趋势，即增强知识丰富和经验丰富的人。这意味着高级工程师可能会失去新手的工作。如果不处理，新手将不能在组织中担任重要工作，也无法预期其技能的增长。高级工程师的技能将进一步提高，而组织将难以维持这些人的存在，并且也难以将高级工程师与退屈的新手绑定在一起，因为高级工程师已经被时间限制而只能从事退屈的工作。
 
-So, what should be done? One answer is to compile technical and business information in products and organizations into documents containing context and nurture them internally.
-As more people participate in creating these documentations and co-creation occurs, a knowledge database for the company is formed.
-Now is the time to create an atmosphere of internal collaboration similar to open-source.
+那么，该怎么办呢？其中一个答案是将产品或组织中的技术信息和商业信息编写成包含上下文的文档，并在内部进行培养。当许多人参与这些文档的创建时，共同创作将发生，并且企业的知识数据库将逐步建立起来。现在正是进行类似于开源的内部协作的时候。
 
-## Checklist
+## 检查清单
 
-- [ ] What context does your project or product have? Try organizing the context.
-- [ ] Is the context exclusive to a few individuals? Is it shared within the team?
-- [ ] In your project or product, is there a lot of code that AI can understand even with low context? If there is a lot of high-context code, how do you plan to convert it into AI-friendly code?
-- [ ] Are you promoting internal collaboration? If not, consider actions to improve communication and knowledge sharing within and between teams.
-- [ ] Have you discussed the career paths of your team's engineers in the AI era? Let's talk about whether they want to strengthen their technical and business areas.
+- [ ] 您的项目或产品有哪些上下文？整理一下上下文。
+- [ ] 该上下文只是某些人独占的吗？团队之间共享了吗？
+- [ ] 在您的项目或产品中，是否有许多低上下文的代码可以被AI理解？如果是，如何将高上下文的代码转换为AI易于编写的代码？
+- [ ] 您是否促进了公司内部协作？如果没有，考虑提高团队内部和团队之间的沟通和知识共享。
+- [ ] 您的团队是否讨论过工程师在AI时代的职业道路？让我们讨论要加强的技术和商业领域。

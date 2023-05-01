@@ -1,93 +1,50 @@
-# AI-Native Development
+# AI-Native Documentation
 
-The adoption of AI technologies like GitHub Copilot can potentially impact the architecture of projects as the work of engineers within development teams changes.
-This document discusses the possible implications that AI-Native development methods may have.
+The utilization of AI technologies, such as GitHub Copilot, can potentially change the work of engineers within development teams, ultimately affecting the architecture. This document describes the potential impact that AI-native development approaches can bring.
 
-## Context is Everything
+## Context is Key
 
-AI technologies, represented by GitHub Copilot, can enter development environments and processes in various ways.
-Development teams need to be more aware of the context in order to achieve greater development speed.
-One thing to keep in mind is the technical and business context included in your program.
-While this is not a new topic and has been discussed before, it is worth considering these two contexts again in light of the boost that developers are now receiving through AI cooperation.
-These contexts will affect architecture and the careers of engineers.
+When AI technologies such as GitHub Copilot are introduced into the development environment and process, there are various fields to consider. Development teams need to be more aware of the context for faster development speed. It is important to consider the technical and business contexts included in your program. Although this is not a new topic, with the advent of AI, it is worth considering these two contexts again in their respective contexts, as they can affect architecture and an engineer's career.
 
-Also, there are high-context and low-context areas for each context. 
-For example, in coding, simply pressing the tab key to accept GitHub Copilot's suggestions may be sufficient for repetitive tasks or writing processes that would ultimately lead to the same result regardless of who wrote them. 
-On the other hand, nothing will come from just pressing the tab key in areas where high context is required. 
-These areas require experience and knowledge of specific technical domains, which cannot be easily acquired.
+In addition, there are high-context and low-context areas in every context. For example, in coding, writing code for simple tasks that can be repeated or tasks that can ultimately be reached regardless of who writes them may be done simply by pressing the Tab key as GitHub Copilot suggests. However, in areas that require high context, simply pressing the Tab key will not produce any results. These areas require experience and knowledge in specific technical areas, and are not easily mastered.
 
 ### Technical Context
 
-To consider technical context, let's think about some programming languages.
-Some languages, like Python, have a certain degree of commonality in how they express things, while others, like Ruby, allow for diverse expressions for the same task.
-The scope width is also an issue.
-There are languages like BASIC where global scope is the default, and many languages with narrower scopes.
-Rust's reference and borrowing mechanism, for example, is a typical case that involves high technical context.
-At the framework level, the context can be stacked in multiple layers.
+Let's consider several programming languages to think about technical context. Some languages, such as Python, have a common way of expressing things when writing, while other languages, such as Ruby, offer a variety of expressions for writing the same thing. The scope of the language is also a concern. There are languages, such as BASIC, that have a global scope as the basis, and there are also many languages with a narrow scope. The mechanism of references and borrowing in Rust, for example, is a typical example of high technical context. Furthermore, at the framework level, these contexts can be stacked on top of each other.
 
 ### Business Context
 
-The same is true for the business domain.
-Consider SQL, a database language.
-AI excels at simple tasks and is well-suited for implementing SQL's standard expressions.
-If you're defining database access for a simple application implementation, you can get by with less context.
-However, when dealing with a complex, intertwined, large database, it's difficult to be confident that the AI-generated code won't affect other processes.
-Understanding the overall architecture and having some knowledge of the actual logic may be required.
-The same applies to testing: AI is good at writing tests along given scenarios, but it's difficult to come up with comprehensive test scenarios.
-AI can easily write API tests for a REST API with simple CRUD features, but writing perfect tests for an application with complex authorization conditions might be challenging for AI.
+The same applies to the business domain. Let's consider SQL, a database language. AI is good at simple tasks and is suitable for implementing routine expressions in SQL. If you only need to define access to a database in a simple application implementation, you may need less context. However, when dealing with complex and interwoven large databases, it may be difficult to be confident that the code generated by AI does not affect other processes. Understanding the overall architecture and having knowledge of the actual logic may be necessary. The same applies to testing; AI is good at writing tests along with given scenarios, but it may be difficult to consider comprehensive test scenarios. API tests for a simple REST API with CRUD functionality can be easily written, but it may be difficult for AI to write tests for an application with complex authorization conditions.
 
 ## AI-Native Architecture
 
-How much context exists in the architecture of the features/applications you manage?
-If there is a lot of context in the architecture, the development speed utilizing AI might decrease.
-This is because LLMs can understand only a limited amount of context, and it is not possible to provide a large amount of context to AI at the same time.
-This is partly due to the upper limit of tokens that can be given, but it is also because humans generally cannot provide all the information in a form that is AI-readable.
-In a sense, AI can work indefinitely as long as prompts are continuously provided.
-On the other hand, humans have limited time to provide prompts to AI.
-In that case, the bottleneck in development becomes human.
-Therefore, it is worth considering reducing the context of the features or applications so that AI can write the correct program even without humans providing as much context as possible.
+How much context exists in the architecture of the function/application you manage? If there is a lot of context in the architecture, utilizing AI for development may decrease the speed. This is because the context that LLM can understand is limited, and it is not possible to simultaneously provide a large amount of context to AI. This is partly due to the upper limit of the number of tokens that can be provided, but also due to the fact that humans cannot provide all information in a form that is AI-readable. In a sense, AI can work indefinitely if prompts are continuously provided. On the other hand, the time humans can give prompts to AI is limited. In this case, the bottleneck in development becomes humans. Therefore, it is advisable to consider reducing the context of the function/application so that AI can write the correct program without humans having to provide a wide range of context.
 
-Dividing services into smaller levels and making them loosely related is a good idea.
-However, what I am referring to is not necessarily using microservices in the context of Kubernetes.
-Any design you can think of, including SOA and library-level separation, is fine.
-What's important is to divide the components into simple and testable units.
-The more context an application has, the harder it is to get AI support.
+It is a good idea to divide services into small units with sparse relationships. However, what I am referring to is not about microservices in the context of Kubernetes. Any design you consider, including separation at the SOA or library level, is fine.
+What is important is to divide components into simple and testable units. The more contexts an application has, the less likely it is to receive support from AI.
 
-There are sometimes religious wars about the appropriate size of programs to handle, and AI-assisted development is just beginning, so there is no exact answer.
-However, considering maximizing engineer productivity and growing products in the shortest time possible, it might be a good idea for your team to consider development methods and architecture based on GitHub Copilot.
+There are sometimes religious wars about the appropriate size of programs, and AI-assisted development is still in its early stages, so there is no exact answer. However, considering the maximization of engineer productivity and the shortest possible growth of the product, it is worth considering a development approach or architecture based on GitHub Copilot in your team.
 
-However, on the other hand, it should not be mistaken that IT architecture should be considered with the purpose of "maximizing engineer production." 
-Engineering exists as a means to ultimately achieve something.
+However, it is important to remember that IT architecture should not be designed with the sole purpose of maximizing engineer productivity. Engineering should always exist as a means to achieve the ultimate goal.
 
-I look forward to everyone actively participating in the discussions in this field.
+We hope that you will actively participate in discussions in this field.
 
-## Career Prospects as an Engineer
+## Outlook on an Engineering Career
 
-So far, I have touched on the potential for AI to bring about changes in architecture and development culture.
-It is also important to look at the career of engineering.
-This is a point to consider not only for engineers themselves but also for managers and those in positions to build organizations.
+So far, we have touched on the potential for AI to bring changes to architecture and development culture. Now, it is important to also consider the career of engineering. This is a consideration not only for engineers themselves but also for those in managerial or organizational positions.
 
-In the end, engineers need to consider whether to aim for engineers with a wide range of business and product insights or highly technical engineers.
-However, the problem is that there are low-context and high-context areas in both.
+Ultimately, engineers need to think about whether they want to aim to become engineers with a wide range of business product knowledge or engineers with highly advanced technical skills. However, the problem is that there are low-context and high-context areas in both of these.
 
-For example, in coding, simply pressing the Tab key for what GitHub Copilot suggests may be enough for simple repetitive tasks or writing processes that ultimately reach the same processing, no matter who writes them.
-On the other hand, the areas specified in the technical context and business context sections require a high context.
-This area is a field where experience and knowledge of specific technology areas are required, so it is not something that can be easily acquired.
-If it is knowledge available on the Internet, there is still a way to catch up, but on the other hand, if it is a closed knowledge area in a specific organization, and it is not documented or the cost of obtaining information is extremely high, it is difficult to catch up.
+For example, when it comes to coding, writing processes such as those that involve repeating simple tasks or writing code that will eventually lead to that process, regardless of who writes it, may simply involve pressing the tab key in response to suggestions by GitHub Copilot. On the other hand, areas specified in technical or business contexts require a high level of context. These areas require experience and knowledge in specific technical fields, and are not easily acquired. Even if the knowledge is available on the internet, catching up can still be challenging. However, if the knowledge is limited to a specific organization, is not documented, or if obtaining the information incurs a high cost, catching up can be difficult.
 
-This is not limited to coding, but AI tends to strengthen humans with rich knowledge and experience.
-This means that senior members will lose the jobs of newcomers.
-If left unchecked, newcomers will not be able to do important work in the organization and will not be able to expect skill growth.
-Senior skills will further increase, making it difficult for the organization to maintain them, and it will also be difficult to keep newcomers who are only doing boring work that seniors cannot do due to time constraints.
+This is not limited to coding, but AI tends to enhance people with knowledge and experience. This means that advanced workers may end up losing their jobs to newcomers. If left unchecked, newcomers will not be able to do important work in the organization or expect to see growth in their skills. The skills of advanced workers will further increase, making it difficult for the organization to maintain them, and it will also become difficult to keep newcomers who are only doing boring work that advanced workers cannot do due to time constraints.
 
-So, what should be done? One answer is to compile technical and business information in products and organizations into documents containing context and nurture them internally.
-As more people participate in creating these documentations and co-creation occurs, a knowledge database for the company is formed.
-Now is the time to create an atmosphere of internal collaboration similar to open-source.
+So, what should be done? One answer is to compile technical and business information in products and organizations into contextual documents and nurture them internally. When many people participate in creating these documents, co-creation occurs, and the company's knowledge database is built. Now is the time for internal collaboration similar to open source.
 
 ## Checklist
 
-- [ ] What context does your project or product have? Try organizing the context.
-- [ ] Is the context exclusive to a few individuals? Is it shared within the team?
-- [ ] In your project or product, is there a lot of code that AI can understand even with low context? If there is a lot of high-context code, how do you plan to convert it into AI-friendly code?
-- [ ] Are you promoting internal collaboration? If not, consider actions to improve communication and knowledge sharing within and between teams.
-- [ ] Have you discussed the career paths of your team's engineers in the AI era? Let's talk about whether they want to strengthen their technical and business areas.
+- [ ] What contexts are involved in your project or product? Let's organize the context.
+- [ ] Is that context exclusive to only a few people? Is it shared among the team?
+- [ ] Does the code in your project or product have a lot of low-context code that AI can understand? If there is a lot of high-context code, how will AI convert it into easy-to-write code?
+- [ ] Are you promoting internal collaboration? If not, let's consider actions to improve communication and knowledge sharing within and between teams.
+- [ ] Have discussions been held about the AI era career paths of engineers in your team? Let's discuss whether you want to strengthen technical, business, or other areas.

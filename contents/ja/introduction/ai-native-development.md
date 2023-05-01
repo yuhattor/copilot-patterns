@@ -1,4 +1,4 @@
-# AI-Native Documentation 
+# AI-Native Documentation
 
 GitHub Copilot のような AI 技術の活用により、開発者チーム内のエンジニアの作業が変わることは、最終的にはアーキテクチャにも影響をもたらす可能性があります。
 このドキュメントでは AI ネイティブの開発手法がもたらす可能性がある影響について説明します。
