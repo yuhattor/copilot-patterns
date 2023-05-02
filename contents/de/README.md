@@ -14,6 +14,8 @@ Wir freuen uns auf verschiedene Diskussionen und den Austausch von Wissen über 
 In dieser Einführung werden wir erklären, was AI-Native-Entwicklung ist und was Muster sind.
 Wenn Sie bereits AI-Native-Entwicklung in Ihrem Unternehmen praktizieren und Ihre Erfahrung zu diesem Dokument beitragen möchten, begrüßen wir Ihren Beitrag!
 
+Aktuell unterstützen wir die folgenden Sprachen: [Englisch 🇺🇸](https://ai-native-development.gitbook.io/docs/), [Deutsch 🇩🇪](https://ai-native-development.gitbook.io/docs/v/de/), [Spanisch 🇪🇸](https://ai-native-development.gitbook.io/docs/v/es/), [Französisch 🇫🇷](https://ai-native-development.gitbook.io/docs/v/fr/), [Italienisch 🇮🇹](https://ai-native-development.gitbook.io/docs/v/it/), [Japanisch 🇯🇵](https://ai-native-development.gitbook.io/docs/v/ja/), [Portugiesisch 🇵🇹](https://ai-native-development.gitbook.io/docs/v/pt/) und [Chinesisch 🇨🇳](https://ai-native-development.gitbook.io/docs/v/zh/).
+
 {% hint style="info" %}
 Dieses Dokument "AI-Native Development Guide" ist noch nicht in seiner endgültigen Version und es können defekte Links, Tippfehler und andere Fehler enthalten sein.
 Ihre Hilfe bei der Verbesserung wird sehr geschätzt.

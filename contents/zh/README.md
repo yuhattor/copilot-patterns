@@ -14,6 +14,8 @@
 在本介绍中，我们将解释什么是AI-Native开发以及什么是模式。
 如果您已经在公司中实践AI-Native开发，并想将自己的经验贡献给本文档，欢迎您的贡献！
 
+目前我们支持以下语言：[英语🇺🇸](https://ai-native-development.gitbook.io/docs/)、[德语🇩🇪](https://ai-native-development.gitbook.io/docs/v/de/)、[西班牙语🇪🇸](https://ai-native-development.gitbook.io/docs/v/es/)、[法语🇫🇷](https://ai-native-development.gitbook.io/docs/v/fr/)、[意大利语🇮🇹](https://ai-native-development.gitbook.io/docs/v/it/)、[日语🇯🇵](https://ai-native-development.gitbook.io/docs/v/ja/)、[葡萄牙语🇵🇹](https://ai-native-development.gitbook.io/docs/v/pt/)和[中文🇨🇳](https://ai-native-development.gitbook.io/docs/v/zh/)。
+
 {% hint style="info" %}
 本“AI-Native开发指南”尚未最终定稿，可能存在链接失效、错别字和其他错误。
 非常感谢您的帮助和支持，共同完善该文档。

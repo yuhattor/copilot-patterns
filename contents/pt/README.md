@@ -14,6 +14,8 @@ Aguardamos ansiosos por diversas discussões e compartilhamento de conhecimento 
 Nesta introdução, explicaremos o que é o desenvolvimento AI-Native e o que são padrões.
 Se você já pratica o desenvolvimento AI-Native em sua empresa e gostaria de contribuir com sua experiência para este documento, sua contribuição é bem-vinda!
 
+Atualmente, oferecemos suporte aos seguintes idiomas: [Inglês 🇺🇸](https://ai-native-development.gitbook.io/docs/), [Alemão 🇩🇪](https://ai-native-development.gitbook.io/docs/v/de/), [Espanhol 🇪🇸](https://ai-native-development.gitbook.io/docs/v/es/), [Francês 🇫🇷](https://ai-native-development.gitbook.io/docs/v/fr/), [Italiano 🇮🇹](https://ai-native-development.gitbook.io/docs/v/it/), [Japonês 🇯🇵](https://ai-native-development.gitbook.io/docs/v/ja/), [Português 🇵🇹](https://ai-native-development.gitbook.io/docs/v/pt/) e [Chinês 🇨🇳](https://ai-native-development.gitbook.io/docs/v/zh/).
+
 {% hint style="info" %}
 Este documento "Guia de Desenvolvimento AI-Native" ainda não está em sua versão final e pode conter links quebrados, erros de digitação e outros erros.
 Sua ajuda para melhorá-lo é muito apreciada.
