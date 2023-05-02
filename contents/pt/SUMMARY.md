@@ -1,26 +1,26 @@
-# Table of Contents
+# Tabela de Conteúdo
 
-* [Introduction](./README.md)
-* [Contributing to the Project](./CONTRIBUTING.md)
+* [Introdução](./README.md)
+* [Contribuindo para o Projeto](./CONTRIBUTING.md)
 
-## Introduction
+## Introdução
 
-* [AI-Native Development](./introduction/ai-native-development.md)
-* [AI-Readable Documentation](./introduction/ai-native-documentation.md)
-* [Types of AI Coding Tools](./introduction/ai-tools-types.md)
+* [Desenvolvimento Nativo de IA](./introduction/ai-native-development.md)
+* [Documentação Legível por IA](./introduction/ai-native-documentation.md)
+* [Tipos de Ferramentas de Codificação de IA](./introduction/ai-tools-types.md)
 
-## Basic
+## Básico
 
-* [Code Completion](./basic/code-to-code.md)
-* [Generating Code from Comments](./basic/comment-to-code.md)
-* [Generating Comments](./basic/code-to-comment.md)
-* [Code Refactoring](./basic/refactoring.md)
+* [Completar Código](./basic/code-to-code.md)
+* [Gerar Código a Partir de Comentários](./basic/comment-to-code.md)
+* [Gerar Comentários](./basic/code-to-comment.md)
+* [Refatoração de Código](./basic/refactoring.md)
 
-## Patterns
+## Padrões
 
-* [AI-Native Documentation](./patterns/ai-friendly-documentation.md)
-* [AI-Readable Naming Rules](./patterns/ai-friendly-naming-convention.md)
-* [Test Development with AI](./patterns/ai-test-development.md)
-* [Context Directory](./patterns/context-directory.md)
-* [Prompt Knowledge Sharing](./patterns/prompt-knowledgesharing.md)
-* [Reinventing the Wheel](./patterns/reinventing-wheel.md)
+* [Documentação Legível por IA](./patterns/ai-friendly-documentation.md)
+* [Regras de Nomenclatura Legíveis por IA](./patterns/ai-friendly-naming-convention.md)
+* [Desenvolvimento de Testes com IA](./patterns/ai-test-development.md)
+* [Diretório de Contexto](./patterns/context-directory.md)
+* [Compartilhamento de Conhecimento com Prompt](./patterns/prompt-knowledgesharing.md)
+* [Reinventando a Roda](./patterns/reinventing-wheel.md)

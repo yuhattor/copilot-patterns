@@ -1,26 +1,26 @@
-# Table of Contents
+# 目录
 
-* [Introduction](./README.md)
-* [Contributing to the Project](./CONTRIBUTING.md)
+* [介绍](./README.md)
+* [为项目做贡献](./CONTRIBUTING.md)
 
-## Introduction
+## 介绍
 
-* [AI-Native Development](./introduction/ai-native-development.md)
-* [AI-Readable Documentation](./introduction/ai-native-documentation.md)
-* [Types of AI Coding Tools](./introduction/ai-tools-types.md)
+* [AI 原生开发](./introduction/ai-native-development.md)
+* [AI 可读文档](./introduction/ai-native-documentation.md)
+* [AI 编码工具类型](./introduction/ai-tools-types.md)
 
-## Basic
+## 基础
 
-* [Code Completion](./basic/code-to-code.md)
-* [Generating Code from Comments](./basic/comment-to-code.md)
-* [Generating Comments](./basic/code-to-comment.md)
-* [Code Refactoring](./basic/refactoring.md)
+* [代码自动补全](./basic/code-to-code.md)
+* [根据注释生成代码](./basic/comment-to-code.md)
+* [生成注释](./basic/code-to-comment.md)
+* [代码重构](./basic/refactoring.md)
 
-## Patterns
+## 模式
 
-* [AI-Native Documentation](./patterns/ai-friendly-documentation.md)
-* [AI-Readable Naming Rules](./patterns/ai-friendly-naming-convention.md)
-* [Test Development with AI](./patterns/ai-test-development.md)
-* [Context Directory](./patterns/context-directory.md)
-* [Prompt Knowledge Sharing](./patterns/prompt-knowledgesharing.md)
-* [Reinventing the Wheel](./patterns/reinventing-wheel.md)
+* [AI 友好文档](./patterns/ai-friendly-documentation.md)
+* [AI 可读命名规则](./patterns/ai-friendly-naming-convention.md)
+* [使用 AI 进行测试开发](./patterns/ai-test-development.md)
+* [上下文目录](./patterns/context-directory.md)
+* [提示式知识共享](./patterns/prompt-knowledgesharing.md)
+* [重复发明轮子](./patterns/reinventing-wheel.md)
