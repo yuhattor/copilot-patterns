@@ -4,8 +4,9 @@ Bienvenue dans le Guide de développement AI-Native!
 Il s'agit d'un document communautaire géré par la communauté de développement AI-Native.
 Dans ce document, nous avons compilé les meilleures pratiques pour le développement AI-Native en utilisant des outils tels que GitHub Copilot dans un format spécifique, afin que vous puissiez facilement les comprendre, les évaluer et les appliquer à votre situation.
 Certains sont regroupés et nommés comme des patterns.
+Nous serions ravis si vous pouviez donner une étoile à notre [dépôt GitHub](https://github.com/AI-Native-Development/docs) ou contribuer de quelque manière que ce soit, même minime. Travaillons ensemble pour ouvrir la voie au développement AI-Native !
 
-<img src="../../top.png" width="480px" />
+<img align="right" src="../../top.png" title="AI Native Development Guide" width="30%">
 
 Certains de ces patterns ont été testés et ont prouvé leur efficacité dans des environnements individuels, mais d'autres sont basés sur des idées et n'ont pas encore été testés pour leur efficacité dans des environnements d'équipe réels.
 N'hésitez pas à laisser des commentaires sur les problèmes de GitHub.

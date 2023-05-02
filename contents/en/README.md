@@ -3,9 +3,9 @@
 Welcome to the AI-Native Development Guide!
 This is a community document run by the AI-Native Development Community.
 In this document, we have compiled best practices for AI-Native development using tools like GitHub Copilot in a specific format, so you can easily understand, evaluate, and apply them to your situation.
-Some are grouped together and named as patterns.
+Some are grouped together and named as patterns. We would be thrilled if you could give our [GitHub repository](https://github.com/AI-Native-Development/docs) a star or contribute in any way, no matter how small. Let's work together to pave the way for AI-Native Development!
 
-<img src="../../top.png" width="480px" />
+<img align="right" src="../../top.png" title="AI Native Development Guide" width="30%">
 
 Some of these patterns have been tried and proven effective in individual environments, but others are idea-based and have not yet been tested for effectiveness in actual team environments.
 Please feel free to leave comments on GitHub Issues.

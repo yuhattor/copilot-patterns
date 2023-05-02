@@ -4,8 +4,9 @@
 本文档是由AI-Native开发社区运营的社区文档。
 在本文档中，我们以特定的格式编写了使用GitHub Copilot等工具进行AI-Native开发的最佳实践，让您能够轻松理解、评估和应用它们。
 其中一些已被分组并命名为模式。
+如果您能够给我们的[GitHub代码库](https://github.com/AI-Native-Development/docs)点赞或以任何方式做出贡献，无论多么微小，我们都会非常高兴。让我们共同努力铺平AI本地化开发的道路！
 
-<img src="../../top.png" width="480px" />
+<img align="right" src="../../top.png" title="AI Native Development Guide" width="30%">
 
 这些模式中的一些已经在个人环境中尝试并被证明是有效的，但是其他一些是基于思想的，尚未在实际团队环境中测试其有效性。
 请随时在GitHub Issues上留下评论。
