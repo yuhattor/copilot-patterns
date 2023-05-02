@@ -22,5 +22,5 @@
 * [AI 可读命名规则](./patterns/ai-friendly-naming-convention.md)
 * [使用 AI 进行测试开发](./patterns/ai-test-development.md)
 * [上下文目录](./patterns/context-directory.md)
-* [提示式知识共享](./patterns/prompt-knowledgesharing.md)
+* [提示式知识共享](./patterns/prompt-knowledge-sharing.md)
 * [重复发明轮子](./patterns/reinventing-wheel.md)

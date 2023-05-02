@@ -22,5 +22,5 @@
 * [Regras de Nomenclatura Legíveis por IA](./patterns/ai-friendly-naming-convention.md)
 * [Desenvolvimento de Testes com IA](./patterns/ai-test-development.md)
 * [Diretório de Contexto](./patterns/context-directory.md)
-* [Compartilhamento de Conhecimento com Prompt](./patterns/prompt-knowledgesharing.md)
+* [Compartilhamento de Conhecimento com Prompt](./patterns/prompt-knowledge-sharing.md)
 * [Reinventando a Roda](./patterns/reinventing-wheel.md)

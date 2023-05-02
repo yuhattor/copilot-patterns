@@ -22,5 +22,5 @@
 * [AI可読性のある命名規則](./patterns/ai-friendly-naming-convention.md)
 * [AIを使ったテスト開発](./patterns/ai-test-development.md)
 * [コンテキストディレクトリー](./patterns/context-directory.md)
-* [プロンプト ナレッジシェア](./patterns/prompt-knowledgesharing.md)
+* [プロンプト ナレッジシェア](./patterns/prompt-knowledge-sharing.md)
 * [車輪の再発明](./patterns/reinventing-wheel.md)

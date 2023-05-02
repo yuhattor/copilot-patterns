@@ -22,5 +22,5 @@
 * [AI-Readable Naming Rules](./patterns/ai-friendly-naming-convention.md)
 * [Test Development with AI](./patterns/ai-test-development.md)
 * [Context Directory](./patterns/context-directory.md)
-* [Prompt Knowledge Sharing](./patterns/prompt-knowledgesharing.md)
+* [Prompt Knowledge Sharing](./patterns/prompt-knowledge-sharing.md)
 * [Reinventing the Wheel](./patterns/reinventing-wheel.md)

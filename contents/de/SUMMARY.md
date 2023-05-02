@@ -22,5 +22,5 @@
 * [KI-lesbare Benennungsregeln](./patterns/ai-friendly-naming-convention.md)
 * [Testentwicklung mit KI](./patterns/ai-test-development.md)
 * [Kontext-Verzeichnis](./patterns/context-directory.md)
-* [Prompt-Wissensaustausch](./patterns/prompt-knowledgesharing.md)
+* [Prompt-Wissensaustausch](./patterns/prompt-knowledge-sharing.md)
 * [Das Rad neu erfinden](./patterns/reinventing-wheel.md)

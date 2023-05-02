@@ -22,5 +22,5 @@
 * [Regole di denominazione AI-Readable](./patterns/ai-friendly-naming-convention.md)
 * [Sviluppo dei test con AI](./patterns/ai-test-development.md)
 * [Directory del contesto](./patterns/context-directory.md)
-* [Condivisione di conoscenze prompt](./patterns/prompt-knowledgesharing.md)
+* [Condivisione di conoscenze prompt](./patterns/prompt-knowledge-sharing.md)
 * [Rinventare la ruota](./patterns/reinventing-wheel.md)
