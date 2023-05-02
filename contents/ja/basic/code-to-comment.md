@@ -1,6 +1,6 @@
 # コメント生成
 
-GitHub Copilot はコードを生成するエンジンですが、コードからコメントの生成することができます。
+GitHub Copilot はコードを生成するエンジンですが、コードからコメントを生成することができます。
 例えばコメントがない以下のようなエラトステネスの篩のコードがあるとします。
 
 ```py
@@ -15,7 +15,7 @@ def eratosthenes_sieve(n):
     return primes
 ```
 
-GitHub Copilot は以下のようなメソッドの解説のコメントを書くことができます
+GitHub Copilot は以下のようなメソッドの解説のコメントを書くことができます。
 
 ```py
 # Write the description of the method here <- [Actual Prompt]
