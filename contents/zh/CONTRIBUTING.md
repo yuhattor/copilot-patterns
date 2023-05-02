@@ -1,42 +1,42 @@
-# Contributing to AI Native Development Guide
+# 贡献AI本地开发指南
 
-The goal of the AI Native Development Patterns Working Group is to collect, document, and publish best practices for AI Native development. To make them easy to understand, evaluate, and apply, we encode them in a specific structure.
+AI Native开发模式工作组的目标是收集、记录和发布AI本地开发的最佳实践。为了使它们易于理解、评估和应用，我们将它们编码为特定的结构。
 
-We welcome your participation, whether you make small or large contributions, for this working group to actively operate.
+我们欢迎您的参与，无论您做出的贡献是大是小，都可让本工作组积极运转。
 
-## How to Contribute
+## 如何贡献
 
-Please consider contributing to AI Native development patterns. Below are suggestions on how you can contribute.
+请考虑为AI Native开发模式做出贡献。以下是您可以贡献的建议。
 
-* Share opinions and encourage discussion:
-  Fresh perspectives, interesting thoughts, or early novel ideas can provoke discussions and produce unpredictable outcomes. Please create Issues to share your opinions on AI Native development-related topics anytime.
-* Read existing patterns and improve them:
-  We recommend starting by reading the existing patterns and materials in this repository. Did you find a confusing phrase or poor grammar? A content error? Create a GitHub Issue or propose a correction directly as a pull request.
-* Verify the use of patterns:
-  Confirming that multiple organizations are using a pattern increases its relevance and informs other adopters that the pattern is proven. If you are using any of the published patterns, list your organization as a known instance of that pattern and describe your experience in applying it.
-* Translate existing patterns:
-  When introducing AI Native development practices in your region, the language barrier can be an issue for people, as most AI Native development content is available in English. Therefore, it is highly valuable to help people in your region/organization understand AI Native development in their language. For guidance on translating patterns into other languages, please refer to the translation instructions.
-* Review open pull requests:
-  Even if you don't know all the details of the Patterns Working Group, feedback on existing pull requests (especially those proposing changes to pattern content) is beneficial for their authors.
-  As someone learning AI Native development, you can offer your opinion from the perspective of a future reader. As someone with your own AI Native development experience, you can share your experiences with the author.
-* Contribute to new patterns:
-  A major contribution you can make is documenting the best practices of AI Native development you have experienced or know about.
-  This repository's content has defined maturity levels. First-time contributors should aim for Maturity Level 1: Initial (unstructured experience reports or patterns with missing parts) and 2: Structured (best practices following the pattern format and basic textual representation rules).
-* Become a pattern advocate: By bringing in more people with their perspectives and experiences, patterns become better, and more topics get covered. Has a colleague told you about a novel AI Native development best practice? Invite them to contribute to this repository!
+* 分享意见并鼓励讨论：
+  新颖的观点、有趣的想法或早期的新颖想法可能引发讨论并产生不可预测的结果。请随时创建问题，分享您对AI Native开发相关主题的意见。
+* 阅读现有模式并改进它们：
+  我们建议您从阅读此存储库中现有的模式和材料开始。您是否发现了混淆的短语或语法错误？内容错误？请创建GitHub问题或直接提出更正。
+* 验证模式的使用：
+  确认多个组织正在使用一个模式可以增加其相关性并告知其他采用者该模式是经过验证的。如果您正在使用任何已发布的模式，请将您的组织列为该模式的已知实例，并描述您应用它的经验。
+* 翻译现有模式：
+  当在您的地区引入AI Native开发实践时，语言障碍可能成为人们的问题，因为大多数AI Native开发内容只提供英文。因此，帮助您地区/组织的人理解他们语言的AI Native开发非常有价值。有关将模式翻译成其他语言的指导，请参阅翻译说明。
+* 查看开放的拉取请求：
+  即使您不知道所有模式工作组的详细信息，对现有拉取请求（尤其是那些提出更改模式内容的请求）的反馈对其作者都是有益的。 作为学习AI Native开发的人，您可以从未来读者的角度提供您的意见。作为具有自己AI Native开发经验的人，您可以与作者分享您的经验。
+* 贡献新模式：
+  您可以做出的重要贡献是记录您经历过或了解的AI Native开发最佳实践。
+此存储库的内容已定义成熟级别。首次贡献者应以成熟级别1：初步（未结构化的经验报告或具有缺失部分的模式）和2：结构化（遵循模式格式和基本文本表示规则的最佳实践）为目标。
+* 成为模式倡导者：
+  通过引入更多具有其观点和经验的人，模式变得更好，更多的主题得到涵盖。您的同事是否告诉您一个新颖的AI Native开发最佳实践？邀请他们贡献到此存储库中！
 
-## How to Contact
+## 如何联系
 
-Please feel free to contact us for support in contributing to AI Native development patterns, or just to chat.
-The easiest way to reach us is via Discord.
+请随时与我们联系，以获得有关贡献AI Native开发模式的支持，或仅仅是聊天。
+最简单的联系方式是通过Discord。
 
-## Licensing Contributions
+## 许可贡献
 
-The contents of this repository are licensed under CC-BY-SA-4.0. By contributing to this repository, you grant us (and everyone else) the right to use your contribution under that license.
+本存储库的内容受CC-BY-SA-4.0许可。通过对此存储库做出贡献，您授予我们（以及其他所有人）在该许可下使用您的贡献的权利。
 
-## Acknowledging Contributions
+## 承认贡献
 
-If you list yourself as the author of a pattern, we assume that you have granted permission to be mentioned when referencing that pattern.
+如果您将自己列为某个模式的作者，我们认为您已授权在引用该模式时提及您。
 
-## Code of Conduct
+## 行为准则
 
-While there is not yet a fully formalized code of conduct, we expect all contributors to treat each other with respect and help keep this community free from harassment and discrimination.
+虽然尚未制定完全正式的行为准则，但我们期望所有贡献者相互尊重，帮助保持此社区免受骚扰和歧视。

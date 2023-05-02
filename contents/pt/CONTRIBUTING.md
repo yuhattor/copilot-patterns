@@ -1,42 +1,41 @@
-# Contributing to AI Native Development Guide
+# Guia de Desenvolvimento de AI Native
 
-The goal of the AI Native Development Patterns Working Group is to collect, document, and publish best practices for AI Native development. To make them easy to understand, evaluate, and apply, we encode them in a specific structure.
+O objetivo do grupo de trabalho de padrões de desenvolvimento de AI Native é coletar, documentar e publicar as melhores práticas para o desenvolvimento de AI Native. Para torná-las fáceis de entender, avaliar e aplicar, as codificamos em uma estrutura específica.
 
-We welcome your participation, whether you make small or large contributions, for this working group to actively operate.
+Damos as boas-vindas à sua participação, quer você faça pequenas ou grandes contribuições, para que este grupo de trabalho possa operar ativamente.
 
-## How to Contribute
+## Como Contribuir
 
-Please consider contributing to AI Native development patterns. Below are suggestions on how you can contribute.
+Considere contribuir para os padrões de desenvolvimento de AI Native. Abaixo estão sugestões de como você pode contribuir.
 
-* Share opinions and encourage discussion:
-  Fresh perspectives, interesting thoughts, or early novel ideas can provoke discussions and produce unpredictable outcomes. Please create Issues to share your opinions on AI Native development-related topics anytime.
-* Read existing patterns and improve them:
-  We recommend starting by reading the existing patterns and materials in this repository. Did you find a confusing phrase or poor grammar? A content error? Create a GitHub Issue or propose a correction directly as a pull request.
-* Verify the use of patterns:
-  Confirming that multiple organizations are using a pattern increases its relevance and informs other adopters that the pattern is proven. If you are using any of the published patterns, list your organization as a known instance of that pattern and describe your experience in applying it.
-* Translate existing patterns:
-  When introducing AI Native development practices in your region, the language barrier can be an issue for people, as most AI Native development content is available in English. Therefore, it is highly valuable to help people in your region/organization understand AI Native development in their language. For guidance on translating patterns into other languages, please refer to the translation instructions.
-* Review open pull requests:
-  Even if you don't know all the details of the Patterns Working Group, feedback on existing pull requests (especially those proposing changes to pattern content) is beneficial for their authors.
-  As someone learning AI Native development, you can offer your opinion from the perspective of a future reader. As someone with your own AI Native development experience, you can share your experiences with the author.
-* Contribute to new patterns:
-  A major contribution you can make is documenting the best practices of AI Native development you have experienced or know about.
-  This repository's content has defined maturity levels. First-time contributors should aim for Maturity Level 1: Initial (unstructured experience reports or patterns with missing parts) and 2: Structured (best practices following the pattern format and basic textual representation rules).
-* Become a pattern advocate: By bringing in more people with their perspectives and experiences, patterns become better, and more topics get covered. Has a colleague told you about a novel AI Native development best practice? Invite them to contribute to this repository!
+* Compartilhar opiniões e encorajar discussões:
+  Novas perspectivas, ideias interessantes ou ideias novas podem provocar discussões e produzir resultados imprevisíveis. Por favor, crie problemas (issues) para compartilhar suas opiniões sobre tópicos relacionados ao desenvolvimento de AI Native a qualquer momento.
+* Leia os padrões existentes e os aprimore:
+  Recomendamos começar lendo os padrões e materiais existentes neste repositório. Você encontrou uma frase confusa ou uma gramática pobre? Um erro de conteúdo? Crie um problema no GitHub ou proponha uma correção diretamente como uma solicitação de pull request.
+* Verifique o uso dos padrões:
+  Confirmar que várias organizações estão usando um padrão aumenta sua relevância e informa outros adotantes que o padrão é comprovado. Se você está usando algum dos padrões publicados, liste sua organização como uma instância conhecida desse padrão e descreva sua experiência em aplicá-lo.
+* Traduza padrões existentes:
+  Ao introduzir práticas de desenvolvimento de AI Native em sua região, a barreira do idioma pode ser um problema para as pessoas, já que a maioria do conteúdo de desenvolvimento de AI Native está disponível em inglês. Portanto, é altamente valioso ajudar as pessoas em sua região/organização a entender o desenvolvimento de AI Native em seu idioma. Para orientações sobre a tradução de padrões para outros idiomas, consulte as instruções de tradução.
+* Reveja solicitações de pull request abertas:
+  Mesmo que você não conheça todos os detalhes do grupo de trabalho de padrões, o feedback sobre solicitações de pull request existentes (especialmente aquelas que propõem alterações no conteúdo do padrão) é benéfico para seus autores.
+  Como alguém que está aprendendo o desenvolvimento de AI Native, você pode oferecer sua opinião do ponto de vista de um leitor futuro. Como alguém com sua própria experiência em desenvolvimento de AI Native, você pode compartilhar suas experiências com o autor.
+* Contribua para novos padrões:
+  Uma grande contribuição que você pode fazer é documentar as melhores práticas de desenvolvimento de AI Native que você já experimentou ou conhece. O conteúdo deste repositório tem níveis de maturidade definidos. Os contribuintes de primeira viagem devem mirar o Nível de Maturidade 1: Inicial (relatórios de experiência não estruturados ou padrões com partes faltantes) e 2: Estruturado (melhores práticas seguindo o formato de padrão e as regras básicas de representação textual).
+* Torne-se um defensor do padrão:
+  Ao trazer mais pessoas com suas perspectivas e experiências, os padrões se tornam melhores e mais tópicos são abordados. Um colega lhe contou sobre uma nova melhor prática de desenvolvimento de AI Native? Convide-o a contribuir para este repositório!
 
-## How to Contact
+## Como entrar em contato
 
-Please feel free to contact us for support in contributing to AI Native development patterns, or just to chat.
-The easiest way to reach us is via Discord.
+Sinta-se à vontade para entrar em contato conosco para obter suporte na contribuição para os padrões de desenvolvimento de AI Native, ou apenas para bater um papo. A maneira mais fácil de nos contatar é via Discord.
 
-## Licensing Contributions
+## Contribuições de licenciamento
 
-The contents of this repository are licensed under CC-BY-SA-4.0. By contributing to this repository, you grant us (and everyone else) the right to use your contribution under that license.
+O conteúdo deste repositório é licenciado sob CC-BY-SA-4.0. Ao contribuir para este repositório, você nos concede (e a todos os outros) o direito de usar sua contribuição sob essa licença.
 
-## Acknowledging Contributions
+## Reconhecimento de contribuições
 
-If you list yourself as the author of a pattern, we assume that you have granted permission to be mentioned when referencing that pattern.
+Se você se listar como autor de um padrão, presumimos que você concedeu permissão para ser mencionado ao fazer referência a esse padrão.
 
-## Code of Conduct
+## Código de Conduta
 
-While there is not yet a fully formalized code of conduct, we expect all contributors to treat each other with respect and help keep this community free from harassment and discrimination.
+Embora ainda não haja um código de conduta totalmente formalizado, esperamos que todos os colaboradores tratem uns aos outros com respeito e ajudem a manter esta comunidade livre de assédio e discriminação.

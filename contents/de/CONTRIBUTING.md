@@ -1,42 +1,43 @@
-# Contributing to AI Native Development Guide
+Beitrag zum Leitfaden für die Entwicklung von AI Native
 
-The goal of the AI Native Development Patterns Working Group is to collect, document, and publish best practices for AI Native development. To make them easy to understand, evaluate, and apply, we encode them in a specific structure.
+Das Ziel der Arbeitsgruppe für AI Native Development Patterns besteht darin, bewährte Verfahren für die Entwicklung von AI Native zu sammeln, zu dokumentieren und zu veröffentlichen. Um sie leicht verständlich, evaluierbar und anwendbar zu machen, codieren wir sie in einer bestimmten Struktur.
 
-We welcome your participation, whether you make small or large contributions, for this working group to actively operate.
+Wir begrüßen Ihre Teilnahme, ob Sie kleine oder große Beiträge leisten, damit diese Arbeitsgruppe aktiv arbeiten kann.
 
-## How to Contribute
+## Wie man beitragen kann
 
-Please consider contributing to AI Native development patterns. Below are suggestions on how you can contribute.
+Bitte erwägen Sie, zu AI Native Development Patterns beizutragen. Nachfolgend finden Sie Vorschläge, wie Sie dazu beitragen können.
 
-* Share opinions and encourage discussion:
-  Fresh perspectives, interesting thoughts, or early novel ideas can provoke discussions and produce unpredictable outcomes. Please create Issues to share your opinions on AI Native development-related topics anytime.
-* Read existing patterns and improve them:
-  We recommend starting by reading the existing patterns and materials in this repository. Did you find a confusing phrase or poor grammar? A content error? Create a GitHub Issue or propose a correction directly as a pull request.
-* Verify the use of patterns:
-  Confirming that multiple organizations are using a pattern increases its relevance and informs other adopters that the pattern is proven. If you are using any of the published patterns, list your organization as a known instance of that pattern and describe your experience in applying it.
-* Translate existing patterns:
-  When introducing AI Native development practices in your region, the language barrier can be an issue for people, as most AI Native development content is available in English. Therefore, it is highly valuable to help people in your region/organization understand AI Native development in their language. For guidance on translating patterns into other languages, please refer to the translation instructions.
-* Review open pull requests:
-  Even if you don't know all the details of the Patterns Working Group, feedback on existing pull requests (especially those proposing changes to pattern content) is beneficial for their authors.
-  As someone learning AI Native development, you can offer your opinion from the perspective of a future reader. As someone with your own AI Native development experience, you can share your experiences with the author.
-* Contribute to new patterns:
-  A major contribution you can make is documenting the best practices of AI Native development you have experienced or know about.
-  This repository's content has defined maturity levels. First-time contributors should aim for Maturity Level 1: Initial (unstructured experience reports or patterns with missing parts) and 2: Structured (best practices following the pattern format and basic textual representation rules).
-* Become a pattern advocate: By bringing in more people with their perspectives and experiences, patterns become better, and more topics get covered. Has a colleague told you about a novel AI Native development best practice? Invite them to contribute to this repository!
+* Teilen Sie Meinungen und fördern Sie Diskussionen:
+Frische Perspektiven, interessante Gedanken oder frühe neuartige Ideen können Diskussionen provozieren und unvorhersehbare Ergebnisse produzieren. Bitte erstellen Sie Issues, um Ihre Meinungen zu AI Native Development-bezogenen Themen jederzeit zu teilen.
+* Lesen Sie bestehende Patterns und verbessern Sie sie:
+Wir empfehlen, mit dem Lesen der vorhandenen Patterns und Materialien in diesem Repository zu beginnen. Haben Sie einen verwirrenden Satz oder eine schlechte Grammatik gefunden? Einen Inhaltsfehler? Erstellen Sie ein GitHub Issue oder schlagen Sie direkt eine Korrektur als Pull Request vor.
+* Bestätigen Sie die Verwendung von Patterns:
+Die Bestätigung, dass mehrere Organisationen ein Pattern verwenden, erhöht seine Relevanz und informiert andere Anwender, dass das Pattern bewährt ist. Wenn Sie eines der veröffentlichten Patterns verwenden, listen Sie Ihre Organisation als bekannte Instanz dieses Patterns auf und beschreiben Sie Ihre Erfahrungen bei der Anwendung.
+* Übersetzen Sie bestehende Patterns:
+Bei der Einführung von AI Native Development-Praktiken in Ihrer Region kann die Sprachbarriere für Menschen ein Problem darstellen, da die meisten AI Native Development-Inhalte in Englisch verfügbar sind. Daher ist es sehr wertvoll, Menschen in Ihrer Region/Organisation zu helfen, AI Native Development in ihrer Sprache zu verstehen. Für Anleitungen zur Übersetzung von Patterns in andere Sprachen, verweisen wir auf die Übersetzungsanweisungen.
+* Überprüfen Sie offene Pull Requests:
+Selbst wenn Sie nicht alle Details der Patterns Working Group kennen, ist Feedback zu vorhandenen Pull Requests (insbesondere solchen, die Änderungen am Pattern-Inhalt vorschlagen) für ihre Autoren von Vorteil.
+Als jemand, der AI Native Development lernt, können Sie Ihre Meinung aus der Perspektive eines zukünftigen Lesers anbieten. Als jemand mit eigener AI Native Development-Erfahrung können Sie Ihre Erfahrungen mit dem Autor teilen.
+* Tragen Sie zu neuen Patterns bei:
+Ein wichtiger Beitrag, den Sie leisten können, besteht darin, die bewährten Verfahren der AI Native Development, die Sie erlebt haben oder kennen, zu dokumentieren.
+Der Inhalt dieses Repositorys hat definierte Reifegrade. Erstmalige Beitragende sollten sich auf Reifegrad 1: Initial (unstrukturierte Erfahrungsberichte oder Patterns mit fehlenden Teilen) und 2: Strukturiert (bewährte Verfahren im Pattern-Format und grundlegende Textdarstellungsregeln) konzentrieren.
+* Werden Sie ein Pattern-Befürworter:
+Indem Sie mehr Menschen mit ihren Perspektiven und Erfahrungen einbeziehen, werden Patterns besser und es werden mehr Themen abgedeckt. Hat Ihnen ein Kollege eine neue bewährte Praxis für die Entwicklung von AI Native erzählt? Laden Sie sie ein, zu diesem Repository beizutragen!
 
-## How to Contact
+## Wie man Kontakt aufnimmt
 
-Please feel free to contact us for support in contributing to AI Native development patterns, or just to chat.
-The easiest way to reach us is via Discord.
+Bitte kontaktieren Sie uns jederzeit für Unterstützung bei der Beitragserstellung zu AI Native Development Patterns oder einfach zum Plaudern.
+Der einfachste Weg, uns zu erreichen, ist über Discord.
 
-## Licensing Contributions
+## Lizenzierung von Beiträgen
 
-The contents of this repository are licensed under CC-BY-SA-4.0. By contributing to this repository, you grant us (and everyone else) the right to use your contribution under that license.
+Die Inhalte dieses Repositorys sind unter CC-BY-SA-4.0 lizenziert. Durch die Beitragserstellung zu diesem Repository gewähren Sie uns (und allen anderen) das Recht, Ihren Beitrag unter dieser Lizenz zu verwenden.
 
-## Acknowledging Contributions
+## Anerkennung von Beiträgen
 
-If you list yourself as the author of a pattern, we assume that you have granted permission to be mentioned when referencing that pattern.
+Wenn Sie sich selbst als Autor eines Patterns listen, gehen wir davon aus, dass Sie die Erlaubnis erteilt haben, bei Verweis auf dieses Pattern genannt zu werden.
 
-## Code of Conduct
+## Verhaltenskodex
 
-While there is not yet a fully formalized code of conduct, we expect all contributors to treat each other with respect and help keep this community free from harassment and discrimination.
+Obwohl es noch keinen vollständig formalisierten Verhaltenskodex gibt, erwarten wir von allen Beitragenden, dass sie einander mit Respekt behandeln und dazu beitragen, dass diese Community frei von Belästigung und Diskriminierung bleibt.

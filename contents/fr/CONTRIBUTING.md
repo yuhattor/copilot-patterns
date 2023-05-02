@@ -1,42 +1,44 @@
-# Contributing to AI Native Development Guide
+# Guide de contribution au développement natif de l'IA
 
-The goal of the AI Native Development Patterns Working Group is to collect, document, and publish best practices for AI Native development. To make them easy to understand, evaluate, and apply, we encode them in a specific structure.
+Le but du groupe de travail sur les modèles de développement natifs de l'IA est de collecter, documenter et publier les meilleures pratiques pour le développement natif de l'IA. Pour les rendre faciles à comprendre, à évaluer et à appliquer, nous les encodons dans une structure spécifique.
 
-We welcome your participation, whether you make small or large contributions, for this working group to actively operate.
+Nous vous encourageons à participer, que vous fassiez de petites ou de grandes contributions, pour que ce groupe de travail puisse fonctionner activement.
 
-## How to Contribute
+## Comment contribuer
 
-Please consider contributing to AI Native development patterns. Below are suggestions on how you can contribute.
+Veuillez envisager de contribuer aux modèles de développement natifs de l'IA. Voici des suggestions sur la façon dont vous pouvez contribuer.
 
-* Share opinions and encourage discussion:
-  Fresh perspectives, interesting thoughts, or early novel ideas can provoke discussions and produce unpredictable outcomes. Please create Issues to share your opinions on AI Native development-related topics anytime.
-* Read existing patterns and improve them:
-  We recommend starting by reading the existing patterns and materials in this repository. Did you find a confusing phrase or poor grammar? A content error? Create a GitHub Issue or propose a correction directly as a pull request.
-* Verify the use of patterns:
-  Confirming that multiple organizations are using a pattern increases its relevance and informs other adopters that the pattern is proven. If you are using any of the published patterns, list your organization as a known instance of that pattern and describe your experience in applying it.
-* Translate existing patterns:
-  When introducing AI Native development practices in your region, the language barrier can be an issue for people, as most AI Native development content is available in English. Therefore, it is highly valuable to help people in your region/organization understand AI Native development in their language. For guidance on translating patterns into other languages, please refer to the translation instructions.
-* Review open pull requests:
-  Even if you don't know all the details of the Patterns Working Group, feedback on existing pull requests (especially those proposing changes to pattern content) is beneficial for their authors.
-  As someone learning AI Native development, you can offer your opinion from the perspective of a future reader. As someone with your own AI Native development experience, you can share your experiences with the author.
-* Contribute to new patterns:
-  A major contribution you can make is documenting the best practices of AI Native development you have experienced or know about.
-  This repository's content has defined maturity levels. First-time contributors should aim for Maturity Level 1: Initial (unstructured experience reports or patterns with missing parts) and 2: Structured (best practices following the pattern format and basic textual representation rules).
-* Become a pattern advocate: By bringing in more people with their perspectives and experiences, patterns become better, and more topics get covered. Has a colleague told you about a novel AI Native development best practice? Invite them to contribute to this repository!
+* Partager des opinions et encourager la discussion :
+  Des perspectives nouvelles, des réflexions intéressantes ou des idées novatrices peuvent susciter des discussions et produire des résultats imprévisibles. Veuillez créer des problèmes pour partager vos opinions sur les sujets liés au développement natif de l'IA à tout moment.
+* Lire les modèles existants et les améliorer :
+  Nous vous recommandons de commencer par lire les modèles et les documents existants de ce référentiel. Avez-vous trouvé une phrase confuse ou une grammaire pauvre ? Une erreur de contenu ? Créez une demande de problème GitHub ou proposez une correction directement sous forme de requête de tirage.
+* Vérifier l'utilisation des modèles :
+  Confirmer que plusieurs organisations utilisent un modèle augmente sa pertinence et informe les autres adoptants que le modèle est éprouvé. Si vous utilisez l'un des modèles publiés, répertoriez votre organisation en tant qu'instance connue de ce modèle et décrivez votre expérience en l'appliquant.
+* Traduire les modèles existants :
+  Lors de l'introduction de pratiques de développement natif de l'IA dans votre région, la barrière de la langue peut être un problème pour les personnes, car la plupart du contenu de développement natif de l'IA est disponible en anglais. Par conséquent, il est très utile d'aider les personnes de votre région/organisation à comprendre le développement natif de l'IA dans leur langue. Pour des conseils sur la traduction des modèles dans d'autres langues, veuillez vous référer aux instructions de traduction.
+* Examiner les demandes de tirage ouvertes :
+  Même si vous ne connaissez pas tous les détails du groupe de travail sur les modèles, les commentaires sur les demandes de tirage existantes (en particulier celles proposant des modifications du contenu du modèle) sont bénéfiques pour leurs auteurs.
+  En tant que personne apprenant le développement natif de l'IA, vous pouvez offrir votre opinion du point de vue d'un futur lecteur. En tant que personne ayant votre propre expérience de développement natif de l'IA, vous pouvez partager vos expériences avec l'auteur.
+* Contribuer à de nouveaux modèles :
+  Une contribution majeure que vous pouvez apporter consiste à documenter les meilleures pratiques de développement natif de l'IA que vous avez connues ou dont vous avez connaissance.
+  Le contenu de ce référentiel a défini des niveaux de maturité. Les contributeurs novices devraient viser le niveau de maturité 1 : Initial (rapports d'expérience non structurés ou modèles avec des parties manquantes) et 2 : Structuré (meilleures pratiques suivant le format de modèle et les règles de représentation textuelle de base).
 
-## How to Contact
+* Devenez un défenseur des modèles :
+  En amenant plus de personnes avec leurs perspectives et leurs expériences, les modèles s'améliorent et plus de sujets sont couverts. Un collègue vous a-t-il parlé d'une nouvelle meilleure pratique de développement natif de l'IA ? Invitez-le à contribuer à ce référentiel !
 
-Please feel free to contact us for support in contributing to AI Native development patterns, or just to chat.
-The easiest way to reach us is via Discord.
+## Comment contacter
 
-## Licensing Contributions
+N'hésitez pas à nous contacter pour obtenir de l'aide pour contribuer aux modèles de développement natifs de l'IA, ou simplement pour discuter.
+Le moyen le plus simple de nous contacter est via Discord.
 
-The contents of this repository are licensed under CC-BY-SA-4.0. By contributing to this repository, you grant us (and everyone else) the right to use your contribution under that license.
+## Contributions de licence
 
-## Acknowledging Contributions
+Le contenu de ce référentiel est sous licence CC-BY-SA-4.0. En contribuant à ce référentiel, vous nous accordez (ainsi qu'à tout le monde) le droit d'utiliser votre contribution en vertu de cette licence.
 
-If you list yourself as the author of a pattern, we assume that you have granted permission to be mentioned when referencing that pattern.
+## Reconnaissance des contributions
 
-## Code of Conduct
+Si vous vous identifiez comme l'auteur d'un modèle, nous supposons que vous avez donné votre autorisation pour être mentionné lors de la référence à ce modèle.
 
-While there is not yet a fully formalized code of conduct, we expect all contributors to treat each other with respect and help keep this community free from harassment and discrimination.
+## Code de conduite
+
+Bien qu'il n'y ait pas encore de code de conduite entièrement formalisé, nous nous attendons à ce que tous les contributeurs se traitent mutuellement avec respect et contribuent à maintenir cette communauté libre de harcèlement et de discrimination.
