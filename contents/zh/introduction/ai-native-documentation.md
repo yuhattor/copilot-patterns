@@ -1,129 +1,108 @@
-# AI-Native Documentation: AI Readability of Documents
+# AI本地化文档：文档的AI可读性
 
-Currently, there is a lot of buzz around a development tool called GitHub Copilot, which comes with AI-assisted functionality.
-There seems to be a misconception that this tool is only for engineers.
-While this is partially true, it's also partially incorrect.
-Indeed, GitHub Copilot has an incredible ability to transform the way engineers work.
-However, as engineers' work methods change, organizations must also adapt.
-If you are in a PM or PO position, this is an important issue for you as well. 
-Since your team's engineers are expected to perform at their best, implementing your defined requirements as quickly as possible.
-Going forward, even if you are not an engineer, you will need to create **AI-readable** documentation to enable your team's engineers to collaborate with AI.
+目前，人们对一个名为GitHub Copilot的开发工具产生了很大的兴趣，它带有AI辅助功能。
+似乎有一种误解认为这个工具只是为工程师而设计的。
+尽管这在某种程度上是正确的，但它也是部分错误的。
+的确，GitHub Copilot有着惊人的能力，可以改变工程师的工作方式。
+但是，随着工程师的工作方法的变化，组织也必须适应变化。
+如果你处于PM或PO的职位，这对你来说也是一个重要的问题。
+因为你的团队的工程师被期望能够最快速地执行你定义的要求。
+未来，即使你不是一名工程师，你也需要创建**AI可读**的文档，以便你的团队的工程师能够与AI进行协作。
 
-## Documentation Culture and AI Development
+## 文档文化和AI本地化开发
 
-In recent years, AI technology has advanced rapidly, with models like LLM (Large Language Model) gaining attention.
-GitHub, an open-source development platform, has also ventured into the field of AI development.
-A prime example of this is "GitHub Copilot." 
-Interestingly, AI-assisted development and open-source development share common ground in terms of collaboration.
-Specifically, both methods involve working with document-based formats like Markdown.
-Formats such as Markdown are designed to represent structured information and are easier for AI to analyze than PowerPoint or Excel files.
-Consequently, they contribute to the improvement of AI-generated code quality.
+近年来，AI技术飞速发展，像LLM（大型语言模型）这样的模型也受到了关注。
+开源开发平台GitHub也进军了AI开发领域。
+一个典型的例子是“GitHub Copilot”。
+有趣的是，AI辅助开发和开源开发在协作方面有共同之处。
+具体而言，这两种方法都涉及到使用基于文档的格式，如Markdown。
+这些格式被设计用于表示结构化信息，比如PPT或Excel文件，比起来更容易被AI分析。
+因此，它们有助于提高AI生成代码的质量。
 
-AI prefers simple CSV files over complex Excel spreadsheets filled with metadata.
-Suppose you, as a PM, list customer requirements and gather necessary information for a database.
-If the requirements are written in a CSV file or summarized in Markdown, engineers can easily convert them into code.
-However, if you compile the information in an Excel document tailored to your preferences, engineers must first copy, format, and then convert it into code.
-Which approach is better?
+AI更喜欢简单的CSV文件，而不是充满元数据的复杂Excel电子表格。
+如果你作为PM列出客户需求并收集数据库所需的信息，如果这些需求是以CSV文件的形式编写的，或者在Markdown中进行了总结，工程师就可以很容易地将它们转换为代码。
+然而，如果你将信息编译成适合你自己的Excel文档，工程师就必须先复制、格式化，然后再将其转换为代码。
+哪种方法更好？
 
-Moreover, in open-source development, the quality of documentation can be directly related to the success of a project.
-Open-source projects are open to anyone, and properly maintained documentation allows new developers to join more smoothly.
-Therefore, documentation is highly valued in open-source development.
-Similarly, in AI development, a well-established documentation culture can lead to more efficient and higher-quality development.
-Even if you are not an engineer, your natural language written in Markdown can significantly contribute to the final output, which is the code.
-This could be code representing business logic, table definitions, or even test scenarios.
-Is your development team ready to include AI.
-Are AI-readable documents prepared.
-If the answer is no, you must start creating a development team that is comfortable for AI to participate in.
+此外，在开源开发中，文档质量与项目成功直接相关。
+开源项目是向任何人开放的，良好维护的文档可以让新开发人员更轻松地加入其中。
+因此，在开源开发中，文档被高度重视。
+同样地，在AI开发中，良好的文档文化可以导致更高效和更高质量的开发。
+即使你不是一名工程师，你在Markdown中编写的自然语言可以显著地对最终的输出，即代码，做出贡献。
+这可以是代表业务逻辑的代码，表定义，甚至是测试场景。
+你的开发团队准备好包括AI了吗？准备好AI可读的文档了吗？如果答案是否定的，你必须开始创建一个舒适与AI参与的开发团队。
 
-## AI-Native Development and InnerSource Strategy
+## AI本地化开发和内源战略
 
-We've been discussing open-source development, but there's also a similar concept called inner source.
-InnerSource is an approach that adopts the best practices of open-source software development within organizations that develop non-open-source or proprietary software.
-It aims to promote collaboration across organizational boundaries and break down organizational silos.
+我们一直在讨论开源开发，但也有一个类似的概念叫做内源。
+内源是采用开源软件开发的最佳实践的方法，用于开发非开源或专有软件的组织内。
+它旨在促进组织边界之间的协作，打破组织的孤立。
 
-InnerSource is becoming increasingly important for companies to avoid reinventing the wheel, streamline development to reduce costs, and create new value through collaboration.
+内源对于企业避免重复造轮子、简化开发以降低成本以及通过协作创造新价值变得越来越重要。
 
-As mentioned on the AI-Native development page, AI tends to augment experienced humans.
-Senior or experienced individuals within an organization who understand the architecture are boosted, while others are assigned simpler tasks.
+正如在AI本地化开发页面上提到的那样，AI倾向于增强有经验的人类。
+组织内了解架构的高级或有经验的个人受到提升，而其他人则被分配更简单的任务。
 
-However, since AI is primarily trained on knowledge from the internet, it cannot access proprietary domains, closed knowledge within organizations, or unpublished information.
-Therefore, if this information is not documented or properly shared within the organization, it poses a problem.
-This issue means that not only can engineers not access the information, but AI like GitHub Copilot also cannot access it.
+然而，由于AI主要受到来自互联网的知识培训，它无法访问专有域、组织内部的封闭知识或未公开的信息。
+因此，如果这些信息没有得到记录或在组织内得到适当的共享，就会产生问题。
+这个问题意味着不仅工程师不能访问这些信息，而且像GitHub Copilot这样的AI也不能访问它。
 
-Knowledge that cannot be obtained from the internet is currently becoming more important and a core competency of businesses.
-There is a quote from an InnerSource introductory book ["Getting Started with InnerSource"](https://innersourcecommons.org/learn/books/getting-started-with-innersource/) by O'Reilly :
+当前，无法从互联网上获得的知识正在变得越来越重要，也成为企业的核心竞争力。
+在O'Reilly的内源入门书《入门内源》中有一句引文：
 
-> InnerSource differs from classic open source by remaining within the view and control of a single organization. The “openness” of the project extends across many teams within the organization. This allows the organization to embed differentiating trade secrets into the code without fear that they will be revealed to outsiders, while benefitting from the creativity and diverse perspectives contributed by people throughout the organization.
+> 内源与经典开源不同之处在于，它仍处于单个组织的视野和控制之下。 项目的“开放性”延伸到组织中的许多团队。 这使得组织可以将区分性的商业机密嵌入到代码中，而不用担心会被外部人员揭露，同时又从组织内部贡献人员的创造力和多样化的视角中获益。
 
-Many businesses are faced with the choice of either collaborating with AI or being replaced by AI.
-It is essential to aggregate the internal information that is the source of an organization's competitive advantage and have it utilized by AI.
-To achieve this, documentation with AI readability is indispensable.
+许多企业面临的选择是与AI合作还是被AI替代。
+将组织的竞争优势源泉聚合起来，并让AI利用它，是至关重要的。
+为了实现这一点，具有AI可读性的文档是必不可少的。
 
-Regarding InnerSource, there is already a mature community where methods for realizing co-creation within organizations and creating documentation are shared.
-Access this community and leverage InnerSource initiatives.
-By doing so, you can effectively utilize internal knowledge and information and make the most of collaboration with AI.
+关于内源，已经存在一个成熟的社区，分享了在组织内实现共同创作和创建文档的方法。
+访问这个社区并利用内源倡议。
+通过这样做，你可以有效地利用内部知识和信息，并充分利用与AI的协作。
 
-### InnerSource References
+### 内源参考资料
 
 - [InnerSource Commons](https://innersourcecommons.org/): InnerSource Commons Foundation page
 - [InnerSource Patterns](https://patterns.innersourcecommons.org/): Collection of InnerSource best practices
 - [Getting Started with InnerSource](https://innersourcecommons.org/learn/books/getting-started-with-innersource/): O'Reilly's InnerSource introductory book
 - [Understanding the InnerSource Checklist](https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/): O'Reilly's InnerSource practical guide
 
-## Creating Context-Rich Documentation
+## 创建上下文丰富的文档
 
-As open source development matures, collaboration across countries and time zones emerges.
-However, geographical distance and time differences can sometimes make synchronous communication difficult.
-For example, daytime in New York is nighttime in Tokyo, and it's undesirable to disturb Japanese-based committers at night or interfere with family time.
-Therefore, documentation based on written documents is generally preferred.
-This could be something like RFCs or design documents, or comments written in GitHub Issues.
-Documents formed by comments in Issues and the like are also called [passive documentation](https://www.oreilly.com/library/view/understanding-the-innersource/9781491986899/ch04.html).
-These are also forms of documentation.
+随着开源开发的成熟，跨国和跨时区的合作开始出现。然而，地理距离和时差有时会使同步通信变得困难。例如，在纽约白天是东京的晚上，晚上打扰生活在日本的贡献者或干扰他们的家庭时间是不可取的。因此，基于书面文件的文档通常更受欢迎。这可以是类似于 RFC 或设计文档，或者是在 GitHub 问题中编写的评论。在问题评论中形成的文档也称为“被动文档”。这些也是文档的形式。
 
-There is a passage in [Understanding the InnerSource Checklist](https://innersourcecommons.org/ja/learn/books/getting-started-with-innersource/) published by O'Reilly that goes like this:
+《理解内源清单》（O'Reilly 出版）中有一段话，大意如下：
 
-> Passive documentation is the record of the documentation we create every day while communicating openly. It is a great way to get tribal knowledge out of silos and into a format that is archival and findable. As an added bonus, it is typically kept with the project or the code that it documents, thus it is in an easy-to-find, context-relevant location.
+> 被动文档是我们每天在公开交流时创建的文档记录。它是摆脱信息孤岛、将知识形成存档并易于查找的好方法。作为额外的奖励，它通常与项目或代码一起保存，因此它位于易于找到、与上下文相关的位置。
 
-What's important here is to properly put it into words, including the context.
-It's difficult to convey nonverbal communication, nuances, and atmosphere that are communicated through Zoom or face-to-face conversations asynchronously across time zones.
+重要的是要适当地用语言表达出来，包括上下文。通过 Zoom 或面对面异步跨时区交谈传达的非语言交流、细微差别和氛围都很难传达。
 
-Consider developing with AI.
-For example, will GitHub Copilot participate in Zoom meetings.
-Will it be in the team room saying, "Hey, I'm GitHub Copilot, let's have a quick check-in meeting".
-The answer is no.
-All context must be conveyed to AI in writing.
-This is also necessary when creating appropriate documentation for asynchronous communication, like in open source development.
+考虑与 AI 协作开发。例如，GitHub Copilot 是否会参加 Zoom 会议？它会在团队房间里说：“嘿，我是 GitHub Copilot，让我们来一次快速的汇报会议”吗？答案是否定的。所有上下文必须以书面形式传达给 AI。这也是在开源开发等异步通信情况下创建适当文档所必需的。
 
-Of course, there are differences in the granularity of documentation between open source development and AI-assisted development.
-Writing "I want to fix this bug" in GitHub Issues might prompt someone to think of a solution, but AI cannot go that far.
-However, there are definitely areas where AI excels.
-If you want to express cloud architecture as Infrastructure as Code, it's better to write it in Mermaid or express it in natural language rather than drawing it in PowerPoint.
+当然，开源开发和 AI 协助开发之间的文档粒度有所不同。在 GitHub 问题中写下“我想修复这个 bug”可能会促使其他人想到解决方案，但 AI 无法做到这一点。然而，AI 确实擅长某些方面。如果你想将云架构表示为基础设施即代码，最好是用 Mermaid 编写或用自然语言表达，而不是在 PowerPoint 中绘制。
 
-The point here is not that all communication needs to be documented.
-You and your team need to consider what level of documentation to leave, how and where to leave it.
+重点不在于需要将所有交流都记录下来。你和你的团队需要考虑留下什么级别的文档，以及如何以及在哪里留下。
 
-## AI Coordinating Organizational Knowledge
+## 人工智能协调组织知识
 
-With features like GitHub Copilot for Docs included in GitHub Copilot X, AI can create the perfect documentation for you.
-The documents you write can also become onboarding materials for the next person.
+GitHub Copilot X中包括的GitHub Copilot for Docs等功能，使得人工智能可以为您创建完美的文档。
+您编写的文档也可以成为下一位使用者的入门资料。
+过去，收集信息和为新工程师创建入门资料是常见任务，但未来，人工智能可能会承担这个角色。
+您可以将所有知识嵌入文档中，作为唯一可靠的信息来源。
+这种方法也在[Atlassian](https://www.atlassian.com/ja/work-management/knowledge-sharing/documentation/importance-of-documentation)文档中明确地体现出来。
+以AI本地开发为背景阅读他们的文档可能会带来新的发现。
+您编写的文档将通过人工智能拥有一种个性化的感觉。
+然而，正如前面提到的，这需要足够的文档记录。
 
-In the past, gathering information and creating onboarding materials for new engineers was a common task, but in the future, AI will likely take on that role.
-You can embed all the knowledge you possess in documents as the only reliable source of information.
+## 自然语言与实现之间的距离变得更近了
 
-This approach can also be seen explicitly in [Atlassian](https://www.atlassian.com/ja/work-management/knowledge-sharing/documentation/importance-of-documentation) documentation.
-Reading their documentation with AI-Native development in mind might lead to new discoveries.
-The documents you write will feel as if they have a personality through AI.
-However, this requires sufficient documentation, as mentioned earlier.
+您可能已经注意到了，自然语言和实现之间的距离正在变得更近。
+正如前面提到的，从教育角度来看，如果将编写提示和代码放在同一个位置，可能可以创建单个文件中的文档。
+这种变化是很有趣的。
 
-## The Distance Between Natural Language and Implementation Becomes Closer
+## 检查清单
 
-As you may have noticed by now, the distance between natural language and implementation is getting much closer.
-As mentioned earlier, from an educational perspective, if writing prompts and code in one place continues, it may be possible to create documentation in a single file.
-This kind of change is fascinating.
-
-## Checklist
-
-- [ ] Does your team currently have a documentation culture. If so, what is it like. If not, what is preventing it?
-- [ ] Consider what kind of documentation is needed for your team to collaborate with AI.
-- [ ] Is there a culture of open source or inner source in your team?
-- [ ] Start by creating a documentation culture within your scope.  What areas can you begin writing documentation in Markdown.  Think about it.
+- [ ] 您的团队目前是否有文档文化。如果是，它是什么样子的。如果没有，是什么阻止了它？
+- [ ] 考虑您的团队需要哪种文档才能与人工智能合作。
+- [ ] 您的团队是否有开放源代码或内部源代码的文化？
+- [ ] 从您的范围开始创建文档文化。您可以从哪些方面开始使用Markdown编写文档。考虑一下。

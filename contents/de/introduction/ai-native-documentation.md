@@ -1,129 +1,126 @@
-# AI-Native Documentation: AI Readability of Documents
+# AI-native Dokumentation: AI Lesbarkeit von Dokumenten
 
-Currently, there is a lot of buzz around a development tool called GitHub Copilot, which comes with AI-assisted functionality.
-There seems to be a misconception that this tool is only for engineers.
-While this is partially true, it's also partially incorrect.
-Indeed, GitHub Copilot has an incredible ability to transform the way engineers work.
-However, as engineers' work methods change, organizations must also adapt.
-If you are in a PM or PO position, this is an important issue for you as well. 
-Since your team's engineers are expected to perform at their best, implementing your defined requirements as quickly as possible.
-Going forward, even if you are not an engineer, you will need to create **AI-readable** documentation to enable your team's engineers to collaborate with AI.
+Derzeit gibt es viel Trubel um ein Entwicklungs-Tool namens GitHub Copilot, das über KI-unterstützte Funktionen verfügt.
+Es herrscht die Meinung, dass dieses Tool nur für Ingenieure gedacht ist.
+Dies ist teilweise wahr, aber auch teilweise falsch.
+GitHub Copilot hat in der Tat eine unglaubliche Fähigkeit, die Arbeitsweise von Ingenieuren zu verändern.
+Wenn sich die Arbeitsmethoden der Ingenieure ändern, müssen sich auch die Organisationen anpassen.
+Wenn Sie sich in einer PM- oder PO-Position befinden, ist dies auch für Sie ein wichtiges Thema.
+Da von Ihrem Team erwartet wird, dass es Ihre definierten Anforderungen so schnell wie möglich umsetzt, ist es wichtig, AI-lesbare Dokumentation zu erstellen, um eine Zusammenarbeit mit der KI zu ermöglichen.
 
-## Documentation Culture and AI Development
+## Dokumentationskultur und AI-native Entwicklung
 
-In recent years, AI technology has advanced rapidly, with models like LLM (Large Language Model) gaining attention.
-GitHub, an open-source development platform, has also ventured into the field of AI development.
-A prime example of this is "GitHub Copilot." 
-Interestingly, AI-assisted development and open-source development share common ground in terms of collaboration.
-Specifically, both methods involve working with document-based formats like Markdown.
-Formats such as Markdown are designed to represent structured information and are easier for AI to analyze than PowerPoint or Excel files.
-Consequently, they contribute to the improvement of AI-generated code quality.
+In den letzten Jahren hat sich die KI-Technologie rapide weiterentwickelt, mit Modellen wie LLM (Large Language Model), die Aufmerksamkeit erregen.
+GitHub, eine Open-Source-Entwicklungsplattform, hat sich ebenfalls auf dem Gebiet der KI-Entwicklung betätigt.
+Ein herausragendes Beispiel hierfür ist "GitHub Copilot".
+Interessanterweise haben KI-unterstützte Entwicklung und Open-Source-Entwicklung gemeinsame Schnittstellen in Bezug auf Zusammenarbeit.
+Beide Methoden beinhalten speziell das Arbeiten mit dokumentenbasierten Formaten wie Markdown.
+Formate wie Markdown sind darauf ausgelegt, strukturierte Informationen darzustellen und sind einfacher von der KI zu analysieren als PowerPoint- oder Excel-Dateien.
+Daher tragen sie zur Verbesserung der von der KI generierten Code-Qualität bei.
 
-AI prefers simple CSV files over complex Excel spreadsheets filled with metadata.
-Suppose you, as a PM, list customer requirements and gather necessary information for a database.
-If the requirements are written in a CSV file or summarized in Markdown, engineers can easily convert them into code.
-However, if you compile the information in an Excel document tailored to your preferences, engineers must first copy, format, and then convert it into code.
-Which approach is better?
+Die KI bevorzugt einfache CSV-Dateien gegenüber komplexen Excel-Tabellen, die mit Metadaten gefüllt sind.
+Wenn Sie als PM beispielsweise Kundenanforderungen auflisten und die notwendigen Informationen für eine Datenbank sammeln, können Ingenieure sie einfach in Code konvertieren, wenn die Anforderungen in einer CSV-Datei oder in Markdown zusammengefasst sind.
+Wenn Sie die Informationen jedoch in einem Excel-Dokument, das an Ihre Vorlieben angepasst ist, zusammenstellen, müssen Ingenieure sie zuerst kopieren, formatieren und dann in Code konvertieren.
+Welcher Ansatz ist besser?
 
-Moreover, in open-source development, the quality of documentation can be directly related to the success of a project.
-Open-source projects are open to anyone, and properly maintained documentation allows new developers to join more smoothly.
-Therefore, documentation is highly valued in open-source development.
-Similarly, in AI development, a well-established documentation culture can lead to more efficient and higher-quality development.
-Even if you are not an engineer, your natural language written in Markdown can significantly contribute to the final output, which is the code.
-This could be code representing business logic, table definitions, or even test scenarios.
-Is your development team ready to include AI.
-Are AI-readable documents prepared.
-If the answer is no, you must start creating a development team that is comfortable for AI to participate in.
+Darüber hinaus kann die Qualität der Dokumentation in der Open-Source-Entwicklung direkt mit dem Erfolg eines Projekts in Verbindung gebracht werden.
+Open-Source-Projekte sind für jeden zugänglich, und eine gut gepflegte Dokumentation ermöglicht es neuen Entwicklern, reibungsloser einzusteigen.
+Daher wird die Dokumentation in der Open-Source-Entwicklung sehr geschätzt.
+Ähnlich verhält es sich in der KI-Entwicklung, wo eine etablierte Dokumentationskultur zu einer effizienteren und qualitativ hochwertigeren Entwicklung führen kann.
+Selbst wenn Sie kein Ingenieur sind, kann Ihre natürliche Sprache, die in Markdown geschrieben ist, erheblich zum Endprodukt beitragen, nämlich dem Code.
+Dies könnte Code sein, der Gesch äftslogik, Tabellendefinitionen oder sogar Test-Szenarien darstellt.
+Ist Ihr Entwicklungsteam bereit, die KI einzubeziehen?
+Sind AI-lesbare Dokumente vorbereitet?
+Wenn die Antwort nein lautet, müssen Sie ein Entwicklungsteam erstellen, das bequem für die Zusammenarbeit mit der KI ist.
 
-## AI-Native Development and InnerSource Strategy
+## AI-native Entwicklung und InnerSource-Strategie
 
-We've been discussing open-source development, but there's also a similar concept called inner source.
-InnerSource is an approach that adopts the best practices of open-source software development within organizations that develop non-open-source or proprietary software.
-It aims to promote collaboration across organizational boundaries and break down organizational silos.
+Wir haben die Open-Source-Entwicklung diskutiert, aber es gibt auch ein ähnliches Konzept namens InnerSource.
+InnerSource ist ein Ansatz, der die bewährten Methoden der Open-Source-Softwareentwicklung in Organisationen übernimmt, die proprietäre oder nicht Open-Source-Software entwickeln.
+Es zielt darauf ab, die Zusammenarbeit über organisatorische Grenzen hinweg zu fördern und organisatorische Silos abzubauen.
 
-InnerSource is becoming increasingly important for companies to avoid reinventing the wheel, streamline development to reduce costs, and create new value through collaboration.
+InnerSource wird für Unternehmen zunehmend wichtiger, um das Rad nicht neu erfinden zu müssen, die Entwicklung zu optimieren, um Kosten zu reduzieren und durch Zusammenarbeit neuen Mehrwert zu schaffen.
 
-As mentioned on the AI-Native development page, AI tends to augment experienced humans.
-Senior or experienced individuals within an organization who understand the architecture are boosted, while others are assigned simpler tasks.
+Wie auf der Seite AI-native Entwicklung erwähnt, tendiert die KI dazu, erfahrene Menschen zu ergänzen.
+Erfahrene Personen in einer Organisation, die die Architektur verstehen, werden gestärkt, während andere einfache Aufgaben zugewiesen werden.
 
-However, since AI is primarily trained on knowledge from the internet, it cannot access proprietary domains, closed knowledge within organizations, or unpublished information.
-Therefore, if this information is not documented or properly shared within the organization, it poses a problem.
-This issue means that not only can engineers not access the information, but AI like GitHub Copilot also cannot access it.
+Da die KI jedoch hauptsächlich auf Wissen aus dem Internet trainiert wird, kann sie nicht auf proprietäre Domänen, geschlossenes Wissen innerhalb von Organisationen oder unveröffentlichte Informationen zugreifen.
+Daher stellt dies ein Problem dar, wenn diese Informationen nicht dokumentiert oder ordnungsgemäß innerhalb der Organisation geteilt werden.
+Dies bedeutet, dass Ingenieure nicht nur keinen Zugang zu den Informationen haben, sondern auch die KI wie GitHub Copilot nicht darauf zugreifen kann.
 
-Knowledge that cannot be obtained from the internet is currently becoming more important and a core competency of businesses.
-There is a quote from an InnerSource introductory book ["Getting Started with InnerSource"](https://innersourcecommons.org/learn/books/getting-started-with-innersource/) by O'Reilly :
+Wissen, das nicht aus dem Internet bezogen werden kann, wird derzeit immer wichtiger und ist eine Kernkompetenz von Unternehmen.
+Es gibt ein Zitat aus einem Einführungsbuch zum InnerSource ("Getting Started with InnerSource") von O'Reilly:
 
-> InnerSource differs from classic open source by remaining within the view and control of a single organization. The “openness” of the project extends across many teams within the organization. This allows the organization to embed differentiating trade secrets into the code without fear that they will be revealed to outsiders, while benefitting from the creativity and diverse perspectives contributed by people throughout the organization.
+> InnerSource unterscheidet sich von klassischem Open Source, indem es innerhalb der Ansicht und Kontrolle einer einzigen Organisation bleibt. Die "Offenheit" des Projekts erstreckt sich über viele Teams innerhalb der Organisation. Dies ermöglicht es der Organisation, differenzierende Geschäftsgeheimnisse in den Code einzubetten, ohne befürchten zu müssen, dass sie an Außenstehende offenbart werden, während sie von der Kreativität und den vielfältigen Perspektiven profitieren, die von Menschen in der gesamten Organisation beigetragen werden.
 
-Many businesses are faced with the choice of either collaborating with AI or being replaced by AI.
-It is essential to aggregate the internal information that is the source of an organization's competitive advantage and have it utilized by AI.
-To achieve this, documentation with AI readability is indispensable.
+Viele Unternehmen stehen vor der Wahl, entweder mit der KI zusammenzuarbeiten oder durch sie ersetzt zu werden.
+Es ist wichtig, die internen Informationen, die die Quelle des Wettbewerbsvorteils einer Organisation darstellen, zu aggregieren und von der KI nutzen zu lassen.
+Um dies zu erreichen, ist eine Dokumentation mit AI-Lesbarkeit unverzichtbar.
 
-Regarding InnerSource, there is already a mature community where methods for realizing co-creation within organizations and creating documentation are shared.
-Access this community and leverage InnerSource initiatives.
-By doing so, you can effectively utilize internal knowledge and information and make the most of collaboration with AI.
+In Bezug auf InnerSource gibt es bereits eine reife Community, in der Methoden zur Realisierung von Co-Creation innerhalb von Organisationen und zur Erstellung von Dokumentationen geteilt werden.
+Greifen Sie auf diese Community zu und nutzen Sie die Initiativen von InnerSource.
+Auf diese Weise können Sie internes Wissen und Informationen effektiv nutzen und die Zusammenarbeit mit der KI optimal nutzen.
 
-### InnerSource References
+### InnerSource-Referenzen
 
-- [InnerSource Commons](https://innersourcecommons.org/): InnerSource Commons Foundation page
-- [InnerSource Patterns](https://patterns.innersourcecommons.org/): Collection of InnerSource best practices
-- [Getting Started with InnerSource](https://innersourcecommons.org/learn/books/getting-started-with-innersource/): O'Reilly's InnerSource introductory book
-- [Understanding the InnerSource Checklist](https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/): O'Reilly's InnerSource practical guide
+- [InnerSource Commons](https://innersourcecommons.org/): InnerSource Commons Foundation-Seite
+- [InnerSource Patterns](https://patterns.innersourcecommons.org/): Sammlung von InnerSource-Best Practices
+- [Getting Started with InnerSource](https://innersourcecommons.org/learn/books/getting-started-with-innersource/): Einführungsbuch zum InnerSource von O'Reilly
+- [Understanding the InnerSource Checklist](https://innersourcecommons.org/learn/books/understanding-the-innersource-checklist/): Praktischer Leitfaden zum InnerSource von O'Reilly
 
-## Creating Context-Rich Documentation
+## Die Erstellung von kontextreicher Dokumentation
 
-As open source development matures, collaboration across countries and time zones emerges.
-However, geographical distance and time differences can sometimes make synchronous communication difficult.
-For example, daytime in New York is nighttime in Tokyo, and it's undesirable to disturb Japanese-based committers at night or interfere with family time.
-Therefore, documentation based on written documents is generally preferred.
-This could be something like RFCs or design documents, or comments written in GitHub Issues.
-Documents formed by comments in Issues and the like are also called [passive documentation](https://www.oreilly.com/library/view/understanding-the-innersource/9781491986899/ch04.html).
-These are also forms of documentation.
+Mit der Reife von Open-Source-Entwicklung entsteht Zusammenarbeit über Ländergrenzen und Zeitzonen hinweg.
+Geographische Distanz und Zeitunterschiede können jedoch die synchronen Kommunikationen erschweren.
+Beispielsweise ist es in New York tagsüber, während es in Tokio nachts ist, und es ist unerwünscht, japanische Committer nachts zu stören oder die Familienzeit zu beeinträchtigen.
+Daher bevorzugt man im Allgemeinen eine dokumentenbasierte Dokumentation.
+Dies könnte etwas wie RFCs oder Design-Dokumente sein oder Kommentare, die in GitHub Issues geschrieben wurden.
+Dokumente, die aus Kommentaren in Issues und ähnlichen Plattformen bestehen, werden auch als passive Dokumentation bezeichnet.
+Diese sind auch Formen von Dokumentation.
 
-There is a passage in [Understanding the InnerSource Checklist](https://innersourcecommons.org/ja/learn/books/getting-started-with-innersource/) published by O'Reilly that goes like this:
+In [Understanding the InnerSource Checklist](https://innersourcecommons.org/ja/learn/books/getting-started-with-innersource/), veröffentlicht von O'Reilly, gibt es einen Absatz, der wie folgt lautet:
 
-> Passive documentation is the record of the documentation we create every day while communicating openly. It is a great way to get tribal knowledge out of silos and into a format that is archival and findable. As an added bonus, it is typically kept with the project or the code that it documents, thus it is in an easy-to-find, context-relevant location.
+> Passive Dokumentation ist der Bericht über die Dokumentation, die wir jeden Tag beim offenen Austausch erstellen.  Es ist eine großartige Möglichkeit, Wissen, das auf Silos begrenzt ist, in ein Archivformat zu bringen und so besser auffindbar zu machen.  Ein zusätzlicher Bonus ist, dass es normalerweise mit dem Projekt oder dem Code aufbewahrt wird, den es dokumentiert, so dass es an einem leicht zugänglichen, kontextrelevanten Ort ist.
 
-What's important here is to properly put it into words, including the context.
-It's difficult to convey nonverbal communication, nuances, and atmosphere that are communicated through Zoom or face-to-face conversations asynchronously across time zones.
+Hier ist es wichtig, es angemessen zu formulieren, einschließlich des Kontextes.
+Es ist schwierig, nonverbale Kommunikation, Nuancen und Atmosphäre zu vermitteln, die durch Zoom oder face-to-face-Gespräche asynchron über Zeitzonen hinweg kommuniziert werden.
 
-Consider developing with AI.
-For example, will GitHub Copilot participate in Zoom meetings.
-Will it be in the team room saying, "Hey, I'm GitHub Copilot, let's have a quick check-in meeting".
-The answer is no.
-All context must be conveyed to AI in writing.
-This is also necessary when creating appropriate documentation for asynchronous communication, like in open source development.
+Überlegen Sie, ob Sie mit künstlicher Intelligenz entwickeln wollen.
+Wird GitHub Copilot zum Beispiel an Zoom-Meetings teilnehmen? Wird es im Teamraum sagen: "Hallo, ich bin GitHub Copilot, lasst uns ein schnelles Check-In-Meeting machen"? Die Antwort ist nein.
+Der gesamte Kontext muss AI schriftlich mitgeteilt werden.
+Dies ist auch erforderlich, wenn geeignete Dokumentation für asynchrone Kommunikation erstellt wird, wie im Open-Source-Entwicklungsprozess.
 
-Of course, there are differences in the granularity of documentation between open source development and AI-assisted development.
-Writing "I want to fix this bug" in GitHub Issues might prompt someone to think of a solution, but AI cannot go that far.
-However, there are definitely areas where AI excels.
-If you want to express cloud architecture as Infrastructure as Code, it's better to write it in Mermaid or express it in natural language rather than drawing it in PowerPoint.
+Natürlich gibt es Unterschiede in der Granularität der Dokumentation zwischen Open-Source-Entwicklung und AI-unterstützter Entwicklung.
+Wenn man in GitHub Issues schreibt: "Ich möchte diesen Fehler beheben", kann dies jemanden dazu bringen, eine Lösung zu finden, aber AI kann nicht so weit gehen.
+Es gibt jedoch definitiv Bereiche, in denen KI hervorragend ist.
+Wenn Sie beispielsweise Cloud-Architektur als Infrastructure as Code ausdrücken möchten, ist es besser, es in Mermaid zu schreiben oder es in natürlicher Sprache auszudrücken, anstatt es in PowerPoint zu zeichnen.
 
-The point here is not that all communication needs to be documented.
-You and your team need to consider what level of documentation to leave, how and where to leave it.
+Der Punkt hier ist nicht, dass alle Kommunikation dokumentiert werden muss.
+Sie und Ihr Team müssen darüber nachdenken, welches Niveau der Dokumentation erforderlich ist, wie und wo Sie sie hinterlassen sollten.
 
-## AI Coordinating Organizational Knowledge
+## KI koordiniert organisatorisches Wissen
 
-With features like GitHub Copilot for Docs included in GitHub Copilot X, AI can create the perfect documentation for you.
-The documents you write can also become onboarding materials for the next person.
+Mit Funktionen wie GitHub Copilot for Docs, die in GitHub Copilot X enthalten sind, kann KI die perfekte Dokumentation für Sie erstellen.
+Die von Ihnen geschriebenen Dokumente können auch Einarbeitungsmaterialien für die nächste Person werden.
 
-In the past, gathering information and creating onboarding materials for new engineers was a common task, but in the future, AI will likely take on that role.
-You can embed all the knowledge you possess in documents as the only reliable source of information.
+Früher war das Sammeln von Informationen und das Erstellen von Einarbeitungsmaterialien für neue Ingenieure eine gängige Aufgabe, aber in Zukunft wird KI diese Rolle wahrscheinlich übernehmen.
+Sie können das gesamte Wissen, das Sie besitzen, in Dokumenten einbetten, als einzige zuverlässige Informationsquelle.
 
-This approach can also be seen explicitly in [Atlassian](https://www.atlassian.com/ja/work-management/knowledge-sharing/documentation/importance-of-documentation) documentation.
-Reading their documentation with AI-Native development in mind might lead to new discoveries.
-The documents you write will feel as if they have a personality through AI.
-However, this requires sufficient documentation, as mentioned earlier.
+Dieser Ansatz kann auch explizit in der Dokumentation von [Atlassian](https://www.atlassian.com/ja/work-management/knowledge-sharing/documentation/importance-of-documentation) gesehen werden.
+Das Lesen ihrer Dokumentation mit AI-Native-Entwicklung im Hinterkopf kann zu neuen Entdeckungen führen.
+Die von Ihnen geschriebenen Dokumente werden durch KI eine Persönlichkeit haben.
+Dies erfordert jedoch ausreichende Dokumentation, wie bereits erwähnt.
 
-## The Distance Between Natural Language and Implementation Becomes Closer
+## Der Abstand zwischen natürlicher Sprache und Implementierung wird geringer
 
-As you may have noticed by now, the distance between natural language and implementation is getting much closer.
-As mentioned earlier, from an educational perspective, if writing prompts and code in one place continues, it may be possible to create documentation in a single file.
-This kind of change is fascinating.
+Wie Sie vielleicht bereits bemerkt haben, wird der Abstand zwischen natürlicher Sprache und Implementierung immer geringer.
+Wie bereits erwähnt, könnte es aus pädagogischer Sicht möglich sein, Dokumentation in einer einzigen Datei zu erstellen, wenn Schreibimpulse und Code an einem Ort fortgesetzt werden.
+Diese Art von Veränderung ist faszinierend.
 
-## Checklist
+## Checkliste
 
-- [ ] Does your team currently have a documentation culture. If so, what is it like. If not, what is preventing it?
-- [ ] Consider what kind of documentation is needed for your team to collaborate with AI.
-- [ ] Is there a culture of open source or inner source in your team?
-- [ ] Start by creating a documentation culture within your scope.  What areas can you begin writing documentation in Markdown.  Think about it.
+- [ ] Hat Ihr Team derzeit eine Dokumentationskultur? Wenn ja, wie ist diese? Wenn nicht, was verhindert sie?
+- [ ] Überlegen Sie, welche Art von Dokumentation für Ihr Team erforderlich ist, um mit KI zusammenzuarbeiten.
+- [ ] Gibt es in Ihrem Team eine Kultur des Open-Source- oder Inner-Source?
+- [ ] Beginnen Sie damit, innerhalb Ihres Zuständigkeitsbereichs eine Dokumentationskultur zu schaffen.
+An welchen Bereichen können Sie beginnen, Dokumentation in Markdown zu schreiben? Denken Sie darüber nach.
