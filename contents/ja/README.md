@@ -13,7 +13,7 @@ AIネイティブ開発ガイドへようこそ!
 この序文では、AIネイティブ開発とは何か、パターンとは何かについて説明します。
 すでにあなたの会社でAIネイティブ開発を実践しており、このドキュメントに経験を寄稿したい場合は、ぜひあなたの貢献を歓迎します！
 
-現在、以下の言語に対応しています：[英語 🇺🇸](https://ai-native-development.gitbook.io/docs/)、[ドイツ語 🇩🇪](https://ai-native-development.gitbook.io/docs/v/de/)、[スペイン語 🇪🇸](https://ai-native-development.gitbook.io/docs/v/es/)、[フランス語 🇫🇷](https://ai-native-development.gitbook.io/docs/v/fr/)、[イタリア語 🇮🇹](https://ai-native-development.gitbook.io/docs/v/it/)、[日本語 🇯🇵](https://ai-native-development.gitbook.io/docs/v/ja/)、[ポルトガル語 🇵🇹](https://ai-native-development.gitbook.io/docs/v/pt/)、[中国語 🇨🇳](https://ai-native-development.gitbook.io/docs/v/zh/)。
+現在、以下の言語に対応しています：[英語 🇺🇸](https://www.ai-native.dev/docs/)、[ドイツ語 🇩🇪](https://www.ai-native.dev/docs/v/de/)、[スペイン語 🇪🇸](https://www.ai-native.dev/docs/v/es/)、[フランス語 🇫🇷](https://www.ai-native.dev/docs/v/fr/)、[イタリア語 🇮🇹](https://www.ai-native.dev/docs/v/it/)、[日本語 🇯🇵](https://www.ai-native.dev/docs/v/ja/)、[ポルトガル語 🇵🇹](https://www.ai-native.dev/docs/v/pt/)、[中国語 🇨🇳](https://www.ai-native.dev/docs/v/zh/)。
 
 {% hint style="info" %}
 この『AIネイティブ開発ガイド』のドキュメントはまだ完成版ではなく、リンク切れや誤字脱字、その他のエラーがあるかもしれません。改善にご協力いただけると幸いです。このドキュメントに貢献する方法をご覧ください。

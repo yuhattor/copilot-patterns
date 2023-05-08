@@ -15,7 +15,7 @@ Nous sommes impatients de discuter de divers sujets et de partager des connaissa
 Dans cette introduction, nous expliquerons ce qu'est le développement AI Native et ce que sont les patterns.
 Si vous pratiquez déjà le développement AI Native dans votre entreprise et souhaitez contribuer votre expérience à ce document, nous vous accueillons avec plaisir !
 
-Actuellement, nous prenons en charge les langues suivantes : [Anglais 🇺🇸](https://ai-native-development.gitbook.io/docs/), [Allemand 🇩🇪](https://ai-native-development.gitbook.io/docs/v/de/), [Espagnol 🇪🇸](https://ai-native-development.gitbook.io/docs/v/es/), [Français 🇫🇷](https://ai-native-development.gitbook.io/docs/v/fr/), [Italien 🇮🇹](https://ai-native-development.gitbook.io/docs/v/it/), [Japonais 🇯🇵](https://ai-native-development.gitbook.io/docs/v/ja/), [Portugais 🇵🇹](https://ai-native-development.gitbook.io/docs/v/pt/) et [Chinois 🇨🇳](https://ai-native-development.gitbook.io/docs/v/zh/).
+Actuellement, nous prenons en charge les langues suivantes : [Anglais 🇺🇸](https://www.ai-native.dev/docs/), [Allemand 🇩🇪](https://www.ai-native.dev/docs/v/de/), [Espagnol 🇪🇸](https://www.ai-native.dev/docs/v/es/), [Français 🇫🇷](https://www.ai-native.dev/docs/v/fr/), [Italien 🇮🇹](https://www.ai-native.dev/docs/v/it/), [Japonais 🇯🇵](https://www.ai-native.dev/docs/v/ja/), [Portugais 🇵🇹](https://www.ai-native.dev/docs/v/pt/) et [Chinois 🇨🇳](https://www.ai-native.dev/docs/v/zh/).
 
 {% hint style="info" %}
 Ce document "Guide de développement AI Native" n'est pas encore dans sa version finale, il peut y avoir des liens cassés, des fautes de frappe et d'autres erreurs.
