@@ -1,7 +1,7 @@
-# Documentação AI-Native
+# Documentação AI Native
 
 O uso de tecnologias de IA, como o GitHub Copilot, pode mudar o trabalho dos engenheiros dentro de equipes de desenvolvimento e, por fim, afetar a arquitetura.
-Este documento explica o impacto potencial dos métodos de desenvolvimento AI-Native.
+Este documento explica o impacto potencial dos métodos de desenvolvimento AI Native.
 
 ## Contexto é tudo
 
@@ -36,7 +36,7 @@ Você pode precisar entender a arquitetura geral e ter algum conhecimento sobre 
 O mesmo vale para testes - a IA é boa em escrever testes de acordo com cenários dados, mas é difícil pensar em cenários abrangentes de teste.
 Os testes para APIs REST que têm funções simples de CRUD podem ser facilmente escritos pela IA, mas é difícil para a IA escrever testes para aplicativos com condições de autorização complexas.
 
-## Arquitetura AI-Native
+## Arquitetura AI Native
 
 Quão complexo é o contexto em sua arquitetura de aplicativo/servi ção? Se houver muito contexto, o uso de IA para acelerar o desenvolvimento pode ser reduzido.
 Isso ocorre porque o contexto que o LLM (Large Language Model) pode entender é limitado e não podemos fornecer simultaneamente uma grande quantidade de contexto para a IA.

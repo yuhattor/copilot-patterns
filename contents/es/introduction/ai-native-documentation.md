@@ -1,4 +1,4 @@
-# Documentación AI-Native: Legibilidad de Documentos de AI
+# Documentación AI Native: Legibilidad de Documentos de AI
 
 Actualmente, hay mucho revuelo en torno a una herramienta de desarrollo llamada GitHub Copilot, que cuenta con funcionalidad asistida por IA.
 Existe la idea equivocada de que esta herramienta es solo para ingenieros, pero esto es parcialmente verdadero y parcialmente incorrecto.
@@ -7,7 +7,7 @@ Sin embargo, a medida que cambian los métodos de trabajo de los ingenieros, las
 Si está en una posición de PM o PO, este es un tema importante para usted también, ya que se espera que los ingenieros de su equipo funcionen al máximo rendimiento, implementando sus requisitos definidos lo más rápido posible.
 En el futuro, incluso si no es un ingeniero, deberá crear documentación **legible por AI** para permitir que los ingenieros de su equipo colaboren con AI.
 
-## Cultura de Documentación y Desarrollo AI-Native
+## Cultura de Documentación y Desarrollo AI Native
 
 En los últimos años, la tecnología de IA ha avanzado rápidamente, con modelos como LLM (Large Language Model) ganando atención.
 GitHub, una plataforma de desarrollo de código abierto, también se ha aventurado en el campo del desarrollo de IA.
@@ -31,7 +31,7 @@ Incluso si no es un ingeniero, su lenguaje natural escrito en Markdown puede con
 Esto podría ser código que representa la lógica empresarial, definiciones de tablas o incluso escenarios de prueba.
 ¿Está su equipo de desarrollo preparado para incluir AI? ¿Se han preparado documentos legibles por AI? Si la respuesta es no, debe comenzar a crear un equipo de desarrollo que esté cómodo para que AI participe.
 
-## Desarrollo AI-Native y Estrategia InnerSource
+## Desarrollo AI Native y Estrategia InnerSource
 
 Hemos estado discutiendo el desarrollo de código abierto, pero también existe un concepto similar llamado InnerSource.
 InnerSource es un enfoque que adopta las mejores prácticas del desarrollo de software de código abierto dentro de organizaciones que desarrollan software no de código abierto o propietario.
@@ -39,7 +39,7 @@ Su objetivo es promover la colaboración en toda la organización y romper los s
 
 InnerSource es cada vez más importante para las empresas para evitar reinventar la rueda, optimizar el desarrollo para reducir costos y crear nuevo valor a través de la colaboración.
 
-Como se menciona en la página de desarrollo AI-Native, la IA tiende a mejorar a los humanos experimentados.
+Como se menciona en la página de desarrollo AI Native, la IA tiende a mejorar a los humanos experimentados.
 Las personas mayores o experimentadas dentro de una organización que entienden la arquitectura se mejoran, mientras que a otros se les asignan tareas más simples.
 Sin embargo, dado que la IA se entrena principalmente con conocimientos de internet, no puede acceder a dominios propietarios, conocimientos cerrados dentro de las organizaciones o información no publicada.
 Por lo tanto, si esta información no está documentada o compartida adecuadamente dentro de la organización, se plantea un problema.

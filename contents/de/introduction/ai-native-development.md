@@ -1,7 +1,7 @@
-# AI-Native Dokumentation
+# AI Native Dokumentation
 
 Durch den Einsatz von AI-Technologien wie GitHub Copilot kann sich die Arbeit der Ingenieure im Entwicklungsteam ändern und letztendlich auch Auswirkungen auf die Architektur haben.
-In diesem Dokument wird beschrieben, welche Auswirkungen die Entwicklungsmethoden von AI-Native haben könnten.
+In diesem Dokument wird beschrieben, welche Auswirkungen die Entwicklungsmethoden von AI Native haben könnten.
 
 ## Der Kontext ist alles
 
@@ -34,7 +34,7 @@ Es ist wichtig, die Gesamtarchitektur zu verstehen und eine gewisse Kenntnis der
 In Bezug auf Tests ist es für AI einfach, Tests basierend auf einem bestimmten Szenario zu schreiben, aber es kann schwierig sein, umfassende Testszenarien zu erstellen.
 Es ist einfach, API-Tests für eine REST-API mit einfachen CRUD-Funktionen zu schreiben, aber es kann schwierig sein, Tests für Anwendungen zu schreiben, die komplexe Genehmigungsbedingungen haben.
 
-## AI-Native Architektur
+## AI Native Architektur
 
 Wie viel Kontext ist in der Architektur Ihrer Anwendung vorhanden?
 Wenn es viele Kontexte in der Architektur gibt, kann die Verwendung von AI zur Entwicklung zu einer Verringerung der Entwicklungsrate führen.

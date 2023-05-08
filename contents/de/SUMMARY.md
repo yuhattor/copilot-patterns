@@ -5,7 +5,7 @@
 
 ## Einführung
 
-* [AI-Native-Entwicklung](./introduction/ai-native-development.md)
+* [AI Native Entwicklung](./introduction/ai-native-development.md)
 * [KI-lesbare Dokumentation](./introduction/ai-native-documentation.md)
 * [Arten von KI-Codierungstools](./introduction/ai-tools-types.md)
 

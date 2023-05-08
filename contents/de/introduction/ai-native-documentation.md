@@ -107,7 +107,7 @@ Früher war das Sammeln von Informationen und das Erstellen von Einarbeitungsmat
 Sie können das gesamte Wissen, das Sie besitzen, in Dokumenten einbetten, als einzige zuverlässige Informationsquelle.
 
 Dieser Ansatz kann auch explizit in der Dokumentation von [Atlassian](https://www.atlassian.com/ja/work-management/knowledge-sharing/documentation/importance-of-documentation) gesehen werden.
-Das Lesen ihrer Dokumentation mit AI-Native-Entwicklung im Hinterkopf kann zu neuen Entdeckungen führen.
+Das Lesen ihrer Dokumentation mit AI Native Entwicklung im Hinterkopf kann zu neuen Entdeckungen führen.
 Die von Ihnen geschriebenen Dokumente werden durch KI eine Persönlichkeit haben.
 Dies erfordert jedoch ausreichende Dokumentation, wie bereits erwähnt.
 

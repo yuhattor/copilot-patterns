@@ -1,7 +1,7 @@
-# Documentazione AI-Native
+# Documentazione AI Native
 
 L'utilizzo di tecnologie AI come GitHub Copilot può cambiare il lavoro degli ingegneri all'interno del team di sviluppo e alla fine può influire sull'architettura stessa.
-In questo documento spiegheremo gli effetti potenziali dei metodi di sviluppo AI-Native.
+In questo documento spiegheremo gli effetti potenziali dei metodi di sviluppo AI Native.
 
 ## Il contesto è tutto
 
@@ -35,7 +35,7 @@ Tuttavia, se si sta gestendo un grande database complicato, è difficile avere f
 In questo caso, è necessario comprendere l'architettura complessiva e avere una conoscenza adeguata della logica effettiva.
 Lo stesso vale per i test: l'AI è brava a scrivere test basati su scenari specifici, ma è difficile che scriva scenari di test completi e complessi per un'applicazione che ha requisiti di autorizzazione complicati.
 
-## Architettura AI-Native
+## Architettura AI Native
 
 Quanto contesto è presente nell'architettura della tua applicazione?
 Se ci sono molti contesti nell'architettura, l'utilizzo dell'AI potrebbe rallentare la velocità di sviluppo.

@@ -5,7 +5,7 @@
 
 ## Introduction
 
-* [AI-Native Development](./introduction/ai-native-development.md)
+* [AI Native Development](./introduction/ai-native-development.md)
 * [AI-Readable Documentation](./introduction/ai-native-documentation.md)
 * [Types of AI Coding Tools](./introduction/ai-tools-types.md)
 
@@ -18,7 +18,7 @@
 
 ## Patterns
 
-* [AI-Native Documentation](./patterns/ai-friendly-documentation.md)
+* [AI Native Documentation](./patterns/ai-friendly-documentation.md)
 * [AI-Readable Naming Rules](./patterns/ai-friendly-naming-convention.md)
 * [Test Development with AI](./patterns/ai-test-development.md)
 * [Context Directory](./patterns/context-directory.md)

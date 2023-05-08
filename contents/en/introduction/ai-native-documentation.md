@@ -1,4 +1,4 @@
-# AI-Native Documentation: AI Readability of Documents
+# AI Native Documentation: AI Readability of Documents
 
 Currently, there is a lot of buzz around a development tool called GitHub Copilot, which comes with AI-assisted functionality.
 There seems to be a misconception that this tool is only for engineers.
@@ -9,7 +9,7 @@ If you are in a PM or PO position, this is an important issue for you as well.
 Since your team's engineers are expected to perform at their best, implementing your defined requirements as quickly as possible.
 Going forward, even if you are not an engineer, you will need to create **AI-readable** documentation to enable your team's engineers to collaborate with AI.
 
-## Documentation Culture and AI-Native Development
+## Documentation Culture and AI Native Development
 
 In recent years, AI technology has advanced rapidly, with models like LLM (Large Language Model) gaining attention.
 GitHub, an open-source development platform, has also ventured into the field of AI development.
@@ -35,7 +35,7 @@ Is your development team ready to include AI.
 Are AI-readable documents prepared.
 If the answer is no, you must start creating a development team that is comfortable for AI to participate in.
 
-## AI-Native Development and InnerSource Strategy
+## AI Native Development and InnerSource Strategy
 
 We've been discussing open-source development, but there's also a similar concept called inner source.
 InnerSource is an approach that adopts the best practices of open-source software development within organizations that develop non-open-source or proprietary software.
@@ -43,7 +43,7 @@ It aims to promote collaboration across organizational boundaries and break down
 
 InnerSource is becoming increasingly important for companies to avoid reinventing the wheel, streamline development to reduce costs, and create new value through collaboration.
 
-As mentioned on the AI-Native development page, AI tends to augment experienced humans.
+As mentioned on the AI Native development page, AI tends to augment experienced humans.
 Senior or experienced individuals within an organization who understand the architecture are boosted, while others are assigned simpler tasks.
 
 However, since AI is primarily trained on knowledge from the internet, it cannot access proprietary domains, closed knowledge within organizations, or unpublished information.
@@ -111,7 +111,7 @@ In the past, gathering information and creating onboarding materials for new eng
 You can embed all the knowledge you possess in documents as the only reliable source of information.
 
 This approach can also be seen explicitly in [Atlassian](https://www.atlassian.com/ja/work-management/knowledge-sharing/documentation/importance-of-documentation) documentation.
-Reading their documentation with AI-Native development in mind might lead to new discoveries.
+Reading their documentation with AI Native development in mind might lead to new discoveries.
 The documents you write will feel as if they have a personality through AI.
 However, this requires sufficient documentation, as mentioned earlier.
 
