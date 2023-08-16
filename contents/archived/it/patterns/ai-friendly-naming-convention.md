@@ -1,7 +1,7 @@
 # Regole di denominazione amichevoli dell'AI
 
 {% hint style="info" %}
-Questo documento è ancora in fase di verifica. Ci aspettiamo una discussione attiva su [GitHub Issue](https://github.com/AI-Native-Development/docs/issues/6).
+Questo documento è ancora in fase di verifica. Ci aspettiamo una discussione attiva su [GitHub Issue](https://github.com/AI-Native-Development/patterns/issues/6).
 {% endhint %}
 
 ## Descrizione

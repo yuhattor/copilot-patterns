@@ -1,7 +1,7 @@
 # PROMPT知识共享
 
 {%hint style="info"%}
-本文档仍在验证中。我们期望通过[Github问题](https://github.com/AI-Native-Development/docs/issues/8)进行积极讨论。
+本文档仍在验证中。我们期望通过[Github问题](https://github.com/AI-Native-Development/patterns/issues/8)进行积极讨论。
 {%endhint%}
 
 ## 描述

@@ -1,7 +1,7 @@
 # Prompt Knowledge Sharing
 
 {% hint style="info" %}
-This document is still under review. We welcome active discussion on the [GitHub issue](https://github.com/AI-Native-Development/docs/issues/8).
+This document is still under review. We welcome active discussion on the [GitHub issue](https://github.com/AI-Native-Development/patterns/issues/8).
 {% endhint %}
 
 ## Description

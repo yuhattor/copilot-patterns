@@ -1,7 +1,7 @@
 # Prompt Partage de connaissances
 
 {% hint style="info" %}
-Ce document est encore en cours de validation. Nous espérons des discussions actives sur la [question GitHub](https://github.com/AI-Native-Development/docs/issues/8).
+Ce document est encore en cours de validation. Nous espérons des discussions actives sur la [question GitHub](https://github.com/AI-Native-Development/patterns/issues/8).
 {% endhint %}
 
 ## Description

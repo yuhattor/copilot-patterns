@@ -1,7 +1,7 @@
 # Prompt Condivisione della conoscenza
 
 {% hint style="info" %}
-Questo documento è ancora in fase di verifica. Ci aspettiamo una discussione attiva sulla questione su GitHub Issue (https://github.com/AI-Native-Development/docs/issues/8).
+Questo documento è ancora in fase di verifica. Ci aspettiamo una discussione attiva sulla questione su GitHub Issue (https://github.com/AI-Native-Development/patterns/issues/8).
 {% endhint %}
 
 ## Descrizione

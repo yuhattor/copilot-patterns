@@ -1,7 +1,7 @@
 # AI-freundliche Namenskonventionen
 
 {% hint style="info" %}
-Dieses Dokument befindet sich noch in der Validierungsphase. Wir erwarten eine aktive Diskussion in den [GitHub-Issues](https://github.com/AI-Native-Development/docs/issues/6).
+Dieses Dokument befindet sich noch in der Validierungsphase. Wir erwarten eine aktive Diskussion in den [GitHub-Issues](https://github.com/AI-Native-Development/patterns/issues/6).
 {% endhint %}
 
 ## Beschreibung

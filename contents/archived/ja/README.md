@@ -3,7 +3,7 @@
 AIネイティブ開発ガイドへようこそ!
 こちらは AI Native Development Community が運営するコミュニティドキュメントです。
 このドキュメントでは、GitHub Copilot などをつかった AI ネイティブ開発におけるベストプラクティスを特定の形式でまとめて、簡単に理解、評価、そしてあなたの状況に適用できるようにしています。
-いくつかのものはパターンとして、名前をつけてまとめています。もし気に入れば、[GitHubのリポジトリ](https://github.com/AI-Native-Development/docs)のスターやコントリビューションをお待ちしています！どんな小さな貢献でも大歓迎です。一緒にAI Native Developmentの方法を開拓していきましょう！
+いくつかのものはパターンとして、名前をつけてまとめています。もし気に入れば、[GitHubのリポジトリ](https://github.com/AI-Native-Development/patterns)のスターやコントリビューションをお待ちしています！どんな小さな貢献でも大歓迎です。一緒にAI Native Developmentの方法を開拓していきましょう！
 
 <img align="right" src="../../top.png" title="AI Native Development Guide" width="30%">
 

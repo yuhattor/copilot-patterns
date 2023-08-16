@@ -1,7 +1,7 @@
 # Règles de dénomination conviviales pour l'IA
 
 {% hint style="info" %}
-Ce document est en cours de validation. Nous espérons que vous participerez activement à la discussion sur [GitHub Issue](https://github.com/AI-Native-Development/docs/issues/6).
+Ce document est en cours de validation. Nous espérons que vous participerez activement à la discussion sur [GitHub Issue](https://github.com/AI-Native-Development/patterns/issues/6).
 {% endhint %}
 
 ## Description

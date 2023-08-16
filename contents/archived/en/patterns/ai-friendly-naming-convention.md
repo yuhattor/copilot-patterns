@@ -1,7 +1,7 @@
 # AI Friendly Naming Convention
 
 {% hint style="info" %}
-This document is still under review. We encourage active discussion on [GitHub Issue #6](https://github.com/AI-Native-Development/docs/issues/6)
+This document is still under review. We encourage active discussion on [GitHub Issue #6](https://github.com/AI-Native-Development/patterns/issues/6)
 {% endhint %}
 
 ## Description

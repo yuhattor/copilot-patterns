@@ -1,7 +1,7 @@
 # Normas de denominación amigables con la IA
 
 {% hint style="info" %}
-Este documento aún está en proceso de validación. Esperamos discutirlo activamente en la [Issue de GitHub](https://github.com/AI-Native-Development/docs/issues/6).
+Este documento aún está en proceso de validación. Esperamos discutirlo activamente en la [Issue de GitHub](https://github.com/AI-Native-Development/patterns/issues/6).
 {% endhint %}
 
 ## Descripción

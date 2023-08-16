@@ -1,7 +1,7 @@
 # Prompt Wissensaustausch
 
 {% hint style="info" %}
-Dieses Dokument befindet sich noch in der Überprüfung. Wir hoffen auf eine aktive Diskussion über [GitHub Issues](https://github.com/AI-Native-Development/docs/issues/8).
+Dieses Dokument befindet sich noch in der Überprüfung. Wir hoffen auf eine aktive Diskussion über [GitHub Issues](https://github.com/AI-Native-Development/patterns/issues/8).
 {% endhint %}
 
 ## Beschreibung

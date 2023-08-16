@@ -1,7 +1,7 @@
 # Regras de Nomenclatura Amigáveis ​​à IA
 
 {% hint style="info" %}
-Este documento ainda está em verificação. Espera-se uma discussão ativa no [issue do GitHub](https://github.com/AI-Native-Development/docs/issues/6).
+Este documento ainda está em verificação. Espera-se uma discussão ativa no [issue do GitHub](https://github.com/AI-Native-Development/patterns/issues/6).
 {% endhint %}
 
 ## Descrição

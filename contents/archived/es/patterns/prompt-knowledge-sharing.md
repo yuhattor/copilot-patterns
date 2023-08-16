@@ -1,7 +1,7 @@
 # Prompt Compartir conocimientos
 
 {% hint style="info" %}
-Este documento aún se encuentra en proceso de verificación. Esperamos tener discusiones activas en el [issue de GitHub](https://github.com/AI-Native-Development/docs/issues/8).
+Este documento aún se encuentra en proceso de verificación. Esperamos tener discusiones activas en el [issue de GitHub](https://github.com/AI-Native-Development/patterns/issues/8).
 {% endhint %}
 
 ## Descripción

@@ -1,7 +1,7 @@
 # AI可読性のある命名規則
 
 {% hint style="info" %}
-このドキュメントはまだ検証中です。[GitHub の Issue](https://github.com/AI-Native-Development/docs/issues/6) で積極的に議論をかわすことを期待しています。
+このドキュメントはまだ検証中です。[GitHub の Issue](https://github.com/AI-Native-Development/patterns/issues/6) で積極的に議論をかわすことを期待しています。
 {% endhint %}
 
 ## Description

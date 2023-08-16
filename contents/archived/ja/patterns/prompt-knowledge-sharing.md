@@ -1,7 +1,7 @@
 # プロンプト-ナレッジシェアリング
 
 {% hint style="info" %}
-このドキュメントはまだ検証中です。[GitHub の Issue](https://github.com/AI-Native-Development/docs/issues/8) で積極的に議論をかわすことを期待しています。
+このドキュメントはまだ検証中です。[GitHub の Issue](https://github.com/AI-Native-Development/patterns/issues/8) で積極的に議論をかわすことを期待しています。
 {% endhint %}
 
 ## Description

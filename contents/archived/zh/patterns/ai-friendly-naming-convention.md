@@ -1,7 +1,7 @@
 # AI可读性高的命名规则
 
 {% hint style="info" %}
-此文档仍在审核中。我们希望通过[GitHub 的 Issue](https://github.com/AI-Native-Development/docs/issues/6)积极讨论。
+此文档仍在审核中。我们希望通过[GitHub 的 Issue](https://github.com/AI-Native-Development/patterns/issues/6)积极讨论。
 {% endhint %}
 
 ## 描述
