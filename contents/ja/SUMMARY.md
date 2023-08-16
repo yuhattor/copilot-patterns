@@ -54,3 +54,10 @@
 ## Archived
 
 * [AI Native Development Guide](https://www.ai-native.dev/archived/)
+* [German Translation 🇩🇪](https://www.ai-native.dev/archived/german)
+* [Spanish Translation 🇪🇸](https://www.ai-native.dev/archived/spanish)
+* [French Translation 🇫🇷](https://www.ai-native.dev/archived/french)
+* [Italy Translation 🇮🇹](https://www.ai-native.dev/archived/italy)
+* [Japanese Translation 🇯🇵](https://www.ai-native.dev/archived/japanese)
+* [Portuguese Translation 🇵🇹](https://www.ai-native.dev/archived/portuguese)
+* [Chinese Translation 🇨🇳](https://www.ai-native.dev/archived/chinese)

@@ -1,42 +1,38 @@
-# Contributing to GitHub Copilot Patterns and Excersises
+# AIネイティブ開発ガイドに貢献する
 
-The goal of the GitHub Copilot Patterns and Excersises Working Group is to collect, document, and publish best practices for AI Native development. To make them easy to understand, evaluate, and apply, we encode them in a specific structure.
+GitHub Copilot パターン&エクササイズ ワーキンググループの目標は、AIネイティブ開発のベストプラクティスを収集、文書化、および公開することです。ベストプラクティスを理解しやすく、評価しやすく、適用しやすくするために、私たちはそれらを特定の構造に符号化します。
 
-We welcome your participation, whether you make small or large contributions, for this working group to actively operate.
+このワーキンググループが活発に活動するために、小さな貢献でも大きな貢献でも、皆さんの参加を歓迎します。
 
-## How to Contribute
+## コントリビューションをする方法
 
-Please consider contributing to AI Native development patterns. Below are suggestions on how you can contribute.
+GitHub Copilot パターン&エクササイズへの貢献を検討している方へ、以下はどのように貢献できるかについての提案です。
 
-* **Share opinions and encourage discussion**:
-  Fresh perspectives, interesting thoughts, or early novel ideas can provoke discussions and produce unpredictable outcomes. Please create Issues to share your opinions on AI Native development-related topics anytime.
-* **Read existing patterns and improve them**:
-  We recommend starting by reading the existing patterns and materials in this repository. Did you find a confusing phrase or poor grammar? A content error? Create a GitHub Issue or propose a correction directly as a pull request.
-* **Verify the use of patterns**:
-  Confirming that multiple organizations are using a pattern increases its relevance and informs other adopters that the pattern is proven. If you are using any of the published patterns, list your organization as a known instance of that pattern and describe your experience in applying it.
-* **Translate existing patterns**:
-  When introducing AI Native development practices in your region, the language barrier can be an issue for people, as most AI Native development content is available in English. Therefore, it is highly valuable to help people in your region/organization understand AI Native development in their language. For guidance on translating patterns into other languages, please refer to the translation instructions.
-* **Review open pull requests**:
-  Even if you don't know all the details of the Patterns Working Group, feedback on existing pull requests (especially those proposing changes to pattern content) is beneficial for their authors.
-  As someone learning AI Native development, you can offer your opinion from the perspective of a future reader. As someone with your own AI Native development experience, you can share your experiences with the author.
-* **Contribute to new patterns**:
-  A major contribution you can make is documenting the best practices of AI Native development you have experienced or know about.
-  This repository's content has defined maturity levels. First-time contributors should aim for Maturity Level 1: Initial (unstructured experience reports or patterns with missing parts) and 2: Structured (best practices following the pattern format and basic textual representation rules).
-* **Become a pattern advocate**: By bringing in more people with their perspectives and experiences, patterns become better, and more topics get covered. Has a colleague told you about a novel AI Native development best practice? Invite them to contribute to this repository!
+* 意見を共有し、議論を促す:
+  新鮮な視点、興味深い考え、または初期の斬新なアイデアは、議論を引き起こし、予測できない結果を生み出すことがあります。AIネイティブ開発関連のトピックについていつでも Issues を作成して意見を共有するようにお願いします。
+* 既存のパターンを読み、改善する:
+  始めるには、このリポジトリの既存のパターンや資料を読むことをお勧めします。誤解を招くフレーズやまずい文法を見つけましたか？コンテンツの誤り？GitHub Issue を作成するか、直接プルリクエストとして修正を提案してください。
+* パターンを使用していることを確認する:
+  複数の組織がパターンを使用していることを確認すると、そのパターンの関連性が高まり、他の採用者にこのパターンが実証済みであることを知らせることができます。公開されているパターンのいずれかを使用している場合は、そのパターンに既知のインスタンスとして組織をリストし、それ適用した際の経験について説明してください。
+* 既存のパターンを翻訳する:
+  あなたの地域でAIネイティブ開発の実践を導入する際、ほとんどのAIネイティブ開発のコンテンツが英語で利用可能であるため、言語の障壁が人々にとって問題になることがあります。そのため、あなたの地域/組織の人々が自分たちの言語でAIネイティブ開発を理解できるようにすることは大変価値があります。パターンを他の言語に翻訳する方法については、翻訳手順を参照してください。
+* オープンなプルリクエストをレビューする:
+  パターンワーキンググループのすべての詳細を知らなくても、既存のプルリクエスト（特にパターン内容の変更を提案するもの）に対するフィードバックは、その著者にとって有益です。
+  AIネイティブ開発を学びたい人として、将来の読者の視点から意見を述べることができます。独自のAIネイティブ開発経験を持つ人として、著者と経験を共有することができます。
+* 新しいパターンに貢献する:
+  あなたができる主要な貢献は、経験したり知っているAIネイティブ開発のベストプラクティスを文書化することです。
+  このリポジトリのコンテンツには、異なる成熟度レベルが定義されています。初めての貢献者は、成熟度レベル1: 初期（構造化されていない経験報告や、欠けている部分を持つパターン）および2: 構造化（パターン形式に従い、基本的な文章表現の規則に従ったベストプラクティス）を目指すべきです。
+* パターンのアドボケートになる:
+  さらに多くの人々が自分たちの視点と経験を寄せることで、パターンはより良くなり、より多くのトピックがカバーされます。同僚が斬新なAIネイティブ開発のベストプラクティスについて話してくれましたか？ぜひ彼/彼女を招待し、このリポジトリに貢献してもらいましょう！
 
-## How to Contact
+## 貢献のライセンス
 
-Please feel free to contact us for support in contributing to AI Native development patterns, or just to chat.
-The easiest way to reach us is via Discord.
+このリポジトリのコンテンツはCC-BY-SA-4.0でライセンスされています。このリポジトリへの貢献により、私たち（そして誰もが）あなたの貢献をそのライセンスに従って使用する権利を付与します。
 
-## Licensing Contributions
+## 貢献の謝辞
 
-The contents of this repository are licensed under CC-BY-SA-4.0. By contributing to this repository, you grant us (and everyone else) the right to use your contribution under that license.
+パターンの著者として自分自身をリストする場合、そのパターンを参照する際にあなたに言及する許可を得たものと見なします。
 
-## Acknowledging Contributions
+## 行動規範
 
-If you list yourself as the author of a pattern, we assume that you have granted permission to be mentioned when referencing that pattern.
-
-## Code of Conduct
-
-While there is not yet a fully formalized code of conduct, we expect all contributors to treat each other with respect and help keep this community free from harassment and discrimination.
+まだ完全に正式化された行動規範はありませんが、すべての貢献者が互いに尊重し合い、このコミュニティをハラスメントや差別のない場に保つことを助けるよう期待しています。

@@ -16,7 +16,7 @@ Your help in improving it is much appreciated. Please see how you can contribute
 
 ## Contribute
 
-We believe in the power of community. If you find this project useful, please consider giving our [GitHub repository](https://github.com/AI-Native-Development/docs) a star:star2:. Your contributions, no matter how small, can make a big difference! Whether it's improving the documentation, adding new patterns, or just fixing a typo - every bit helps.
+We believe in the power of community. If you find this project useful, please consider giving our [GitHub repository](https://github.com/AI-Native-Development/patterns) a star:star2:. Your contributions, no matter how small, can make a big difference! Whether it's improving the documentation, adding new patterns, or just fixing a typo - every bit helps.
 
 To get started with contributing, check out our contribution guidelines [CONTRIBUTING.md](./CONTRIBUTING.md) or open an issue or pull request. Let's work together to pave the way for AI Native Development!
 
@@ -33,7 +33,7 @@ Patterns that are still in development or have not been fully evaluated.
 
 ## Authorship and Acknowledgements
 
-This document is lead authored by [Yuki Hattori](https://github.com/yuhattor), a Customer Success Architect at GitHub. Throughout its evolution, various community members have reviewed and enriched its content. Dive deep into our [contributors' graph](https://github.com/AI-Native-Development/docs/graphs/contributors) to see the passionate individuals who have shaped this project. Please join us. Let's explore the wild GitHub Copilot Patterns together.
+This document is lead authored by [Yuki Hattori](https://github.com/yuhattor), a Customer Success Architect at GitHub. Throughout its evolution, various community members have reviewed and enriched its content. Dive deep into our [contributors' graph](https://github.com/AI-Native-Development/patterns/graphs/contributors) to see the passionate individuals who have shaped this project. Please join us. Let's explore the wild GitHub Copilot Patterns together.
 
 ## LICENSE
 
