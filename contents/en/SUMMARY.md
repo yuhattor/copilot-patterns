@@ -54,6 +54,7 @@
 ## Archived
 
 * [AI Native Development Guide](https://www.ai-native.dev/archived/)
+* Translations
   * [German 🇩🇪](https://www.ai-native.dev/archived/german)
   * [Spanish 🇪🇸](https://www.ai-native.dev/archived/spanish)
   * [French 🇫🇷](https://www.ai-native.dev/archived/french)
