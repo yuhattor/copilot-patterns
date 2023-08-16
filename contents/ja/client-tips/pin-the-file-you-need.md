@@ -11,7 +11,7 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
 
-### 概要
+### Description
 
 GitHub Copilot の性能は、提供されるコンテキストに依存します。GitHub Copilot はテキストの類似性で開いているタブを検索し、大規模言語モデルにスニペットを送信します。したがって、私たちは AI に提供したいコンテキストを慎重に考える必要があります。プログラミングでは、宣言ファイル（d.ts）、テストファイル、インターフェイスファイルなどが豊富なコンテキスト情報を含んでいます。Visual Studio Codeのピン留め機能を使用すると、これらのファイルを必要に応じて簡単にアクセスし、GitHub Copilotに効率的に情報を提供できます。
 
