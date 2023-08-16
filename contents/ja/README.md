@@ -4,7 +4,7 @@ GitHub Copilot パターンとエクササイズのドキュメンテーショ�
 このコミュニティ駆動のオープンソースガイドは、GitHub Copilot のベストプラクティスを提供することに専念しています。
 あなたのプロジェクトにこれらの慣行を理解し、評価し、統合するのを簡単にすることが私たちの目的です。 :rocket:
 
-<img align="right" src="./top.png" title="AI Native Development Guide" width="30%">
+<img align="right" src="./../../top.png" title="AI Native Development Guide" width="30%">
 
 これらのパターンの一部は個々の環境で効果が実証されていますが、いくつかのものはアイデアベースで、実際のチーム環境での有効性がまだテストされていません。
 GitHub Issues にぜひコメントをお寄せください。AI による開発に関するさまざまな議論と知識の共有を楽しみにしています。
