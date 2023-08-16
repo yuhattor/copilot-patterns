@@ -9,11 +9,11 @@ level: 100
 
 ## Code to Document
 
-Generating documentation from code
+<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
 
 ### Description
 
-When code becomes extensive, chat-based AI tools can be used to provide explanations or generate documentation. For example, by utilizing GitHub Copilot Chat, it's possible to create overviews of the entire code or generate API documentation.
+Chat-based AI tools can be used to automatically generate descriptions as well as longer texts such as documentation. For example, GitHub Copilot Chat can be leveraged to generate a full code synopsis, API documentation, and even output the entire code with it embedded within the code.
 
 #### Sample Code
 

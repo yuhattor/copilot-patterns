@@ -9,13 +9,13 @@ level: 100
 
 ## Showing Examples
 
-Generating code from given examples
+<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
 
 ### Description
 
 Using GitHub Copilot, developers can generate code based on provided examples. This can be incredibly useful when you expect the code that produces a specific output. In this pattern, we'll explore how to create a Ruby on Rails model from a given example, such as generating JSON.
 
-#### Samples
+#### Example
 
 The following sample illustrates how you can provide an example in comments and ask GitHub Copilot to generate Ruby on Rails code to create the corresponding model.
 
@@ -43,6 +43,7 @@ rails g model users name:string age:integer description:text country:string titl
   "price": 19.99
 }
 ```
+
 - **Exercise 2**: Experiment with different attributes and types in the JSON example, then generate the corresponding Rails code.
 - **Exercise 3**: Test the generated code in a Rails project to ensure that it creates the expected model.
 

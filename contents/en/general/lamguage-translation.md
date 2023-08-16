@@ -9,13 +9,13 @@ level: 100
 
 ## Language Translation
 
-GitHub Copilot translates your code into another programming language, Such as Python to JavaScript, and HTML to Markdown.
+<img src="https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen">
 
 ### Description
 
-The power of programming lies in the ability to write code in multiple languages. Sometimes, developers may need to translate code from one language to another, such as from Python to JavaScript or HTML to Markdown. This is where GitHub Copilot shines as a virtual aide. Imagine a scenario where a team is working on a multi-platform project, and they need to quickly convert a Python algorithm into JavaScript for web integration. GitHub Copilot's Language Translation ability can save hours of manual translation, enabling seamless cross-language development.
+Sometimes, developers may need to translate code from one language to another, such as from Python to JavaScript or HTML to Markdown. This is where GitHub Copilot shines as a virtual aide. Imagine a scenario where a team is working on a multi-platform project, and they need to quickly convert a Python algorithm into JavaScript for web integration. GitHub Copilot's Language Translation ability can save hours of manual translation, enabling seamless cross-language development.
 
-#### Samples
+#### Example
 
 Here's an example of translating a Python function into JavaScript:
 
@@ -45,3 +45,4 @@ function add(a, b) {
 - How can GitHub Copilot be further optimized to provide more accurate translations between specific languages?
 - What are the limitations, if any, when translating code from one language to another with GitHub Copilot?
 - How can I utilize GitHub Copilot in collaborative environments to make cross-language projects more efficient?
+ What are the differences between using GitHub Copilot and GitHub Copilot Chat?

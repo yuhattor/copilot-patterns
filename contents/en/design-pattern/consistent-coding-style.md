@@ -9,13 +9,13 @@ level: 100
 
 ## Consistent coding style
 
-Consistent coding style leads to better suggestions from GitHub Copilot.
+<img src="https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen">
 
 ### Description
 
-Consistent coding style is crucial in software development, as it not only enhances code readability but also leads to better suggestions from GitHub Copilot. By employing descriptive variable names and functions and adhering to a uniform coding style and pattern, developers find it easier to follow excellent coding practices. For instance, GitHub Copilot can generate relevant code suggestions based on your consistency in coding style.
+Consistent coding style is crucial in software development, as it not only enhances code readability but also leads to better suggestions from GitHub Copilot. Indentation, tabs, naming conventions, comment writing, language-specific abbreviations, and many other areas of coding style. By adhering to a uniform coding style and pattern, developers find it easier to follow excellent coding practices. 
 
-#### Samples
+#### Example
 
 Here's a positive example of using clear function names and following the codebase pattern using snake_case:
 
@@ -41,5 +41,5 @@ def calcSomething(l, w):
 ### Checklist for Further Learning
 
 - How does consistent coding style affect readability and maintainability of the codebase?
-- What tools and techniques can be employed to enforce coding standards within a team or project?
+- What communication is needed to enforce coding standards within a team or project?
 - How can GitHub Copilot assist in adhering to coding best practices? What behaviors does it promote or discourage?

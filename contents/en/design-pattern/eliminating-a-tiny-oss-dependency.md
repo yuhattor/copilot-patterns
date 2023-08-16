@@ -9,7 +9,7 @@ level: 100
 
 ## Eliminating a tiny OSS dependency
 
-Eliminating a tiny OSS dependency that can be actually implemented in a few lines of code.
+<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
 ### Description
 

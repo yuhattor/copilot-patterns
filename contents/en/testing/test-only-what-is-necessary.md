@@ -1,7 +1,7 @@
 ---
 name: "Test only what is necessary"
 description: "Test only what is necessary, so that you can avoid the cost of maintaining unnecessary tests."
-category: "test"
+category: "testing"
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: 200
@@ -9,25 +9,15 @@ level: 200
 
 ## Test Only What is Necessary
 
-Test only what is necessary, so that you can avoid the cost of maintaining unnecessary tests.
+<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
 ### Description
 
-In the age of rapid software development, writing efficient and useful tests is more crucial than ever. Using GitHub Copilot, an AI-powered tool, developers may be tempted to generate a plethora of tests to increase coverage. However, generating unnecessary test codes can lead to maintenance burdens and technical debt. This section emphasizes the importance of testing only what is necessary, specifically when using GitHub Copilot to write test code.
+In the era of rapid software development, writing efficient and useful tests is more important than ever, and when using GitHub Copilot, developers may generate a lot of test code to increase coverage. However, unnecessary test code generation can lead to maintenance burdens and technical debt, so it is important to test only what is necessary when writing test code using GitHub Copilot.
 
-#### Samples
+#### Example
 
 Here's an example of how you might choose to write a meaningful test for a specific function rather than writing multiple tests just to boost coverage:
-
-```python
-def add(a, b):
-    return a + b
-
-# Meaningless Test
-def test_add():
-    assert add(2, 3) == 5
-    assert add(100, 80) == 180
-```
 
 Here are some examples of possible unnecessary test codes:
 
@@ -50,6 +40,6 @@ Rather than adding numerous tests that only increase coverage without adding val
 
 ### Checklist for Further Learning
 
-- Am I writing tests that truly validate the functionality, or am I writing tests just to increase coverage?
-- How can I ensure that the tests I'm writing are providing value to the project and not just adding to the maintenance burden?
-- What strategies can I adopt to keep my test suite lean and meaningful, especially when using tools like GitHub Copilot?
+- Are you writing tests that truly validate the functionality, or am I writing tests just to increase coverage?
+- How can you ensure that the tests I'm writing are providing value to the project and not just adding to the maintenance burden?
+- What strategies can you adopt to keep my test suite lean and meaningful, especially when using tools like GitHub Copilot?

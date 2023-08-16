@@ -9,13 +9,13 @@ level: 100
 
 ## Writing test code before refactoring
 
-GitHub Copilot makes it incrediblly easy to modify code, but the suggested code is not always correct even if it looks good. Writing tests is very important before refactoring it. This is no different when using GitHub Copilot.
+<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
 
 ### Description
 
 In the modern world of software development, refactoring can be seen as a fun and engaging task, especially with tools like GitHub Copilot at your disposal. It's so easy to dive in and make changes, but without proper tests, even the most promising code modification can lead to unexpected results. This pattern emphasizes the importance of writing tests before refactoring code to ensure that the functionality remains consistent. Think of tests as your safety net; they catch the problems before they become catastrophic.
 
-#### Samples
+#### Example
 
 Suppose you have a function that calculates the total price of a shopping cart, and you want to refactor it for better clarity. Here's the original code:
 

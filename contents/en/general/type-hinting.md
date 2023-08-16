@@ -9,15 +9,15 @@ level: 100
 
 ## Type Hinting
 
-Writing type hints when you write dynamic typing programming language, to increase copilot suggestion accuracy.
+<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
 
 ### Description
 
-In the world of dynamic typing programming languages, developers often face challenges in understanding code, especially when working on complex systems. Type hinting adds a layer of clarity by explicitly declaring the expected data types. With GitHub Copilot, the integration of type hinting can increase the accuracy of code suggestions, empowering developers to write code more efficiently.
+In the world of dynamic typing programming languages, developers often face challenges in understanding code, especially when working on complex systems. Type hinting adds a layer of clarity by explicitly declaring the expected data types. With GitHub Copilot, the integration of type hinting can increase the accuracy of code suggestions, empowering developers and GitHub Copilot to write code more efficiently.
 
-Imagine you're working on a project where functions are deeply nested, and tracking the types of variables becomes convoluted. Integrating type hinting not only makes the code more readable for your fellow developers but also enhances Copilot's ability to provide intelligent and context-aware code suggestions.
+Imagine you're working on a project where functions are deeply nested, and tracking the types of variables becomes convoluted. Integrating type hinting also makes the code more readable for your fellow developers.
 
-#### Samples
+#### Example
 
 Here's how you can define a function with type hints in Python:
 
@@ -36,8 +36,5 @@ Copilot will recognize these type hints and generate code suggestions accordingl
 
 ### Checklist for Further Learning
 
-- Have I understood the benefits of using type hints in dynamic typing languages?
-- Am I using type hints consistently throughout my codebase?
-- What tools can I use to enforce type hinting in my code, and how can Copilot assist me in this process?
-- How do different programming languages handle type hinting, and how does this affect Copilot's behavior?
+- Are you using type hints consistently throughout my codebase?
 - Have I considered the potential drawbacks of overusing type hinting, and how do I find the right balance in my code?

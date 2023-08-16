@@ -9,19 +9,20 @@ level: 100
 
 ## Context-less Architecture
 
-Confine coding to smaller contexts and loosely coupled program architecture.
+<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
 ### Description
 
-Context-less Architecture is a design pattern that emphasizes confining coding to smaller, well-defined contexts within a system. By breaking down complex programs into loosely coupled, independent components, this architecture enhances maintainability, scalability, and flexibility.
+Contextless architecture is a design pattern that limits coding to smaller, well-defined contexts within a system. By breaking complex programs into loosely coupled, independent components, this architecture improves maintainability, scalability, and flexibility.
 
-When working with GitHub Copilot, an AI-driven tool for code development, understanding its nature and limitations is essential. Since Copilot is not an Artificial General Intelligence (AGI), it operates most effectively within limited and precise contexts. Focusing on specific needs, developers can maximize Copilot's accuracy and efficiency.
+When working with AI tools like GitHub Copilot, it is essential to understand their nature and limitations. Currently GitHub Copilot is not AGI (Artificial General Intelligence) and therefore works best within a limited and precise context. By focusing on specific needs, developers can maximize Copilot's accuracy and efficiency.
 
-In addition to the above, you should also be aware of the current token limit for large language models, affecting how much information can be processed in a single interaction. Please note that GitHub Copilot does not read all source code, further emphasizing the importance of limiting context for optimal results.
+The key is to create a loosely coupled system where each component serves a specific purpose. This approach is consistent with the limitations of GitHub Copilot and allows developers to use the tool more effectively to build modular, robust software.
 
-The key is to create a cohesive system where each component serves a specific purpose without unnecessary dependencies. This approach aligns with Copilot's limitations, allowing developers to utilize the tool more effectively to build modular and robust software.
+**On the other hand, you should not design a system to fit the tools.**
+This pattern is intended to more effectively speed up development by additionally considering the use of AI in development when it makes sense to be loosely coupled in real-world projects and products.
 
-#### Samples
+#### Example
 
 ##### Before
 
@@ -66,9 +67,7 @@ With this architecture, developers, and also GitHub Copilot, can focus on indivi
 
 - **Exercise 1**: Implement a small context-contained component using GitHub Copilot, and reflect on how limiting the context enhances its understanding.
 - **Exercise 2**: Create a communication system between context-contained components with Copilot, evaluating its performance within confined contexts.
-- **Exercise 3**: Analyze a complex system with Copilot, breaking it into smaller, independent components, and assess the approach's effectiveness.
-- **Exercise 4**: Collaborate with Copilot to write tests for your context-contained components, evaluating how well it assists in this specific architecture.
-- **Exercise 5**: Review the overall architecture, considering the synergies and challenges with GitHub Copilot, and plan potential refinements.
+- **Exercise 3**: Review the overall architecture, considering the synergies and challenges with GitHub Copilot, and plan potential refinements.
 
 ### Checklist for Further Learning
 

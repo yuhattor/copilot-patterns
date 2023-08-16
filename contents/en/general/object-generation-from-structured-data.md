@@ -9,13 +9,13 @@ level: 100
 
 ## Object Generation from Structured Data
 
-Generating objects from structured data such as JSON.
+<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
 
 ### Description
 
 Working with structured data is an everyday task for developers. Transforming data from formats like JSON into objects within your programming language allows for more robust and maintainable code. Imagine you have a list of users, and you want to convert this data into user objects within your application. GitHub Copilot can help you in this transformation process, turning a tedious task into a seamless exercise.
 
-#### Samples
+#### Example
 
 Here's a Python example of how you might convert the given JSON data into a list of user objects:
 

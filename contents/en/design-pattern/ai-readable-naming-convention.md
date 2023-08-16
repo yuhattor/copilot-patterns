@@ -9,7 +9,7 @@ level: 100
 
 ## AI readable naming convention
 
-Name your variables and functions in a way that is readable by AI. Because AI behind GitHub Copilot is GPT-based, which is essentially a natural language model, it will understand code as natural language.
+<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
 
 ### Description
 
@@ -19,7 +19,7 @@ For example, an engineer creating a library system may use generic words such as
 
 By following this pattern, we enhance the effectiveness of GitHub Copilot, leading to more accurate suggestions and increased developers' velocity.
 
-#### Samples
+#### Example
 
 Here are three examples that illustrate how different naming conventions can impact the clarity and accuracy of the code:
 
@@ -54,8 +54,4 @@ Here are three examples that illustrate how different naming conventions can imp
 ### Checklist for Further Learning
 
 - How can I make my code more readable to both human developers and AI models?
-- What other best practices can be adopted to enhance the compatibility of my code with AI tools?
 - Are there any specific cases where this naming pattern may not apply or be counterproductive?
-- How can I keep myself updated with the evolving practices of writing AI-readable code?
-
-By following this pattern of AI readable naming convention, developers can create code that not only humans can understand easily but also maximizes the effectiveness of AI-powered tools like GitHub Copilot. This paves the way for more efficient development and more coherent, maintainable code.

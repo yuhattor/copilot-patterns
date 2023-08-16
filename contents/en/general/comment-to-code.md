@@ -9,13 +9,13 @@ level: 100
 
 ## Comment to Code Generation
 
-Generate code from comments with GitHub Copilot
+<img src="https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen">
 
 ### Description
 
 GitHub Copilot is capable of generating new code based on the specific text provided by a developer. By defining conditions in the form of comments, GitHub Copilot can create code that responds to the requirements.
 
-#### Samples
+#### Example
 
 Here's a way to instruct GitHub Copilot to create a function through comments:
 
@@ -46,10 +46,10 @@ function calculateAverage(numbers: number[]): number {
 ```
 
 - **Exercise 2**: Test the generated function with different sets of numbers and verify if it returns the correct maximum value.
-- **Exercise 3**: Write a set of comments to guide Copilot in creating a function that calculates the minimum number in an array. What does the generated code look like?
 
 ### Checklist for Further Learning
 
 - Is the generated code based on the specified conditions?
 - Is the functionality of the code correctly implemented?
 - What is the appropriate way to write comments for more complex condition definitions?
+- To give more context, try using the OS dictation functionality as well as the keyboard.

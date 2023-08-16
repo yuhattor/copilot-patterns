@@ -1,6 +1,6 @@
 ---
 name: "Asking with open-ended questions"
-description: "Utilizing open-ended questions to ask about code improvement, such as how to improve the restorability of code, how to improve error handling, and how to access UI components.
+description: "For code improvements, such as better error handling, troubleshooting methods, refactoring ideas, etc., open-ended questions can be used to pull new ideas from GitHub Copilot."
 category: "refactoring"
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
@@ -9,13 +9,13 @@ level: 100
 
 ## Asking with Open-Ended Questions
 
-Utilizing open-ended questions to ask about code improvement, such as how to improve the restorability of code, how to improve error handling, and how to access UI components.k
+<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
 
 ### Description
 
-Refactoring code can often be a complex and nuanced process. It's not always about what's wrong or right, but rather understanding the underlying concepts and potential improvements. By utilizing open-ended questions in GitHub Copilot, developers can approach code improvement in a more thoughtful way. This pattern focuses on how to ask questions related to restorability of code, error handling, and accessing UI components, enabling the AI to assist in enhancing the code's efficiency and robustness.
+Refactoring is often a complex process. It is not necessarily about what is right and what is wrong, but about understanding the basic concepts and potential improvements. using open questions in GitHub Copilot, developers can work on improving code in a more thoughtful way with the help of GitHub Copilot GitHub Copilot can help developers work on code improvements in a more thoughtful way.
 
-#### Samples
+#### Example
 
 Introducing open-ended questions in your queries with GitHub Copilot can lead to insightful suggestions. For example:
 
@@ -44,4 +44,4 @@ try {
 ### Checklist for Further Learning
 
 - What other areas of your code can benefit from refactoring?
-- How can open-ended questions assist in that process?
+- How can open-ended questions assist in your development process?

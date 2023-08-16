@@ -1,7 +1,7 @@
 ---
 name: "Pin the files you need"
 description: "Pin files you need such as d.ts declaration files, so that you can easily find them when GitHub Copilot need them."
-category: "editor"
+category: "client-tips"
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: 100
@@ -9,11 +9,13 @@ level: 100
 
 ## Pin the files you need
 
+<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
+
 ### Description
 
 The effectiveness of GitHub Copilot depends on the context provided to it. GitHub Copilot searches through open tabs by text similarity, sending snippets to the Large Language Model (LLM), which itself is a complete black box. Therefore, we must be mindful of the context we want to provide. In programming, files such as declaration files (d.ts), test files, and interface files contain a wealth of context information. By using Visual Studio Code's pinning feature, you can easily access these files when needed and provide information to GitHub Copilot more efficiently.
 
-#### Samples
+#### Example
 
 Here's how you can pin a file in Visual Studio Code:
 

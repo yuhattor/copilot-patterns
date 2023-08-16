@@ -1,7 +1,7 @@
 ---
 name: "Creating unit tests"
 description: "Create unit test with GitHub Copilot"
-category: "test"
+category: "testing"
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: 100
@@ -9,13 +9,14 @@ level: 100
 
 ## Creating Unit Tests
 
-Create unit test with GitHub Copilot
+<img src="https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen">
 
 ### Description
 
 Testing is a fundamental part of the software development process, ensuring that the code meets its design and behaves as intended. The creation of unit tests, which test individual components of the system, can be both challenging and time-consuming. With GitHub Copilot, this process becomes more streamlined. Let's explore how a developer named Alice leverages GitHub Copilot to write unit tests for her application, reducing her workload and boosting her efficiency.
+This pattern is also applicable to functional and API testing.
 
-#### Samples
+#### Example
 
 Alice is working on a JavaScript function that needs to be thoroughly tested. With the help of GitHub Copilot, she can quickly generate the required unit tests.
 
@@ -47,6 +48,6 @@ describe('add function', () => {
 
 ### Checklist for Further Learning
 
-- How can I ensure that my tests are comprehensive and cover all possible scenarios?
-- What other types of tests (e.g., integration tests, functional tests) might be beneficial, and how can Copilot assist in writing them?
-- How can I integrate the unit tests with my continuous integration/continuous deployment (CI/CD) pipeline to automate the testing process?
+- How can you make sure you tests are comprehensive and cover all possible scenarios?
+- What prompts do you add when GitHub Copilot does not cover a scenario at all?
+- How is GitHub Copilot beneficial for other types of testing (E2E testing, integration testing, functional testing, etc.) and how can GitHub Copilot assist you in writing them?

@@ -2,21 +2,25 @@
 name: "AI friendly documentation"
 description: "Be friendly to AI by writing text-based documentation. AI can read text-based documentation, but cannot read image-based  or over-complex documentation such as complex excel and powerpoint files."
 authors: [yuhattor] 
-category: "general"
+category: "collaboration"
 level: 100
 ---
 
 ## AI-friendly documentation
 
-Be friendly to AI by writing text-based documentation. AI can read text-based documentation, but cannot read image-based  or over-complex documentation such as complex excel and powerpoint files.
+<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
 
 ### Description
 
-In the age of AI-powered tools like GitHub Copilot, having documentation that is text-based and easily accessible by AI is essential. This pattern ensures that your infrastructure definitions, database table specifications, and test requirements are readable by AI, rather than being hidden in complex Excel, PowerPoint files, or image formats. This approach can enhance collaboration with AI tools and make information quickly available.
+In the era of GitHub Copilot, an AI powered coding assistance tool, having easily accessible documents in text format becomes crucial. In the AI era, files such as Infrastructure as Code, database table specifications, test requirements, and more have the potential to be instantly transformed into actual code. Rather than dealing with complex Excel, PowerPoint files, PDFs, or image formats, AI will be able to assist your coding efforts collaboratively through text-based documents.
 
-#### Samples
+Let's check if the following files are text-based or AI friendly:
 
-Checking if the following files are text-based:
+- Infrastructure definitions
+- Database table definitions
+- Test specifications
+
+#### Example
 
 - Infrastructure Definitions
 - Database Table Definitions
@@ -48,6 +52,6 @@ class CreateGovernmentPass < ActiveRecord::Migration[7.0]
 
 ### Checklist for Further Learning
 
-- How can I ensure all team members are adhering to the text-based documentation standard?
-- What tools can I use to automatically convert non-text-based documents to text-based formats?
-- How can the adoption of text-based documentation improve the integration with AI tools like GitHub Copilot?
+- How can you ensure that team members are adhering to text-based documentation standards?
+- What other team/project documentation could be written in text to speed up development?
+- How can the adoption of text-based documentation improve development using the AI tool GitHub Copilot?

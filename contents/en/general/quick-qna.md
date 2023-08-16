@@ -9,13 +9,13 @@ level: 100
 
 ## Quick Q&A : A Technique for Fast Interaction with Copilot
 
-Getting the quick answer to your question.
+<img src="https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen">
 
 ### Description
 
 In the collaborative coding environment, quick interactions and clarifications are often key to efficient development. While GitHub has the "GitHub Copilot Chat" product for more structured and extensive conversations, the "Quick Q&A" technique serves as a lightweight alternative. It enables developers to rapidly engage with Copilot in the code editor for brief one-liner answers and insights. It's not a distinct feature but a method that leverages commenting for quick interactions with Copilot, making it an agile and handy tool for on-the-spot guidance.
 
-#### Samples
+#### Example
 
 Using the Quick Chat technique, you can pose questions directly in your code and get brief responses from Copilot:
 

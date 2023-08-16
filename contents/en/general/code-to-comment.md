@@ -9,13 +9,13 @@ level: 100
 
 ## Code to Comment: Generating Comments from Code
 
-Generating comments from code
+<img src="https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen">
 
 ### Description
 
 GitHub Copilot can generate comments from code. When existing code lacks sufficient comments, or to assist other developers in understanding the code, GitHub Copilot can automatically generate explanations in comment form. The following sample demonstrates the Sieve of Eratosthenes algorithm to list prime numbers less than a given number. While this code does not contain comments, GitHub Copilot can create comments to describe the code's functionality.
 
-#### Samples
+#### Example
 
 Here's the code without comments:
 
@@ -52,7 +52,7 @@ def eratosthenes_sieve(n):
 
 ### Exercise
 
-- **Exercise 1**: Generate appropriate comments for the code at the top of the following function:
+- **Exercise**: Generate appropriate comments for the code at the top of the following function:
 
 ```python
 def eratosthenes_sieve(n):

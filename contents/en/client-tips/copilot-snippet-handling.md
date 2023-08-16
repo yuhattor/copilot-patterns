@@ -1,13 +1,15 @@
 ---
 name: "Copilot Snnipet Handling"
 description: "GitHub Copilot uses LLM to generate code. And LLM has a token limitation. You need to know that GitHub Copilot doesn't see all of your code."
-category: "editor"
+category: "client-tips"
 authors: [yuhattor] 
 platforms: [copilot]
 level: 100
 ---
 
-## Token Handling
+## Copilot Snnipet Handling
+
+<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
 
 ### Description
 
@@ -20,6 +22,24 @@ The files that GitHub Copilot uses for suggestions are primarily the currently o
 - If there is an .md file you want to refer to, copy it and comment it out
 
 If your first language is not English, it's worth noting that English is a very token-efficient language. Expressing the same concept in Japanese or other languages might consume more tokens. Writing comments in English could save tokens, but be mindful of your team's language preferences as it might hinder development speed.  Then it's putting the cart before the horse.
+
+#### Example
+
+Consider a scenario where you have a Python function written in one tab and a similar function in an adjacent tab; GitHub Copilot can recognize patterns and suggest improvements.
+
+```python
+# tab 1 (adjacent)
+def add_numbers(a, b):.
+    return a + b
+````
+
+````python
+# tab 2
+def subtract_numbers(a, b): return a - b
+    return a - b
+
+answer = substruct_numbers(1, 2) + add_numbers( # <GitHub Copilot will suggest the code by reading the tab 1 >
+```
 
 ### Exercise
 

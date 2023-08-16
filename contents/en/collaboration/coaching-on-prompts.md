@@ -1,32 +1,34 @@
 ---
-name: "Reviewing prompts and code generating process"
+name: "Coaching on Prompts and Code Generating Process"
 description: "Review your peers' prompts and give them feedback so that they can improve their prompts."
 authors: [yuhattor] 
-category: "general"
+category: "collaboration"
 level: 100
 ---
 
 ## Coaching on Prompts and Code Generating Process
 
+<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
+
 ### Description
 
-Using an AI like GitHub Copilot can make the output look cleaner than it should. Code that looks perfect when you review it may actually be inefficient in the generation process or missing something important. Coaching on the generative process becomes essential to ensure that developers are aware of potential pitfalls and can create efficient and accurate code.
+Using an AI tool like GitHub Copilot can make the output look cleaner than it should. Code that looks perfect when you review it may actually be inefficient in the generation process or missing something important. Coaching on the generative process becomes essential to ensure that developers are aware of potential pitfalls and can create efficient and accurate code.
 
 In modern software development, coaching is more than just a review; it's an opportunity to guide, inspire, and improve. This pattern emphasizes coaching peers on the quality of prompts used in code generation, particularly with AI-driven tools like GitHub Copilot. Coaching aims to enhance not only the prompts but also the understanding of the generative process.
 
-#### Samples
+#### Example
 
 Imagine a scenario where a teammate has created a prompt to generate code for a specific task. Your role is to provide coaching to improve the prompt's clarity and understand the underlying generative process.
 
 Original Prompt:
 
-```
+```md
 "Create a function to find prime numbers within a range."
 ```
 
 Coached Prompt:
 
-```
+```md
 "Develop a Python function that takes two integers as input and returns a list of prime numbers within that range. Ensure the function efficiently handles different ranges, including edge cases."
 ```
 
@@ -41,4 +43,4 @@ Coached Prompt:
 - Have I recognized the distinction between mere reviewing and coaching for continuous improvement?
 - How can I be more effective in my coaching to enhance both the prompt quality and understanding of code generation?
 - What collaborative tools and practices can enhance the coaching process within my team?
-- How can consistent coaching lead to more efficient and accurate code generation, particularly when utilizing AI-driven tools?
+- How can consistent coaching lead to more efficient and accurate code generation, particularly when utilizing AI powered tools?

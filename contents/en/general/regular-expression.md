@@ -9,11 +9,13 @@ level: 100
 
 ## Regular Expression
 
+<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
+
 ### Description
 
 GitHub Copilot can create a draft of regular expression patterns. Below, we'll explain how to use regular expressions to search or extract strings. Two examples illustrate how GitHub Copilot can generate regular expressions through both input-output pattern and natural language pattern.
 
-#### Samples
+#### Example
 
 ##### Input and Output Pattern
 
@@ -75,6 +77,5 @@ matched = re.findall(regex, sentence)
 
 ### Checklist for Further Learning
 
-- Currently, LLMs like GitHub Copilot do not have the ability to properly represent complex regular expressions. What would you do if you want to represent a complex regular expression? How would you leverage GitHub Copilot to support and assist you in building it?
 - Are the regular expression patterns extracting the exact matches from the given strings?
-- Do method 1 and method 2 yield the same results?
+- Currently, LLMs like GitHub Copilot do not have the ability to properly represent complex regular expressions. What would you do if you want to represent a complex regular expression? How would you leverage GitHub Copilot to support and assist you in building it?
