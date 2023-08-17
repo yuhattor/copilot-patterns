@@ -53,7 +53,7 @@
 
 ## Archived
 
-* [AI Native Development Guide](https://www.ai-native.dev/archived/)
+* [GitHub Copilot Patterns & Exercises Guide](https://www.ai-native.dev/archived/)
 * Translations
   * [German 🇩🇪](https://www.ai-native.dev/archived/german)
   * [Spanish 🇪🇸](https://www.ai-native.dev/archived/spanish)

@@ -1,10 +1,12 @@
 # GitHub Copilot Patterns and Exercises
 
-Welcome to the GitHub Copilot Patterns and Exercises documentation! :wave:
+Welcome to the GitHub Copilot Patterns documentation! :wave:
 This community-driven opensource guide is dedicated to providing best practices for GitHub Copilot.
 Our aim is to make it straightforward for you to understand, evaluate, and integrate these practices into your projects. :rocket:
 
-<img align="right" src="./top.png" title="AI Native Development Guide" width="30%">
+<img align="right" src="./assets/cover.png" title="GitHub Copilot Patterns & Exercises" width="40%">
+
+This document is brought to you by GitHub's Customer Success Architect [@yuhattor](https://github.com/yuhattor/) to help developers better use GitHub Copilot and other AI-Powered tools.
 
 Some of these patterns have been tried and proven effective in individual environments, but others are idea-based and have not yet been tested for effectiveness in actual team environments.
 Please feel free to leave comments on GitHub Issues. We look forward to various discussions and the sharing of knowledge about AI Powered development.
@@ -18,17 +20,19 @@ Your help in improving it is much appreciated. Please see how you can contribute
 
 We believe in the power of community. If you find this project useful, please consider giving our [GitHub repository](https://github.com/AI-Native-Development/patterns) a star:star2:. Your contributions, no matter how small, can make a big difference! Whether it's improving the documentation, adding new patterns, or just fixing a typo - every bit helps.
 
-To get started with contributing, check out our contribution guidelines [CONTRIBUTING.md](./CONTRIBUTING.md) or open an issue or pull request. Let's work together to pave the way for AI Native Development!
+To get started with contributing, check out our contribution guidelines [CONTRIBUTING.md](./CONTRIBUTING.md) or open an issue or pull request. Let's work together to pave the way for GitHub Copilot Patterns & Exercises!
 
-We hope this guide will serve as a starting point for you to enter the world of AI Native development.
+We hope this guide will serve as a starting point for you to enter the world of GitHub Copilot Patterns & Exercises.
 
-## What are Patterns and Exercises
+## What are Patterns & Exercises
 
 Patterns are a way of describing repeatable solutions to problems within a specific context.
-In AI Native development, patterns provide ideas for how developers and teams can use AI to achieve rapid product development.
+In GitHub Copilot Patterns & Exercises, patterns provide ideas for how developers and teams can use AI to achieve rapid product development.
 
-- **Patterns**: These are tried and true solutions to common problems and scenarios you might encounter when developing with GitHub Copilot.
+- **Patterns**: These are tried and true solutions to common problems and scenarios you might encounter when developing with GitHub Copilot. Each pattern is categorized by its level of maturity. ![Static Badge](https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet) ![Static Badge](https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue) ![Static Badge](https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green) ![Static Badge](https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen)
 - **Exercises**: Practical hands-on tasks that can help reinforce your understanding and application of the patterns.
+
+Patterns that are still in development or have not been fully evaluated.
 
 ## Authorship and Acknowledgements
 
@@ -36,7 +40,7 @@ This document is lead authored by [Yuki Hattori](https://github.com/yuhattor), a
 
 ## LICENSE
 
-![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+<img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" Title="Creative Commons License">
 
 This document is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
 
