@@ -9,7 +9,7 @@ level: 100
 
 ## Language Translation
 
-<img src="https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen">
+<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
 
 ### Description
 

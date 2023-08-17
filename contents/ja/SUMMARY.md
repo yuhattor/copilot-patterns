@@ -10,7 +10,7 @@
 * [コードからコメントの自動生成](./general/code-to-comment.md)
 * [GitHub CopilotとのクイックQ&A](./general/quick-qna.md)
 * [正規表現](./general/regular-expression.md)
-* [プログラミング言語間の翻訳](./general/lamguage-translation.md)
+* [プログラミング言語間の翻訳](./general/language-translation.md)
 * [タイプヒンティング](./general/type-hinting.md)
 * [構造化データからのオブジェクト生成](./general/object-generation-from-structured-data.md)
 * [コードからドキュメントへ](./general/code-to-document.md)

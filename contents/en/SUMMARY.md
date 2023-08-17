@@ -12,7 +12,7 @@
 * [Code to document](./general/code-to-document.md)
 * [Regular expression](./general/regular-expression.md)
 * [Type hinting](./general/type-hinting.md)
-* [Language translation](./general/lamguage-translation.md)
+* [Language translation](./general/language-translation.md)
 * [Showing examples](./general/showing-examples.md)
 * [Object generation from structured data](./general/object-generation-from-structured-data.md)
 
