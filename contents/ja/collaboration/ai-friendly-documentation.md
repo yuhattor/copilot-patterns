@@ -8,7 +8,7 @@ level: 100
 
 ## AIフレンドリーなドキュメンテーション
 
-<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
+[<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
 ### Description
 

@@ -9,7 +9,7 @@ level: 100
 
 ## 正規表現
 
-<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
+[<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
 {% hint style="info" %}
 現在のところ、LLMには複雑な正規表現を適切に表現する機能はありません。複雑なものについては、人間が補足的に入力しなければならないシーンが出てくるでしょう。一方で単純な正規表現には適用できます。

@@ -9,7 +9,7 @@ level: 100
 
 ## Eliminating a tiny OSS dependency
 
-<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
+[<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
 {% hint style="info" %}
 This may be of limited applicability. As more cases are discovered, this maturity level will increase.

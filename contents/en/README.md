@@ -30,7 +30,10 @@ In GitHub Copilot Patterns & Exercises, patterns provide ideas for how developer
 - **Patterns**: These are tried and true solutions to common problems and scenarios you might encounter when developing with GitHub Copilot. Each pattern is categorized by its level of maturity. ![Static Badge](https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet) ![Static Badge](https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue) ![Static Badge](https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green) ![Static Badge](https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen)
 - **Exercises**: Practical hands-on tasks that can help reinforce your understanding and application of the patterns.
 
-Patterns that are still in development or have not been fully evaluated.
+Patterns that are still in development or have not been fully evaluated. Many have been discussed in the community and their usefulness established, but each is at a different level of maturity.
+See GitHub Projects for the status of each.
+
+[![](../../assets/dashboard.png)](https://github.com/orgs/AI-Native-Development/projects/1)
 
 ## Authorship and Acknowledgements
 

@@ -9,7 +9,7 @@ level: 100
 
 ## Copilot スニペットハンドリング
 
-<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
+[<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
 {% hint style="info" %}
 この情報は2023年8月現在のものですが、GitHub Copilotとその背後にあるLLMの進化に伴い、状況が変わる可能性があります。常にGitHubから最新の情報を得るようにしてください。

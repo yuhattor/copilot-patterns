@@ -9,7 +9,7 @@ level: 100
 
 ## Specify How to Generate Test Code
 
-<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
+[<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
 ### Description
 

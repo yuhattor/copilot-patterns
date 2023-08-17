@@ -9,7 +9,7 @@ level: 100
 
 ## Context-less Architecture
 
-<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
+[<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
 {% hint style="info" %}
 Loosely coupled architectures themselves are also recommended in many cases, and this pattern is consistent with that idea. However, more discussion is needed to tie the context of AI Powered development to the broader architecture discussion and justify it. By all means, let the discussion begin.

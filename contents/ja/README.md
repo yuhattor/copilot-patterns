@@ -30,6 +30,11 @@ AI ネイティブ開発では、開発者とチームが製品開発を迅速�
 - **パターン**: GitHub Copilot で開発する際に遭遇する可能性のある一般的な問題とシナリオへの実践的な解決策です。
 - **エクササイズ**: パターンの理解と適用を強化するための実践的なハンズオンタスクです。
 
+多くのものはコミュニティで話し合われ、その有用性が確立されたものですが、それぞれの成熟度は異なります。
+それぞれのステータスに関しては GitHub Projects を御覧ください。
+
+[![](../../assets/dashboard.png)](https://github.com/orgs/AI-Native-Development/projects/1)
+
 ## 著者と謝辞
 
 このドキュメントは GitHub の Customer Success Architect である [Yuki Hattori](https://github.com/yuhattor) によって主導されたものです。その進化を通じて、さまざまなコミュニティメンバーがその内容をレビューし、充実したものにしました。ぜひ [コントリビューターグラフ](https://github.com/AI-Native-Development/patterns/graphs/contributors) 二アクセスし、このプロジェクトを形作った情熱的な個人を御覧ください。

@@ -9,7 +9,7 @@ level: 100
 
 ## 定義に移動
 
-<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
+[<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
 {% hint style="info" %}
 2023年8月現在、GitHub Copilotはすべてのコードベースを読み込むわけではないので、このテクニックが必要になる場面が出てくるでしょう。一方、近い将来、GitHub Copilotでこのテクニックが不要になる可能性もあり、このテクニックは非常に限定的なものになるかもしれません。
