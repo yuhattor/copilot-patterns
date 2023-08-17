@@ -1,1 +1,10 @@
 assets/.DS_Store
+*.html
+*.pptx
+*.pdf
+/out/*
+.DS_Store
+./output_marp.html
+./output_marp.md
+./base-docs.html
+./base-docs.md
