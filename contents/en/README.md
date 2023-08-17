@@ -1,6 +1,6 @@
 # GitHub Copilot Patterns and Exercises
 
-Welcome to the GitHub Copilot Patterns documentation! :wave:
+Welcome to the GitHub Copilot Patterns & Exercises documentation! :wave:
 This community-driven opensource guide is dedicated to providing best practices for GitHub Copilot.
 Our aim is to make it straightforward for you to understand, evaluate, and integrate these practices into your projects. :rocket:
 
