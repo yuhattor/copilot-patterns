@@ -1,3 +1,6 @@
+---
+description: "GitHub Copilot Patterns & Exercises"
+---
 # GitHub Copilot パターン&エクササイズ
 
 GitHub Copilot パターン&エクササイズ のドキュメンテーションへようこそ！ :wave:

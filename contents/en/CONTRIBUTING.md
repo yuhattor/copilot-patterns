@@ -1,3 +1,6 @@
+---
+description: "GitHub Copilot Patterns & Exercises"
+---
 # Contributing to GitHub Copilot Patterns & Exercises
 
 The goal of the GitHub Copilot Patterns & Exercises Working Group is to collect, document, and publish best practices for GitHub Copilot Patterns & Exercises. To ensure they are easy to understand, evaluate, and apply, we present them in a specific structure.
