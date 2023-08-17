@@ -36,7 +36,7 @@ In GitHub Copilot Patterns & Exercises, patterns provide ideas for how developer
 Patterns that are still in development or have not been fully evaluated. Many have been discussed in the community and their usefulness established, but each is at a different level of maturity.
 See GitHub Projects for the status of each.
 
-[![](./assets/dashboard.png)](https://github.com/orgs/AI-Native-Development/projects/1)
+[![](../../assets/dashboard.png)](https://github.com/orgs/AI-Native-Development/projects/1)
 
 ## Authorship and Acknowledgements
 
