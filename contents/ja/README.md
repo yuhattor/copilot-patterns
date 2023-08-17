@@ -36,7 +36,8 @@ AI ネイティブ開発では、開発者とチームが製品開発を迅速�
 多くのものはコミュニティで話し合われ、その有用性が確立されたものですが、それぞれの成熟度は異なります。
 それぞれのステータスに関しては GitHub Projects を御覧ください。
 
-[![](../../assets/dashboard.png)](https://github.com/orgs/AI-Native-Development/projects/1)
+[<img width="100%" src="../../assets/dashboard.png" />](https://github.com/orgs/AI-Native-Development/projects/1)
+
 
 ## 著者と謝辞
 
