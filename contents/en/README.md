@@ -1,13 +1,13 @@
----
-description: "GitHub Copilot Patterns & Exercises"
----
 # GitHub Copilot Patterns and Exercises
 
-Welcome to the GitHub Copilot Patterns & Exercises documentation! :wave:
+Welcome to the **GitHub Copilot Patterns & Exercises** documentation! :wave:
 This community-driven opensource guide is dedicated to providing best practices for GitHub Copilot.
 Our aim is to make it straightforward for you to understand, evaluate, and integrate these practices into your projects. :rocket:
 
 <img align="right" src="../../assets/cover.png" title="GitHub Copilot Patterns & Exercises" width="40%">
+
+This document is brought to you by GitHub's Customer Success Architect **[@yuhattor](https://github.com/yuhattor/)** to help developers better use GitHub Copilot and other AI-Powered tools.
+**Rather than being an official documentation of GitHub, it possesses the characteristics of a community document that reflects the opinions of individuals and the community.** Please contribute and let your views be reflected in the book.
 
 Some of these patterns have been tried and proven effective in individual environments, but others are idea-based and have not yet been tested for effectiveness in actual team environments.
 Please feel free to leave comments on GitHub Issues. We look forward to various discussions and the sharing of knowledge about AI Powered development.
@@ -36,7 +36,7 @@ In GitHub Copilot Patterns & Exercises, patterns provide ideas for how developer
 Patterns that are still in development or have not been fully evaluated. Many have been discussed in the community and their usefulness established, but each is at a different level of maturity.
 See GitHub Projects for the status of each.
 
-[<img width="100%" src="../../assets/dashboard.png" />](https://github.com/orgs/AI-Native-Development/projects/1)
+[![](./assets/dashboard.png)](https://github.com/orgs/AI-Native-Development/projects/1)
 
 ## Authorship and Acknowledgements
 
