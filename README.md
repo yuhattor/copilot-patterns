@@ -37,7 +37,6 @@ See GitHub Projects for the status of each.
 
 [![](./assets/dashboard.png)](https://github.com/orgs/AI-Native-Development/projects/1)
 
-
 ## Authorship and Acknowledgements
 
 This document is lead authored by [Yuki Hattori](https://github.com/yuhattor), a Customer Success Architect at GitHub. Throughout its evolution, various community members have reviewed and enriched its content. Dive deep into our [contributors' graph](https://github.com/AI-Native-Development/patterns/graphs/contributors) to see the passionate individuals who have shaped this project. Please join us. Let's explore the wild GitHub Copilot Patterns together.
