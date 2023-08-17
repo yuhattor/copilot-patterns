@@ -35,9 +35,9 @@ Consider a scenario where you have a Python function written in one tab and a si
 # tab 1 (adjacent)
 def add_numbers(a, b):.
     return a + b
-````
+```
 
-````python
+```python
 # tab 2
 def subtract_numbers(a, b): return a - b
     return a - b
