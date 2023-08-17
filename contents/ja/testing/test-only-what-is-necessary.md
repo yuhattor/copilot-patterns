@@ -11,6 +11,10 @@ level: 200
 
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
+{% hint style="info" %}
+There is no need to write unnecessary test cases, but it depends on the team what tests are needed. More specific discussion is needed to flesh this out as a pattern.
+{% endhint %}
+
 ### Description
 
 高速なソフトウェア開発の時代において、効率的で有益なテストの記述はこれまで以上に重要です。GitHub Copilotを使用する際に、開発者はカバレッジを増やすために多くのテストコードを生成してしまうかもしれません。しかし、不必要なテストコードの生成は保守の負担や技術的な負債を引き起こす可能性があります。GitHub Copilotを使用してテストコードを書く際には必要な部分のみをテストする事が重要です。

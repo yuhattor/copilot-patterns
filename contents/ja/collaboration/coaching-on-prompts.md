@@ -10,6 +10,10 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
+{% hint style="info" %}
+While this sounds reasonable, it is not a systematic or established pattern.
+{% endhint %}
+
 ### Description
 
 GitHub Copilot のような AIツールを使用すると、出力が整ったものに見えることがあります。レビュー時に完璧に見えるコードも、生成プロセスで非効率であったり、重要な部分が欠けていることがあるかもしれません。生成プロセスへのコーチングは、開発者が潜在的な問題を認識し、効率的かつ正確なコードを作成できるようにするために不可欠です。

@@ -11,6 +11,10 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
+{% hint style="info" %}
+This may be of limited applicability. As more cases are discovered, this maturity level will increase.
+{% endhint %}
+
 ### Description
 
 left-pad 問題をご存知ですか? 2016年に、left-pad ライブラリがnpmから停止され、それに依存するよく知られたライブラリが動作しなくなりました。left-pad は、指定された文字数、または指定されていない場合はスペースで、文字列の左側を埋めるだけのシンプルなJavaScriptライブラリです。空白行を除いて、約10行のシンプルなコードです。

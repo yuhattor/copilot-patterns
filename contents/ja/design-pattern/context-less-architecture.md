@@ -11,6 +11,10 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
+{% hint style="info" %}
+Loosely coupled architectures themselves are also recommended in many cases, and this pattern is consistent with that idea. However, more discussion is needed to tie the context of AI Powered development to the broader architecture discussion and justify it. By all means, let the discussion begin.
+{% endhint %}
+
 ### Description
 
 コンテキストレス・アーキテクチャは、システム内のより小さく、明確に定義されたコンテキストにコーディングを限定するデザインパターンです。複雑なプログラムを疎結合で独立したコンポーネントに分割することで、このアーキテクチャは保守性、拡張性、柔軟性を向上させます。

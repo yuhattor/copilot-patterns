@@ -11,6 +11,10 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
+{% hint style="info" %}
+While this is important in development, it is necessary to utilize best practices on how this can be a generic pattern in many cases and how to get GitHub Copilot to suggest test cases appropriately.
+{% endhint %}
+
 ### Description
 
 In a development cycle, writing test cases is an essential aspect. When working with GitHub Copilot, it becomes even more convenient as it reads your implementation and generates test cases accordingly. While GitHub Copilot is very effective in generating success cases, it's vital not to overlook the failure cases. Considering failure cases first can lead to more robust code.

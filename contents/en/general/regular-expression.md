@@ -11,6 +11,11 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
 
+{% hint style="info" %}
+Currently, LLMs do not have the ability to properly represent complex regular expressions.
+For complex ones, a human must provide supplemental input. On the other hand, it can be applied to simple regular expressions.
+{% endhint %}
+
 ### Description
 
 GitHub Copilot can create a draft of regular expression patterns. Below, we'll explain how to use regular expressions to search or extract strings. Two examples illustrate how GitHub Copilot can generate regular expressions through both input-output pattern and natural language pattern.

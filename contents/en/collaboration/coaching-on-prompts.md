@@ -10,6 +10,10 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
+{% hint style="info" %}
+While this sounds reasonable, it is not a systematic or established pattern.
+{% endhint %}
+
 ### Description
 
 Using an AI tool like GitHub Copilot can make the output look cleaner than it should. Code that looks perfect when you review it may actually be inefficient in the generation process or missing something important. Coaching on the generative process becomes essential to ensure that developers are aware of potential pitfalls and can create efficient and accurate code.

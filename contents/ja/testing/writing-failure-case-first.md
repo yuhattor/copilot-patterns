@@ -11,6 +11,10 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
+{% hint style="info" %}
+While this is important in development, it is necessary to utilize best practices on how this can be a generic pattern in many cases and how to get GitHub Copilot to suggest test cases appropriately.
+{% endhint %}
+
 ### Description
 
 開発サイクルにおいて、テストケースの作成は重要な側面です。GitHub Copilot を使用すると、実装を読み取り、それに応じてテストケースを生成するため、さらに便利になります。一方で GitHub Copilot は成功ケースの生成に非常に効果的ですが、失敗ケースを見落とさないようにすることが重要です。最初に失敗ケースを考慮すると、より堅牢なコードにつながることがあります。

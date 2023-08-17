@@ -11,6 +11,10 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
+{% hint style="info" %}
+Loosely coupled architectures themselves are also recommended in many cases, and this pattern is consistent with that idea. However, more discussion is needed to tie the context of AI Powered development to the broader architecture discussion and justify it. By all means, let the discussion begin.
+{% endhint %}
+
 ### Description
 
 Contextless architecture is a design pattern that limits coding to smaller, well-defined contexts within a system. By breaking complex programs into loosely coupled, independent components, this architecture improves maintainability, scalability, and flexibility.

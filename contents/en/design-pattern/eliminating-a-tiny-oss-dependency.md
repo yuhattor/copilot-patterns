@@ -11,6 +11,10 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
+{% hint style="info" %}
+This may be of limited applicability. As more cases are discovered, this maturity level will increase.
+{% endhint %}
+
 ### Description
 
 Do you know about the left-pad issue? In 2016, the left-pad library was suspended from npm, causing well-known libraries that depended on it to cease working. left-pad is a simple JavaScript library that only fills the left side of a string with a specified number of characters, or spaces if not specified. Excluding blank lines, it's a simple code with only about 10 lines.

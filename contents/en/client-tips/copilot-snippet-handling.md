@@ -11,6 +11,10 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
 
+{% hint style="info" %}
+While this is accurate as of August 2023, the situation may change as GitHub Copilot and the LLM behind it evolve. Always try to get the most up-to-date information from GitHub.
+{% endhint %}
+
 ### Description
 
 GitHub Copilot, which utilizes OpenAI's Large Language Models (LLM) to generate code, has a limitation on the number of tokens it can process. As of 2023, it doesn't see all of the code that's open in the editor and doesn't receive every token. This means that users must carefully limit the context provided to GitHub Copilot. Notably, Copilot doesn't have access to external repositories or source code placed in GitHub Enterprise Cloud.

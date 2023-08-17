@@ -11,6 +11,11 @@ level: 100
 
 <img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
 
+{% hint style="info" %}
+Currently, LLMs do not have the ability to properly represent complex regular expressions.
+For complex ones, a human must provide supplemental input. On the other hand, it can be applied to simple regular expressions.
+{% endhint %}
+
 ### Description
 
 GitHub Copilot は正規表現のパターンのドラフトを作成できます。以下では、文字列の検索や抽出に正規表現を使用する方法について説明します。2つの例を通して、GitHub Copilot が "入力/出力パターン" と "自然言語パターン" の両方で正規表現を生成する方法を示します。

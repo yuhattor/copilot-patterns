@@ -9,7 +9,11 @@ level: 100
 
 ## 定義に移動
 
-<img src="https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen">
+<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
+
+{% hint style="info" %}
+GitHub Copilot will not read all codebases as of August 2023, so there will be occasions when this technique will be necessary. On the other hand, there is a possibility that in the near future this technique will no longer be needed in GitHub Copilot, and this technique may be very limited.
+{% endhint %}
 
 ### Description
 
