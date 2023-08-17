@@ -5,7 +5,7 @@ AIネイティブ開発ガイドへようこそ!
 このドキュメントでは、GitHub Copilot などをつかった AI ネイティブ開発におけるベストプラクティスを特定の形式でまとめて、簡単に理解、評価、そしてあなたの状況に適用できるようにしています。
 いくつかのものはパターンとして、名前をつけてまとめています。もし気に入れば、[GitHubのリポジトリ](https://github.com/AI-Native-Development/patterns)のスターやコントリビューションをお待ちしています！どんな小さな貢献でも大歓迎です。一緒にAI Native Developmentの方法を開拓していきましょう！
 
-<img align="right" src="../../top.png" title="AI Native Development Guide" width="30%">
+<img align="right" src="../top.png" title="AI Native Development Guide" width="30%">
 
 このパターンのいくつかは個人の環境で試され、効果を確認しているものの、実際のチームの環境での有効性が試されていないアイデアベースのものもあります。
 ぜひ GitHub Issues にコメントをお寄せください。さまざまな議論が行われ、AIネイティブ開発の知識が共有されることを楽しみにしています。

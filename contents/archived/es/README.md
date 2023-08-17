@@ -6,7 +6,7 @@ En este documento, hemos compilado las mejores prácticas para el desarrollo AI 
 Algunos están agrupados y nombrados como patrones.
 Estaríamos encantados si pudieras darle una estrella a nuestro repositorio de [GitHub](https://github.com/AI-Native-Development/patterns) o contribuir de alguna manera, por pequeña que sea. ¡Trabajemos juntos para allanar el camino hacia el desarrollo de IA-Nativo!
 
-<img align="right" src="../../top.png" title="AI Native Development Guide" width="30%">
+<img align="right" src="../top.png" title="AI Native Development Guide" width="30%">
 
 Algunos de estos patrones han sido probados y demostrado su efectividad en entornos individuales, pero otros se basan en ideas y aún no se han probado en entornos de equipos reales.
 No dude en dejar comentarios en los problemas de GitHub.

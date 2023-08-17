@@ -5,7 +5,7 @@ Dies ist ein Community-Dokument, das von der AI Native Development Community bet
 In diesem Dokument haben wir bewährte Verfahren für die AI Native Entwicklung unter Verwendung von Tools wie GitHub Copilot in einem spezifischen Format zusammengestellt, damit Sie sie leicht verstehen, bewerten und auf Ihre Situation anwenden können.
 Einige sind gruppiert und als Muster bezeichnet. Wir wären begeistert, wenn du unserem [GitHub-Repository](https://github.com/AI-Native-Development/patterns) einen Stern geben oder auf irgendeine Weise einen Beitrag leisten könntest, egal wie klein. Lass uns gemeinsam den Weg für die AI Native Entwicklung ebnen!
 
-<img align="right" src="../../top.png" title="AI Native Development Guide" width="30%">
+<img align="right" src="../top.png" title="AI Native Development Guide" width="30%">
 
 Einige dieser Muster haben sich in individuellen Umgebungen als wirksam erwiesen, während andere ideenbasiert sind und noch nicht auf ihre Wirksamkeit in tatsächlichen Teamumgebungen getestet wurden.
 Bitte hinterlassen Sie Kommentare auf GitHub Issues.
