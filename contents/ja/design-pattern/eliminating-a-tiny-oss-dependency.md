@@ -12,7 +12,7 @@ level: 100
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
 {% hint style="info" %}
-This may be of limited applicability. As more cases are discovered, this maturity level will increase.
+これは限定的な適用かもしれません。より多くの事例が発見されれば、この成熟度レベルは上がっていきます。
 {% endhint %}
 
 ### Description

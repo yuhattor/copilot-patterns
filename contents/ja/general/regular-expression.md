@@ -12,8 +12,7 @@ level: 100
 <img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">
 
 {% hint style="info" %}
-Currently, LLMs do not have the ability to properly represent complex regular expressions.
-For complex ones, a human must provide supplemental input. On the other hand, it can be applied to simple regular expressions.
+現在のところ、LLMには複雑な正規表現を適切に表現する機能はありません。複雑なものについては、人間が補足的に入力しなければならないシーンが出てくるでしょう。一方で単純な正規表現には適用できます。
 {% endhint %}
 
 ### Description

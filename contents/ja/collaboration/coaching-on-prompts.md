@@ -11,7 +11,7 @@ level: 100
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
 {% hint style="info" %}
-While this sounds reasonable, it is not a systematic or established pattern.
+これは合理的に聞こえますが、体系的で確立されたパターンではありません。
 {% endhint %}
 
 ### Description

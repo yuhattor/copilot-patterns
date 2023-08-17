@@ -12,7 +12,7 @@ level: 200
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
 {% hint style="info" %}
-There is no need to write unnecessary test cases, but it depends on the team what tests are needed. More specific discussion is needed to flesh this out as a pattern.
+不必要なテストケースを書く必要はありませんが、どのようなテストが必要かはチームによります。パターンとして具体化するには、より具体的な議論が必要です。
 {% endhint %}
 
 ### Description

@@ -12,7 +12,7 @@ level: 100
 <img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">
 
 {% hint style="info" %}
-While this is accurate as of August 2023, the situation may change as GitHub Copilot and the LLM behind it evolve. Always try to get the most up-to-date information from GitHub.
+この情報は2023年8月現在のものですが、GitHub Copilotとその背後にあるLLMの進化に伴い、状況が変わる可能性があります。常にGitHubから最新の情報を得るようにしてください。
 {% endhint %}
 
 ### Description

@@ -12,7 +12,7 @@ level: 100
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
 {% hint style="info" %}
-While this is important in development, it is necessary to utilize best practices on how this can be a generic pattern in many cases and how to get GitHub Copilot to suggest test cases appropriately.
+失敗ケースを最初に書くことは開発において重要なことではありますが、GitHub Copilotにテストケースを適切に提案させる方法について、ベストプラクティスを見つけ出す必要があります。
 {% endhint %}
 
 ### Description

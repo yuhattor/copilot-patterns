@@ -12,7 +12,7 @@ level: 100
 <img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">
 
 {% hint style="info" %}
-Loosely coupled architectures themselves are also recommended in many cases, and this pattern is consistent with that idea. However, more discussion is needed to tie the context of AI Powered development to the broader architecture discussion and justify it. By all means, let the discussion begin.
+疎結合アーキテクチャ自体も多くの場合推奨されており、このパターンはその考え方に合致しています。しかし、AIを活用した開発の文脈をより広範なアーキテクチャの議論と結びつけ、それを正当化するためには、より多くの議論が必要です。ぜひディスカッションを始めましょう!
 {% endhint %}
 
 ### Description
