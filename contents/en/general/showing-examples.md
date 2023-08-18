@@ -35,15 +35,13 @@ rails g model users name:string age:integer description:text country:string titl
 ### Exercise
 
 - **Exercise 1**: Based on the following example, generate the Ruby on Rails code to create a model for books.
-
-```json
-{
-  "title": "Book",
-  "author": "Jane Doe",
-  "price": 19.99
-}
-```
-
+  ```json
+  {
+    "title": "Book",
+    "author": "Jane Doe",
+    "price": 19.99
+  }
+  ```
 - **Exercise 2**: Experiment with different attributes and types in the JSON example, then generate the corresponding Rails code.
 - **Exercise 3**: Test the generated code in a Rails project to ensure that it creates the expected model.
 

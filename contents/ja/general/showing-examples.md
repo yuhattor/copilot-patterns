@@ -36,15 +36,13 @@ rails g model users name:string age:integer description:text country:string titl
 ### Exercise
 
 - **エクササイズ 1**: 以下の例に基づいて、書籍のモデルを作成する Ruby on Rails のコードを生成してください。
-
-```json
-{
-  "title": "Book",
-  "author": "Jane Doe",
-  "price": 19.99
-}
-```
-
+  ```json
+  {
+    "title": "Book",
+    "author": "Jane Doe",
+    "price": 19.99
+  }
+  ```
 - **エクササイズ 2**: JSONの例で異なる属性とタイプを試し、対応する Rails のモデル生成コードを生成してください。
 - **エクササイズ 3**: Rails プロジェクトで生成されたコードをテストし、期待されるモデルを作成することを確認してください。
 

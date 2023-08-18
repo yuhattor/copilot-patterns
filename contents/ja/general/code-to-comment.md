@@ -55,18 +55,17 @@ def eratosthenes_sieve(n):
 ### Exercise
 
 - **エクササイズ**: 次の関数の先頭にあるコードに適切なコメントを生成してください:
-
-```python
-def eratosthenes_sieve(n):
-    primes = []
-    sieve = [True] * (n + 1)
-    for p in range(2, n + 1):
-        if sieve[p]:
-            primes.append(p)
-            for i in range(p * p, n + 1, p):
-                sieve[i] = False
-    return primes
-```
+  ```python
+  def eratosthenes_sieve(n):
+      primes = []
+      sieve = [True] * (n + 1)
+      for p in range(2, n + 1):
+          if sieve[p]:
+              primes.append(p)
+              for i in range(p * p, n + 1, p):
+                  sieve[i] = False
+      return primes
+  ```
 
 ### Checklist for Further Learning
 

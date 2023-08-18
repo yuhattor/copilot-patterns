@@ -47,6 +47,7 @@ style: |
     font-size: 18px;
     background-color: #232029; 
     border: 0px;
+    width:60%;
   }
   h1, h2, h3, h4{
     background: -webkit-linear-gradient(-70deg, #8250df 0%, #d42a32 100%);
@@ -115,7 +116,6 @@ style: |
     left:0;
   }
   section.title blockquote {
-    background-color: #101010;
     border-left: 6px solid #555;
     line-height:24px;
     padding-left: 10px;
@@ -149,6 +149,7 @@ style: |
     -webkit-background-clip: text;
     background-clip: text;
     font-weight: 800;
+    margin-bottom: -20px;
   }
   section.description p{
     font-size: 22px;
@@ -159,7 +160,7 @@ style: |
     justify-content: start;
   }
   section.exercise h3{
-    margin-top: 70px;
+    margin-top: 60px;
     font-size: 28px;
     background: -webkit-linear-gradient(-70deg, #ddd, #ccc 100%);
     -webkit-background-clip: text;
@@ -181,6 +182,7 @@ style: |
     -webkit-background-clip: text;
     background-clip: text;
     font-weight: 800;
+    margin-bottom: -20px;
   }
 
   section.example p{
@@ -192,7 +194,7 @@ style: |
     justify-content: start;
   }
   section.checklist h3{
-    margin-top: 70px;
+    margin-top: 60px;
     font-size: 28px;
     background: -webkit-linear-gradient(-70deg, #ddd, #ccc 100%);
     -webkit-background-clip: text;
