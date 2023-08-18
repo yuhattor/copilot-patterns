@@ -32,13 +32,16 @@ style: |
     width: 84%;
   }
   li {
+    font-size: 22px;
+    line-height:28px;
     list-style: none;
-    padding: 0px 0px 12px 52px;
-    margin-left: -48px;
-    line-height: 30px;
-    background-size: 30px;
+    background-size: 22px;
     background-image: url("./assets/icons/circle.png");
     background-repeat: no-repeat;
+    margin-left: -48px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding: 0px 0px 12px 52px;
   }
   pre {
     font-size: 18px;
@@ -55,19 +58,26 @@ style: |
   h1 {
     font-size: 64px;
     margin-bottom: 0px;
-    padding-bottom: 0px;
     line-height: 64px;
+    clip-path: inset(6px);
+    padding-bottom: 0px;
   }
   h2 {
     position: absolute;
     left: 60px; 
     top: 40px;
     font-size: 44px;
-    padding:20px;
+    padding: 20px;
     padding-bottom: 40px;
+    clip-path: inset(2px);
   }
   h3 {
     padding-bottom: 20px;
+    padding-left:2px;
+    clip-path: inset(0px);
+  }
+  code {
+    padding:2px;
   }
   p {
     font-size: 28px;
@@ -77,7 +87,7 @@ style: |
   }
   section {
     font-family: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    background-color: #101010;
+    background-color: #0d1116;
     color: #ccc;
   }
   section::after {
@@ -88,12 +98,13 @@ style: |
   section.title{
   }
   section.title h2{
-    margin-top:100px;
-    font-size: 64px;
     position: relative !important;
+    left:0px;
+    margin-top:100px;
     margin-left:0px;
-    padding-left:0px;
-    left:0;
+    padding-left:2px;
+    clip-path: inset(2px) !important;
+    font-size: 64px;
   }
   section.title p{
     margin-top:0px;
@@ -140,14 +151,7 @@ style: |
     font-weight: 800;
   }
   section.description p{
-    font-size: 24px;
-  }
-  section.description li{
-    font-size: 20px;
-    margin-top: -10px;
-    line-height:24px;
-    margin-bottom: 20px;
-    background-size: 20px;
+    font-size: 22px;
   }
 
   /* Exercise Section */
@@ -162,16 +166,8 @@ style: |
     background-clip: text;
     font-weight: 800;
   }
-
-  section.description p{
+  section.exercise p{
     font-size: 20px;
-  }
-  section.description li{
-    font-size: 20px;
-    margin-top: -10px;
-    background-size: 20px;
-    line-height:24px;
-    margin-bottom: 20px;
   }
 
   /* Example Section */
@@ -188,15 +184,8 @@ style: |
   }
 
   section.example p{
-    font-size: 20px;
+    font-size: 22px;
   }
-  section.example li{
-    font-size: 20px;
-    margin-top: -10px;
-    line-height:24px;
-    background-size: 20px;
-  }
-
 
   /* Checklist Section */
   section.checklist {
@@ -212,14 +201,7 @@ style: |
   }
 
   section.checklist p{
-    font-size: 24px;
-  }
-  section.checklist li{
-    font-size: 20px;
-    margin-top: -10px;
-    line-height:24px;
-    margin-bottom: 20px;
-    background-size: 20px;
+    font-size: 22px;
   }
 ---
 <!--

@@ -4,7 +4,7 @@ import yaml
 from pprint import pprint
 
 # Define the root directory of the contents
-ROOT_DIR = 'contents/en'
+ROOT_DIR = 'contents/ja'
 
 # Define section input patterns as a constant
 SECTION_PATTERNS = [

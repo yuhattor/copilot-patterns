@@ -9,7 +9,7 @@ level: 100
 
 ## リファクタリング前にテストコードを書く
 
-<img src="https://img.shields.io/badge/Lv2-実用的なパターン-green">
+[<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
 ### Description
 

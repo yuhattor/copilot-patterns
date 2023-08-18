@@ -9,7 +9,7 @@ level: 100
 
 ## ユニットテストの作成
 
-<img src="https://img.shields.io/badge/Lv3-成熟したベストプラクティス- brightgreen">
+[<img src="https://img.shields.io/badge/Lv3-Mature_Best_Practice-brightgreen">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
 ### Description
 
