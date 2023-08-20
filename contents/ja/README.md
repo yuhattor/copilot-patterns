@@ -44,7 +44,7 @@ AI ネイティブ開発では、開発者とチームが製品開発を迅速�
 
 ## 著者と謝辞
 
-このドキュメントは GitHub の Customer Success Architect である [Yuki Hattori](https://github.com/yuhattor) によって主導されたものです。その進化を通じて、さまざまなコミュニティメンバーがその内容をレビューし、充実したものにしました。ぜひ [コントリビューターグラフ](https://github.com/AI-Native-Development/patterns/graphs/contributors) 二アクセスし、このプロジェクトを形作った情熱的な個人を御覧ください。
+このドキュメントは GitHub の Customer Success Architect である [Yuki Hattori](https://github.com/yuhattor) によって主導されたものです。その進化を通じて、さまざまなコミュニティメンバーがその内容をレビューし、充実したものにしました。ぜひ [コントリビューターグラフ](https://github.com/AI-Native-Development/patterns/graphs/contributors) にアクセスし、このプロジェクトを形作った情熱的な個人を御覧ください。
 そしてこの README.md を読んでいるあなたもぜひプロジェクトに参加してください。一緒に野生の GitHub Copilot パターンを捕まえていきましょう！
 
 ## LICENSE
