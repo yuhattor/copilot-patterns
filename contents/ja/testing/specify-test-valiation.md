@@ -1,10 +1,10 @@
 ---
 name: "テストコード生成の方法を指定する"
 description: "テストコード生成の方法を指定する。使用するテストフレームワークや生成するテストケースの数などを指定します。"
-category: "testing"
+category: testing
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv2
 ---
 
 ## テストコード生成の方法を指定する

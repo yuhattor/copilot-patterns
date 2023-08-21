@@ -1,10 +1,10 @@
 ---
 name: "GitHub Copilot ショートカット"
 description: "コード開発を迅速に進めるために GitHub Copilot のショートカットを学びましょう"
-category: "client-tips"
+category: client-tips
 authors: [yuhattor]
 platforms: [copilot]
-level: 100
+level: lv3
 ---
 
 ## GitHub Copilot ショートカット

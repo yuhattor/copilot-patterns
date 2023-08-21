@@ -1,10 +1,10 @@
 ---
 name: "Code to Document"
 description: "Generating documentation from code"
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## Code to Document

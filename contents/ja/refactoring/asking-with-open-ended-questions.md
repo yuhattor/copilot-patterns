@@ -1,10 +1,10 @@
 ---
 name: "オープン・クエスチョンで尋ねる"
 description: "エラーハンドリングの改善、トラブルシューティングの方法、リファクタリングアイデアなど、コード改善についてはオープンクエスチョンを使用することで、新しいアイデアを GitHub Copilot から引き出すことができます。"
-category: "refactoring"
+category: refactoring
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## オープン・クエスチョンで尋ねる

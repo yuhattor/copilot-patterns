@@ -2,9 +2,9 @@
 name: "一貫性のあるコーディングスタイル"
 description: "一貫性のあるコーディングスタイルは、GitHub Copilot からのより良い提案につながります。"
 authors: [yuhattor]
-ategory: "design-pattern"
+category: design-pattern
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## 一貫性のあるコーディングスタイル

@@ -1,10 +1,10 @@
 ---
 name: "構造化データからのオブジェクト生成"
 description: "JSONなどの構造化データからオブジェクトを生成する方法"
-category: "一般"
+category: general
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv2
 ---
 
 ## 構造化データからのオブジェクト生成

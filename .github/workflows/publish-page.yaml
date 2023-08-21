@@ -1,0 +1,75 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main", "marp-presentation"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        # Runs a single command using the runners shell
+      - name: Setup Python
+        uses: actions/setup-python@v4 
+        with: 
+          python-version: '3.11'
+      - name: Install pip dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: install marp
+        run: npm install -g @marp-team/marp-cli
+      # Runs a set of commands using the runners shell
+      - name: Run marp commands
+        run: |
+          # GENERATE FULL ENGLISH SLIDES
+          python scripts/generate-marp-slides.py
+          marp output_marp.en.md --allow-local-files --html        --output en_GitHub_Copilot_patterns_and_exercise_full.html
+
+          # GENERATE FULL JAPANESE SLIDES
+          python scripts/generate-marp-slides.py --locale ja
+          marp output_marp.ja.md --allow-local-files --html        --output ja_GitHub_Copilot_patterns_and_exercise_full.html
+
+          # GENERATE ENGLISH ONLY-PATTERNS SLIDES
+          python scripts/generate-marp-slides.py --locale en --sections title description example --levels lv2 lv3 
+          marp output_marp.en.md --allow-local-files --html        --output en_GitHub_Copilot_patterns_short.html
+
+          # GENERATE JAPANESE ONLY-PATTERNS SLIDES
+          python scripts/generate-marp-slides.py --locale ja --sections title description example --levels lv2 lv3 
+          marp output_marp.ja.md --allow-local-files --html        --output ja_GitHub_Copilot_patterns_short.html
+
+          ls *.html | ./create-index-html.sh > index.html
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2

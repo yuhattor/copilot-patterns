@@ -1,10 +1,10 @@
 ---
 name: "Comment to Code"
 description: "Generate code from comments with GitHub Copilot"
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## Comment to Code Generation

@@ -2,9 +2,9 @@
 name: "Context-less Architecture"
 description: "Confine coding to smaller contexts and loosely coupled program architecture"
 authors: [yuhattor] 
-category: "design-pattern"
+category: design-pattern
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv0
 ---
 
 ## Context-less Architecture

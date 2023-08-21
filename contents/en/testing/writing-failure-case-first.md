@@ -1,10 +1,10 @@
 ---
 name: "Writing failure case first"
 description: "GitHub Copilot will read your implementation and generate a test case based on it. It tends to generate a test case for the success case. Be careful not to forget the failure case."
-category: "testing"
+category: testing
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv0
 ---
 
 ## Writing Failure Case First

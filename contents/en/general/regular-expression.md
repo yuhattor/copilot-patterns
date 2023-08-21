@@ -1,10 +1,10 @@
 ---
 name: "Regular Expression"
 description: "Generating regular expression patterns drafts with GitHub Copilot"
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## Regular Expression

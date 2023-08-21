@@ -1,10 +1,10 @@
 ---
 name: "必要な部分だけをテストする"
 description: "不必要なテストの保守コストを回避するため、必要な部分だけをテストします。"
-category: "testing"
+category: testing
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 200
+level: lv0
 ---
 
 ## 必要な部分だけをテストする

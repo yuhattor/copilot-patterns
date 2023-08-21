@@ -1,10 +1,10 @@
 ---
 name: "Creating unit tests"
 description: "Create unit test with GitHub Copilot"
-category: "testing"
+category: testing
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## Creating Unit Tests

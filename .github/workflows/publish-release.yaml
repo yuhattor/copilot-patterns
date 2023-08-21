@@ -1,0 +1,54 @@
+name: Publish Release
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4 
+        with: 
+          python-version: '3.11'
+      - name: Install pip dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: install marp
+        run: npm install -g @marp-team/marp-cli
+      # Runs a set of commands using the runners shell
+      - name: Run marp commands
+        run: |
+          # GENERATE FULL ENGLISH SLIDES
+          python scripts/generate-marp-slides.py
+          marp output_marp.en.md --allow-local-files --html --pptx --output en_GitHub_Copilot_patterns_and_exercise_full.pptx
+          marp output_marp.en.md --allow-local-files --html --pdf  --output en_GitHub_Copilot_patterns_and_exercise_full.pdf
+
+          # GENERATE FULL JAPANESE SLIDES
+          python scripts/generate-marp-slides.py --locale ja
+          marp output_marp.ja.md --allow-local-files --html --pptx --output ja_GitHub_Copilot_patterns_and_exercise_full.pptx
+          marp output_marp.ja.md --allow-local-files --html --pdf  --output ja_GitHub_Copilot_patterns_and_exercise_full.pdf
+
+          # GENERATE ENGLISH ONLY-PATTERNS SLIDES
+          python scripts/generate-marp-slides.py --locale en --sections title description example --levels lv2 lv3 
+          marp output_marp.en.md --allow-local-files --html --pptx --output en_GitHub_Copilot_patterns_short.pptx
+          marp output_marp.en.md --allow-local-files --html --pdf  --output en_GitHub_Copilot_patterns_short.pdf
+
+          # GENERATE JAPANESE ONLY-PATTERNS SLIDES
+          python scripts/generate-marp-slides.py --locale ja --sections title description example --levels lv2 lv3 
+          marp output_marp.ja.md --allow-local-files --html --pptx --output ja_GitHub_Copilot_patterns_short.pptx
+          marp output_marp.ja.md --allow-local-files --html --pdf  --output ja_GitHub_Copilot_patterns_short.pdf
+
+      - uses: i"marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Documents"
+          files: |
+            *.pdf
+            *.pptx

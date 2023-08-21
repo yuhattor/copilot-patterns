@@ -1,10 +1,10 @@
 ---
 name: "Quick Q&A"
 description: "Getting the quick answer to your question."
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## Quick Q&A : A Technique for Fast Interaction with Copilot

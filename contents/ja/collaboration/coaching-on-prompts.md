@@ -2,8 +2,8 @@
 name: "プロンプトとコード生成プロセスのコーチング"
 description: "チームメンバーのプロンプトをレビューし、フィードバックを与えてプロンプトを改善できるようにします。"
 authors: [yuhattor] 
-category: "collaboration"
-level: 100
+category: collaboration
+level: lv0
 ---
 
 ## プロンプトとコード生成プロセスのコーチング

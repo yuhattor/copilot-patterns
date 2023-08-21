@@ -1,10 +1,10 @@
 ---
 name: "正規表現"
 description: "GitHub Copilot と共に正規表現パターンのドラフトを生成"
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## 正規表現

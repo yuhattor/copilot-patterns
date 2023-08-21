@@ -1,10 +1,10 @@
 ---
 name: "ユニットテストの作成"
 description: "GitHub Copilot を使用してユニットテストを作成することができます。"
-category: "テスト"
+category: testing
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## ユニットテストの作成

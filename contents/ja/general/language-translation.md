@@ -1,10 +1,10 @@
 ---
 name: "プログラミング言語間の翻訳"
 description: "GitHub Copilot は、Python から JavaScript、HTML から Markdown など、コードを別のプログラミング言語に翻訳します。"
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv2
 ---
 
 ## 言語翻訳

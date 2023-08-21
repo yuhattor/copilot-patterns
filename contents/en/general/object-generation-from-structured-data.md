@@ -1,10 +1,10 @@
 ---
 name: "Object Generation from Structured Data"
 description: "Generating objects from structured data such as JSON."
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv2
 ---
 
 ## Object Generation from Structured Data

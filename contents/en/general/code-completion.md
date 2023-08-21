@@ -1,10 +1,10 @@
 ---
 name: "Code Completion"
 description: "Simple code completion with GitHub Copilot"
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## Code Completion

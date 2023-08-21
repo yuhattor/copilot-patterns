@@ -1,10 +1,10 @@
 ---
 name: "コード補完"
 description: "GitHub Copilot によるシンプルなコード補完"
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## コード補完

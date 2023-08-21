@@ -1,10 +1,10 @@
 ---
 name: "Writing test code before refactoring"
 description: "GitHub Copilot makes it incrediblly easy to modify code, but the suggested code is not always correct even if it looks good. Writing tests is very important before refactoring it. This is no different when using GitHub Copilot."
-category: "refactoring"
+category: refactoring
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv2
 ---
 
 ## Writing test code before refactoring

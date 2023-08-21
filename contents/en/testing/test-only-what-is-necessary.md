@@ -1,10 +1,10 @@
 ---
 name: "Test only what is necessary"
 description: "Test only what is necessary, so that you can avoid the cost of maintaining unnecessary tests."
-category: "testing"
+category: testing
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 200
+level: lv0
 ---
 
 ## Test Only What is Necessary

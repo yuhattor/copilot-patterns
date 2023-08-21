@@ -1,10 +1,10 @@
 ---
 name: "コードからコメントの自動生成"
 description: "与えられたコードからコメントの生成をします"
-category: "general"
+category: general
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## コードからコメントの自動生成

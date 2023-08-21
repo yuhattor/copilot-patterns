@@ -4,7 +4,7 @@ description: "Go to definition of a symbol in the current file so that GitHub Co
 category: "client-tips"
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## Go to definition
