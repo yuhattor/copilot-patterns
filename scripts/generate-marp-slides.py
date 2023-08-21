@@ -1,10 +1,9 @@
 import os
 import re
 import yaml
-from pprint import pprint
+import argparse
 
-# Define the root directory of the contents
-ROOT_DIR = 'contents/en'
+
 FOOTER_PREFIX = "GitHub Copilot Patterns"
 
 # Define section input patterns as a constant
@@ -43,6 +42,13 @@ CATEGORY_ORDER = [
     "refactoring"
 ]
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Generate document.")
+    parser.add_argument('--sections', nargs='+', default=['title', 'description', 'example', 'exercise', 'checklist'], help="Sections to include in the final document.")
+    parser.add_argument('--levels', nargs='+', default=['lv0', 'lv1', 'lv2', 'lv3'], help="Levels to include in the final document.")
+    parser.add_argument('--locale', default='en', choices=['en', 'ja'], help="Locale to specify the root directory.")
+
+    return parser.parse_args()
 
 def _extract_section(pattern, content):
     """Helper function to extract a section using a given pattern."""
@@ -71,7 +77,8 @@ def parse_file_content(content):
     meta["short-description"] = meta.get("description", "")
     return {**meta, **sections}
 
-def read_and_parse_files(directory):
+def read_and_parse_files(directory, levels):
+
     """Read and parse markdown files from the specified directory."""
     parsed_contents = []
 
@@ -85,6 +92,8 @@ def read_and_parse_files(directory):
     
     ## Sort the parsed contents by the CATEGORY_ORDER and then by the LEVEL_MAPPING in the descending order
     parsed_contents.sort(key=lambda x: (CATEGORY_ORDER.index(x["category"]), -int(x["level"][2:])))
+    # Filter parsed_contents by level
+    parsed_contents = [content for content in parsed_contents if content.get("level") in levels]
     return parsed_contents
 
 def extract_hint_content(hint):
@@ -137,30 +146,41 @@ def format_marp_section(class_name, header, title, content, section, name):
 
     return header_section + content_section
 
-def convert_to_marp(parsed_contents):
+def generate_category_slide(parsed_contents, category):
+    titles = [f"- {content['name']}\n" for content in parsed_contents if content["category"] == category]
+    title_list = "".join(titles)
+    return f"<!-- _class: example -->\n## {category.replace('-', ' ').capitalize()}\n\n{title_list}\n\n---\n"
+
+def generate_section_slide(section, config, content, name, category_name):
+    title = config["title"].format(name=name)
+    return format_marp_section(config["class"], category_name, title, content, section, name)
+
+def generate_ending_slide():
+    return f"<!-- _class: title -->\n# Thank you\n\n"
+
+def convert_to_marp(parsed_contents, sections):
     """Convert the parsed contents to Marp format."""
     marp_content = ""
     last_category = ""
+
     for content in parsed_contents:
-        name = content["name"]
-        category = content["category"] if "category" in content else ""
+        name = content.get("name", "")
+        category = content.get("category", "")
         category_name = " ".join([word.capitalize() for word in category.replace("-", " ").split(" ")])
 
-        # if category changed from the previous content, or last category == "", add a new slide with the category name as a h1 content
-        if last_category != category or last_category == "":
-            # Add a new slide with the category name as a h2 content
-            titles = [f"- {content['name']}\n" for content in parsed_contents if content["category"] == category]
-            title_list = "".join(titles)
-            marp_content += f"<!-- _class: example -->\n## {category_name}\n\n{title_list}\n\n---\n"
-            
-        
-        for section, config in SECTION_CONFIG.items():
-            if section in content and content[section]:
-                title = config["title"].format(name=name)
-                marp_content += format_marp_section(config["class"], category_name, title, content, section, name)
-        last_category = category
-    return marp_content
+        if last_category != category or not last_category:
+            marp_content += generate_category_slide(parsed_contents, category)
 
+        for section, config in SECTION_CONFIG.items():
+            if section in content and content[section] and section in sections:
+                marp_content += generate_section_slide(section, config, content, name, category_name)
+
+        last_category = category
+
+        if content == parsed_contents[-1]:
+            marp_content += generate_ending_slide()
+
+    return marp_content
 
 def customize_title_section(content, section, category):
     cleaned_content = f"{content['short-description']}\n\n{content[section]}"
@@ -175,12 +195,19 @@ def customize_default_section(content, section, category):
     return "".join(content_section) + "\n\n---\n"
 
 def main():
-    contents = read_and_parse_files(ROOT_DIR)
+    args = parse_args()
+    sections_to_include = args.sections
+    levels_to_include = args.levels
+    locale = args.locale
+
+    root_dir = f'contents/{locale}/'  # Set ROOT_DIR based on the locale
+    contents = read_and_parse_files(root_dir, levels_to_include)
+
     # Add marp_content to scripts/base-docs.md and save it as ./output_marp.md
-    with open("scripts/base-docs.md", "r", encoding="utf-8") as f:
+    with open(f"scripts/base-docs.{locale}.md", "r", encoding="utf-8") as f:
         base_docs = f.read()
-        marp_content = base_docs + convert_to_marp(contents)
-    with open("output_marp.md", "w", encoding="utf-8") as f:
+        marp_content = base_docs + convert_to_marp(contents, sections_to_include)
+    with open(f"output_marp.{locale}.md", "w", encoding="utf-8") as f:
         f.write(marp_content)
 
 if __name__ == '__main__':

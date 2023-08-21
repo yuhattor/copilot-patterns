@@ -51,6 +51,8 @@ style: |
     background-clip: text;
     -webkit-text-fill-color: rgba(0,0,0,0);
     -webkit-box-decoration-break: clone;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
   }
   h1 {
     font-size: 64px;
@@ -181,11 +183,12 @@ style: |
 ---
 <!--
 _paginate: false
-_footer: ""
+_footer: "Last updated: "
 class: invert
 -->
 
-# GitHub Copilot 
+# GitHub Copilot
+
 # Patterns & Exercise
 
 ![bg right:40%](./assets/copilot/copilot.png)
@@ -193,9 +196,7 @@ class: invert
 Getting Started with GitHub Copilot
 
 ---
-<!--
-_class: list
--->
+<!-- _class: list -->
 
 ## Table of Contents
 
@@ -213,10 +214,7 @@ _class: list
 # About GitHub Copilot
 
 ---
-<!--
-_class: list
--->
-
+<!-- _class: list -->
 
 ## What is GitHub Copilot?
 
@@ -234,9 +232,7 @@ _class: list
 ![full](./assets/copilot/how-copilot-works.png)
 
 ---
-<!--
-_class: list
--->
+<!-- _class: list -->
 
 ## Benefits of using GitHub Copilot
 
@@ -248,9 +244,7 @@ _class: list
 - Less time writing the simple stuff
 
 ---
-<!--
-_class: list
--->
+<!-- _class: list -->
 
 ## GitHub Copilot Benefit
 
@@ -263,6 +257,7 @@ _class: list
 ![fit](./assets/copilot/copilot-value-prop.png)
 
 ---
+<!-- _class: list -->
 
 ## Reactions on GitHub Copilot
 
