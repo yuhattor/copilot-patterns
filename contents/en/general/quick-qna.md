@@ -1,5 +1,5 @@
 ---
-name: "Quick Q&A"
+title: "Quick Q&A"
 description: "Getting the quick answer to your question."
 category: general
 authors: [yuhattor] 

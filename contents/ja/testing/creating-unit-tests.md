@@ -1,5 +1,5 @@
 ---
-name: "ユニットテストの作成"
+title: "ユニットテストの作成"
 description: "GitHub Copilot を使用してユニットテストを作成することができます。"
 category: testing
 authors: [yuhattor]

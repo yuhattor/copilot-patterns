@@ -1,5 +1,5 @@
 ---
-name: "プログラミング言語間の翻訳"
+title: "プログラミング言語間の翻訳"
 description: "GitHub Copilot は、Python から JavaScript、HTML から Markdown など、コードを別のプログラミング言語に翻訳します。"
 category: general
 authors: [yuhattor] 

@@ -1,5 +1,5 @@
 ---
-name: "High-level Architecture First"
+title: "High-level Architecture First"
 description: "When writing code with GitHub Copilot, instead of suddenly starting with the details, design the high-level architecture first, then give clear instructions in comments and code, so that GitHub Copilot can make suggestions more precisely."
 authors: [yuhattor] 
 category: design-pattern

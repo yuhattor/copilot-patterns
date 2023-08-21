@@ -1,5 +1,5 @@
 ---
-name: "Creating unit tests"
+title: "Creating unit tests"
 description: "Create unit test with GitHub Copilot"
 category: testing
 authors: [yuhattor]

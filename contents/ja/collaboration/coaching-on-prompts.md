@@ -1,5 +1,5 @@
 ---
-name: "プロンプトとコード生成プロセスのコーチング"
+title: "プロンプトとコード生成プロセスのコーチング"
 description: "チームメンバーのプロンプトをレビューし、フィードバックを与えてプロンプトを改善できるようにします。"
 authors: [yuhattor] 
 category: collaboration

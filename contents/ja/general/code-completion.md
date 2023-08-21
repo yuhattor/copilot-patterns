@@ -1,5 +1,5 @@
 ---
-name: "コード補完"
+title: "コード補完"
 description: "GitHub Copilot によるシンプルなコード補完"
 category: general
 authors: [yuhattor] 

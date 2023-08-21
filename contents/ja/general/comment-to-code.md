@@ -1,5 +1,5 @@
 ---
-name: "コメントからコードを生成"
+title: "コメントからコードを生成"
 description: "GitHub Copilot では自然言語のコメントからコードを生成することができます。"
 category: general
 authors: [yuhattor]

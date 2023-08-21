@@ -1,5 +1,5 @@
 ---
-name: "一貫性のあるコーディングスタイル"
+title: "一貫性のあるコーディングスタイル"
 description: "一貫性のあるコーディングスタイルは、GitHub Copilot からのより良い提案につながります。"
 authors: [yuhattor]
 category: design-pattern

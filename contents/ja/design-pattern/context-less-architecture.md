@@ -1,5 +1,5 @@
 ---
-name: "コンテキストレス・アーキテクチャ"
+title: "コンテキストレス・アーキテクチャ"
 description: "コーディングをより小さなコンテキストに限定し、プログラムのアーキテクチャを疎結合にする"
 authors: [yuhattor] 
 category: design-pattern

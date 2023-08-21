@@ -1,5 +1,5 @@
 ---
-name: "AI readable naming convention"
+title: "AI readable naming convention"
 description: "Name your variables and functions in a way that is readable by AI. Because AI behind GitHub Copilot is GPT-based, which is essentially a natural language model, it will understand code as natural language."
 authors: [yuhattor] 
 category: design-pattern

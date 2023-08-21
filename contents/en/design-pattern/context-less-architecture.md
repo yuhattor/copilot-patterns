@@ -1,5 +1,5 @@
 ---
-name: "Context-less Architecture"
+title: "Context-less Architecture"
 description: "Confine coding to smaller contexts and loosely coupled program architecture"
 authors: [yuhattor] 
 category: design-pattern

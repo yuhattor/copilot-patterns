@@ -1,5 +1,5 @@
 ---
-name: "小さなコードチャンクで作業する"
+title: "小さなコードチャンクで作業する"
 description: "より少ないコンテキストで小さなコードの断片を扱うことで、GitHub Copilot の出力の品質が向上します。"
 authors: [yuhattor] 
 category: design-pattern

@@ -1,5 +1,5 @@
 ---
-name: "必要な部分だけをテストする"
+title: "必要な部分だけをテストする"
 description: "不必要なテストの保守コストを回避するため、必要な部分だけをテストします。"
 category: testing
 authors: [yuhattor] 

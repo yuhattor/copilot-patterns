@@ -1,5 +1,5 @@
 ---
-name: "Coaching on Prompts and Code Generating Process"
+title: "Coaching on Prompts and Code Generating Process"
 description: "Review your peers' prompts and give them feedback so that they can improve their prompts."
 authors: [yuhattor] 
 category: collaboration

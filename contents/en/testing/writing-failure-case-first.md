@@ -1,5 +1,5 @@
 ---
-name: "Writing failure case first"
+title: "Writing failure case first"
 description: "GitHub Copilot will read your implementation and generate a test case based on it. It tends to generate a test case for the success case. Be careful not to forget the failure case."
 category: testing
 authors: [yuhattor] 

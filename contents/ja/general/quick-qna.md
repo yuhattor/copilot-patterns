@@ -1,5 +1,5 @@
 ---
-name: "GitHub CopilotとのクイックQ&A"
+title: "GitHub CopilotとのクイックQ&A"
 description: "GitHub Copilot を使うことでエディタの中で、質問への迅速な回答を得ることができます。"
 category: general
 authors: [yuhattor]

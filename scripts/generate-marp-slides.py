@@ -8,7 +8,7 @@ FOOTER_PREFIX = "GitHub Copilot Patterns"
 
 # Define section input patterns as a constant
 SECTION_PATTERNS = [
-    ('title', r'## (.+?)\n(?=### Description)'),
+    ('top', r'## (.+?)\n(?=### Description)'),
     ('description', r'### Description\n\n(.*?)(###|####|\Z)'),
     ('example', r'#### Example\n\n(.*?)(###|\Z)'),
     ('exercise', r'### Exercise\n\n(.*?)(###|\Z)'),
@@ -17,11 +17,11 @@ SECTION_PATTERNS = [
 
 # Define section output config as a constant
 SECTION_CONFIG = {
-    'title': {"class": "title", "title": "{name}"},
-    'description': {"class": "description",  "title": "Description"},
-    'example': {"class": "example",  "title": "Example"},
-    'exercise': {"class": "exercise",  "title": "Exercise"},
-    'checklist': {"class": "checklist",  "title": "Checklist for Further Learning"}
+    'top': {"class": "top", "head": "{title}"},
+    'description': {"class": "description",  "head": "Description"},
+    'example': {"class": "example",  "head": "Example"},
+    'exercise': {"class": "exercise",  "head": "Exercise"},
+    'checklist': {"class": "checklist",  "head": "Checklist for Further Learning"}
 }
 
 # Define the level mapping
@@ -44,7 +44,7 @@ CATEGORY_ORDER = [
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Generate document.")
-    parser.add_argument('--sections', nargs='+', default=['title', 'description', 'example', 'exercise', 'checklist'], help="Sections to include in the final document.")
+    parser.add_argument('--sections', nargs='+', default=['top', 'description', 'example', 'exercise', 'checklist'], help="Sections to include in the final document.")
     parser.add_argument('--levels', nargs='+', default=['lv0', 'lv1', 'lv2', 'lv3'], help="Levels to include in the final document.")
     parser.add_argument('--locale', default='en', choices=['en', 'ja'], help="Locale to specify the root directory.")
 
@@ -57,7 +57,7 @@ def _extract_section(pattern, content):
 
 def extract_sections(content):
     """ Extracts sections from the provided content using predefined patterns."""
-    return {name: _extract_section(pattern, content) for name, pattern in SECTION_PATTERNS if _extract_section(pattern, content)}
+    return {title: _extract_section(pattern, content) for title, pattern in SECTION_PATTERNS if _extract_section(pattern, content)}
 
 def extract_yaml(content):
     """ Extracts YAML content from the provided string."""
@@ -110,7 +110,7 @@ def clean_content(content, section):
     # Modify image links to a simpler markdown format
     target_content = re.sub(r'\[<img src="(.*?)">\]\(.*?\)', r'![](\1)', target_content)
     # Remove the first line
-    if section == "title":
+    if section == "top":
         target_content = re.sub(r'^.*?\n', '', target_content)
         # Extract content from a specific hint tag
         hint_content = extract_hint_content(target_content)
@@ -122,20 +122,20 @@ def clean_content(content, section):
     return target_content.strip()
 
 
-def format_marp_section(class_name, header, title, content, section, name):
+def format_marp_section(class_name, header, head, content, section, title):
     
     # Customize Functions Mapping
     customize_functions = {
-        "title": customize_title_section
+        "top": customize_top_section
     }
     
     content[section] = clean_content(content, section)
     customize_func = customize_functions.get(section, customize_default_section)
-    content_section = customize_func(content, section, title)
+    content_section = customize_func(content, section, head)
     
     header_elements = {
         "_class": f"{class_name}",
-        "_footer": f"{FOOTER_PREFIX} - {name}",
+        "_footer": f"{FOOTER_PREFIX} - {title}",
         "_header": header
     }
     
@@ -147,16 +147,16 @@ def format_marp_section(class_name, header, title, content, section, name):
     return header_section + content_section
 
 def generate_category_slide(parsed_contents, category):
-    titles = [f"- {content['name']}\n" for content in parsed_contents if content["category"] == category]
+    titles = [f"- {content['title']}\n" for content in parsed_contents if content["category"] == category]
     title_list = "".join(titles)
     return f"<!-- _class: example -->\n## {category.replace('-', ' ').capitalize()}\n\n{title_list}\n\n---\n"
 
-def generate_section_slide(section, config, content, name, category_name):
-    title = config["title"].format(name=name)
-    return format_marp_section(config["class"], category_name, title, content, section, name)
+def generate_section_slide(section, config, content, title, category_name):
+    head = config["head"].format(title=title)
+    return format_marp_section(config["class"], category_name, head, content, section, title)
 
 def generate_ending_slide():
-    return f"<!-- _class: title -->\n# Thank you\n\n"
+    return f"<!-- _class: top -->\n# Thank you\n\n"
 
 def convert_to_marp(parsed_contents, sections):
     """Convert the parsed contents to Marp format."""
@@ -164,7 +164,7 @@ def convert_to_marp(parsed_contents, sections):
     last_category = ""
 
     for content in parsed_contents:
-        name = content.get("name", "")
+        title = content.get("title", "")
         category = content.get("category", "")
         category_name = " ".join([word.capitalize() for word in category.replace("-", " ").split(" ")])
 
@@ -173,7 +173,7 @@ def convert_to_marp(parsed_contents, sections):
 
         for section, config in SECTION_CONFIG.items():
             if section in content and content[section] and section in sections:
-                marp_content += generate_section_slide(section, config, content, name, category_name)
+                marp_content += generate_section_slide(section, config, content, title , category_name)
 
         last_category = category
 
@@ -182,12 +182,12 @@ def convert_to_marp(parsed_contents, sections):
 
     return marp_content
 
-def customize_title_section(content, section, category):
+def customize_top_section(content, section, category):
     cleaned_content = f"{content['short-description']}\n\n{content[section]}"
     return f"## {category}\n\n{cleaned_content}\n\n---\n"
 
 def customize_default_section(content, section, category):
-    cleaned_content = f"## {content['name']}\n\n{content[section]}"
+    cleaned_content = f"## {content['title']}\n\n{content[section]}"
 
     # Insert title to the second line of cleaned_content
     content_section = cleaned_content.split("\n", 1)

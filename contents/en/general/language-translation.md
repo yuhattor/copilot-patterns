@@ -1,5 +1,5 @@
 ---
-name: "Language Translation"
+title: "Language Translation"
 description: "GitHub Copilot translates your code into another programming language, Such as Python to JavaScript, and HTML to Markdown."
 category: general
 authors: [yuhattor] 

@@ -1,5 +1,5 @@
 ---
-name: "Specify how to generate test code"
+title: "Specify how to generate test code"
 description: "Specify how to generate test code, such as the test framework to use and the number of test cases to generate."
 category: testing
 authors: [yuhattor]

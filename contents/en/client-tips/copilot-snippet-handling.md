@@ -1,5 +1,5 @@
 ---
-name: "Copilot Snippet Handling"
+title: "Copilot Snippet Handling"
 description: "GitHub Copilot uses LLM to generate code. And LLM has a token limitation. You need to know that GitHub Copilot doesn't see all of your code."
 category: client-tips
 authors: [yuhattor] 

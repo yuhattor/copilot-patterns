@@ -1,5 +1,5 @@
 ---
-name: "AI が理解可能な命名規則"
+title: "AI が理解可能な命名規則"
 description: "変数や関数をAIが理解可能な方法で命名します。GitHub Copilotの 背後にある AI は大規模言語モデルベースで、本質的に自然言語モデルなので、自然言語としてコードを理解します。適当な命名は提案の質を落とす可能性があります。"
 authors: [yuhattor] 
 category: design-pattern

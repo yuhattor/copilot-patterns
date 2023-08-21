@@ -1,5 +1,5 @@
 ---
-name: "Consistent coding style"
+title: "Consistent coding style"
 description: "Consistent coding style leads to better suggestions from GitHub Copilot."
 authors: [yuhattor] 
 category: design-pattern

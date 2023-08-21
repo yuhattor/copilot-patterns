@@ -45,7 +45,7 @@ style: |
 
   /* Shared Style Markup */
   h1, h2 {
-    /* Title Gradient */
+    /* Top Gradient */
     background: -webkit-linear-gradient(-70deg, #8250df 0%, #d42a32 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -119,12 +119,12 @@ style: |
     border-radius: 0px;
   }
 
-  /* Title Section */
-  section.title h2{
+  /* Top Section */
+  section.top h2{
     clip-path: inset(2px) !important;
     font-size: 64px;
   }
-  section.title p{
+  section.top p{
     margin-top: -20px !important;
     font-size: 22px;
     position: relative !important;
@@ -132,15 +132,15 @@ style: |
     padding-left:0px;
     left:0;
   }
-  section.title img {
+  section.top img {
     margin-top: 30px !important;
     margin-left: 4px;
   }
-  section.title blockquote {
+  section.top blockquote {
     border-left: 6px solid #555;
     padding-left: 10px;
   }
-  section.title blockquote p {
+  section.top blockquote p {
     padding-top:23px;
     font-size: 20px;
     color: #555;

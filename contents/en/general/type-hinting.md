@@ -1,5 +1,5 @@
 ---
-name: "Type Hinting"
+title: "Type Hinting"
 description: "Writing type hints when you write dynamic typing programming language, to increase copilot suggestion accuracy."
 category: general
 authors: [yuhattor] 

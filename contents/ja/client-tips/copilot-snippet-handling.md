@@ -1,5 +1,5 @@
 ---
-name: "Copilot スニペットハンドリング"
+title: "Copilot スニペットハンドリング"
 description: "GitHub Copilot は 大規模言語モデルを使用してコードを生成します。そして、大規模言語モデルにはトークンの制限があります。GitHub Copilot があなたのコード全てを見ていないことを理解する必要があります。"
 category: client-tips
 authors: [yuhattor] 

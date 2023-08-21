@@ -1,5 +1,5 @@
 ---
-name: "Comment to Code"
+title: "Comment to Code"
 description: "Generate code from comments with GitHub Copilot"
 category: general
 authors: [yuhattor] 

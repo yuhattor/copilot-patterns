@@ -1,5 +1,5 @@
 ---
-name: "Pin the files you need"
+title: "Pin the files you need"
 description: "Pin files you need such as d.ts declaration files, so that you can easily find them when GitHub Copilot need them."
 category: client-tips
 authors: [yuhattor] 
