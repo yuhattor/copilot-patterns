@@ -2,9 +2,9 @@
 name: "自然言語でテストケースを最初に記述する"
 description: "最初に自然言語を使用してテストケースを記述し、その後GitHub Copilotを使用してコードを生成してテストカバレッジを向上させます。"
 authors: [yuhattor]
-category: "testing"
+category: testing
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## 自然言語でテストケースを最初に記述する

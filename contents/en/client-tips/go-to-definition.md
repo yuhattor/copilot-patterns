@@ -1,10 +1,10 @@
 ---
 name: "Go to definition"
 description: "Go to definition of a symbol in the current file so that GitHub Copilot will include the related code as the snnipet."
-category: "client-tips"
+category: client-tips
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## Go to definition

@@ -2,9 +2,9 @@
 name: "Writing test cases in natural language first"
 description: "Use natural language to write test cases first, and then use GitHub Copilot to generate code to improve test coverage."
 authors: [yuhattor] 
-category: "testing"
+category: testing
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## Writing Test Cases in Natural Language First

@@ -2,9 +2,9 @@
 name: "Working on small chunks"
 description: "Working on small chunks of code with less context, improves the quality of Copilot's output."
 authors: [yuhattor] 
-category: "design-pattern"
+category: design-pattern
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv2
 ---
 
 ## Working on Small Chunks

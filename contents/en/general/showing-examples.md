@@ -1,10 +1,10 @@
 ---
 name: "Showing Examples"
 description: "Generating code from given examples"
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## Showing Examples

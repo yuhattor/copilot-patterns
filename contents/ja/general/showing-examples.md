@@ -2,10 +2,10 @@
 
 name: "例示によるコード生成"
 description: "GitHub Copilot では与えられた例からのコード生成が可能です。"
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## 例示によるコード生成

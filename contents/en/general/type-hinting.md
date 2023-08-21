@@ -1,10 +1,10 @@
 ---
 name: "Type Hinting"
 description: "Writing type hints when you write dynamic typing programming language, to increase copilot suggestion accuracy."
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## Type Hinting

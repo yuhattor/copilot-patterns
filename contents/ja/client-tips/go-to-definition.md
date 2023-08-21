@@ -1,10 +1,10 @@
 ---
 name: "定義に移動"
 description: "現在のファイルでの関数やクラスの定義へ移動して、GitHub Copilot が関連するコードをスニペットとして含めるようにします。"
-category: "client-tips"
+category: client-tips
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## 定義に移動

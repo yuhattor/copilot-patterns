@@ -1,10 +1,10 @@
 ---
 name: "Asking with open-ended questions"
 description: "For code improvements, such as better error handling, troubleshooting methods, refactoring ideas, etc., open-ended questions can be used to pull new ideas from GitHub Copilot."
-category: "refactoring"
+category: refactoring
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## Asking with Open-Ended Questions

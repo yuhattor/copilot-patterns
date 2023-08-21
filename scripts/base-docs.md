@@ -7,6 +7,7 @@ footer: "GitHub Copilot Patterns & Exercises"
 allowlocalfiles: true
 html: true
 style: |
+  /* Shared Style Sheet*/
   footer {
     font-family: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     width:90%;
@@ -15,76 +16,8 @@ style: |
   } 
   header {
     font-family: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  }
-  .center-hubber > p {
-    display: flex;
-    align-items: center;
-    vertical-align: center
-  }
-  img[alt~="full"] {
-    padding-top:72px;
-    border-radius:48px;
-  }
-  img[alt~="fit"] {
-    padding-top:72px;
-    border-radius:48px;
-    margin: 0% 8%;
-    width: 84%;
-  }
-  li {
-    font-size: 22px;
-    line-height:28px;
-    list-style: none;
-    background-size: 22px;
-    background-image: url("./assets/icons/circle.png");
-    background-repeat: no-repeat;
-    margin-left: -48px;
-    margin-top: -10px;
-    margin-bottom: 20px;
-    padding: 0px 0px 12px 52px;
-  }
-  pre {
-    font-size: 18px;
-    background-color: #232029; 
-    border: 0px;
-    width:60%;
-  }
-  h1, h2, h3, h4{
-    background: -webkit-linear-gradient(-70deg, #8250df 0%, #d42a32 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: rgba(0,0,0,0);
-    -webkit-box-decoration-break: clone;
-  }
-  h1 {
-    font-size: 64px;
-    margin-bottom: 0px;
-    line-height: 64px;
-    clip-path: inset(6px);
-    padding-bottom: 0px;
-  }
-  h2 {
-    position: absolute;
-    left: 60px; 
-    top: 40px;
-    font-size: 44px;
-    padding: 20px;
-    padding-bottom: 40px;
-    clip-path: inset(2px);
-  }
-  h3 {
-    padding-bottom: 20px;
-    padding-left:2px;
-    clip-path: inset(0px);
-  }
-  code {
-    padding:2px;
-  }
-  p {
-    font-size: 28px;
-    margin-top: 20px;
-    margin-left: 2px;
-    color: #ccc;
+    text-align: right;
+    width: 95%;
   }
   section {
     font-family: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -94,117 +27,157 @@ style: |
   section::after {
     font-size:14px;
   }
+  img[alt~="full"] {
+    padding-top:72px;
+    border-radius:48px;
+    background-color: #0d1116;
+  }
+  img[alt~="fit"] {
+    padding-top: -40px !important;
+    margin: 0% 8%;
+    margin-top: -48px;
+    width: 80%;
+    background-color: #0d1116;
+  }
+  section.badge img{
+    width: 50px !important;
+  }
+
+  /* Shared Style Markup */
+  h1, h2 {
+    /* Title Gradient */
+    background: -webkit-linear-gradient(-70deg, #8250df 0%, #d42a32 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(0,0,0,0);
+    -webkit-box-decoration-break: clone;
+  }
+  h1 {
+    font-size: 64px;
+    padding-bottom: 0px;
+    margin: 0px;
+    clip-path: inset(2px);
+  }
+  h2 {
+    font-size: 44px;
+    margin-left: -4px;
+  }
+  h3 {
+    margin-top: -16px !important;
+    margin-bottom: 4px !important;
+  }
+  li {
+    font-size: 22px;
+    line-height:28px;
+    list-style: none;
+    background-size: 22px;
+    background-image: url("./assets/icons/circle.png");
+    background-repeat: no-repeat;
+    margin-left: -60px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding: 0px 0px 12px 52px;
+  }
+  li li{
+    font-size: 18px;
+    line-height:28px;
+    background-size: 18px;
+    margin-bottom: -18px;
+    margin-top: 20px;
+  }
+  pre {
+    font-size: 18px;
+    background-color: #232029; 
+    margin-top: 8px;
+    padding:8px;
+    border: 0px;
+    max-width:80%;
+  }
+  code {
+    padding: 1px;
+  }
+  p {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 2px;
+    color: #ccc;
+  }
+
+  /* Specific Section */
+  section.list li{
+    font-size: 28px;
+  }
+  section.list h2{
+    margin-bottom: 36px;
+  }
+  section.only-image img{
+    background-color: #0d1116;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+  }
 
   /* Title Section */
-  section.title{
-  }
   section.title h2{
-    position: relative !important;
-    left:0px;
-    margin-top:100px;
-    margin-left:0px;
-    padding-left:2px;
     clip-path: inset(2px) !important;
     font-size: 64px;
   }
   section.title p{
-    margin-top:0px;
-    font-size: 28px;
+    margin-top: -20px !important;
+    font-size: 22px;
     position: relative !important;
     margin-left:0px;
     padding-left:0px;
     left:0;
   }
+  section.title img {
+    margin-top: 30px !important;
+    margin-left: 4px;
+  }
   section.title blockquote {
     border-left: 6px solid #555;
-    line-height:24px;
     padding-left: 10px;
   }
   section.title blockquote p {
-    font-size: 24px;
+    padding-top:23px;
+    font-size: 20px;
     color: #555;
   }
-  /* Description Section */
-  section.list {
-    justify-content: start;
-  }
-  section.list li{
-    position: relative;
-    top: 100px;
-    left: 0px;
-    font-size: 28px;
-    margin-top: -10px;
-    line-height:28px;
-    margin-bottom: 28px;
-  }
 
-  /* Description Section */
-  section.description{
+  /* Description, Example, Exercise, Checklist Section */
+  section.description, section.exercise, section.checklist, section.example, section.list {
     justify-content: start;
   }
-  section.description h3{
-    margin-top: 70px;
-    font-size: 28px;
-    background: -webkit-linear-gradient(-70deg, #ddd, #ccc 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-weight: 800;
-    margin-bottom: -20px;
-  }
-  section.description p{
-    font-size: 22px;
-  }
-
-  /* Exercise Section */
-  section.exercise{
-    justify-content: start;
-  }
-  section.exercise h3{
-    margin-top: 60px;
-    font-size: 28px;
-    background: -webkit-linear-gradient(-70deg, #ddd, #ccc 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-weight: 800;
-  }
-  section.exercise p{
+  section.description p, section.exercise p, section.example p, section.checklist p{
     font-size: 20px;
+    line-height:28px;
+  }
+  section.example p, section.example li{
+    font-size: 18px !important;
+    margin-bottom: 0px;
+    margin-top: 8px;
+  }
+  section.description li,section.example li, section.exercise li, section.checklist li, {
+    line-height: 20px;
+    margin-bottom: -18px !important;
+
+  }
+  section.example pre, section.example code, section.exercise pre, section.exercise code{
+    font-size: 10px !important;
+    line-height: 10px;
+  }
+  section.description li, section.exercise li, section.example li, section.checklist li{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height:28px;
+  }
+  section.only-image img{
+    background-color: #0d1116;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
   }
 
-  /* Example Section */
-  section.example{
-    justify-content: start;
-  }
-  section.example h3{
-    margin-top: 60px;
-    font-size: 28px;
-    background: -webkit-linear-gradient(-70deg, #ddd, #ccc 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-weight: 800;
-    margin-bottom: -20px;
-  }
-
-  section.example p{
-    font-size: 22px;
-  }
-
-  /* Checklist Section */
-  section.checklist {
-    justify-content: start;
-  }
-  section.checklist h3{
-    margin-top: 60px;
-    font-size: 28px;
-    background: -webkit-linear-gradient(-70deg, #ddd, #ccc 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-weight: 800;
-  }
-
-  section.checklist p{
-    font-size: 22px;
-  }
 ---
 <!--
 _paginate: false
@@ -227,7 +200,13 @@ _class: list
 ## Table of Contents
 
 - **About GitHub Copilot**
-- **GitHub Copilot Patterns** - Let's Use GitHub Copilot Effectively
+- **GitHub Copilot Patterns and Exercises**
+  - General
+  - Client Tips
+  - Collaboration
+  - Design Pattern
+  - Refactoring
+  - Testing
 
 ---
 
@@ -245,10 +224,10 @@ _class: list
 - Developed by GitHub and OpenAI
 - Uses machine learning models to suggest code snippets
 
-![bg right:50% 85%](./assets/copilot/copilot-suggestion.png)
+![bg right:40% 85%](./assets/copilot/copilot-suggestion.png)
 
 ---
-<!-- class: invert -->
+<!-- _class: invert, only-image -->
 
 ## How GitHub Copilot works
 
@@ -261,7 +240,7 @@ _class: list
 
 ## Benefits of using GitHub Copilot
 
-![bg right:36%](./assets/copilot/copilot.png)
+![bg right:30%](./assets/copilot/copilot.png)
 
 - Faster coding
 - Improved accuracy
@@ -269,6 +248,9 @@ _class: list
 - Less time writing the simple stuff
 
 ---
+<!--
+_class: list
+-->
 
 ## GitHub Copilot Benefit
 

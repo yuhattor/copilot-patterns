@@ -1,10 +1,10 @@
 ---
 name: "GitHub CopilotとのクイックQ&A"
 description: "GitHub Copilot を使うことでエディタの中で、質問への迅速な回答を得ることができます。"
-category: "general"
+category: general
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## GitHub CopilotとのクイックQ&A

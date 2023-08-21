@@ -2,9 +2,9 @@
 name: "コンテキストレス・アーキテクチャ"
 description: "コーディングをより小さなコンテキストに限定し、プログラムのアーキテクチャを疎結合にする"
 authors: [yuhattor] 
-category: "design-pattern"
+category: design-pattern
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv0
 ---
 
 ## コンテキストレス・アーキテクチャ

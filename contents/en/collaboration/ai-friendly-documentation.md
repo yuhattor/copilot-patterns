@@ -2,8 +2,8 @@
 name: "AI friendly documentation"
 description: "Be friendly to AI by writing text-based documentation. AI can read text-based documentation, but cannot read image-based  or over-complex documentation such as complex excel and powerpoint files."
 authors: [yuhattor] 
-category: "collaboration"
-level: 100
+category: collaboration
+level: lv1
 ---
 
 ## AI-friendly documentation

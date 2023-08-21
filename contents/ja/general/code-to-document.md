@@ -1,10 +1,10 @@
 ---
 name: "コードからドキュメントへ"
 description: "コードからドキュメントを生成する"
-category: "一般"
+category: general
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv2
 ---
 
 ## コードからドキュメントへ

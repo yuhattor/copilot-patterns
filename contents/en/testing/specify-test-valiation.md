@@ -1,10 +1,10 @@
 ---
 name: "Specify how to generate test code"
 description: "Specify how to generate test code, such as the test framework to use and the number of test cases to generate."
-category: "testing"
+category: testing
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv2
 ---
 
 ## Specify How to Generate Test Code

@@ -1,10 +1,10 @@
 ---
 name: "GitHub Copilot Shortcuts"
 description: "Learning Shortcuts to rapidly develop your code"
-category: "client-tips"
+category: client-tips
 authors: [yuhattor] 
 platforms: [copilot]
-level: 100
+level: lv3
 ---
 
 ## GitHub Copilot Shortcuts

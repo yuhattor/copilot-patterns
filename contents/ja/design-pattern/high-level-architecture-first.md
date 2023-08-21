@@ -2,9 +2,9 @@
 name: "ハイレベルアーキテクチャを先に"
 description: "ハイレベルのコンテキストを最初に提供し、明示的な指示を提供するコメントとコードに続きます。"
 authors: [yuhattor]
-category: "design-pattern"
+category: design-pattern
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## ハイレベルアーキテクチャを先に

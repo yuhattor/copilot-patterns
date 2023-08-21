@@ -4,7 +4,8 @@ import yaml
 from pprint import pprint
 
 # Define the root directory of the contents
-ROOT_DIR = 'contents/ja'
+ROOT_DIR = 'contents/en'
+FOOTER_PREFIX = "GitHub Copilot Patterns"
 
 # Define section input patterns as a constant
 SECTION_PATTERNS = [
@@ -17,12 +18,31 @@ SECTION_PATTERNS = [
 
 # Define section output config as a constant
 SECTION_CONFIG = {
-    'title': {"class": "title", "footer_prefix": "GitHub Copilot Patterns", "header": "", "title": "{name}"},
-    'description': {"class": "description", "footer_prefix": "GitHub Copilot Patterns", "header": "", "title": "Description"},
-    'example': {"class": "example", "footer_prefix": "GitHub Copilot Patterns", "header": "", "title": "Example"},
-    'exercise': {"class": "exercise", "footer_prefix": "GitHub Copilot Patterns", "header": "", "title": "Exercise"},
-    'checklist': {"class": "checklist", "footer_prefix": "GitHub Copilot Patterns", "header": "", "title": "Checklist for Further Learning"}
+    'title': {"class": "title", "title": "{name}"},
+    'description': {"class": "description",  "title": "Description"},
+    'example': {"class": "example",  "title": "Example"},
+    'exercise': {"class": "exercise",  "title": "Exercise"},
+    'checklist': {"class": "checklist",  "title": "Checklist for Further Learning"}
 }
+
+# Define the level mapping
+LEVEL_MAPPING = {
+    "lv0": {"name": "Pattern_Idea", "color": "blueviolet"},
+    "lv1": {"name": "Early_Stage_Pattern", "color": "blue"},
+    "lv2": {"name": "Practically_Viable_Pattern", "color": "green"},
+    "lv3": {"name": "Mature_Best_Practice", "color": "brightgreen"}
+}
+
+# Define the order of the category
+CATEGORY_ORDER = [
+    "general", 
+    "client-tips", 
+    "design-pattern", 
+    "collaboration", 
+    "testing", 
+    "refactoring"
+]
+
 
 def _extract_section(pattern, content):
     """Helper function to extract a section using a given pattern."""
@@ -62,6 +82,9 @@ def read_and_parse_files(directory):
                     file_path = os.path.join(subdir, file)
                     content = read_file_content(file_path)
                     parsed_contents.append(parse_file_content(content))
+    
+    ## Sort the parsed contents by the CATEGORY_ORDER and then by the LEVEL_MAPPING in the descending order
+    parsed_contents.sort(key=lambda x: (CATEGORY_ORDER.index(x["category"]), -int(x["level"][2:])))
     return parsed_contents
 
 def extract_hint_content(hint):
@@ -90,7 +113,7 @@ def clean_content(content, section):
     return target_content.strip()
 
 
-def format_marp_section(class_name, footer_prefix, header, title, content, section, name):
+def format_marp_section(class_name, header, title, content, section, name):
     
     # Customize Functions Mapping
     customize_functions = {
@@ -103,7 +126,7 @@ def format_marp_section(class_name, footer_prefix, header, title, content, secti
     
     header_elements = {
         "_class": f"{class_name}",
-        "_footer": f"{footer_prefix} - {name}",
+        "_footer": f"{FOOTER_PREFIX} - {name}",
         "_header": header
     }
     
@@ -117,12 +140,25 @@ def format_marp_section(class_name, footer_prefix, header, title, content, secti
 def convert_to_marp(parsed_contents):
     """Convert the parsed contents to Marp format."""
     marp_content = ""
+    last_category = ""
     for content in parsed_contents:
         name = content["name"]
+        category = content["category"] if "category" in content else ""
+        category_name = " ".join([word.capitalize() for word in category.replace("-", " ").split(" ")])
+
+        # if category changed from the previous content, or last category == "", add a new slide with the category name as a h1 content
+        if last_category != category or last_category == "":
+            # Add a new slide with the category name as a h2 content
+            titles = [f"- {content['name']}\n" for content in parsed_contents if content["category"] == category]
+            title_list = "".join(titles)
+            marp_content += f"<!-- _class: example -->\n## {category_name}\n\n{title_list}\n\n---\n"
+            
+        
         for section, config in SECTION_CONFIG.items():
             if section in content and content[section]:
                 title = config["title"].format(name=name)
-                marp_content += format_marp_section(config["class"], config["footer_prefix"], config["header"], title, content, section, name)
+                marp_content += format_marp_section(config["class"], category_name, title, content, section, name)
+        last_category = category
     return marp_content
 
 

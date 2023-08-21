@@ -2,9 +2,9 @@
 name: "Consistent coding style"
 description: "Consistent coding style leads to better suggestions from GitHub Copilot."
 authors: [yuhattor] 
-category: "design-pattern"
+category: design-pattern
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## Consistent coding style

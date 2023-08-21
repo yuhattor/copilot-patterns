@@ -1,10 +1,10 @@
 ---
 name: "計算ロジックを独立させる"
 description: "大規模言語モデルは現時点では計算が得意ではありません。計算部分を別の関数に移動することで、開発と保守が容易になります。"
-category: "refactoring"
+category: refactoring
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## 計算ロジックを独立させる

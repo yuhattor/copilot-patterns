@@ -1,10 +1,10 @@
 ---
 name: "Making the calculation part independent"
 description: "LLM is not good at calculating for now. Moving the calculation part to a separate function makes it easier to develop and maintain."
-category: "refactoring"
+category: refactoring
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv1
 ---
 
 ## Making the Calculation Part Independent

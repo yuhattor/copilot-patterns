@@ -1,10 +1,10 @@
 ---
 name: "Copilot Snnipet Handling"
 description: "GitHub Copilot uses LLM to generate code. And LLM has a token limitation. You need to know that GitHub Copilot doesn't see all of your code."
-category: "client-tips"
+category: client-tips
 authors: [yuhattor] 
 platforms: [copilot]
-level: 100
+level: lv2
 ---
 
 ## Copilot Snnipet Handling
@@ -24,8 +24,6 @@ The files that GitHub Copilot uses for suggestions are primarily the currently o
 - Open the files you need to refer to
 - Close unnecessary files
 - If there is an .md file you want to refer to, copy it and comment it out
-
-If your first language is not English, it's worth noting that English is a very token-efficient language. Expressing the same concept in Japanese or other languages might consume more tokens. Writing comments in English could save tokens, but be mindful of your team's language preferences as it might hinder development speed.  Then it's putting the cart before the horse.
 
 #### Example
 

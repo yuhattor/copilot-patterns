@@ -2,9 +2,9 @@
 name: "微細な OSS 依存関係の排除"
 description: "実際には数行のコードで実装できる、微細な OSS 依存関係の排除"
 authors: [yuhattor]
-category: "design-pattern"
+category: design-pattern
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv0
 ---
 
 ## 微細な OSS 依存関係の排除

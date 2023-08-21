@@ -1,10 +1,10 @@
 ---
 name: "リファクタリング前にテストコードを書く"
 description: "GitHub Copilotを使用すれば、コードの変更は非常に簡単ですが、提案されたコードが常に正しいわけではありません。リファクタリング前にテストを記述することは非常に重要です。これは、GitHub Copilotを使用する際も同じです。"
-category: "refactoring"
+category: refactoring
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv2
 ---
 
 ## リファクタリング前にテストコードを書く

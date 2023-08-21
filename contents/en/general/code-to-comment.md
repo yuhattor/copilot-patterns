@@ -1,10 +1,10 @@
 ---
 name: "Code to Comment"
 description: "Generating comments from code"
-category: "general"
+category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv3
 ---
 
 ## Code to Comment: Generating Comments from Code

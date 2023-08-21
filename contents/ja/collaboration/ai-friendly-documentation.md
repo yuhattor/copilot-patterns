@@ -2,8 +2,8 @@
 name: "AIフレンドリーなドキュメンテーション"
 description: "テキストベースのドキュメンテーションによってAIに親しみやすくします。AIはテキストベースのドキュメンテーションを読むことができますが、画像ベース や 複雑なエクセルやパワーポイントファイルなどのドキュメンテーションは読むことができません。"
 authors: [yuhattor]
-category: "collaboration"
-level: 100
+category: collaboration
+level: lv1
 ---
 
 ## AIフレンドリーなドキュメンテーション

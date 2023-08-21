@@ -2,8 +2,8 @@
 name: "Coaching on Prompts and Code Generating Process"
 description: "Review your peers' prompts and give them feedback so that they can improve their prompts."
 authors: [yuhattor] 
-category: "collaboration"
-level: 100
+category: collaboration
+level: lv0
 ---
 
 ## Coaching on Prompts and Code Generating Process

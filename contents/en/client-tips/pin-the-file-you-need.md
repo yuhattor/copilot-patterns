@@ -1,10 +1,10 @@
 ---
 name: "Pin the files you need"
 description: "Pin files you need such as d.ts declaration files, so that you can easily find them when GitHub Copilot need them."
-category: "client-tips"
+category: client-tips
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv2
 ---
 
 ## Pin the files you need

@@ -1,10 +1,10 @@
 ---
 name: "失敗ケースを最初に書く"
 description: "GitHub Copilot はあなたの実装を読み取り、それに基づいてテストケースを生成します。そのため GitHub Copilot 成功ケースに対してのみテストケースを生成する傾向があります。失敗ケースを忘れないように注意してください。"
-category: "testing"
+category: testing
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
-level: 100
+level: lv0
 ---
 
 ## 失敗ケースを最初に書く
