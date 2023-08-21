@@ -43,7 +43,7 @@ jobs:
           marp output_marp.ja.md --allow-local-files --html --pptx --output ja_GitHub_Copilot_patterns_short.pptx
           marp output_marp.ja.md --allow-local-files --html --pdf  --output ja_GitHub_Copilot_patterns_short.pdf
 
-      - uses: i"marvinpinto/action-automatic-releases@latest"
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
