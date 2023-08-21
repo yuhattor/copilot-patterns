@@ -18,7 +18,7 @@
 
 ## Client Side Tips
 
-* [Copilot snnipet handling](./client-tips/copilot-snippet-handling.md)
+* [Copilot snippet handling](./client-tips/copilot-snippet-handling.md)
 * [GitHub Copilot Shortcuts](./client-tips/github-copilot-shortcuts.md)
 * [Go to definition](./client-tips/go-to-definition.md)
 * [Pin the files you need](./client-tips/pin-the-file-you-need.md)
