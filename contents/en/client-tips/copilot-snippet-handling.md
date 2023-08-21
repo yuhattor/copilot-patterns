@@ -1,5 +1,5 @@
 ---
-name: "Copilot Snnipet Handling"
+name: "Copilot Snippet Handling"
 description: "GitHub Copilot uses LLM to generate code. And LLM has a token limitation. You need to know that GitHub Copilot doesn't see all of your code."
 category: client-tips
 authors: [yuhattor] 
@@ -7,7 +7,7 @@ platforms: [copilot]
 level: lv2
 ---
 
-## Copilot Snnipet Handling
+## Copilot Snippet Handling
 
 [<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
