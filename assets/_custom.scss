@@ -3,20 +3,18 @@
 
 
 body {
-	// font-family: 'BIZ UDPGothic', sans-serif;
-	font-family: 'Noto Sans JP', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+	//font-family: 'Noto Sans JP', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 	color: rgba(59, 69, 78, 1.00)
+}
+
+.markdown h1, .markdown h2, .markdown h3 {
+	font-weight: 700 !important;
 }
 
 .markdown h2 {
 	font-size: 32px;
-	font-weight: 700 !important;
 	line-height: 40px;
-}
-
-.markdown h3 {
-	font-weight: 700 !important;
-
 }
 
 .markdown p,
@@ -25,6 +23,32 @@ body {
 	font-size: 16px !important;
 	line-height: 24px;
 }
+
+.book-menu li{
+	font-weight: 400;
+}
+.book-menu li li{
+	font-weight: 500;
+	margin-left: -16px;
+}
+.book-menu li span{
+	font-weight: 700;
+	font-size: 12px !important;
+	color: rgba(136,153,168, 1.00);
+	padding-top: 16px;
+	display: block;
+}
+.book-menu a.active {
+	border-radius: 4px;
+	font-weight: 700;
+	color: #346ddb;
+	background-color: #ecf3ff;
+	padding: 8px;
+	margin-top: -8px;
+	margin-bottom: -8px;
+	margin-left: -8px;
+}
+
 
 ::-webkit-scrollbar {
 	width: 10px;
@@ -36,8 +60,45 @@ body {
 	background: #f2f2f2;
 }
 
-/*スクロールバーの色・角丸指定*/
 ::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	background: #ddd
+}
+.book-menu .book-menu-content {
+	width: 20rem !important;
+	padding: 28px;
+}
+@media screen and (max-width: $mobile-breakpoint) {
+	.markdown {
+		margin: 18px;
+		margin-top:36px;
+	}
+	.book-menu-content nav {
+	}
+}
+
+@media screen and (min-width: $mobile-breakpoint) {
+	.markdown {
+		margin: 64px;
+		margin-top: 64px;
+		padding-left: 96px;
+	}
+	.book-toc-content {
+		margin-top: 64px;
+	}
+	.book-menu-content nav {
+		margin-right:8px;
+	}
+	.book-footer {
+		margin-left: 64px;
+	}
+}
+
+// Extra space for big screens
+@media screen and (min-width: $container-max-width) {
+	.markdown {
+		margin: 256px;
+		margin-top: 64px;
+		margin-left: 96px;
+	}
 }
