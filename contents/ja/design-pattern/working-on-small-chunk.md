@@ -22,8 +22,6 @@ level: lv2
 複雑な計算する関数を書くとしましょう。GitHub Copilot に全体の複雑な解決策を求める代わりに、いくつかの関数に分けて、それぞれの関数を生成するように求めます。このアプローチは、GitHub Copilot がより小さなコンテキストで作業することを可能にし、より正確なコードを生成します。
 
 ```python
-
-```python
 def complex_calculation(n):
   # Ask GitHub Copilot to complete this function
 ```
