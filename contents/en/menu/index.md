@@ -45,13 +45,13 @@
   * [Asking with open-ended questions](./refactoring/asking-with-open-ended-questions.md)
 
 * Archived Version
-  * [English 🇬🇧](https://www.ai-native.dev/archived/)
-  * [German 🇩🇪](https://www.ai-native.dev/archived/german)
-  * [Spanish 🇪🇸](https://www.ai-native.dev/archived/spanish)
-  * [French 🇫🇷](https://www.ai-native.dev/archived/french)
-  * [Italy 🇮🇹](https://www.ai-native.dev/archived/italy)
-  * [Japanese 🇯🇵](https://www.ai-native.dev/archived/japanese)
-  * [Portuguese 🇵🇹](https://www.ai-native.dev/archived/portuguese)
-  * [Chinese 🇨🇳](https://www.ai-native.dev/archived/chinese)
+  * [English 🇬🇧](https://ai-native-development.gitbook.io/archived/)
+  * [German 🇩🇪](https://ai-native-development.gitbook.io/archived/german)
+  * [Spanish 🇪🇸](https://ai-native-development.gitbook.io/archived/spanish)
+  * [French 🇫🇷](https://ai-native-development.gitbook.io/archived/french)
+  * [Italy 🇮🇹](https://ai-native-development.gitbook.io/archived/italy)
+  * [Japanese 🇯🇵](https://ai-native-development.gitbook.io/archived/japanese)
+  * [Portuguese 🇵🇹](https://ai-native-development.gitbook.io/archived/portuguese)
+  * [Chinese 🇨🇳](https://ai-native-development.gitbook.io/archived/chinese)
 
 * [GitHub](https://github.com/yuhattor/copilot-patterns)
