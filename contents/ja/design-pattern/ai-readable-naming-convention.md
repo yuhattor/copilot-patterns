@@ -6,7 +6,7 @@ category: design-pattern
 platforms: [copilot, copilot-chat]
 level: lv2
 aliases:
-  - /docs/ja/design-pattern/ai-readable-naming-convention
+  - /docs/v/ja/design-pattern/ai-readable-naming-convention
 ---
 
 ## AIが読み取り可能な命名規則

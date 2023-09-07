@@ -1,7 +1,7 @@
 ---
 aliases:
   - /docs/
-  - /docs/en/
+  - /docs/v/en/
 ---
 
 # GitHub Copilot Patterns and Exercises

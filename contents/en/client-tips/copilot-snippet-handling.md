@@ -7,7 +7,7 @@ platforms: [copilot]
 level: lv2
 aliases:
   - /docs/client-tips/copilot-snippet-handling
-  - /docs/en/client-tips/copilot-snippet-handling
+  - /docs/v/en/client-tips/copilot-snippet-handling
 ---
 
 ## Copilot Snippet Handling

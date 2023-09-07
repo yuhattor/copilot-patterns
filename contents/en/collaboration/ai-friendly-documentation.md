@@ -6,7 +6,7 @@ category: collaboration
 level: lv1
 aliases:
   - /docs/collaboration/ai-friendly-documentation
-  - /docs/en/collaboration/ai-friendly-documentation
+  - /docs/v/en/collaboration/ai-friendly-documentation
 ---
 
 ## AI-friendly documentation

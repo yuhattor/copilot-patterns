@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv3
 aliases:
   - /docs/general/code-to-comment
-  - /docs/en/general/code-to-comment
+  - /docs/v/en/general/code-to-comment
 ---
 
 ## Code to Comment: Generating Comments from Code

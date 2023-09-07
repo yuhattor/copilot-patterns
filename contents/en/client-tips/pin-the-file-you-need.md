@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv2
 aliases:
   - /docs/client-tips/pin-the-file-you-need
-  - /docs/en/client-tips/pin-the-file-you-need
+  - /docs/v/en/client-tips/pin-the-file-you-need
 ---
 
 ## Pin the files you need

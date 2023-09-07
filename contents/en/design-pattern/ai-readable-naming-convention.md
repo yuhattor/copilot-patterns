@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv2
 aliases:
   - /docs/design-pattern/ai-readable-naming-convention
-  - /docs/en/design-pattern/ai-readable-naming-convention
+  - /docs/v/en/design-pattern/ai-readable-naming-convention
 ---
 
 ## AI readable naming convention

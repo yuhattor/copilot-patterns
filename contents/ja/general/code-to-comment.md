@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv3
 aliases:
-  - /docs/ja/general/code-to-comment
+  - /docs/v/ja/general/code-to-comment
 ---
 
 ## コードからコメントの自動生成

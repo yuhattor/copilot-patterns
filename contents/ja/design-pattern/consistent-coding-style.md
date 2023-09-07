@@ -6,7 +6,7 @@ category: design-pattern
 platforms: [copilot, copilot-chat]
 level: lv3
 aliases:
-  - /docs/ja/design-pattern/consistent-coding-style
+  - /docs/v/ja/design-pattern/consistent-coding-style
 ---
 
 ## 一貫性のあるコーディングスタイル

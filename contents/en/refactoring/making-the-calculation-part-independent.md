@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
   - /docs/refactoring/making-the-calculation-part-independent
-  - /docs/en/refactoring/making-the-calculation-part-independent
+  - /docs/v/en/refactoring/making-the-calculation-part-independent
 ---
 
 ## Making the Calculation Part Independent

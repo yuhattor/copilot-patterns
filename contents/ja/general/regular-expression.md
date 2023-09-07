@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
-  - /docs/ja/general/regular-expression
+  - /docs/v/ja/general/regular-expression
 ---
 
 ## 正規表現

@@ -5,7 +5,7 @@ authors: [yuhattor]
 category: collaboration
 level: lv1
 aliases:
-  - /docs/ja/copilot/ai-friendly-documentation
+  - /docs/v/ja/copilot/ai-friendly-documentation
 ---
 
 ## AIフレンドリーなドキュメンテーション

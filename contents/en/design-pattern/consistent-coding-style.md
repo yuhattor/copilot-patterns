@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv3
 aliases:
   - /docs/design-pattern/conistent-coding-style
-  - /docs/en/design-pattern/consistent-coding-style
+  - /docs/v/en/design-pattern/consistent-coding-style
 ---
 
 ## Consistent coding style

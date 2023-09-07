@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
   - /docs/client-tips/go-to-definition
-  - /docs/en/client-tips/go-to-definition
+  - /docs/v/en/client-tips/go-to-definition
 ---
 
 ## Go to definition

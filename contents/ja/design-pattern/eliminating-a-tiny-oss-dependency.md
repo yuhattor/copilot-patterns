@@ -6,7 +6,7 @@ category: design-pattern
 platforms: [copilot, copilot-chat]
 level: lv0
 aliases:
-  - /docs/ja/design-pattern/eliminating-a-tiny-oss-dependency
+  - /docs/v/ja/design-pattern/eliminating-a-tiny-oss-dependency
 ---
 
 ## 微細な OSS 依存関係の排除

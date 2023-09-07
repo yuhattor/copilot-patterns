@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
   - /docs/general/type-hinting
-  - /docs/en/general/type-hinting
+  - /docs/v/en/general/type-hinting
 ---
 
 ## Type Hinting

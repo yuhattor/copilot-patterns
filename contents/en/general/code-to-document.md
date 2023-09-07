@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv3
 aliases:
   - /docs/general/code-to-document
-  - /docs/en/general/code-to-document
+  - /docs/v/en/general/code-to-document
 ---
 
 ## Code to Document

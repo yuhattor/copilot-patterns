@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv3
 aliases:
-  - /docs/ja/general/quick-qna
+  - /docs/v/ja/general/quick-qna
 ---
 
 ## GitHub CopilotとのクイックQ&A

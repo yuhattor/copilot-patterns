@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
   - /docs/general/showing-examples
-  - /docs/en/general/showing-examples
+  - /docs/v/en/general/showing-examples
 ---
 
 ## Showing Examples

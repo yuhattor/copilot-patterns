@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv0
 aliases:
-  - /docs/ja/testing/writing-failure-case-first
+  - /docs/v/ja/testing/writing-failure-case-first
 ---
 
 ## 失敗ケースを最初に書く

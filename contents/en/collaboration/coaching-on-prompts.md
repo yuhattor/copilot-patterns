@@ -6,7 +6,7 @@ category: collaboration
 level: lv0
 aliases:
   - /docs/collaboration/coaching-on-prompts
-  - /docs/en/collaboration/coaching-on-prompts
+  - /docs/v/en/collaboration/coaching-on-prompts
 ---
 
 ## Coaching on Prompts and Code Generating Process

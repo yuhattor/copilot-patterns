@@ -7,7 +7,7 @@ platforms: [copilot]
 level: lv3
 aliases:
   - /docs/client-tips/github-copilot-shortcuts
-  - /docs/en/client-tips/github-copilot-shortcuts
+  - /docs/v/en/client-tips/github-copilot-shortcuts
 ---
 
 ## GitHub Copilot Shortcuts

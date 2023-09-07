@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
   - /docs/general/regular-expression
-  - /docs/en/general/regular-expression
+  - /docs/v/en/general/regular-expression
 ---
 
 ## Regular Expression

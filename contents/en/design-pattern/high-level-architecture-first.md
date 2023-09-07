@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
   - /docs/design-pattern/high-level-architecture-first
-  - /docs/en/design-pattern/high-level-architecture-first
+  - /docs/v/en/design-pattern/high-level-architecture-first
 ---
 
 ## High-level Architecture First
