@@ -3,7 +3,7 @@
 
 
 body {
-	font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+	font-family: Roboto, 'Hiragino Kaku Gothic ProN';
 	//font-family: 'Noto Sans JP', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 	color: rgba(59, 69, 78, 1.00)
 }
@@ -25,15 +25,29 @@ body {
 }
 
 .book-menu h2{
+	font-weight: 700 !important;
+}
+
+.book-menu p{
 	font-weight: 900;
+	color: rgba(92,105,117,1.00);
+	margin-top: 40px;
 }
 .book-menu li{
-	font-weight: 400;
+	font-weight: 200;
+	color: #3b454e;
 }
 .book-menu li li{
-	font-weight: 500;
+	font-weight: 200;
 	margin-left: -16px;
+	color: rgba(92,105,117,1.00);
+	line-height: 1.35em;
 }
+
+.book-menu li li li {
+	margin-left: 0px;
+}
+
 .book-menu li span{
 	font-weight: 700;
 	font-size: 12px !important;
@@ -71,12 +85,31 @@ body {
 	width: 20rem !important;
 	padding: 28px;
 }
+
+blockquote {
+	display: flex;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.8;
+  border-radius: 5px;
+  font-weight: 400;
+	background-color: #FDF7DF;
+  border: 1px solid #FEEC6F;
+  color: #C9971C;
+	border: none;
+}
+
 @media screen and (max-width: $mobile-breakpoint) {
 	.markdown {
 		margin: 18px;
 		margin-top:36px;
 	}
 	.book-menu-content nav {
+	}
+}
+@media screen and (max-width: $tablet-breakpoint) {
+	.book-toc {
+		display: none;
 	}
 }
 

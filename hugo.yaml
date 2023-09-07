@@ -32,10 +32,11 @@ languages:
 
 menu:
   # before: []
-  after:
-    - name: "Github"
-      url: "https://github.com/yuhattor/copilot-patterns"
-      weight: 10
+  # after:
+  #   - name: "Github"
+  #     url: "https://github.com/yuhattor/copilot-patterns"
+  #     weight: 10
+
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -57,7 +58,7 @@ params:
 
   # (Optional, default none) Set leaf bundle to render as side menu
   # When not specified file structure and weights will be used
-  # BookMenuBundle: /menu
+  BookMenuBundle: /menu
 
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
@@ -78,7 +79,7 @@ params:
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath: edit/main/
+  # BookEditPath: blob/main/
 
   # Configure the date format used on the pages
   # - In git information
