@@ -128,6 +128,9 @@ blockquote {
 	.book-footer {
 		margin-left: 64px;
 	}
+	.note {
+		margin-left: 128px;
+	}
 }
 
 // Extra space for big screens
@@ -136,5 +139,11 @@ blockquote {
 		margin: 256px;
 		margin-top: 64px;
 		margin-left: 96px;
+	}
+	.note {
+		margin-left: 128px;
+		margin-right: 128px;
+		padding:6px;
+		font-size: 0.8em;
 	}
 }
