@@ -5,6 +5,9 @@ authors: [yuhattor]
 category: design-pattern
 platforms: [copilot, copilot-chat]
 level: lv2
+aliases:
+  - /docs/design-pattern/working-on-small-chunk
+  - /docs/en/design-pattern/working-on-small-chunk
 ---
 
 ## Working on Small Chunks

@@ -5,6 +5,8 @@ category: general
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv3
+aliases:
+  - /docs/ja/general/comment-to-code
 ---
 
 ## コメントからコードを生成

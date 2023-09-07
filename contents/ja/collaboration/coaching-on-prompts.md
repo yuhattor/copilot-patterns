@@ -4,6 +4,8 @@ description: "チームメンバーのプロンプトをレビューし、フィ
 authors: [yuhattor] 
 category: collaboration
 level: lv0
+aliases:
+  - /docs/ja/copilot/coaching-on-prompts
 ---
 
 ## プロンプトとコード生成プロセスのコーチング

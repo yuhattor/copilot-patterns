@@ -5,6 +5,8 @@ category: testing
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: lv0
+aliases:
+  - /docs/ja/testing/test-only-what-is-necessary
 ---
 
 ## 必要な部分だけをテストする

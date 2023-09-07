@@ -1,3 +1,9 @@
+---
+aliases:
+  - /docs/
+  - /docs/en/
+---
+
 # GitHub Copilot Patterns and Exercises
 
 Welcome to the **GitHub Copilot Patterns & Exercises** documentation! 👋

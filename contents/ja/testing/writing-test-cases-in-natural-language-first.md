@@ -5,6 +5,8 @@ authors: [yuhattor]
 category: testing
 platforms: [copilot, copilot-chat]
 level: lv1
+aliases:
+  - /docs/ja/testing/writing-test-cases-in-natural-language-first
 ---
 
 ## 自然言語でテストケースを最初に記述する

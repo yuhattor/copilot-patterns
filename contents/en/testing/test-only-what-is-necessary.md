@@ -5,6 +5,9 @@ category: testing
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: lv0
+aliases:
+  - /docs/testing/test-only-what-is-necessary
+  - /docs/en/testing/test-only-what-is-necessary
 ---
 
 ## Test Only What is Necessary

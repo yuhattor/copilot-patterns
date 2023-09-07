@@ -5,6 +5,8 @@ category: refactoring
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv2
+aliases:
+  - /docs/ja/refactoring/writing-test-code-before-refactoring
 ---
 
 ## リファクタリング前にテストコードを書く

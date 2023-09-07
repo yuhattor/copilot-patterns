@@ -5,6 +5,9 @@ category: testing
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: lv0
+aliases:
+  - /docs/testing/writing-failure-case-first
+  - /docs/en/testing/writing-failure-case-first
 ---
 
 ## Writing Failure Case First

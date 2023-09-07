@@ -5,6 +5,9 @@ authors: [yuhattor]
 category: design-pattern
 platforms: [copilot, copilot-chat]
 level: lv3
+aliases:
+  - /docs/design-pattern/conistent-coding-style
+  - /docs/en/design-pattern/consistent-coding-style
 ---
 
 ## Consistent coding style

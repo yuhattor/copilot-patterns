@@ -5,6 +5,9 @@ category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: lv3
+aliases:
+  - /docs/general/comment-to-code
+  - /docs/en/general/comment-to-code
 ---
 
 ## Comment to Code Generation

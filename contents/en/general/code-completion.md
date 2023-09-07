@@ -5,6 +5,9 @@ category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: lv3
+aliases:
+  - /docs/general/code-completion
+  - /docs/en/general/code-completion
 ---
 
 ## Code Completion
