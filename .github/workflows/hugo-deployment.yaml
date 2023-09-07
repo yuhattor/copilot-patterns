@@ -13,6 +13,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: Update submodules
+        run: git submodule update --remote --recursive 
       - name: Setup Node.js
         uses: actions/setup-node@v3
       - name: Setup Hugo
