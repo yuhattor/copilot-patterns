@@ -1,26 +1,22 @@
 # GitHub Copilot Patterns and Exercises
 
-Welcome to the **GitHub Copilot Patterns & Exercises** documentation! :wave:
+Welcome to the **GitHub Copilot Patterns & Exercises** documentation! 👋
 This community-driven opensource guide is dedicated to providing best practices for GitHub Copilot.
-Our aim is to make it straightforward for you to understand, evaluate, and integrate these practices into your projects. :rocket:
+Our aim is to make it straightforward for you to understand, evaluate, and integrate these practices into your projects. 🚀
 
 <img src="/cover.png" title="GitHub Copilot Patterns & Exercises Guide" width="30%" style="float:right; margin-left: 30px;">
-
-
-This document is brought to you by GitHub's Customer Success Architect **[@yuhattor](https://github.com/yuhattor/)** to help developers better use GitHub Copilot and other AI-Powered tools.
-**It's not an official documentation of GitHub, but rather a community document that reflects the opinions of individuals and communities.** Please contribute and let your views be reflected in the book.
 
 Some of these patterns have been tried and proven effective in individual environments, but others are idea-based and have not yet been tested for effectiveness in actual team environments.
 Please feel free to leave comments on GitHub Issues. We look forward to various discussions and the sharing of knowledge about AI Powered development.
 
 > **⚠ WARNING:**
-> This document is not an official GitHub document, but a community document led by Yuki Hattori, Architect, to open the door to GitHub Copilot for many people as an individual.
+> This document is not an official GitHub document, but a community document led by **[Yuki Hattori](https://github.com/yuhattor/)**, Architect, to open the door to GitHub Copilot for many people as an individual.
 > This documentation is not yet in its final version, and there may be broken links, typos, and other errors.
 > Your help in improving it is much appreciated. Please see how you can contribute to this document.
 
 ## Contribute
 
-We believe in the power of community. If you find this project useful, please consider giving our [GitHub repository](https://github.com/AI-Native-Development/patterns) a star:star2:. Your contributions, no matter how small, can make a big difference! Whether it's improving the documentation, adding new patterns, or just fixing a typo - every bit helps.
+We believe in the power of community. If you find this project useful, please consider giving our [GitHub repository](https://github.com/AI-Native-Development/patterns) a star🌟. Your contributions, no matter how small, can make a big difference! Whether it's improving the documentation, adding new patterns, or just fixing a typo - every bit helps.
 
 To get started with contributing, check out our contribution guidelines [CONTRIBUTING.md](./CONTRIBUTING.md) or open an issue or pull request. Let's work together to pave the way for GitHub Copilot Patterns & Exercises!
 
