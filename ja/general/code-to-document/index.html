@@ -1,0 +1,149 @@
+<!doctype html><html lang=ja dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="コードからドキュメントを生成する"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:title" content="コードからドキュメントへ"><meta property="og:description" content="コードからドキュメントを生成する"><meta property="og:type" content="article"><meta property="og:url" content="/ja/general/code-to-document/"><meta property="article:section" content="general"><meta property="article:modified_time" content="2023-09-07T17:26:10+09:00"><title>コードからドキュメントへ | GitHub Copilot Patterns & Exercises</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png><link rel=alternate hreflang=en href=/general/code-to-document/ title="Code to Document"><link rel=stylesheet href=/book.min.a0ee8ce313cd8b61c2db36465d140af7679e24d8615ba7cb41039e93e6ac7ebd.css><script defer src=/flexsearch.min.js></script>
+<script defer src=/ja.search.min.592b6f40c7c9ae6768eafd7473ba64ff05f58519493782472bbf63a8a3580503.js></script>
+<script defer src=/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/ja/><span>GitHub Copilot Patterns & Exercises</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=検索 aria-label=検索 maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul class=book-languages><li><input type=checkbox id=languages class=toggle>
+<label for=languages class="flex justify-between"><a role=button class="flex align-center"><img src=/svg/translate.svg class=book-icon alt=Languages>
+Japanese</a></label><ul><li><a href=/general/code-to-document/>English</a></li></ul></li></ul><ul><li><p>About</p><ul><li><a href=/ja/>ようこそ</a></li><li><a href=/ja/CONTRIBUTING/>プロジェクトに貢献するには</a></li></ul></li><li><p>General</p><ul><li><a href=/ja/general/code-completion/>コード補完</a></li><li><a href=/ja/general/comment-to-code/>コメントからコードを生成</a></li><li><a href=/ja/general/code-to-comment/>コードからコメントの自動生成</a></li><li><a href=/ja/general/quick-qna/>GitHub CopilotとのクイックQ&amp;A</a></li><li><a href=/ja/general/regular-expression/>正規表現</a></li><li><a href=/ja/general/language-translation/>プログラミング言語間の翻訳</a></li><li><a href=/ja/general/type-hinting/>タイプヒンティング</a></li><li><a href=/ja/general/object-generation-from-structured-data/>構造化データからのオブジェクト生成</a></li><li><a href=/ja/general/code-to-document/ class=active>コードからドキュメントへ</a></li></ul></li><li><p>Client Side Tips</p><ul><li><a href=/ja/client-tips/copilot-snippet-handling/>Copilot スニペットハンドリング</a></li><li><a href=/ja/client-tips/github-copilot-shortcuts/>GitHub Copilot ショートカット</a></li><li><a href=/ja/client-tips/go-to-definition/>定義に移動</a></li><li><a href=/ja/client-tips/pin-the-file-you-need/>便利なファイルのピン留め</a></li></ul></li><li><p>Design Patterns</p><ul><li><a href=/ja/design-pattern/ai-readable-naming-convention/>AI が理解可能な命名規則</a></li><li><a href=/ja/design-pattern/consistent-coding-style/>一貫性のあるコーディングスタイル</a></li><li><a href=/ja/design-pattern/high-level-architecture-first/>ハイレベルアーキテクチャを先に</a></li><li><a href=/ja/design-pattern/working-on-small-chunk/>小さなコードチャンクで作業する</a></li><li><a href=/ja/design-pattern/context-less-architecture/>コンテキストレス・アーキテクチャ</a></li><li><a href=/ja/design-pattern/eliminating-a-tiny-oss-dependency/>微細な OSS 依存関係の排除</a></li></ul></li><li><p>Collaboration</p><ul><li><a href=/ja/collaboration/ai-friendly-documentation/>AIフレンドリーなドキュメンテーション</a></li><li><a href=/ja/collaboration/coaching-on-prompts/>プロンプトとコード生成プロセスのコーチング</a></li></ul></li><li><p>Testing</p><ul><li><a href=/ja/testing/creating-unit-tests/>ユニットテストの作成</a></li><li><a href=/ja/testing/specify-test-valiation/>テストコード生成の方法を指定する</a></li><li><a href=/ja/testing/writing-failure-case-first/>失敗ケースを最初に書く</a></li><li><a href=/ja/testing/writing-test-cases-in-natural-language-first/>自然言語でテストケースを最初に記述する</a></li><li><a href=/ja/testing/test-only-what-is-necessary/>必要な部分だけをテストする</a></li></ul></li><li><p>Refactoring</p><ul><li><a href=/ja/refactoring/writing-test-code-before-refactoring/>リファクタリング前にテストコードを書く</a></li><li><a href=/ja/refactoring/making-the-calculation-part-independent/>計算ロジックを独立させる</a></li><li><a href=/ja/refactoring/asking-with-open-ended-questions/>オープン・クエスチョンで尋ねる</a></li></ul></li><li><p>Archived Version</p><ul><li><a href=https://www.ai-native.dev/archived/>English 🇬🇧</a></li><li><a href=https://www.ai-native.dev/archived/german>German 🇩🇪</a></li><li><a href=https://www.ai-native.dev/archived/spanish>Spanish 🇪🇸</a></li><li><a href=https://www.ai-native.dev/archived/french>French 🇫🇷</a></li><li><a href=https://www.ai-native.dev/archived/italy>Italy 🇮🇹</a></li><li><a href=https://www.ai-native.dev/archived/japanese>Japanese 🇯🇵</a></li><li><a href=https://www.ai-native.dev/archived/portuguese>Portuguese 🇵🇹</a></li><li><a href=https://www.ai-native.dev/archived/chinese>Chinese 🇨🇳</a></li></ul></li><li><p><a href=https://github.com/yuhattor/copilot-patterns>GitHub</a></p></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label>
+<strong>コードからドキュメントへ</strong>
+<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><a href=#コードからドキュメントへ>コードからドキュメントへ</a><ul><li><a href=#description>Description</a></li><li><a href=#exercise>Exercise</a></li><li><a href=#checklist-for-further-learning>Checklist for Further Learning</a></li></ul></li></ul></li></ul></nav></aside></header><article class=markdown><h2 id=コードからドキュメントへ>コードからドキュメントへ
+<a class=anchor href=#%e3%82%b3%e3%83%bc%e3%83%89%e3%81%8b%e3%82%89%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%b8>#</a></h2><p><a href=https://github.com/orgs/AI-Native-Development/projects/1/><img src=https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green></a></p><h3 id=description>Description
+<a class=anchor href=#description>#</a></h3><p>チャットベースのAIツールを使用することで、説明を自動生成するだけでなくドキュメントなどの長い文章を生成することができるようになります。例えば、GitHub Copilot Chat を活用することで、コード全体の概要説明や API ドキュメントを生成したり、またそれをコードの中に埋め込んだ状態でコードごと出力させる事ができるようになります。</p><h4 id=exampleコード>Exampleコード
+<a class=anchor href=#example%e3%82%b3%e3%83%bc%e3%83%89>#</a></h4><p>以下は、Ruby on Railsのコントローラー向けのコードスニペットです。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>RecipesController</span> <span style=color:#f92672>&lt;</span> <span style=color:#66d9ef>ApplicationController</span>
+</span></span><span style=display:flex><span>   before_action <span style=color:#e6db74>:set_recipe</span>, <span style=color:#e6db74>only</span>: <span style=color:#f92672>[</span><span style=color:#e6db74>:show</span>, <span style=color:#e6db74>:edit</span>, <span style=color:#e6db74>:update</span>, <span style=color:#e6db74>:destroy</span><span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span>   <span style=color:#75715e># GET /recipes</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e># GET /recipes.json</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>def</span> <span style=color:#a6e22e>index</span>
+</span></span><span style=display:flex><span>      @recipes <span style=color:#f92672>=</span> <span style=color:#66d9ef>Recipe</span><span style=color:#f92672>.</span>all
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span>   <span style=color:#75715e># GET /recipes/1</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e># GET /recipes/1.json</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>def</span> <span style=color:#a6e22e>show</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span>   <span style=color:#75715e># GET /recipes/new</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>def</span> <span style=color:#a6e22e>new</span>
+</span></span><span style=display:flex><span>      @recipe <span style=color:#f92672>=</span> <span style=color:#66d9ef>Recipe</span><span style=color:#f92672>.</span>new
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span>   <span style=color:#75715e># GET /recipes/1/edit</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>def</span> <span style=color:#a6e22e>edit</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span>   <span style=color:#75715e># POST /recipes</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e># POST /recipes.json</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>def</span> <span style=color:#a6e22e>create</span>
+</span></span><span style=display:flex><span>      @recipe <span style=color:#f92672>=</span> <span style=color:#66d9ef>Recipe</span><span style=color:#f92672>.</span>new(recipe_params)
+</span></span><span style=display:flex><span>      
+</span></span><span style=display:flex><span>      respond_to <span style=color:#66d9ef>do</span> <span style=color:#f92672>|</span>format<span style=color:#f92672>|</span>
+</span></span><span style=display:flex><span>         <span style=color:#66d9ef>if</span> @recipe<span style=color:#f92672>.</span>save
+</span></span><span style=display:flex><span>            format<span style=color:#f92672>.</span>html { redirect_to @recipe, <span style=color:#e6db74>notice</span>: <span style=color:#e6db74>&#39;Recipe was successfully created.&#39;</span> }
+</span></span><span style=display:flex><span>            format<span style=color:#f92672>.</span>json { render <span style=color:#e6db74>:show</span>, <span style=color:#e6db74>status</span>: <span style=color:#e6db74>:created</span>, <span style=color:#e6db74>location</span>: @recipe }
+</span></span><span style=display:flex><span>         <span style=color:#66d9ef>else</span>
+</span></span><span style=display:flex><span>            format<span style=color:#f92672>.</span>html { render <span style=color:#e6db74>:new</span> }
+</span></span><span style=display:flex><span>            format<span style=color:#f92672>.</span>json { render <span style=color:#e6db74>json</span>: @recipe<span style=color:#f92672>.</span>errors, <span style=color:#e6db74>status</span>: <span style=color:#e6db74>:unprocessable_entity</span> }
+</span></span><span style=display:flex><span>         <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>      
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span>   <span style=color:#75715e># PATCH/PUT /recipes/1</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e># PATCH/PUT /recipes/1.json</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>def</span> <span style=color:#a6e22e>update</span>
+</span></span><span style=display:flex><span>      respond_to <span style=color:#66d9ef>do</span> <span style=color:#f92672>|</span>format<span style=color:#f92672>|</span>
+</span></span><span style=display:flex><span>         <span style=color:#66d9ef>if</span> @recipe<span style=color:#f92672>.</span>update(recipe_params)
+</span></span><span style=display:flex><span>            format<span style=color:#f92672>.</span>html { redirect_to @recipe, <span style=color:#e6db74>notice</span>: <span style=color:#e6db74>&#39;Recipe was successfully updated.&#39;</span> }
+</span></span><span style=display:flex><span>            format<span style=color:#f92672>.</span>json { render <span style=color:#e6db74>:show</span>, <span style=color:#e6db74>status</span>: <span style=color:#e6db74>:ok</span>, <span style=color:#e6db74>location</span>: @recipe }
+</span></span><span style=display:flex><span>         <span style=color:#66d9ef>else</span>
+</span></span><span style=display:flex><span>            format<span style=color:#f92672>.</span>html { render <span style=color:#e6db74>:edit</span> }
+</span></span><span style=display:flex><span>            format<span style=color:#f92672>.</span>json { render <span style=color:#e6db74>json</span>: @recipe<span style=color:#f92672>.</span>errors, <span style=color:#e6db74>status</span>: <span style=color:#e6db74>:unprocessable_entity</span> }
+</span></span><span style=display:flex><span>         <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>      
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span>   <span style=color:#75715e># DELETE /recipes/1</span>
+</span></span><span style=display:flex><span>   <span style=color:#75715e># DELETE /recipes/1.json</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>def</span> <span style=color:#a6e22e>destroy</span>
+</span></span><span style=display:flex><span>      @recipe<span style=color:#f92672>.</span>destroy
+</span></span><span style=display:flex><span>         respond_to <span style=color:#66d9ef>do</span> <span style=color:#f92672>|</span>format<span style=color:#f92672>|</span>
+</span></span><span style=display:flex><span>         format<span style=color:#f92672>.</span>html { redirect_to recipes_url, <span style=color:#e6db74>notice</span>: <span style=color:#e6db74>&#39;Recipe was successfully destroyed.&#39;</span> }
+</span></span><span style=display:flex><span>         format<span style=color:#f92672>.</span>json { head <span style=color:#e6db74>:no_content</span> }
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>private</span>
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span>   <span style=color:#75715e># Use callbacks to share common setup or constraints between actions.</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>def</span> <span style=color:#a6e22e>set_recipe</span>
+</span></span><span style=display:flex><span>      @recipe <span style=color:#f92672>=</span> <span style=color:#66d9ef>Recipe</span><span style=color:#f92672>.</span>find(params<span style=color:#f92672>[</span><span style=color:#e6db74>:id</span><span style=color:#f92672>]</span>)
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span>   <span style=color:#75715e># Never trust parameters from the scary internet, only allow the white list through.</span>
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>def</span> <span style=color:#a6e22e>recipe_params</span>
+</span></span><span style=display:flex><span>      params<span style=color:#f92672>.</span>require(<span style=color:#e6db74>:recipe</span>)<span style=color:#f92672>.</span>permit(<span style=color:#e6db74>:title</span>, <span style=color:#e6db74>:instructions</span>)
+</span></span><span style=display:flex><span>   <span style=color:#66d9ef>end</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>end</span>
+</span></span></code></pre></div><h4 id=example結果>Example結果
+<a class=anchor href=#example%e7%b5%90%e6%9e%9c>#</a></h4><p>以下は、上記のRubyコードから生成された仕様書の一例です。マークダウン形式で表示されています。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-md data-lang=md><span style=display:flex><span><span style=color:#75715e>## RecipesController
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>RecipesControllerは、レシピの作成、表示、編集、削除などの操作を提供します。
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>### アクション
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#### `index`
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> 説明: レシピのリストを取得します。
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> メソッド: GET
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パス: <span style=color:#e6db74>`/recipes`</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> レスポンス: レシピのリスト
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#### `show`
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> 説明: 特定のレシピに関する詳細情報を取得します。
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> メソッド: GET
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パス: <span style=color:#e6db74>`/recipes/:id`</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パラメータ: <span style=color:#e6db74>`id`</span> - レシピのID
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> レスポンス: レシピの詳細情報
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#### `new`
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> 説明: 新しいレシピの作成画面を表示します。
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> メソッド: GET
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パス: <span style=color:#e6db74>`/recipes/new`</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#### `edit`
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> 説明: 特定のレシピの編集画面を表示します。
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> メソッド: GET
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パス: <span style=color:#e6db74>`/recipes/:id/edit`</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パラメータ: <span style=color:#e6db74>`id`</span> - レシピのID
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#### `create`
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> 説明: 新しいレシピを作成します。
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> メソッド: POST
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パス: <span style=color:#e6db74>`/recipes`</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パラメータ: <span style=color:#e6db74>`recipe`</span> - レシピの情報
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> レスポンス: 作成されたレシピの詳細情報
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#### `update`
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> 説明: 特定のレシピを更新します。
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> メソッド: PATCH/PUT
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パス: <span style=color:#e6db74>`/recipes/:id`</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パラメータ: <span style=color:#e6db74>`id`</span> - レシピのID, <span style=color:#e6db74>`recipe`</span> - 更新情報
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> レスポンス: 更新されたレシピの詳細情報
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#### `destroy`
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> 説明: 特定のレシピを削除します。
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> メソッド: DELETE
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パス: <span style=color:#e6db74>`/recipes/:id`</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> パラメータ: <span style=color:#e6db74>`id`</span> - レシピのID
+</span></span><span style=display:flex><span><span style=color:#66d9ef>-</span> レスポンス: 削除されたレシピの詳細情報
+</span></span></code></pre></div><h3 id=exercise>Exercise
+<a class=anchor href=#exercise>#</a></h3><ul><li><strong>エクササイズ 1</strong>: 提供されたRubyコードを活用し、ユーザーマニュアル、APIリファレンス、コードコメントなど、異なる種類のドキュメントを生成してみてください。違いと類似点を比較してみてください。</li><li><strong>エクササイズ 2</strong>: Rubyコードをより複雑な機能を持つものに変更し、GitHub Copilot Chatを使用して対応するドキュメントを生成してみてください。生成されたドキュメントの正確さと完全性を分析してみてください。</li><li><strong>エクササイズ 3</strong>: GitHub Copilot ChatのようなAIツールを使用してドキュメントを生成する際に考慮すべき重要なガイドラインを作成してみてください。これらのガイドラインには、明確さ、正確さ、一貫性、保守性に関する考慮事項が含まれるべきです。</li></ul><h3 id=checklist-for-further-learning>Checklist for Further Learning
+<a class=anchor href=#checklist-for-further-learning>#</a></h3><ul><li>生成されたドキュメントは、各アクションやコードの機能を適切に説明していますか?</li><li>ドキュメントはAPIの仕様を明確に表していますか?</li><li>コードからドキュメントを生成する際に考慮すべきポイントは何でしょうか?</li></ul></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/yuhattor/copilot-patterns/commit/14cb05f7963f3b57d5b393bc6f9eba4f3639cbaf title='最終更新者 Yuki Hattori | September 7, 2023' target=_blank rel=noopener><img src=/svg/calendar.svg class=book-icon alt=Calendar>
+<span>September 7, 2023</span></a></div></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#コードからドキュメントへ>コードからドキュメントへ</a><ul><li><a href=#description>Description</a></li><li><a href=#exercise>Exercise</a></li><li><a href=#checklist-for-further-learning>Checklist for Further Learning</a></li></ul></li></ul></li></ul></nav></div></aside></main></body></html>
