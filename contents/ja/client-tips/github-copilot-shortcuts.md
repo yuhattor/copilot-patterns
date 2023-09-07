@@ -1,5 +1,5 @@
 ---
-name: "GitHub Copilot ショートカット"
+title: "GitHub Copilot ショートカット"
 description: "コード開発を迅速に進めるために GitHub Copilot のショートカットを学びましょう"
 category: client-tips
 authors: [yuhattor]

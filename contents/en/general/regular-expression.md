@@ -1,5 +1,5 @@
 ---
-name: "Regular Expression"
+title: "Regular Expression"
 description: "Generating regular expression patterns drafts with GitHub Copilot"
 category: general
 authors: [yuhattor] 

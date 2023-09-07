@@ -1,5 +1,5 @@
 ---
-name: "Code to Comment"
+title: "Code to Comment"
 description: "Generating comments from code"
 category: general
 authors: [yuhattor] 

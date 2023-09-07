@@ -1,5 +1,5 @@
 ---
-name: "Showing Examples"
+title: "Showing Examples"
 description: "Generating code from given examples"
 category: general
 authors: [yuhattor] 

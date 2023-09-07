@@ -1,5 +1,5 @@
 ---
-name: "Code Completion"
+title: "Code Completion"
 description: "Simple code completion with GitHub Copilot"
 category: general
 authors: [yuhattor] 

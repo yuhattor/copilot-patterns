@@ -1,5 +1,5 @@
 ---
-name: "微細な OSS 依存関係の排除"
+title: "微細な OSS 依存関係の排除"
 description: "実際には数行のコードで実装できる、微細な OSS 依存関係の排除"
 authors: [yuhattor]
 category: design-pattern

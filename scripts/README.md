@@ -35,12 +35,12 @@ You can customize the script's behavior through the following command-line argum
   Example:
 
   ```bash
-  python scripts/generate-marp-slides.py --sections title description
+  python scripts/generate-marp-slides.py --sections top description
   ```
 
-  This will include only the 'title' and 'description' sections in the final document.
+  This will include only the 'top' and 'description' sections in the final document.
 
-  Current options are title, description, example, exercise and checklist
+  Current options are top, description, example, exercise and checklist
 
 - `--levels`: Specifies which levels to include in the final document.
   
@@ -69,7 +69,7 @@ You can customize the script's behavior through the following command-line argum
 You can combine multiple options as follows:
 
 ```bash
-python scripts/generate-marp-slides.py --sections title description example exercise checklist --levels lv1 lv2 lv3 --locale en
+python scripts/generate-marp-slides.py --sections top description example exercise checklist --levels lv1 lv2 lv3 --locale en
 ```
 
 ## Contributing

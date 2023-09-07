@@ -1,6 +1,5 @@
 ---
-
-name: "例示によるコード生成"
+title: "例示によるコード生成"
 description: "GitHub Copilot では与えられた例からのコード生成が可能です。"
 category: general
 authors: [yuhattor] 

@@ -1,5 +1,5 @@
 ---
-name: "正規表現"
+title: "正規表現"
 description: "GitHub Copilot と共に正規表現パターンのドラフトを生成"
 category: general
 authors: [yuhattor] 

@@ -1,5 +1,5 @@
 ---
-name: "構造化データからのオブジェクト生成"
+title: "構造化データからのオブジェクト生成"
 description: "JSONなどの構造化データからオブジェクトを生成する方法"
 category: general
 authors: [yuhattor]

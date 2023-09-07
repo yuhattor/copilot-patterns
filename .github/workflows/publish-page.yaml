@@ -54,11 +54,11 @@ jobs:
           marp output_marp.ja.md --allow-local-files --html        --output ja_GitHub_Copilot_patterns_and_exercise_full.html
 
           # GENERATE ENGLISH ONLY-PATTERNS SLIDES
-          python scripts/generate-marp-slides.py --locale en --sections title description example --levels lv2 lv3 
+          python scripts/generate-marp-slides.py --locale en --sections top description example --levels lv2 lv3 
           marp output_marp.en.md --allow-local-files --html        --output en_GitHub_Copilot_patterns_short.html
 
           # GENERATE JAPANESE ONLY-PATTERNS SLIDES
-          python scripts/generate-marp-slides.py --locale ja --sections title description example --levels lv2 lv3 
+          python scripts/generate-marp-slides.py --locale ja --sections top description example --levels lv2 lv3 
           marp output_marp.ja.md --allow-local-files --html        --output ja_GitHub_Copilot_patterns_short.html
 
           ls *.html | ./create-index-html.sh > index.html

@@ -1,5 +1,5 @@
 ---
-name: "GitHub Copilot Shortcuts"
+title: "GitHub Copilot Shortcuts"
 description: "Learning Shortcuts to rapidly develop your code"
 category: client-tips
 authors: [yuhattor] 

@@ -1,5 +1,5 @@
 ---
-name: "コードからドキュメントへ"
+title: "コードからドキュメントへ"
 description: "コードからドキュメントを生成する"
 category: general
 authors: [yuhattor]

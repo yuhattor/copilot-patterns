@@ -1,5 +1,5 @@
 ---
-name: "Code to Document"
+title: "Code to Document"
 description: "Generating documentation from code"
 category: general
 authors: [yuhattor] 

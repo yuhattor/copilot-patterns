@@ -1,5 +1,5 @@
 ---
-name: "便利なファイルのピン留め"
+title: "便利なファイルのピン留め"
 description: "宣言ファイルをはじめとした必要なファイルをピン留めして、GitHub Copilotに文脈を提供しやすくします"
 category: client-tips
 authors: [yuhattor]

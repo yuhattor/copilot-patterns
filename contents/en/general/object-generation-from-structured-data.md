@@ -1,5 +1,5 @@
 ---
-name: "Object Generation from Structured Data"
+title: "Object Generation from Structured Data"
 description: "Generating objects from structured data such as JSON."
 category: general
 authors: [yuhattor] 

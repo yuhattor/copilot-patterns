@@ -1,5 +1,5 @@
 ---
-name: "Test only what is necessary"
+title: "Test only what is necessary"
 description: "Test only what is necessary, so that you can avoid the cost of maintaining unnecessary tests."
 category: testing
 authors: [yuhattor] 

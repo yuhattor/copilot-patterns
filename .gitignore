@@ -5,3 +5,6 @@ assets/.DS_Store
 /out/*
 .DS_Store
 ./output_marp.*
+
+resources
+.hugo_build.lock

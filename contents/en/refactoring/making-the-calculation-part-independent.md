@@ -1,5 +1,5 @@
 ---
-name: "Making the calculation part independent"
+title: "Making the calculation part independent"
 description: "LLM is not good at calculating for now. Moving the calculation part to a separate function makes it easier to develop and maintain."
 category: refactoring
 authors: [yuhattor]

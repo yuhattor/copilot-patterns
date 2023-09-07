@@ -1,5 +1,5 @@
 ---
-name: "Writing test cases in natural language first"
+title: "Writing test cases in natural language first"
 description: "Use natural language to write test cases first, and then use GitHub Copilot to generate code to improve test coverage."
 authors: [yuhattor] 
 category: testing

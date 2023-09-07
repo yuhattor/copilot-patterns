@@ -1,5 +1,5 @@
 ---
-name: "コードからコメントの自動生成"
+title: "コードからコメントの自動生成"
 description: "与えられたコードからコメントの生成をします"
 category: general
 authors: [yuhattor]

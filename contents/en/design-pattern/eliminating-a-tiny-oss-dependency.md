@@ -1,5 +1,5 @@
 ---
-name: "Eliminating a tiny OSS dependency"
+title: "Eliminating a tiny OSS dependency"
 description: "Eliminating a tiny OSS dependency that can be actually implemented in a few lines of code"
 authors: [yuhattor] 
 category: design-pattern

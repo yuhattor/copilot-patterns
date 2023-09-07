@@ -1,5 +1,5 @@
 ---
-name: "テストコード生成の方法を指定する"
+title: "テストコード生成の方法を指定する"
 description: "テストコード生成の方法を指定する。使用するテストフレームワークや生成するテストケースの数などを指定します。"
 category: testing
 authors: [yuhattor]

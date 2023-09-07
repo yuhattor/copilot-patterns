@@ -1,5 +1,5 @@
 ---
-name: "Asking with open-ended questions"
+title: "Asking with open-ended questions"
 description: "For code improvements, such as better error handling, troubleshooting methods, refactoring ideas, etc., open-ended questions can be used to pull new ideas from GitHub Copilot."
 category: refactoring
 authors: [yuhattor]

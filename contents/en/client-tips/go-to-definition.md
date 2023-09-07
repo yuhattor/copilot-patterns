@@ -1,5 +1,5 @@
 ---
-name: "Go to definition"
+title: "Go to definition"
 description: "Go to definition of a symbol in the current file so that GitHub Copilot will include the related code as the snippet."
 category: "client-tips"
 authors: [yuhattor] 

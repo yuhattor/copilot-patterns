@@ -1,5 +1,5 @@
 ---
-name: "タイプヒンティング"
+title: "タイプヒンティング"
 description: "動的型付けプログラミング言語を書く際にも型のヒントをしっかりと書くことで、GitHub Copilot の提案精度を向上させることができます。"
 category: general
 authors: [yuhattor] 
