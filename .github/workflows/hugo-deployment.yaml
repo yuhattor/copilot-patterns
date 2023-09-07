@@ -20,6 +20,8 @@ jobs:
         with:
           hugo-version: '0.118.2'
           extended: true
+      - name: Build
+        run: hugo --minify   
       - name: update CNAME
         run: |
           mkdir ./public
