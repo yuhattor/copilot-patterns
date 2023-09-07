@@ -22,6 +22,7 @@ jobs:
           extended: true
       - name: update CNAME
         run: |
+          mkdir ./public
           echo patterns.hattori.dev > ./public/CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
