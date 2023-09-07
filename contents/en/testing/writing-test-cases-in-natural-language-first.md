@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
   - /docs/testing/writing-test-cases-in-natural-language-first
-  - /docs/en/testing/writing-test-cases-in-natural-language-first
+  - /docs/v/en/testing/writing-test-cases-in-natural-language-first
 ---
 
 ## Writing Test Cases in Natural Language First

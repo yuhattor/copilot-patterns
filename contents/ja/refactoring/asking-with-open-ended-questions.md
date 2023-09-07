@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
-  - /docs/ja/refactoring/asking-with-open-ended-questions
+  - /docs/v/ja/refactoring/asking-with-open-ended-questions
 ---
 
 ## オープン・クエスチョンで尋ねる

@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
-  - /docs/ja/general/showing-examples
+  - /docs/v/ja/general/showing-examples
 ---
 
 ## 例示によるコード生成

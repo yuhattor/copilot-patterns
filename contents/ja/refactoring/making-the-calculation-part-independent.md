@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
-  - /docs/ja/refactoring/making-the-calculation-part-independent
+  - /docs/v/ja/refactoring/making-the-calculation-part-independent
 ---
 
 ## 計算ロジックを独立させる

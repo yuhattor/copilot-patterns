@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv2
 aliases:
-  - /docs/ja/general/code-to-document
+  - /docs/v/ja/general/code-to-document
 ---
 
 ## コードからドキュメントへ

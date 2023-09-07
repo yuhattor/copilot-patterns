@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv2
 aliases:
-  - /docs/ja/client-tips/pin-the-file-you-need
+  - /docs/v/ja/client-tips/pin-the-file-you-need
 ---
 
 ## 便利なファイルのピン留め

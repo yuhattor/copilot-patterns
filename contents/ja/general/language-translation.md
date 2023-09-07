@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv2
 aliases:
-  - /docs/ja/general/language-translation
+  - /docs/v/ja/general/language-translation
 ---
 
 ## 言語翻訳

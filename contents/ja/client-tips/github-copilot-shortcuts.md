@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot]
 level: lv3
 aliases:
-  - /docs/ja/client-tips/github-copilot-shortcuts
+  - /docs/v/ja/client-tips/github-copilot-shortcuts
 ---
 
 ## GitHub Copilot ショートカット

@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
-  - /docs/ja/general/type-hinting
+  - /docs/v/ja/general/type-hinting
 ---
 
 ## タイプヒンティング

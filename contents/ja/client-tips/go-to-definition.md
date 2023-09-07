@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
-  - /docs/ja/client-tips/go-to-definition
+  - /docs/v/ja/client-tips/go-to-definition
 ---
 
 ## 定義に移動

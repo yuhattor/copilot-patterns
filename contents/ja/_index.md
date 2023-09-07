@@ -1,7 +1,7 @@
 ---
 description: "GitHub Copilot Patterns & Exercises"
 aliases:
-  - /docs/ja/
+  - /docs/v/ja/
 ---
 # GitHub Copilot パターン&エクササイズ
 

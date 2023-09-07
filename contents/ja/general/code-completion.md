@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv3
 aliases:
-  - /docs/ja/general/code-completion
+  - /docs/v/ja/general/code-completion
 ---
 
 ## コード補完

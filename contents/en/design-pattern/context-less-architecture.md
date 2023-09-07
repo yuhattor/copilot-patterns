@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv0
 aliases:
   - /docs/design-pattern/context-less-architecture
-  - /docs/en/design-pattern/context-less-architecture
+  - /docs/v/en/design-pattern/context-less-architecture
 ---
 
 ## Context-less Architecture

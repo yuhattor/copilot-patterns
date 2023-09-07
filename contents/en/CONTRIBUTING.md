@@ -2,7 +2,7 @@
 description: "GitHub Copilot Patterns & Exercises"
 aliases:
   - /docs/contributing
-  - /docs/en/contributing
+  - /docs/v/en/contributing
 ---
 # Contributing to GitHub Copilot Patterns & Exercises
 

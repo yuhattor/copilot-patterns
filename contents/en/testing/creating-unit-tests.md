@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv3
 aliases:
   - /docs/testing/creating-unit-tests
-  - /docs/en/testing/creating-unit-tests
+  - /docs/v/en/testing/creating-unit-tests
 ---
 
 ## Creating Unit Tests

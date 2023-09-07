@@ -6,7 +6,7 @@ category: design-pattern
 platforms: [copilot, copilot-chat]
 level: lv1
 aliases:
-  - /docs/ja/design-pattern/high-level-architecture-first
+  - /docs/v/ja/design-pattern/high-level-architecture-first
 ---
 
 ## ハイレベルアーキテクチャを先に

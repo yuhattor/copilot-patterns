@@ -6,7 +6,7 @@ authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv2
 aliases:
-  - /docs/ja/general/object-generation-from-structured-data
+  - /docs/v/ja/general/object-generation-from-structured-data
 ---
 
 ## 構造化データからのオブジェクト生成

@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv0
 aliases:
   - /docs/design-pattern/eliminating-a-tiny-oss-dependency
-  - /docs/en/design-pattern/eliminating-a-tiny-oss-dependency
+  - /docs/v/en/design-pattern/eliminating-a-tiny-oss-dependency
 ---
 
 ## Eliminating a tiny OSS dependency

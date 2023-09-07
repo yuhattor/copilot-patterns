@@ -7,7 +7,7 @@ platforms: [copilot, copilot-chat]
 level: lv3
 aliases:
   - /docs/general/code-completion
-  - /docs/en/general/code-completion
+  - /docs/v/en/general/code-completion
 ---
 
 ## Code Completion
