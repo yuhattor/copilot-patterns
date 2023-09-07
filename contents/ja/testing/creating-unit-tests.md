@@ -5,6 +5,8 @@ category: testing
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv3
+aliases:
+  - /docs/ja/testing/creating-unit-tests
 ---
 
 ## ユニットテストの作成

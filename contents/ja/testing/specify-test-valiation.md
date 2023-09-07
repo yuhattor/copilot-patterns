@@ -5,6 +5,8 @@ category: testing
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv2
+aliases:
+  - /docs/ja/testing/specify-test-valiation
 ---
 
 ## テストコード生成の方法を指定する

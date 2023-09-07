@@ -5,6 +5,9 @@ category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: lv3
+aliases:
+  - /docs/general/language-translation
+  - /docs/en/general/language-translation
 ---
 
 ## Language Translation

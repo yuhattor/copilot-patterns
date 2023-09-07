@@ -4,6 +4,9 @@ description: "Review your peers' prompts and give them feedback so that they can
 authors: [yuhattor] 
 category: collaboration
 level: lv0
+aliases:
+  - /docs/collaboration/coaching-on-prompts
+  - /docs/en/collaboration/coaching-on-prompts
 ---
 
 ## Coaching on Prompts and Code Generating Process

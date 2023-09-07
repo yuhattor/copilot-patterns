@@ -5,6 +5,9 @@ category: client-tips
 authors: [yuhattor] 
 platforms: [copilot]
 level: lv2
+aliases:
+  - /docs/client-tips/copilot-snippet-handling
+  - /docs/en/client-tips/copilot-snippet-handling
 ---
 
 ## Copilot Snippet Handling

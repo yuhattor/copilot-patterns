@@ -5,6 +5,9 @@ category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: lv2
+aliases:
+  - /docs/general/object-generation-from-structured-data
+  - /docs/en/general/object-generation-from-structured-data
 ---
 
 ## Object Generation from Structured Data

@@ -5,6 +5,9 @@ category: testing
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv2
+aliases:
+  - /docs/testing/specify-test-valiation
+  - /docs/en/testing/specify-test-valiation
 ---
 
 ## Specify How to Generate Test Code

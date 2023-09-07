@@ -5,6 +5,9 @@ category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: lv3
+aliases:
+  - /docs/general/quick-qna
+  - /docs/en/general/quick-qna
 ---
 
 ## Quick Q&A : A Technique for Fast Interaction with Copilot

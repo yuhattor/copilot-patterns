@@ -5,6 +5,9 @@ category: refactoring
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv1
+aliases:
+  - /docs/refactoring/asking-with-open-ended-questions
+  - /docs/en/refactoring/asking-with-open-ended-questions
 ---
 
 ## Asking with Open-Ended Questions

@@ -5,6 +5,8 @@ category: client-tips
 authors: [yuhattor] 
 platforms: [copilot]
 level: lv2
+aliases:
+  - /docs/ja/client-tips/copilot-snippet-handling
 ---
 
 ## Copilot スニペットハンドリング

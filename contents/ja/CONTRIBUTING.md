@@ -1,5 +1,7 @@
 ---
 description: "GitHub Copilot Patterns & Exercises"
+aliases:
+  - /docs/ja/contributing
 ---
 # AIネイティブ開発ガイドに貢献する
 

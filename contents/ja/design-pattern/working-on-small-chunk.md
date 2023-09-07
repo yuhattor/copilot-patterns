@@ -5,6 +5,8 @@ authors: [yuhattor]
 category: design-pattern
 platforms: [copilot, copilot-chat]
 level: lv2
+aliases:
+  - /docs/ja/design-pattern/working-on-small-chunk
 ---
 
 ## 小さなまとまりで作業する

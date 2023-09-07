@@ -5,6 +5,8 @@ authors: [yuhattor]
 category: design-pattern
 platforms: [copilot, copilot-chat]
 level: lv0
+aliases:
+  - /docs/ja/design-pattern/context-less-architecture
 ---
 
 ## コンテキストレス・アーキテクチャ

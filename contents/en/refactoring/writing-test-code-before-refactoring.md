@@ -5,6 +5,9 @@ category: refactoring
 authors: [yuhattor]
 platforms: [copilot, copilot-chat]
 level: lv2
+aliases:
+  - /docs/refactoring/writing-test-code-before-refactoring
+  - /docs/en/refactoring/writing-test-code-before-refactoring
 ---
 
 ## Writing test code before refactoring

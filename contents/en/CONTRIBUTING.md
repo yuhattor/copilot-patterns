@@ -1,5 +1,8 @@
 ---
 description: "GitHub Copilot Patterns & Exercises"
+aliases:
+  - /docs/contributing
+  - /docs/en/contributing
 ---
 # Contributing to GitHub Copilot Patterns & Exercises
 

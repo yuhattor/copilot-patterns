@@ -5,6 +5,9 @@ category: general
 authors: [yuhattor] 
 platforms: [copilot, copilot-chat]
 level: lv3
+aliases:
+  - /docs/general/code-to-document
+  - /docs/en/general/code-to-document
 ---
 
 ## Code to Document
