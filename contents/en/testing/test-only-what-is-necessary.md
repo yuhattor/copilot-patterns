@@ -14,9 +14,7 @@ aliases:
 
 [<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
-{% hint style="info" %}
-There is no need to write unnecessary test cases, but it depends on the team what tests are needed. More specific discussion is needed to flesh this out as a pattern.
-{% endhint %}
+> There is no need to write unnecessary test cases, but it depends on the team what tests are needed. More specific discussion is needed to flesh this out as a pattern.
 
 ### Description
 

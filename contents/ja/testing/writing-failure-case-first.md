@@ -13,8 +13,7 @@ aliases:
 
 [<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
-{% hint style="info" %}
-失敗ケースを最初に書くことは開発において重要なことではありますが、GitHub Copilotにテストケースを適切に提案させる方法について、ベストプラクティスを見つけ出す必要があります。
+> 失敗ケースを最初に書くことは開発において重要なことではありますが、GitHub Copilotにテストケースを適切に提案させる方法について、ベストプラクティスを見つけ出す必要があります。
 {% endhint %}
 
 ### Description

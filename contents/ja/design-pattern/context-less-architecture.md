@@ -13,9 +13,7 @@ aliases:
 
 [<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
-{% hint style="info" %}
-疎結合アーキテクチャ自体も多くの場合推奨されており、このパターンはその考え方に合致しています。しかし、AIを活用した開発の文脈をより広範なアーキテクチャの議論と結びつけ、それを正当化するためには、より多くの議論が必要です。ぜひディスカッションを始めましょう!
-{% endhint %}
+> 疎結合アーキテクチャ自体も多くの場合推奨されており、このパターンはその考え方に合致しています。しかし、AIを活用した開発の文脈をより広範なアーキテクチャの議論と結びつけ、それを正当化するためには、より多くの議論が必要です。ぜひディスカッションを始めましょう!
 
 ### Description
 

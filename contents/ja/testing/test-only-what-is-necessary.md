@@ -13,9 +13,7 @@ aliases:
 
 [<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
-{% hint style="info" %}
-不必要なテストケースを書く必要はありませんが、どのようなテストが必要かはチームによります。パターンとして具体化するには、より具体的な議論が必要です。
-{% endhint %}
+> 不必要なテストケースを書く必要はありませんが、どのようなテストが必要かはチームによります。パターンとして具体化するには、より具体的な議論が必要です。
 
 ### Description
 

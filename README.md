@@ -11,10 +11,8 @@ This document is brought to you by GitHub's Customer Success Architect [@yuhatto
 Some of these patterns have been tried and proven effective in individual environments, but others are idea-based and have not yet been tested for effectiveness in actual team environments.
 Please feel free to leave comments on GitHub Issues. We look forward to various discussions and the sharing of knowledge about AI Powered development.
 
-{% hint style="info" %}
-This documentation is not yet in its final version, and there may be broken links, typos, and other errors.
-Your help in improving it is much appreciated. Please see how you can contribute to this document.
-{% endhint %}
+> This documentation is not yet in its final version, and there may be broken links, typos, and other errors.
+> Your help in improving it is much appreciated. Please see how you can contribute to this document.
 
 ## Contribute
 

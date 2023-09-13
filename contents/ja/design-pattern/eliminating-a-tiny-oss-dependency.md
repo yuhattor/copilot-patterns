@@ -13,9 +13,7 @@ aliases:
 
 [<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
-{% hint style="info" %}
-これは限定的な適用かもしれません。より多くの事例が発見されれば、この成熟度レベルは上がっていきます。
-{% endhint %}
+> これは限定的な適用かもしれません。より多くの事例が発見されれば、この成熟度レベルは上がっていきます。
 
 ### Description
 

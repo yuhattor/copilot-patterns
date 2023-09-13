@@ -14,9 +14,7 @@ aliases:
 
 [<img src="https://img.shields.io/badge/Lv2-Practically_Viable_Pattern-green">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
-{% hint style="info" %}
-While this is accurate as of August 2023, the situation may change as GitHub Copilot and the LLM behind it evolve. Always try to get the most up-to-date information from GitHub.
-{% endhint %}
+> While this is accurate as of August 2023, the situation may change as GitHub Copilot and the LLM behind it evolve. Always try to get the most up-to-date information from GitHub.
 
 ### Description
 

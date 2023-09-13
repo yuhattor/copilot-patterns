@@ -14,9 +14,7 @@ aliases:
 
 [<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
-{% hint style="info" %}
-This may be of limited applicability. As more cases are discovered, this maturity level will increase.
-{% endhint %}
+> This may be of limited applicability. As more cases are discovered, this maturity level will increase.
 
 ### Description
 

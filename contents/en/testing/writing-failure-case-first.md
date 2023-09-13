@@ -14,9 +14,7 @@ aliases:
 
 [<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
-{% hint style="info" %}
-While this is important in development, it is necessary to find best practices on how this can be a generic pattern in many cases and how to get GitHub Copilot to suggest test cases appropriately.
-{% endhint %}
+> While this is important in development, it is necessary to find best practices on how this can be a generic pattern in many cases and how to get GitHub Copilot to suggest test cases appropriately.
 
 ### Description
 

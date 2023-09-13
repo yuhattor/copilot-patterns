@@ -14,10 +14,8 @@ aliases:
 
 [<img src="https://img.shields.io/badge/Lv1-Early_Stage_Pattern-blue">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
-{% hint style="info" %}
-Currently, LLMs do not have the ability to properly represent complex regular expressions.
-For complex ones, a human must provide supplemental input. On the other hand, it can be applied to simple regular expressions.
-{% endhint %}
+> Currently, LLMs do not have the ability to properly represent complex regular expressions.
+> For complex ones, a human must provide supplemental input. On the other hand, it can be applied to simple regular expressions.
 
 ### Description
 

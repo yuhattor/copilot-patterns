@@ -12,9 +12,7 @@ aliases:
 
 [<img src="https://img.shields.io/badge/Lv0-Pattern_Idea-blueviolet">](https://github.com/orgs/AI-Native-Development/projects/1/)
 
-{% hint style="info" %}
-これは合理的に聞こえますが、体系的で確立されたパターンではありません。
-{% endhint %}
+> これは合理的に聞こえますが、体系的で確立されたパターンではありません。
 
 ### Description
 
