@@ -4,7 +4,7 @@ Welcome to the GitHub Copilot Patterns & Exercises documentation! :wave:
 This community-driven opensource guide is dedicated to providing best practices for GitHub Copilot.
 Our aim is to make it straightforward for you to understand, evaluate, and integrate these practices into your projects. :rocket:
 
-<img align="right" src="./assets/cover.png" title="GitHub Copilot Patterns & Exercises" width="40%">
+<img align="right" src="./static/cover.png" title="GitHub Copilot Patterns & Exercises" width="40%">
 
 This document is brought to you by GitHub's Customer Success Architect [@yuhattor](https://github.com/yuhattor/) to help developers better use GitHub Copilot and other AI-Powered tools.
 
