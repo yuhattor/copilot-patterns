@@ -18,7 +18,7 @@ aliases:
 
 ### Description
 
-When working with a complex codebase, jumping between files or searching through layers of code to find the definition of a particular symbol can be cumbersome. "Go to Definition" is a useful feature in Visual Studio Codethat allows developers to quickly navigate to the definition of a symbol in the current file. This not only enhances productivity but also enables better understanding of the code structure. GitHub Copilot will read open tabs. So, you can also pass relevant code snippets related to the symbol definition to GitHub Copilot
+When working with a complex codebase, jumping between files or searching through layers of code to find the definition of a particular symbol can be cumbersome. "Go to Definition" is a useful feature in Visual Studio Code that allows developers to quickly navigate to the definition of a symbol in the current file. This not only enhances productivity but also enables better understanding of the code structure. GitHub Copilot will read open tabs. So, you can also pass relevant code snippets related to the symbol definition to GitHub Copilot
 
 #### Example
 
