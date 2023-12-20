@@ -30,7 +30,7 @@ def divide(a, b):
 
 # Failure test case
 def test_divide_by_zero():
-  # <YOUR CODE AND GITHUB COPILOT SUGGESTION HEERE>
+  # <YOUR CODE AND GITHUB COPILOT SUGGESTION HERE>
 ```
 
 ### Exerecise
