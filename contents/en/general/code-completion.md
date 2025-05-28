@@ -38,7 +38,7 @@ function calculateSum(a, b) {
 }
 ```
 
-### Exerecise
+### Exercise
 
 - **Exercise 1**: Complete the `calculateSum(a, b)` function by utilizing GitHub Copilot's suggestions. Explore how different prompts or partial code inputs influence the suggestions made by Copilot.
 
